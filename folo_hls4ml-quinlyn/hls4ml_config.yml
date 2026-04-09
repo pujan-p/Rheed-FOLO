@@ -1,0 +1,37 @@
+Backend: Vitis
+ClockPeriod: 5
+ClockUncertainty: 27%
+HLSConfig:
+  Model:
+    BitExact: null
+    BramFactor: 1000000000
+    Precision:
+      default: fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_stream
+InputData: null
+InputShapes:
+  InputLayer:
+  - 256
+  - 256
+  - 1
+KerasModel: !keras_model '../folo_hls4ml-quinlyn/keras_model.keras'
+OutputDir: ../folo_hls4ml-quinlyn
+OutputPredictions: null
+OutputShapes:
+  layer15_out:
+  - 32
+  - 32
+  - 1
+Part: xcku035-fbva676-2-e
+ProjectName: folo
+Stamp: 5f6a6125
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  TBOutputStream: both
+  WriteEmulationConstants: false
+  WriteTar: false
+  WriteWeightsTxt: true
