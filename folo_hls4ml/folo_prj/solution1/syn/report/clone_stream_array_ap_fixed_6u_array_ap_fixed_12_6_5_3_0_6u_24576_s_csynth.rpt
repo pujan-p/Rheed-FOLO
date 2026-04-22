@@ -1,0 +1,162 @@
+
+
+================================================================
+== Vitis HLS Report for 'clone_stream_array_ap_fixed_6u_array_ap_fixed_12_6_5_3_0_6u_24576_s'
+================================================================
+* Date:           Wed Apr 22 16:02:09 2026
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        folo_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: kintexu
+* Target device:  xcku035-fbva676-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.650 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     4098|     4098|  20.490 us|  20.490 us|  4098|  4098|       no|
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |             |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- CloneLoop  |     4096|     4096|         2|          1|          1|  4096|       yes|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|      49|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|     -|       -|       -|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       -|      72|    -|
+|Register         |        -|     -|      17|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     0|      17|     121|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |     1080|  1700|  406256|  203128|    0|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     0|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |i_26_fu_78_p2                     |         +|   0|  0|  20|          13|           1|
+    |ap_condition_112                  |       and|   0|  0|   2|           1|           1|
+    |icmp_ln22_fu_72_p2                |      icmp|   0|  0|  21|          13|          14|
+    |ap_block_pp0_stage0_01001         |        or|   0|  0|   2|           1|           1|
+    |ap_block_state2_pp0_stage0_iter1  |        or|   0|  0|   2|           1|           1|
+    |ap_enable_pp0                     |       xor|   0|  0|   2|           1|           2|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |Total                             |          |   0|  0|  49|          30|          20|
+    +----------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |ap_done_int              |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
+    |ap_sig_allocacmp_i_25    |   9|          2|   13|         26|
+    |i_fu_38                  |   9|          2|   13|         26|
+    |layer11_out_blk_n        |   9|          2|    1|          2|
+    |layer28_cpy1_blk_n       |   9|          2|    1|          2|
+    |layer28_cpy2_blk_n       |   9|          2|    1|          2|
+    |real_start               |   9|          2|    1|          2|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  72|         16|   32|         64|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------+----+----+-----+-----------+
+    |           Name          | FF | LUT| Bits| Const Bits|
+    +-------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                |   1|   0|    1|          0|
+    |ap_done_reg              |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1  |   1|   0|    1|          0|
+    |i_fu_38                  |  13|   0|   13|          0|
+    |start_once_reg           |   1|   0|    1|          0|
+    +-------------------------+----+----+-----+-----------+
+    |Total                    |  17|   0|   17|          0|
+    +-------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------------+-----+-----+------------+-----------------------------------------------------------------------+--------------+
+|          RTL Ports          | Dir | Bits|  Protocol  |                             Source Object                             |    C Type    |
++-----------------------------+-----+-----+------------+-----------------------------------------------------------------------+--------------+
+|ap_clk                       |   in|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<12,6,5,3,0>,6u>,24576>|  return value|
+|ap_rst                       |   in|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<12,6,5,3,0>,6u>,24576>|  return value|
+|ap_start                     |   in|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<12,6,5,3,0>,6u>,24576>|  return value|
+|start_full_n                 |   in|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<12,6,5,3,0>,6u>,24576>|  return value|
+|ap_done                      |  out|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<12,6,5,3,0>,6u>,24576>|  return value|
+|ap_continue                  |   in|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<12,6,5,3,0>,6u>,24576>|  return value|
+|ap_idle                      |  out|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<12,6,5,3,0>,6u>,24576>|  return value|
+|ap_ready                     |  out|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<12,6,5,3,0>,6u>,24576>|  return value|
+|start_out                    |  out|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<12,6,5,3,0>,6u>,24576>|  return value|
+|start_write                  |  out|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<12,6,5,3,0>,6u>,24576>|  return value|
+|layer11_out_dout             |   in|   72|     ap_fifo|                                                            layer11_out|       pointer|
+|layer11_out_num_data_valid   |   in|   13|     ap_fifo|                                                            layer11_out|       pointer|
+|layer11_out_fifo_cap         |   in|   13|     ap_fifo|                                                            layer11_out|       pointer|
+|layer11_out_empty_n          |   in|    1|     ap_fifo|                                                            layer11_out|       pointer|
+|layer11_out_read             |  out|    1|     ap_fifo|                                                            layer11_out|       pointer|
+|layer28_cpy1_din             |  out|   72|     ap_fifo|                                                           layer28_cpy1|       pointer|
+|layer28_cpy1_num_data_valid  |   in|   13|     ap_fifo|                                                           layer28_cpy1|       pointer|
+|layer28_cpy1_fifo_cap        |   in|   13|     ap_fifo|                                                           layer28_cpy1|       pointer|
+|layer28_cpy1_full_n          |   in|    1|     ap_fifo|                                                           layer28_cpy1|       pointer|
+|layer28_cpy1_write           |  out|    1|     ap_fifo|                                                           layer28_cpy1|       pointer|
+|layer28_cpy2_din             |  out|   72|     ap_fifo|                                                           layer28_cpy2|       pointer|
+|layer28_cpy2_num_data_valid  |   in|   13|     ap_fifo|                                                           layer28_cpy2|       pointer|
+|layer28_cpy2_fifo_cap        |   in|   13|     ap_fifo|                                                           layer28_cpy2|       pointer|
+|layer28_cpy2_full_n          |   in|    1|     ap_fifo|                                                           layer28_cpy2|       pointer|
+|layer28_cpy2_write           |  out|    1|     ap_fifo|                                                           layer28_cpy2|       pointer|
++-----------------------------+-----+-----+------------+-----------------------------------------------------------------------+--------------+
+

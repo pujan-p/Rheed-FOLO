@@ -1,0 +1,144 @@
+
+
+================================================================
+== Vitis HLS Report for 'clone_stream_array_ap_fixed_6u_array_ap_fixed_12_6_5_3_0_6u_24576_s'
+================================================================
+* Date:           Wed Apr 22 16:01:58 2026
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        folo_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: kintexu
+* Target device:  xcku035-fbva676-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.650 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     4098|     4098|  20.490 us|  20.490 us|  4098|  4098|       no|
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |             |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- CloneLoop  |     4096|     4096|         2|          1|          1|  4096|       yes|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 2
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 2, States = { 1 2 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 2.44>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%i = alloca i32 1" [firmware/nnet_utils/nnet_stream.h:22]   --->   Operation 5 'alloca' 'i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i72 %layer28_cpy2, void @empty_13, i32 0, i32 0, void @empty_8, i32 0, i32 0, void @empty_8, void @empty_8, void @empty_8, i32 0, i32 0, i32 0, i32 0, void @empty_8, void @empty_8, i32 4294967295, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i72 %layer28_cpy1, void @empty_13, i32 0, i32 0, void @empty_8, i32 0, i32 0, void @empty_8, void @empty_8, void @empty_8, i32 0, i32 0, i32 0, i32 0, void @empty_8, void @empty_8, i32 4294967295, i32 0"   --->   Operation 7 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i72 %layer11_out, void @empty_13, i32 0, i32 0, void @empty_8, i32 0, i32 0, void @empty_8, void @empty_8, void @empty_8, i32 0, i32 0, i32 0, i32 0, void @empty_8, void @empty_8, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.53ns)   --->   "%store_ln22 = store i13 0, i13 %i" [firmware/nnet_utils/nnet_stream.h:22]   --->   Operation 9 'store' 'store_ln22' <Predicate = true> <Delay = 0.53>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%br_ln22 = br void %ClonePack" [firmware/nnet_utils/nnet_stream.h:22]   --->   Operation 10 'br' 'br_ln22' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%i_25 = load i13 %i" [firmware/nnet_utils/nnet_stream.h:22]   --->   Operation 11 'load' 'i_25' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (1.36ns)   --->   "%icmp_ln22 = icmp_eq  i13 %i_25, i13 4096" [firmware/nnet_utils/nnet_stream.h:22]   --->   Operation 12 'icmp' 'icmp_ln22' <Predicate = true> <Delay = 1.36> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 13 [1/1] (1.36ns)   --->   "%i_26 = add i13 %i_25, i13 1" [firmware/nnet_utils/nnet_stream.h:22]   --->   Operation 13 'add' 'i_26' <Predicate = true> <Delay = 1.36> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%br_ln22 = br i1 %icmp_ln22, void %ClonePack.split, void %for.end13" [firmware/nnet_utils/nnet_stream.h:22]   --->   Operation 14 'br' 'br_ln22' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.53ns)   --->   "%store_ln22 = store i13 %i_26, i13 %i" [firmware/nnet_utils/nnet_stream.h:22]   --->   Operation 15 'store' 'store_ln22' <Predicate = (!icmp_ln22)> <Delay = 0.53>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%ret_ln41 = ret" [firmware/nnet_utils/nnet_stream.h:41]   --->   Operation 23 'ret' 'ret_ln41' <Predicate = (icmp_ln22)> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 3.65>
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%specpipeline_ln23 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_8" [firmware/nnet_utils/nnet_stream.h:23]   --->   Operation 16 'specpipeline' 'specpipeline_ln23' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 17 [1/1] (0.00ns)   --->   "%speclooptripcount_ln22 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 4096, i64 4096, i64 4096" [firmware/nnet_utils/nnet_stream.h:22]   --->   Operation 17 'speclooptripcount' 'speclooptripcount_ln22' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%specloopname_ln22 = specloopname void @_ssdm_op_SpecLoopName, void @empty_3" [firmware/nnet_utils/nnet_stream.h:22]   --->   Operation 18 'specloopname' 'specloopname_ln22' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 19 [1/1] (1.82ns)   --->   "%layer11_out_read = read i72 @_ssdm_op_Read.ap_fifo.volatile.i72P0A, i72 %layer11_out" [firmware/nnet_utils/nnet_stream.h:25]   --->   Operation 19 'read' 'layer11_out_read' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 2.16> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 72> <Depth = 4096> <FIFO>
+ST_2 : Operation 20 [1/1] (1.82ns)   --->   "%write_ln38 = write void @_ssdm_op_Write.ap_fifo.volatile.i72P0A, i72 %layer28_cpy1, i72 %layer11_out_read" [firmware/nnet_utils/nnet_stream.h:38]   --->   Operation 20 'write' 'write_ln38' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 2.16> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 72> <Depth = 4096> <FIFO>
+ST_2 : Operation 21 [1/1] (1.82ns)   --->   "%write_ln39 = write void @_ssdm_op_Write.ap_fifo.volatile.i72P0A, i72 %layer28_cpy2, i72 %layer11_out_read" [firmware/nnet_utils/nnet_stream.h:39]   --->   Operation 21 'write' 'write_ln39' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 2.16> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 72> <Depth = 4096> <FIFO>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%br_ln22 = br void %ClonePack" [firmware/nnet_utils/nnet_stream.h:22]   --->   Operation 22 'br' 'br_ln22' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5.000ns, clock uncertainty: 1.350ns.
+
+ <State 1>: 2.445ns
+The critical path consists of the following:
+	'store' operation 0 bit ('store_ln22', firmware/nnet_utils/nnet_stream.h:22) of constant 0 on local variable 'i', firmware/nnet_utils/nnet_stream.h:22 [8]  (0.538 ns)
+	'load' operation 13 bit ('i', firmware/nnet_utils/nnet_stream.h:22) on local variable 'i', firmware/nnet_utils/nnet_stream.h:22 [11]  (0.000 ns)
+	'add' operation 13 bit ('i', firmware/nnet_utils/nnet_stream.h:22) [13]  (1.369 ns)
+	'store' operation 0 bit ('store_ln22', firmware/nnet_utils/nnet_stream.h:22) of variable 'i', firmware/nnet_utils/nnet_stream.h:22 on local variable 'i', firmware/nnet_utils/nnet_stream.h:22 [22]  (0.538 ns)
+
+ <State 2>: 3.650ns
+The critical path consists of the following:
+	fifo read operation ('layer11_out_read', firmware/nnet_utils/nnet_stream.h:25) on port 'layer11_out' (firmware/nnet_utils/nnet_stream.h:25) [19]  (1.825 ns)
+	fifo write operation ('write_ln38', firmware/nnet_utils/nnet_stream.h:38) on port 'layer28_cpy1' (firmware/nnet_utils/nnet_stream.h:38) [20]  (1.825 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

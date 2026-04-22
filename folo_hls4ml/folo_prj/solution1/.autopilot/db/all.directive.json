@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "folo",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "folo"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/mnt/Research/Rheed-FOLO/folo_hls4ml/build_prj.tcl",
+    "sourceLine": 169,
+    "success": true
+  }
+]
