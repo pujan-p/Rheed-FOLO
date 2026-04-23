@@ -1,0 +1,157 @@
+
+
+================================================================
+== Vitis HLS Report for 'clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_s'
+================================================================
+* Date:           Thu Apr 23 22:46:38 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        folo_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: kintexu
+* Target device:  xcku035-fbva676-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.650 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+------------------------------------------------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  |                    Pipeline                    |
+    |   min   |   max   |    min    |    max    |  min |  max |                      Type                      |
+    +---------+---------+-----------+-----------+------+------+------------------------------------------------+
+    |     4097|     4097|  20.485 us|  20.485 us|  4096|  4096|  loop auto-rewind stp (delay=0 clock cycles(s))|
+    +---------+---------+-----------+-----------+------+------+------------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |             |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- CloneLoop  |     4095|     4095|         1|          1|          1|  4096|       yes|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|      40|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|     -|       -|       -|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       0|      63|    -|
+|Register         |        -|     -|      15|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     0|      15|     103|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |     1080|  1700|  406256|  203128|    0|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     0|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |i_38_fu_72_p2                     |         +|   0|  0|  19|          12|           1|
+    |icmp_ln22_fu_78_p2                |      icmp|   0|  0|  19|          12|           2|
+    |ap_block_state1_pp0_stage0_iter0  |        or|   0|  0|   2|           1|           1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |Total                             |          |   0|  0|  40|          25|           4|
+    +----------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------------------+----+-----------+-----+-----------+
+    |          Name         | LUT| Input Size| Bits| Total Bits|
+    +-----------------------+----+-----------+-----+-----------+
+    |ap_done_int            |   9|          2|    1|          2|
+    |ap_sig_allocacmp_i_37  |   9|          2|   12|         24|
+    |i_fu_38                |   9|          2|   12|         24|
+    |layer11_out_blk_n      |   9|          2|    1|          2|
+    |layer28_cpy1_blk_n     |   9|          2|    1|          2|
+    |layer28_cpy2_blk_n     |   9|          2|    1|          2|
+    |real_start             |   9|          2|    1|          2|
+    +-----------------------+----+-----------+-----+-----------+
+    |Total                  |  63|         14|   29|         58|
+    +-----------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------+----+----+-----+-----------+
+    |      Name      | FF | LUT| Bits| Const Bits|
+    +----------------+----+----+-----+-----------+
+    |ap_CS_fsm       |   1|   0|    1|          0|
+    |ap_done_reg     |   1|   0|    1|          0|
+    |i_fu_38         |  12|   0|   12|          0|
+    |start_once_reg  |   1|   0|    1|          0|
+    +----------------+----+----+-----+-----------+
+    |Total           |  15|   0|   15|          0|
+    +----------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------------+-----+-----+------------+-----------------------------------------------------------------------+--------------+
+|          RTL Ports          | Dir | Bits|  Protocol  |                             Source Object                             |    C Type    |
++-----------------------------+-----+-----+------------+-----------------------------------------------------------------------+--------------+
+|ap_clk                       |   in|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<16,6,5,3,0>,6u>,24576>|  return value|
+|ap_rst                       |   in|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<16,6,5,3,0>,6u>,24576>|  return value|
+|ap_start                     |   in|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<16,6,5,3,0>,6u>,24576>|  return value|
+|start_full_n                 |   in|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<16,6,5,3,0>,6u>,24576>|  return value|
+|ap_done                      |  out|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<16,6,5,3,0>,6u>,24576>|  return value|
+|ap_continue                  |   in|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<16,6,5,3,0>,6u>,24576>|  return value|
+|ap_idle                      |  out|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<16,6,5,3,0>,6u>,24576>|  return value|
+|ap_ready                     |  out|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<16,6,5,3,0>,6u>,24576>|  return value|
+|start_out                    |  out|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<16,6,5,3,0>,6u>,24576>|  return value|
+|start_write                  |  out|    1|  ap_ctrl_hs|  clone_stream<array<ap_fixed,6u>,array<ap_fixed<16,6,5,3,0>,6u>,24576>|  return value|
+|layer11_out_dout             |   in|   96|     ap_fifo|                                                            layer11_out|       pointer|
+|layer11_out_empty_n          |   in|    1|     ap_fifo|                                                            layer11_out|       pointer|
+|layer11_out_read             |  out|    1|     ap_fifo|                                                            layer11_out|       pointer|
+|layer11_out_num_data_valid   |   in|    3|     ap_fifo|                                                            layer11_out|       pointer|
+|layer11_out_fifo_cap         |   in|    3|     ap_fifo|                                                            layer11_out|       pointer|
+|layer28_cpy1_din             |  out|   96|     ap_fifo|                                                           layer28_cpy1|       pointer|
+|layer28_cpy1_full_n          |   in|    1|     ap_fifo|                                                           layer28_cpy1|       pointer|
+|layer28_cpy1_write           |  out|    1|     ap_fifo|                                                           layer28_cpy1|       pointer|
+|layer28_cpy1_num_data_valid  |   in|    4|     ap_fifo|                                                           layer28_cpy1|       pointer|
+|layer28_cpy1_fifo_cap        |   in|    4|     ap_fifo|                                                           layer28_cpy1|       pointer|
+|layer28_cpy2_din             |  out|   96|     ap_fifo|                                                           layer28_cpy2|       pointer|
+|layer28_cpy2_full_n          |   in|    1|     ap_fifo|                                                           layer28_cpy2|       pointer|
+|layer28_cpy2_write           |  out|    1|     ap_fifo|                                                           layer28_cpy2|       pointer|
+|layer28_cpy2_num_data_valid  |   in|    8|     ap_fifo|                                                           layer28_cpy2|       pointer|
+|layer28_cpy2_fifo_cap        |   in|    8|     ap_fifo|                                                           layer28_cpy2|       pointer|
++-----------------------------+-----+-----+------------+-----------------------------------------------------------------------+--------------+
+

@@ -1,0 +1,49 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config31_s'" level="0">
+<item name = "Date">Thu Apr 23 22:46:28 2026
+</item>
+<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
+<item name = "Project">folo_prj</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">kintexu</item>
+<item name = "Target device">xcku035-fbva676-2-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">5.00 ns, 3.650 ns, 1.35 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">17420, 17420, 87.100 us, 87.100 us, 17420, 17420, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_PadTopWidth_fu_54">zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_PadTopWidth, 132, 132, 0.660 us, 0.660 us, 0, 0, loop pipeline stp</column>
+<column name="grp_zeropad2d_cl_array_array_ap_fixed_4u_config31_Pipeline_PadBottomWidth_fu_60">zeropad2d_cl_array_array_ap_fixed_4u_config31_Pipeline_PadBottomWidth, 132, 132, 0.660 us, 0.660 us, 0, 0, loop pipeline stp</column>
+<column name="grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_CopyMain_fu_66">zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_CopyMain, 130, 130, 0.650 us, 0.650 us, 0, 0, loop pipeline stp</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- PadMain">17152, 17152, 134, -, -, 128, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

@@ -1,0 +1,146 @@
+{
+    "layer2_out": {
+        "initial": 16384,
+        "optimized": 1
+    },
+    "layer3_out": {
+        "initial": 16384,
+        "optimized": 2
+    },
+    "layer4_out": {
+        "initial": 16384,
+        "optimized": 2
+    },
+    "layer5_out": {
+        "initial": 16384,
+        "optimized": 1
+    },
+    "layer6_out": {
+        "initial": 16384,
+        "optimized": 2
+    },
+    "layer7_out": {
+        "initial": 16384,
+        "optimized": 2
+    },
+    "layer8_out": {
+        "initial": 16384,
+        "optimized": 22
+    },
+    "layer9_out": {
+        "initial": 4096,
+        "optimized": 1
+    },
+    "layer10_out": {
+        "initial": 4096,
+        "optimized": 2
+    },
+    "layer11_out": {
+        "initial": 4096,
+        "optimized": 2
+    },
+    "layer12_out": {
+        "initial": 4096,
+        "optimized": 1
+    },
+    "layer13_out": {
+        "initial": 4096,
+        "optimized": 2
+    },
+    "layer14_out": {
+        "initial": 4096,
+        "optimized": 2
+    },
+    "layer15_out": {
+        "initial": 4096,
+        "optimized": 4
+    },
+    "layer16_out": {
+        "initial": 1024,
+        "optimized": 1
+    },
+    "layer17_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer18_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer19_out": {
+        "initial": 1024,
+        "optimized": 1
+    },
+    "layer20_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer21_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer22_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer23_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer24_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer25_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer27_cpy1": {
+        "initial": 16384,
+        "optimized": 33
+    },
+    "layer27_cpy2": {
+        "initial": 16384,
+        "optimized": 170
+    },
+    "layer28_cpy1": {
+        "initial": 4096,
+        "optimized": 8
+    },
+    "layer28_cpy2": {
+        "initial": 4096,
+        "optimized": 73
+    },
+    "layer29_cpy1": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer29_cpy2": {
+        "initial": 1024,
+        "optimized": 40
+    },
+    "layer30_out": {
+        "initial": 66049,
+        "optimized": 100000
+    },
+    "layer31_out": {
+        "initial": 16900,
+        "optimized": 250
+    },
+    "layer32_out": {
+        "initial": 16641,
+        "optimized": 131
+    },
+    "layer33_out": {
+        "initial": 4356,
+        "optimized": 119
+    },
+    "layer34_out": {
+        "initial": 4225,
+        "optimized": 60
+    },
+    "layer35_out": {
+        "initial": 1156,
+        "optimized": 60
+    }
+}

@@ -1,0 +1,1732 @@
+---
+MainSourceFile:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_676_1:  '
+      FilePath:        '/home/tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_int_ref.h'
+      FileOffset:      676
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          1020700
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_676_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_690_1:  '
+      FilePath:        '/home/tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_int_ref.h'
+      FileOffset:      690
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          1021175
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_690_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_704_1:  '
+      FilePath:        '/home/tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_int_ref.h'
+      FileOffset:      704
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          1021651
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_704_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1251_1:  '
+      FilePath:        '/home/tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_fixed_base.h'
+      FileOffset:      1251
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          1361750
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1251_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_27_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_types.h'
+      FileOffset:      27
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2121385
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_27_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_39_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_types.h'
+      FileOffset:      39
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2121634
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_39_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_56_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_types.h'
+      FileOffset:      56
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2122129
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_56_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_265_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_helpers.h'
+      FileOffset:      265
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2456031
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_265_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_275_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_helpers.h'
+      FileOffset:      275
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2456418
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_275_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_286_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_helpers.h'
+      FileOffset:      286
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2456753
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_286_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_293_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_helpers.h'
+      FileOffset:      293
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2456976
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_293_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_295_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_helpers.h'
+      FileOffset:      295
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2457071
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_295_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_307_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_helpers.h'
+      FileOffset:      307
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2457435
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_307_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_309_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_helpers.h'
+      FileOffset:      309
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2457517
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_309_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_324_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_helpers.h'
+      FileOffset:      324
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2457860
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_324_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_344_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_helpers.h'
+      FileOffset:      344
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2458313
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_344_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_345_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_helpers.h'
+      FileOffset:      345
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2458358
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_345_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_360_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_helpers.h'
+      FileOffset:      360
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2458767
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_360_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_367_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_helpers.h'
+      FileOffset:      367
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2458980
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_367_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_136_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_conv1d_latency.h'
+      FileOffset:      136
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2468725
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_136_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_137_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_conv1d_latency.h'
+      FileOffset:      137
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2468809
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_137_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_158_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_conv1d_latency.h'
+      FileOffset:      158
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2469362
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_158_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_159_4:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_conv1d_latency.h'
+      FileOffset:      159
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2469446
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_159_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_31_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      31
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2473663
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_31_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_43_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      43
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2473919
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_43_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_57_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      57
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2474283
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_57_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_84_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      84
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2475099
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_84_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_114_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      114
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2475763
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_114_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_151_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      151
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2476908
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_151_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_167_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      167
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2477372
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_167_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_200_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      200
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2478310
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_200_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_213_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      213
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2478852
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_213_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_246_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      246
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2479725
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_246_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_255_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      255
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2480005
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_255_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_268_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      268
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2480575
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_268_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_275_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      275
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2480819
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_275_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_288_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      288
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2481179
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_288_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_325_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      325
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2482139
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_325_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_330_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      330
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2482259
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_330_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_331_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      331
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2482316
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_331_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_348_4:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      348
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2482916
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_348_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_361_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      361
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2483424
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_361_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_369_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      369
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2483575
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_369_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_405_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      405
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2484783
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_405_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_407_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      407
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2484859
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_407_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_409_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      409
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2484939
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_409_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_414_4:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      414
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2485210
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_414_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_427_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      427
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2485539
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_427_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_457_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      457
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2486179
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_457_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_484_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      484
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2487018
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_484_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_498_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      498
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2487370
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_498_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_514_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      514
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2487831
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_514_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_532_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      532
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2488304
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_532_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_549_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      549
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2488710
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_549_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_566_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      566
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2489105
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_566_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_596_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      596
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2489774
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_596_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_615_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      615
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2490348
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_615_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_645_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      645
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2491017
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_645_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_664_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      664
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2491571
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_664_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_694_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      694
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2492223
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_694_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_721_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      721
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2493061
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_721_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_749_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      749
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2493748
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_749_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_779_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      779
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2494436
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_779_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_808_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      808
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2495279
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_808_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_828_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation.h'
+      FileOffset:      828
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2495701
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_828_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_229_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_stream.h'
+      FileOffset:      229
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2501863
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_229_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_236_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_stream.h'
+      FileOffset:      236
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2502014
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_236_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_245_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_stream.h'
+      FileOffset:      245
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2502294
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_245_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_254_4:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_stream.h'
+      FileOffset:      254
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2502499
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_254_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_258_5:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_stream.h'
+      FileOffset:      258
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2502607
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_258_5: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_269_6:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_stream.h'
+      FileOffset:      269
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2502952
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_269_6: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_273_7:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_stream.h'
+      FileOffset:      273
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2503073
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_273_7: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_297_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_stream.h'
+      FileOffset:      297
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2504061
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_297_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_301_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_stream.h'
+      FileOffset:      301
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2504158
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_301_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_320_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_stream.h'
+      FileOffset:      320
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2504856
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_320_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_211_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation_stream.h'
+      FileOffset:      211
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2511285
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_211_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_220_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation_stream.h'
+      FileOffset:      220
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2511581
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_220_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_325_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation_stream.h'
+      FileOffset:      325
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2514875
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_325_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_330_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation_stream.h'
+      FileOffset:      330
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2515024
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_330_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_338_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_activation_stream.h'
+      FileOffset:      338
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2515239
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_338_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_dense_resource.h'
+      FileOffset:      33
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_dense_resource.h'
+      FileOffset:      107
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_dense_resource.h'
+      FileOffset:      189
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_88_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_batchnorm.h'
+      FileOffset:      88
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2544061
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_88_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_108_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_batchnorm.h'
+      FileOffset:      108
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2544721
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_108_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_68_1:  '
+      FilePath:        '/home/tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/ap_shift_reg.h'
+      FileOffset:      68
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2559696
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_68_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_75_1:  '
+      FilePath:        '/home/tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/ap_shift_reg.h'
+      FileOffset:      75
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2559900
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_75_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_41_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      41
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2578115
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_41_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_50_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      50
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2578468
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_50_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_59_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      59
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2578821
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_59_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_68_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      68
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2579173
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_68_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_77_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      77
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2579550
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_77_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_88_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      88
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2580052
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_88_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_125_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      125
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2581442
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_125_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_128_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      128
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2581532
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_128_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_139_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      139
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2582024
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_139_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_142_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      142
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2582136
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_142_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_153_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      153
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2582672
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_153_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_154_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      154
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2582731
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_154_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_157_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      157
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2582911
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_157_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_184_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      184
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2584238
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_184_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_187_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      187
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2584372
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_187_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_199_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      199
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2585071
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_199_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_200_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      200
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2585130
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_200_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_201_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      201
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2585193
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_201_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_208_4:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      208
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2585589
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_208_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_209_5:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      209
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2585652
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_209_5: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_226_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      226
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2586583
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_226_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_227_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      227
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2586642
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_227_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_228_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      228
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2586705
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_228_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_234_4:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_merge.h'
+      FileOffset:      234
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2587129
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_234_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_20_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      20
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2600557
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_20_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_21_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      21
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2600610
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_21_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_25_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      25
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2600702
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_25_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_29_4:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      29
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2600811
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_29_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_39_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      39
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2601109
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_39_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_40_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      40
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2601164
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_40_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_45_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      45
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2601256
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_45_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_46_4:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      46
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2601311
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_46_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_51_5:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      51
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2601420
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_51_5: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_52_6:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      52
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2601476
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_52_6: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_75_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      75
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2602234
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_75_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_77_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      77
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2602288
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_77_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_78_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      78
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2602346
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_78_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_83_4:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      83
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2602457
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_83_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_84_5:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      84
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2602517
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_84_5: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_87_6:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      87
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2602620
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_87_6: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_90_7:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      90
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2602740
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_90_7: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_95_8:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      95
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2602851
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_95_8: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_96_9:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      96
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2602912
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_96_9: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_108_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      108
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2603291
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_108_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_109_2:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      109
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2603345
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_109_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_110_3:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      110
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2603405
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_110_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_116_4:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      116
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2603515
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_116_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_117_5:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      117
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2603571
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_117_5: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_118_6:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      118
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2603630
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_118_6: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_122_7:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      122
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2603737
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_122_7: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_123_8:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      123
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2603796
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_123_8: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_127_9:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      127
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2603920
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_127_9: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_128_10:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      128
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2603980
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_128_10: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_134_11:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      134
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2604090
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_134_11: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_135_12:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      135
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2604147
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_135_12: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_136_13:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding.h'
+      FileOffset:      136
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2604207
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_136_13: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_11_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding_stream.h'
+      FileOffset:      11
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2604735
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_11_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_22_1:  '
+      FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/firmware/nnet_utils/nnet_padding_stream.h'
+      FileOffset:      22
+      Replacements:
+        - FilePath:        '/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/.autopilot/db/folo.pp.0.cpp'
+          Offset:          2605062
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_22_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/pujan/Research/Rheed-FOLO/folo_hls4ml'
+...
