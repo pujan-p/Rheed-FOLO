@@ -5,8 +5,7 @@ HLSConfig:
   Model:
     BitExact: null
     BramFactor: 1000000000
-    Precision:
-      default: fixed<16,6>
+    Precision: fixed<16,6>
     ReuseFactor: 1
     Strategy: Latency
     TraceOutput: false
@@ -27,7 +26,7 @@ OutputShapes:
   - 1
 Part: xcku035-fbva676-2-e
 ProjectName: folo
-Stamp: 5f6a6125
+Stamp: 5a4f4ae0
 Version: 1.0.0
 WriterConfig:
   Namespace: null

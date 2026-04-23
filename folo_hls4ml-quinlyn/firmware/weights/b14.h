@@ -1,6 +1,6 @@
 //Numpy array shape [1]
-//Min -0.114649623632
-//Max -0.114649623632
+//Min -0.120112299919
+//Max -0.120112299919
 //Number of zeros 0
 
 #ifndef B14_H_
@@ -9,7 +9,7 @@
 #ifndef __SYNTHESIS__
 model_default_t b14[1];
 #else
-model_default_t b14[1] = {-0.1146496236};
+model_default_t b14[1] = {-0.1201122999};
 
 #endif
 
