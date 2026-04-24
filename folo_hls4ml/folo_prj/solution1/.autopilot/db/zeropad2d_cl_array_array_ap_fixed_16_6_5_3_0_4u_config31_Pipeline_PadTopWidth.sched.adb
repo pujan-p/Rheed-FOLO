@@ -211,7 +211,7 @@
 					<Obj>
 						<type>0</type>
 						<id>7</id>
-						<name>j_7</name>
+						<name>j_1</name>
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>53</lineNumber>
@@ -325,7 +325,7 @@
 					<Obj>
 						<type>0</type>
 						<id>9</id>
-						<name>j_8</name>
+						<name>j_2</name>
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>53</lineNumber>

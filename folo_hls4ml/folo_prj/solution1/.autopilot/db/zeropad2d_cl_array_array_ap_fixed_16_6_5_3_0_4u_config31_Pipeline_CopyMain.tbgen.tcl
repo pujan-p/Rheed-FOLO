@@ -15,7 +15,7 @@ set hasInterrupt 0
 set DLRegFirstOffset 0
 set DLRegItemOffset 0
 set svuvm_can_support 1
-set cdfgNum 70
+set cdfgNum 72
 set C_modelName {zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,4u>,config31>_Pipeline_CopyMain}
 set C_modelType { void 0 }
 set ap_memory_interface_dict [dict create]
@@ -41,8 +41,8 @@ set portList {
 	{ layer27_cpy1_dout sc_in sc_lv 64 signal 0 } 
 	{ layer27_cpy1_empty_n sc_in sc_logic 1 signal 0 } 
 	{ layer27_cpy1_read sc_out sc_logic 1 signal 0 } 
-	{ layer27_cpy1_num_data_valid sc_in sc_lv 7 signal 0 } 
-	{ layer27_cpy1_fifo_cap sc_in sc_lv 7 signal 0 } 
+	{ layer27_cpy1_num_data_valid sc_in sc_lv 5 signal 0 } 
+	{ layer27_cpy1_fifo_cap sc_in sc_lv 5 signal 0 } 
 	{ layer31_out_din sc_out sc_lv 64 signal 1 } 
 	{ layer31_out_full_n sc_in sc_logic 1 signal 1 } 
 	{ layer31_out_write sc_out sc_logic 1 signal 1 } 
@@ -59,8 +59,8 @@ set NewPortList {[
  	{ "name": "layer27_cpy1_dout", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "layer27_cpy1", "role": "dout" }} , 
  	{ "name": "layer27_cpy1_empty_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer27_cpy1", "role": "empty_n" }} , 
  	{ "name": "layer27_cpy1_read", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer27_cpy1", "role": "read" }} , 
- 	{ "name": "layer27_cpy1_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":7, "type": "signal", "bundle":{"name": "layer27_cpy1", "role": "num_data_valid" }} , 
- 	{ "name": "layer27_cpy1_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":7, "type": "signal", "bundle":{"name": "layer27_cpy1", "role": "fifo_cap" }} , 
+ 	{ "name": "layer27_cpy1_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":5, "type": "signal", "bundle":{"name": "layer27_cpy1", "role": "num_data_valid" }} , 
+ 	{ "name": "layer27_cpy1_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":5, "type": "signal", "bundle":{"name": "layer27_cpy1", "role": "fifo_cap" }} , 
  	{ "name": "layer31_out_din", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "layer31_out", "role": "din" }} , 
  	{ "name": "layer31_out_full_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer31_out", "role": "full_n" }} , 
  	{ "name": "layer31_out_write", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer31_out", "role": "write" }} , 
@@ -84,6 +84,6 @@ set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	layer27_cpy1 { ap_fifo {  { layer27_cpy1_dout fifo_data_out 0 64 }  { layer27_cpy1_empty_n fifo_status_empty 0 1 }  { layer27_cpy1_read fifo_data_in 1 1 }  { layer27_cpy1_num_data_valid fifo_update 0 7 }  { layer27_cpy1_fifo_cap fifo_data 0 7 } } }
+	layer27_cpy1 { ap_fifo {  { layer27_cpy1_dout fifo_data_out 0 64 }  { layer27_cpy1_empty_n fifo_status_empty 0 1 }  { layer27_cpy1_read fifo_data_in 1 1 }  { layer27_cpy1_num_data_valid fifo_update 0 5 }  { layer27_cpy1_fifo_cap fifo_data 0 5 } } }
 	layer31_out { ap_fifo {  { layer31_out_din fifo_data_out 1 64 }  { layer31_out_full_n fifo_status_empty 0 1 }  { layer31_out_write fifo_data_in 1 1 }  { layer31_out_num_data_valid fifo_update 0 32 }  { layer31_out_fifo_cap fifo_data 0 32 } } }
 }

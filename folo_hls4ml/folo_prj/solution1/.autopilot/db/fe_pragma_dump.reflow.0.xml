@@ -21,102 +21,74 @@
 <pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi13ELb1EEC2EDB13_" off="0" region="0" recursive="0"/>
 <pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi12ELb1EEC2EDB12_" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<1>::ap_uint(int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed(double)" off="0" region="0" recursive="0"/>
 <pragma file="firmware/folo.cpp" line="14" pragmaType="dataflow" parentfunction="folo" disable_start_propagation="0"/>
 <pragma file="firmware/folo.cpp" line="13" pragmaType="interface" parentfunction="folo" mode="axis" port="input_layer_1" register="1" register_mode="both" name="" depth="-1"/>
 <pragma file="firmware/folo.cpp" line="13" pragmaType="interface" parentfunction="folo" mode="axis" port="layer26_out" register="1" register_mode="both" name="" depth="-1"/>
 <pragma file="firmware/folo.cpp" line="57" pragmaType="stream" parentfunction="folo" depth="100000" type="fifo" variable="layer30_out"/>
 <pragma file="firmware/folo.cpp" line="60" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer2_out"/>
-<pragma file="firmware/folo.cpp" line="63" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer3_out"/>
+<pragma file="firmware/folo.cpp" line="63" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer3_out"/>
 <pragma file="firmware/folo.cpp" line="66" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer4_out"/>
-<pragma file="firmware/folo.cpp" line="69" pragmaType="stream" parentfunction="folo" depth="33" type="fifo" variable="layer27_cpy1"/>
-<pragma file="firmware/folo.cpp" line="72" pragmaType="stream" parentfunction="folo" depth="170" type="fifo" variable="layer27_cpy2"/>
-<pragma file="firmware/folo.cpp" line="75" pragmaType="stream" parentfunction="folo" depth="250" type="fifo" variable="layer31_out"/>
+<pragma file="firmware/folo.cpp" line="69" pragmaType="stream" parentfunction="folo" depth="16" type="fifo" variable="layer27_cpy1"/>
+<pragma file="firmware/folo.cpp" line="72" pragmaType="stream" parentfunction="folo" depth="131" type="fifo" variable="layer27_cpy2"/>
+<pragma file="firmware/folo.cpp" line="75" pragmaType="stream" parentfunction="folo" depth="245" type="fifo" variable="layer31_out"/>
 <pragma file="firmware/folo.cpp" line="78" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer5_out"/>
-<pragma file="firmware/folo.cpp" line="81" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer6_out"/>
+<pragma file="firmware/folo.cpp" line="81" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer6_out"/>
 <pragma file="firmware/folo.cpp" line="84" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer7_out"/>
-<pragma file="firmware/folo.cpp" line="87" pragmaType="stream" parentfunction="folo" depth="22" type="fifo" variable="layer8_out"/>
-<pragma file="firmware/folo.cpp" line="90" pragmaType="stream" parentfunction="folo" depth="131" type="fifo" variable="layer32_out"/>
+<pragma file="firmware/folo.cpp" line="87" pragmaType="stream" parentfunction="folo" depth="8" type="fifo" variable="layer8_out"/>
+<pragma file="firmware/folo.cpp" line="90" pragmaType="stream" parentfunction="folo" depth="122" type="fifo" variable="layer32_out"/>
 <pragma file="firmware/folo.cpp" line="93" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer9_out"/>
-<pragma file="firmware/folo.cpp" line="96" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer10_out"/>
+<pragma file="firmware/folo.cpp" line="96" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer10_out"/>
 <pragma file="firmware/folo.cpp" line="99" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer11_out"/>
-<pragma file="firmware/folo.cpp" line="102" pragmaType="stream" parentfunction="folo" depth="8" type="fifo" variable="layer28_cpy1"/>
-<pragma file="firmware/folo.cpp" line="105" pragmaType="stream" parentfunction="folo" depth="73" type="fifo" variable="layer28_cpy2"/>
-<pragma file="firmware/folo.cpp" line="108" pragmaType="stream" parentfunction="folo" depth="119" type="fifo" variable="layer33_out"/>
+<pragma file="firmware/folo.cpp" line="102" pragmaType="stream" parentfunction="folo" depth="4" type="fifo" variable="layer28_cpy1"/>
+<pragma file="firmware/folo.cpp" line="105" pragmaType="stream" parentfunction="folo" depth="68" type="fifo" variable="layer28_cpy2"/>
+<pragma file="firmware/folo.cpp" line="108" pragmaType="stream" parentfunction="folo" depth="121" type="fifo" variable="layer33_out"/>
 <pragma file="firmware/folo.cpp" line="111" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer12_out"/>
-<pragma file="firmware/folo.cpp" line="114" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer13_out"/>
+<pragma file="firmware/folo.cpp" line="114" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer13_out"/>
 <pragma file="firmware/folo.cpp" line="117" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer14_out"/>
-<pragma file="firmware/folo.cpp" line="120" pragmaType="stream" parentfunction="folo" depth="4" type="fifo" variable="layer15_out"/>
-<pragma file="firmware/folo.cpp" line="123" pragmaType="stream" parentfunction="folo" depth="60" type="fifo" variable="layer34_out"/>
+<pragma file="firmware/folo.cpp" line="120" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer15_out"/>
+<pragma file="firmware/folo.cpp" line="123" pragmaType="stream" parentfunction="folo" depth="61" type="fifo" variable="layer34_out"/>
 <pragma file="firmware/folo.cpp" line="126" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer16_out"/>
-<pragma file="firmware/folo.cpp" line="129" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer17_out"/>
+<pragma file="firmware/folo.cpp" line="129" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer17_out"/>
 <pragma file="firmware/folo.cpp" line="132" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer18_out"/>
 <pragma file="firmware/folo.cpp" line="135" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer29_cpy1"/>
-<pragma file="firmware/folo.cpp" line="138" pragmaType="stream" parentfunction="folo" depth="40" type="fifo" variable="layer29_cpy2"/>
-<pragma file="firmware/folo.cpp" line="141" pragmaType="stream" parentfunction="folo" depth="60" type="fifo" variable="layer35_out"/>
+<pragma file="firmware/folo.cpp" line="138" pragmaType="stream" parentfunction="folo" depth="36" type="fifo" variable="layer29_cpy2"/>
+<pragma file="firmware/folo.cpp" line="141" pragmaType="stream" parentfunction="folo" depth="62" type="fifo" variable="layer35_out"/>
 <pragma file="firmware/folo.cpp" line="144" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer19_out"/>
-<pragma file="firmware/folo.cpp" line="147" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer20_out"/>
+<pragma file="firmware/folo.cpp" line="147" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer20_out"/>
 <pragma file="firmware/folo.cpp" line="150" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer21_out"/>
 <pragma file="firmware/folo.cpp" line="153" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer22_out"/>
-<pragma file="firmware/folo.cpp" line="156" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer23_out"/>
+<pragma file="firmware/folo.cpp" line="156" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer23_out"/>
 <pragma file="firmware/folo.cpp" line="159" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer24_out"/>
-<pragma file="firmware/folo.cpp" line="162" pragmaType="stream" parentfunction="folo" depth="2" type="fifo" variable="layer25_out"/>
+<pragma file="firmware/folo.cpp" line="162" pragmaType="stream" parentfunction="folo" depth="1" type="fifo" variable="layer25_out"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 4u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<28, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, 4u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 6u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<28, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, 6u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 8u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<28, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, 8u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<30, 12, (ap_q_mode)5, (ap_o_mode)3, 0>, 8u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<36, 16, (ap_q_mode)5, (ap_o_mode)3, 0>, 1u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<18, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<18, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="74" pragmaType="inline" parentfunction="conv_2d_cl" off="0" region="0" recursive="1"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="26" pragmaType="pipeline" parentfunction="normalize" off="0" ii="1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="34" pragmaType="unroll" parentfunction="normalize" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="18" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="scale"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="19" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="bias"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="22" pragmaType="allocation" parentfunction="normalize" type="0" limit="65536" instances="mul "/>
-<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="529" pragmaType="pipeline" parentfunction="thresholded_relu" off="0" ii="-1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="537" pragmaType="unroll" parentfunction="thresholded_relu" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_stream.h" line="23" pragmaType="pipeline" parentfunction="clone_stream" off="0" ii="-1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_stream.h" line="33" pragmaType="unroll" parentfunction="clone_stream" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="74" pragmaType="inline" parentfunction="conv_2d_cl" off="0" region="0" recursive="1"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="26" pragmaType="pipeline" parentfunction="normalize" off="0" ii="1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="34" pragmaType="unroll" parentfunction="normalize" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="18" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="scale"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="19" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="bias"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="22" pragmaType="allocation" parentfunction="normalize" type="0" limit="65536" instances="mul "/>
-<pragma file="firmware/nnet_utils/nnet_merge_stream.h" line="16" pragmaType="pipeline" parentfunction="add" off="0" ii="-1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_merge_stream.h" line="25" pragmaType="unroll" parentfunction="add" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="529" pragmaType="pipeline" parentfunction="thresholded_relu" off="0" ii="-1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="537" pragmaType="unroll" parentfunction="thresholded_relu" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="74" pragmaType="inline" parentfunction="conv_2d_cl" off="0" region="0" recursive="1"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="26" pragmaType="pipeline" parentfunction="normalize" off="0" ii="1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="34" pragmaType="unroll" parentfunction="normalize" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="18" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="scale"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="19" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="bias"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="22" pragmaType="allocation" parentfunction="normalize" type="0" limit="24576" instances="mul "/>
-<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="529" pragmaType="pipeline" parentfunction="thresholded_relu" off="0" ii="-1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="537" pragmaType="unroll" parentfunction="thresholded_relu" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_stream.h" line="23" pragmaType="pipeline" parentfunction="clone_stream" off="0" ii="-1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_stream.h" line="33" pragmaType="unroll" parentfunction="clone_stream" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="529" pragmaType="pipeline" parentfunction="thresholded_relu" off="0" ii="-1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="537" pragmaType="unroll" parentfunction="thresholded_relu" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="74" pragmaType="inline" parentfunction="conv_2d_cl" off="0" region="0" recursive="1"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="26" pragmaType="pipeline" parentfunction="normalize" off="0" ii="1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="34" pragmaType="unroll" parentfunction="normalize" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="18" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="scale"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="19" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="bias"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="22" pragmaType="allocation" parentfunction="normalize" type="0" limit="24576" instances="mul "/>
-<pragma file="firmware/nnet_utils/nnet_merge_stream.h" line="16" pragmaType="pipeline" parentfunction="add" off="0" ii="-1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_merge_stream.h" line="25" pragmaType="unroll" parentfunction="add" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="74" pragmaType="inline" parentfunction="conv_2d_cl" off="0" region="0" recursive="1"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="26" pragmaType="pipeline" parentfunction="normalize" off="0" ii="1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="26" pragmaType="pipeline" parentfunction="normalize" off="0" ii="8" rewind="0" style=""/>
 <pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="34" pragmaType="unroll" parentfunction="normalize" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="18" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="scale"/>
 <pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="19" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="bias"/>
 <pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="22" pragmaType="allocation" parentfunction="normalize" type="0" limit="8192" instances="mul "/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed(double)" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="529" pragmaType="pipeline" parentfunction="thresholded_relu" off="0" ii="-1" rewind="0" style=""/>
 <pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="537" pragmaType="unroll" parentfunction="thresholded_relu" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_stream.h" line="23" pragmaType="pipeline" parentfunction="clone_stream" off="0" ii="-1" rewind="0" style=""/>
 <pragma file="firmware/nnet_utils/nnet_stream.h" line="33" pragmaType="unroll" parentfunction="clone_stream" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="74" pragmaType="inline" parentfunction="conv_2d_cl" off="0" region="0" recursive="1"/>
-<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="26" pragmaType="pipeline" parentfunction="normalize" off="0" ii="1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="26" pragmaType="pipeline" parentfunction="normalize" off="0" ii="8" rewind="0" style=""/>
 <pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="34" pragmaType="unroll" parentfunction="normalize" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="18" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="scale"/>
 <pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="19" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="bias"/>
@@ -125,14 +97,52 @@
 <pragma file="firmware/nnet_utils/nnet_merge_stream.h" line="25" pragmaType="unroll" parentfunction="add" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="529" pragmaType="pipeline" parentfunction="thresholded_relu" off="0" ii="-1" rewind="0" style=""/>
 <pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="537" pragmaType="unroll" parentfunction="thresholded_relu" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_sepconv2d_stream.h" line="71" pragmaType="pipeline" parentfunction="pointwise_conv_2d_cl" off="0" ii="1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="74" pragmaType="inline" parentfunction="conv_2d_cl" off="0" region="0" recursive="1"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="26" pragmaType="pipeline" parentfunction="normalize" off="0" ii="8" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="34" pragmaType="unroll" parentfunction="normalize" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="18" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="scale"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="19" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="bias"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="22" pragmaType="allocation" parentfunction="normalize" type="0" limit="3072" instances="mul "/>
+<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="529" pragmaType="pipeline" parentfunction="thresholded_relu" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="537" pragmaType="unroll" parentfunction="thresholded_relu" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_stream.h" line="23" pragmaType="pipeline" parentfunction="clone_stream" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_stream.h" line="33" pragmaType="unroll" parentfunction="clone_stream" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="74" pragmaType="inline" parentfunction="conv_2d_cl" off="0" region="0" recursive="1"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="26" pragmaType="pipeline" parentfunction="normalize" off="0" ii="8" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="34" pragmaType="unroll" parentfunction="normalize" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="18" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="scale"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="19" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="bias"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="22" pragmaType="allocation" parentfunction="normalize" type="0" limit="3072" instances="mul "/>
+<pragma file="firmware/nnet_utils/nnet_merge_stream.h" line="16" pragmaType="pipeline" parentfunction="add" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_merge_stream.h" line="25" pragmaType="unroll" parentfunction="add" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="529" pragmaType="pipeline" parentfunction="thresholded_relu" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="537" pragmaType="unroll" parentfunction="thresholded_relu" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="74" pragmaType="inline" parentfunction="conv_2d_cl" off="0" region="0" recursive="1"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="26" pragmaType="pipeline" parentfunction="normalize" off="0" ii="8" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="34" pragmaType="unroll" parentfunction="normalize" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="18" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="scale"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="19" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="bias"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="22" pragmaType="allocation" parentfunction="normalize" type="0" limit="1024" instances="mul "/>
+<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="529" pragmaType="pipeline" parentfunction="thresholded_relu" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="537" pragmaType="unroll" parentfunction="thresholded_relu" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="74" pragmaType="inline" parentfunction="conv_2d_cl" off="0" region="0" recursive="1"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="26" pragmaType="pipeline" parentfunction="normalize" off="0" ii="8" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="34" pragmaType="unroll" parentfunction="normalize" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="18" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="scale"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="19" pragmaType="array_partition" parentfunction="normalize" dim="1" factor="0" mode="complete" dynamic="0" variable="bias"/>
+<pragma file="firmware/nnet_utils/nnet_batchnorm_stream.h" line="22" pragmaType="allocation" parentfunction="normalize" type="0" limit="1024" instances="mul "/>
+<pragma file="firmware/nnet_utils/nnet_merge_stream.h" line="16" pragmaType="pipeline" parentfunction="add" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_merge_stream.h" line="25" pragmaType="unroll" parentfunction="add" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="529" pragmaType="pipeline" parentfunction="thresholded_relu" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="537" pragmaType="unroll" parentfunction="thresholded_relu" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_sepconv2d_stream.h" line="71" pragmaType="pipeline" parentfunction="pointwise_conv_2d_cl" off="0" ii="8" rewind="0" style=""/>
 <pragma file="firmware/nnet_utils/nnet_sepconv2d_stream.h" line="70" pragmaType="loop_flatten" parentfunction="pointwise_conv_2d_cl" off="0"/>
 <pragma file="firmware/nnet_utils/nnet_sepconv2d_stream.h" line="84" pragmaType="loop_flatten" parentfunction="pointwise_conv_2d_cl" off="0"/>
 <pragma file="firmware/nnet_utils/nnet_sepconv2d_stream.h" line="62" pragmaType="array_partition" parentfunction="pointwise_conv_2d_cl" dim="1" factor="0" mode="complete" dynamic="0" variable="weights"/>
 <pragma file="firmware/nnet_utils/nnet_sepconv2d_stream.h" line="63" pragmaType="array_partition" parentfunction="pointwise_conv_2d_cl" dim="1" factor="0" mode="complete" dynamic="0" variable="biases"/>
 <pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="42" pragmaType="pipeline" parentfunction="relu" off="0" ii="-1" rewind="0" style=""/>
 <pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="50" pragmaType="unroll" parentfunction="relu" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_sepconv2d_stream.h" line="71" pragmaType="pipeline" parentfunction="pointwise_conv_2d_cl" off="0" ii="1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_sepconv2d_stream.h" line="71" pragmaType="pipeline" parentfunction="pointwise_conv_2d_cl" off="0" ii="8" rewind="0" style=""/>
 <pragma file="firmware/nnet_utils/nnet_sepconv2d_stream.h" line="70" pragmaType="loop_flatten" parentfunction="pointwise_conv_2d_cl" off="0"/>
 <pragma file="firmware/nnet_utils/nnet_sepconv2d_stream.h" line="84" pragmaType="loop_flatten" parentfunction="pointwise_conv_2d_cl" off="0"/>
 <pragma file="firmware/nnet_utils/nnet_sepconv2d_stream.h" line="62" pragmaType="array_partition" parentfunction="pointwise_conv_2d_cl" dim="1" factor="0" mode="complete" dynamic="0" variable="weights"/>
@@ -140,34 +150,37 @@
 <pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="81" pragmaType="pipeline" parentfunction="sigmoid" off="0" ii="-1" rewind="0" style=""/>
 <pragma file="firmware/nnet_utils/nnet_activation_stream.h" line="89" pragmaType="unroll" parentfunction="sigmoid" factor="-1" skip_exit_check="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<($_0)32, ($_0)32, false>::mult operator*<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&, unsigned int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<68, 48, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<($_0)32, ($_0)32, true>::div operator/<68, 48, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<68, 48, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<69, 49, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator int() const" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<18, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<18, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<18, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<18, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="ssdm_int<16, true>::ssdm_int(short)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<39, true>& ap_int_base<39, true>::operator=<40, true>(ap_int_base<40, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<49, true>& ap_int_base<49, true>::operator=<50, true>(ap_int_base<50, true> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<18, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="to_int" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="to_ap_int_base" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="to_int" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<39, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<39, true>::RType<($_0)32, true>::plus operator+<39, true>(ap_int_base<39, true> const&, int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<48, 38, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<48, 38, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<49, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<49, true>::RType<($_0)32, true>::plus operator+<49, true>(ap_int_base<49, true> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<68, 48, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<68, 48, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<39, true>::RType<32, true>::plus operator+<39, true, 32, true>(ap_int_base<39, true> const&, ap_int_base<32, true> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<40, true>::ap_int_base<39, true>(ap_int_base<39, true> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<40, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<40, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<40>::ap_int<40, true>(ap_int_base<40, true> const&)" off="0" region="0" recursive="0"/>
-<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi40ELb1EEC2EDB40_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<49, true>::RType<32, true>::plus operator+<49, true, 32, true>(ap_int_base<49, true> const&, ap_int_base<32, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<50, true>::ap_int_base<49, true>(ap_int_base<49, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<50, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<50, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<50>::ap_int<50, true>(ap_int_base<50, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi50ELb1EEC2EDB50_" off="0" region="0" recursive="0"/>
 <pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="ssdm_int<32, true>::ssdm_int(int)" off="0" region="0" recursive="0"/>
-<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi39ELb1EEC2EDB39_" off="0" region="0" recursive="0"/>
+<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi49ELb1EEC2EDB49_" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<48, 38, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<32, 32, true>::div ap_fixed_base<48, 38, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator/<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<49, 39, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<49, 39, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<49, 39, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<68, 48, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<32, 32, true>::div ap_fixed_base<68, 48, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator/<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<69, 49, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<69, 49, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<69, 49, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<32, 32, false, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(unsigned int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<32, 32, false>::mult ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator*<32, 32, false, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, false, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<48, 38, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<48, 38, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<48, 38, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<48, 38, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<32, 32, false>::mult ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator*<32, 32, false, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, false, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<68, 48, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<68, 48, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<68, 48, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<68, 48, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
@@ -180,27 +193,33 @@
 <pragma file="firmware/nnet_utils/nnet_sepconv_stream.h" line="89" pragmaType="array_partition" parentfunction="pointwise_mult_buffer" dim="1" factor="0" mode="complete" dynamic="0" variable="data"/>
 <pragma file="firmware/nnet_utils/nnet_sepconv_stream.h" line="92" pragmaType="array_partition" parentfunction="pointwise_mult_buffer" dim="1" factor="0" mode="complete" dynamic="0" variable="res"/>
 <pragma file="firmware/nnet_utils/nnet_dense.h" line="53" pragmaType="inline" parentfunction="dense" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="1" style=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="8" style=""/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="weights"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="biases"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="29" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="biases"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="30" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="mult"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="31" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="acc"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="8" instances="mul "/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="1" instances="mul "/>
 <pragma file="firmware/nnet_utils/nnet_mult.h" line="72" pragmaType="inline" parentfunction="product" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<16, 6, true>::plus ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<17, 7, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi17ELb1EEC2EDB17_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<36, 16, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<36, 16, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<36, 16, true>::plus ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<37, 17, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<37, 17, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<37, 17, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<37, 17, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<37, 17, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<37, 17, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<37, 17, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<37, 17, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi37ELb1EEC2EDB37_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<37, 17, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<37, 17, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi36ELb1EEC2EDB36_" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<16, 6, true>::mult ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator*<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
@@ -208,70 +227,144 @@
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<32, 12, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="bool operator><16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="bool operator><30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed(int)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<42, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<42, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="bool ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator><32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<42, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi42ELb1EEC2EDB42_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<50, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<50, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="bool ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator><32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<50, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_sepconv_stream.h" line="103" pragmaType="inline" parentfunction="pointwise_mult_buffer" off="0" region="0" recursive="1"/>
 <pragma file="firmware/nnet_utils/nnet_sepconv_stream.h" line="109" pragmaType="unroll" parentfunction="pointwise_mult_buffer" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_sepconv_stream.h" line="99" pragmaType="unroll" parentfunction="pointwise_mult_buffer" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_sepconv_stream.h" line="89" pragmaType="array_partition" parentfunction="pointwise_mult_buffer" dim="1" factor="0" mode="complete" dynamic="0" variable="data"/>
 <pragma file="firmware/nnet_utils/nnet_sepconv_stream.h" line="92" pragmaType="array_partition" parentfunction="pointwise_mult_buffer" dim="1" factor="0" mode="complete" dynamic="0" variable="res"/>
 <pragma file="firmware/nnet_utils/nnet_dense.h" line="53" pragmaType="inline" parentfunction="dense" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="1" style=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="8" style=""/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="weights"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="biases"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="29" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="biases"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="30" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="mult"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="31" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="acc"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="64" instances="mul "/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="bool ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator><16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<16, 6, true>::plus ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi33ELb1EEC2EDB33_" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="8" instances="mul "/>
+<pragma file="firmware/nnet_utils/nnet_mult.h" line="72" pragmaType="inline" parentfunction="product" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<30, 12, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<30, 12, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<31, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<31, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<30, 12, true>::plus ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<31, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<31, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<31, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<31, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<31, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<31, 13, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<31, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<31, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi31ELb1EEC2EDB31_" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<1, 1, false, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<1, 1, false, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="29" pragmaType="pipeline" parentfunction="conv_2d_buffer_latency_cl" off="0" ii="1" rewind="0" style=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi30ELb1EEC2EDB30_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<16, 6, true>::mult ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator*<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<26, 8, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="bool ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator><10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi10ELb1EEC2EDB10_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<20, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<20, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<20, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi20ELb1EEC2EDB20_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<27, 9, true>::plus ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<28, 10, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi28ELb1EEC2EDB28_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<16, 6, true>::plus ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi27ELb1EEC2EDB27_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+=<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="29" pragmaType="pipeline" parentfunction="conv_2d_buffer_latency_cl" off="0" ii="8" rewind="0" style=""/>
 <pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="28" pragmaType="loop_flatten" parentfunction="conv_2d_buffer_latency_cl" off="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="22" pragmaType="array_partition" parentfunction="conv_2d_buffer_latency_cl" dim="2" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj8EEES6_8config19EEvRN3hls6streamIT_Li0EEERNS9_IT0_Li0EEEPNT1_8weight_tEPNSG_6bias_tEE11line_buffer"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 34u>::ap_shift_reg()" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="aggregate" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 34u>::ap_shift_reg()" compact="1" variable="Array"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="22" pragmaType="array_partition" parentfunction="conv_2d_buffer_latency_cl" dim="2" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi10ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EELj8EEES6_8config19EEvRN3hls6streamIT_Li0EEERNS9_IT0_Li0EEEPNT1_8weight_tEPNSG_6bias_tEE11line_buffer"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_shift_reg<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 34u>::ap_shift_reg()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="aggregate" parentfunction="ap_shift_reg<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 34u>::ap_shift_reg()" compact="1" variable="Array"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="258" pragmaType="inline" parentfunction="compute_output_buffer_2d" off="1" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="294" pragmaType="unroll" parentfunction="compute_output_buffer_2d" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="272" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="1" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj8EEES6_8config19EEvRKT_PAsrT1_6n_chan_12ap_shift_regINS8_10value_typeEXsrSB_8in_widthEERN3hls6streamIT0_Li0EEEPNSB_8weight_tEPNSB_6bias_tEE11kernel_data"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="272" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="1" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi10ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EELj8EEES6_8config19EEvRKT_PAsrT1_6n_chan_12ap_shift_regINS8_10value_typeEXsrSB_8in_widthEERN3hls6streamIT0_Li0EEEPNSB_8weight_tEPNSB_6bias_tEE11kernel_data"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="275" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="0" factor="0" mode="complete" dynamic="0" variable="res_out"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="221" pragmaType="pipeline" parentfunction="shift_line_buffer" off="0" ii="-1" style=""/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="240" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="229" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="225" pragmaType="array_partition" parentfunction="shift_line_buffer" dim="0" factor="0" mode="complete" dynamic="0" variable="shift_buffer"/>
 <pragma file="firmware/nnet_utils/nnet_dense.h" line="53" pragmaType="inline" parentfunction="dense" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="1" style=""/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="8" style=""/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="weights"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="biases"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="29" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="biases"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="30" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="mult"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="31" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="acc"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="576" instances="mul "/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<1, false>(ap_int_base<1, false> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<1, false>(ap_int_base<1, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="72" instances="mul "/>
+<pragma file="firmware/nnet_utils/nnet_mult.h" line="72" pragmaType="inline" parentfunction="product" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<20, 4, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<20, 4, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<1, false>(ap_int_base<1, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<11, 3, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<11, 3, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<10, 2, true>::plus ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<11, 3, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<11, 3, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<11, 3, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<11, 3, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<11, 3, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<11, 3, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<11, 3, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<11, 3, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="tools/Xilinx/2025/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="_ZN8ssdm_intILi11ELb1EEC2EDB11_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<1, 1, false, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<1, 1, false, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<1, false>(ap_int_base<1, false> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<1, 1, false, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<1, 1, false, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<1, 1, false, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<1, 1, false, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<20, 4, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<20, 4, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<20, 4, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<20, 4, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<20, 4, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<20, 4, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<20, 4, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<10, 2, true>::mult ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator*<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<20, 4, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<20, 4, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<20, 4, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<20, 4, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="shift" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="184" pragmaType="inline" parentfunction="kernel_shift_2d" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="206" pragmaType="unroll" parentfunction="kernel_shift_2d" factor="-1" skip_exit_check="0"/>
@@ -280,89 +373,32 @@
 <pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="12" pragmaType="unroll" parentfunction="fill_zero" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="19" pragmaType="inline" parentfunction="fill_data" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="23" pragmaType="unroll" parentfunction="fill_data" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="29" pragmaType="pipeline" parentfunction="conv_2d_buffer_latency_cl" off="0" ii="1" rewind="0" style=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="bool ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator><10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="29" pragmaType="pipeline" parentfunction="conv_2d_buffer_latency_cl" off="0" ii="8" rewind="0" style=""/>
 <pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="28" pragmaType="loop_flatten" parentfunction="conv_2d_buffer_latency_cl" off="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="22" pragmaType="array_partition" parentfunction="conv_2d_buffer_latency_cl" dim="2" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj6EEENS1_IS5_Lj8EEE8config16EEvRN3hls6streamIT_Li0EEERNSA_IT0_Li0EEEPNT1_8weight_tEPNSH_6bias_tEE11line_buffer"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 65u>::ap_shift_reg()" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="aggregate" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 65u>::ap_shift_reg()" compact="1" variable="Array"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="22" pragmaType="array_partition" parentfunction="conv_2d_buffer_latency_cl" dim="2" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi10ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EELj6EEENS1_IS5_Lj8EEE8config16EEvRN3hls6streamIT_Li0EEERNSA_IT0_Li0EEEPNT1_8weight_tEPNSH_6bias_tEE11line_buffer"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_shift_reg<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 65u>::ap_shift_reg()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="aggregate" parentfunction="ap_shift_reg<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 65u>::ap_shift_reg()" compact="1" variable="Array"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="258" pragmaType="inline" parentfunction="compute_output_buffer_2d" off="1" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="294" pragmaType="unroll" parentfunction="compute_output_buffer_2d" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="272" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="1" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj6EEENS1_IS5_Lj8EEE8config16EEvRKT_PAsrT1_6n_chan_12ap_shift_regINS9_10value_typeEXsrSC_8in_widthEERN3hls6streamIT0_Li0EEEPNSC_8weight_tEPNSC_6bias_tEE11kernel_data"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="272" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="1" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi10ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EELj6EEENS1_IS5_Lj8EEE8config16EEvRKT_PAsrT1_6n_chan_12ap_shift_regINS9_10value_typeEXsrSC_8in_widthEERN3hls6streamIT0_Li0EEEPNSC_8weight_tEPNSC_6bias_tEE11kernel_data"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="275" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="0" factor="0" mode="complete" dynamic="0" variable="res_out"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="221" pragmaType="pipeline" parentfunction="shift_line_buffer" off="0" ii="-1" style=""/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="240" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="229" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="225" pragmaType="array_partition" parentfunction="shift_line_buffer" dim="0" factor="0" mode="complete" dynamic="0" variable="shift_buffer"/>
 <pragma file="firmware/nnet_utils/nnet_dense.h" line="53" pragmaType="inline" parentfunction="dense" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="1" style=""/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="8" style=""/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="weights"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="biases"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="29" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="biases"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="30" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="mult"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="31" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="acc"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="432" instances="mul "/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="shift" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="184" pragmaType="inline" parentfunction="kernel_shift_2d" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="206" pragmaType="unroll" parentfunction="kernel_shift_2d" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="190" pragmaType="pipeline" parentfunction="kernel_shift_2d" off="0" ii="1" rewind="0" style=""/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="9" pragmaType="inline" parentfunction="fill_zero" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="12" pragmaType="unroll" parentfunction="fill_zero" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="19" pragmaType="inline" parentfunction="fill_data" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="23" pragmaType="unroll" parentfunction="fill_data" factor="-1" skip_exit_check="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="29" pragmaType="pipeline" parentfunction="conv_2d_buffer_latency_cl" off="0" ii="1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="28" pragmaType="loop_flatten" parentfunction="conv_2d_buffer_latency_cl" off="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="22" pragmaType="array_partition" parentfunction="conv_2d_buffer_latency_cl" dim="2" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj6EEES6_8config12EEvRN3hls6streamIT_Li0EEERNS9_IT0_Li0EEEPNT1_8weight_tEPNSG_6bias_tEE11line_buffer"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 66u>::ap_shift_reg()" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="aggregate" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 66u>::ap_shift_reg()" compact="1" variable="Array"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="258" pragmaType="inline" parentfunction="compute_output_buffer_2d" off="1" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="294" pragmaType="unroll" parentfunction="compute_output_buffer_2d" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="272" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="1" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj6EEES6_8config12EEvRKT_PAsrT1_6n_chan_12ap_shift_regINS8_10value_typeEXsrSB_8in_widthEERN3hls6streamIT0_Li0EEEPNSB_8weight_tEPNSB_6bias_tEE11kernel_data"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="275" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="0" factor="0" mode="complete" dynamic="0" variable="res_out"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="221" pragmaType="pipeline" parentfunction="shift_line_buffer" off="0" ii="-1" style=""/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="240" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="229" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="225" pragmaType="array_partition" parentfunction="shift_line_buffer" dim="0" factor="0" mode="complete" dynamic="0" variable="shift_buffer"/>
-<pragma file="firmware/nnet_utils/nnet_dense.h" line="53" pragmaType="inline" parentfunction="dense" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="1" style=""/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="weights"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="biases"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="29" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="biases"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="30" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="mult"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="31" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="acc"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="324" instances="mul "/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="shift" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="184" pragmaType="inline" parentfunction="kernel_shift_2d" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="206" pragmaType="unroll" parentfunction="kernel_shift_2d" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="190" pragmaType="pipeline" parentfunction="kernel_shift_2d" off="0" ii="1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="9" pragmaType="inline" parentfunction="fill_zero" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="12" pragmaType="unroll" parentfunction="fill_zero" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="19" pragmaType="inline" parentfunction="fill_data" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="23" pragmaType="unroll" parentfunction="fill_data" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="258" pragmaType="inline" parentfunction="compute_output_buffer_2d" off="1" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="294" pragmaType="unroll" parentfunction="compute_output_buffer_2d" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="272" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="1" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj4EEENS1_IS5_Lj6EEE7config9EEvRKT_PAsrT1_6n_chan_12ap_shift_regINS9_10value_typeEXsrSC_8in_widthEERN3hls6streamIT0_Li0EEEPNSC_8weight_tEPNSC_6bias_tEE11kernel_data"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="275" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="0" factor="0" mode="complete" dynamic="0" variable="res_out"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="29" pragmaType="pipeline" parentfunction="conv_2d_buffer_latency_cl" off="0" ii="1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="28" pragmaType="loop_flatten" parentfunction="conv_2d_buffer_latency_cl" off="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="22" pragmaType="array_partition" parentfunction="conv_2d_buffer_latency_cl" dim="2" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj4EEENS1_IS5_Lj6EEE7config9EEvRN3hls6streamIT_Li0EEERNSA_IT0_Li0EEEPNT1_8weight_tEPNSH_6bias_tEE11line_buffer"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 129u>::ap_shift_reg()" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="aggregate" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 129u>::ap_shift_reg()" compact="1" variable="Array"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="221" pragmaType="pipeline" parentfunction="shift_line_buffer" off="0" ii="-1" style=""/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="240" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="229" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="225" pragmaType="array_partition" parentfunction="shift_line_buffer" dim="0" factor="0" mode="complete" dynamic="0" variable="shift_buffer"/>
-<pragma file="firmware/nnet_utils/nnet_dense.h" line="53" pragmaType="inline" parentfunction="dense" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="1" style=""/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="weights"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="biases"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="29" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="biases"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="30" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="mult"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="31" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="acc"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="216" instances="mul "/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="54" instances="mul "/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="shift" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="184" pragmaType="inline" parentfunction="kernel_shift_2d" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="206" pragmaType="unroll" parentfunction="kernel_shift_2d" factor="-1" skip_exit_check="0"/>
@@ -373,46 +409,33 @@
 <pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="19" pragmaType="inline" parentfunction="fill_data" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="23" pragmaType="unroll" parentfunction="fill_data" factor="-1" skip_exit_check="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="29" pragmaType="pipeline" parentfunction="conv_2d_buffer_latency_cl" off="0" ii="1" rewind="0" style=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="29" pragmaType="pipeline" parentfunction="conv_2d_buffer_latency_cl" off="0" ii="8" rewind="0" style=""/>
 <pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="28" pragmaType="loop_flatten" parentfunction="conv_2d_buffer_latency_cl" off="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="22" pragmaType="array_partition" parentfunction="conv_2d_buffer_latency_cl" dim="2" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj4EEES6_7config5EEvRN3hls6streamIT_Li0EEERNS9_IT0_Li0EEEPNT1_8weight_tEPNSG_6bias_tEE11line_buffer"/>
-<pragma file="firmware/nnet_utils/nnet_dense.h" line="53" pragmaType="inline" parentfunction="dense" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="1" style=""/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="weights"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="biases"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="29" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="biases"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="30" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="mult"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="31" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="acc"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="144" instances="mul "/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="shift" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="184" pragmaType="inline" parentfunction="kernel_shift_2d" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="206" pragmaType="unroll" parentfunction="kernel_shift_2d" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="190" pragmaType="pipeline" parentfunction="kernel_shift_2d" off="0" ii="1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="9" pragmaType="inline" parentfunction="fill_zero" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="12" pragmaType="unroll" parentfunction="fill_zero" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="19" pragmaType="inline" parentfunction="fill_data" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="23" pragmaType="unroll" parentfunction="fill_data" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="29" pragmaType="pipeline" parentfunction="conv_2d_buffer_latency_cl" off="0" ii="1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="28" pragmaType="loop_flatten" parentfunction="conv_2d_buffer_latency_cl" off="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="22" pragmaType="array_partition" parentfunction="conv_2d_buffer_latency_cl" dim="2" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj1EEENS1_IS5_Lj4EEE7config2EEvRN3hls6streamIT_Li0EEERNSA_IT0_Li0EEEPNT1_8weight_tEPNSH_6bias_tEE11line_buffer"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 257u>::ap_shift_reg()" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="aggregate" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 257u>::ap_shift_reg()" compact="1" variable="Array"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="22" pragmaType="array_partition" parentfunction="conv_2d_buffer_latency_cl" dim="2" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi10ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EELj6EEES6_8config12EEvRN3hls6streamIT_Li0EEERNS9_IT0_Li0EEEPNT1_8weight_tEPNSG_6bias_tEE11line_buffer"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_shift_reg<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 66u>::ap_shift_reg()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="aggregate" parentfunction="ap_shift_reg<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 66u>::ap_shift_reg()" compact="1" variable="Array"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="258" pragmaType="inline" parentfunction="compute_output_buffer_2d" off="1" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="294" pragmaType="unroll" parentfunction="compute_output_buffer_2d" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="272" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="1" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj1EEENS1_IS5_Lj4EEE7config2EEvRKT_PAsrT1_6n_chan_12ap_shift_regINS9_10value_typeEXsrSC_8in_widthEERN3hls6streamIT0_Li0EEEPNSC_8weight_tEPNSC_6bias_tEE11kernel_data"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="272" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="1" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi10ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EELj6EEES6_8config12EEvRKT_PAsrT1_6n_chan_12ap_shift_regINS8_10value_typeEXsrSB_8in_widthEERN3hls6streamIT0_Li0EEEPNSB_8weight_tEPNSB_6bias_tEE11kernel_data"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="275" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="0" factor="0" mode="complete" dynamic="0" variable="res_out"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="221" pragmaType="pipeline" parentfunction="shift_line_buffer" off="0" ii="-1" style=""/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="240" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="229" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="225" pragmaType="array_partition" parentfunction="shift_line_buffer" dim="0" factor="0" mode="complete" dynamic="0" variable="shift_buffer"/>
 <pragma file="firmware/nnet_utils/nnet_dense.h" line="53" pragmaType="inline" parentfunction="dense" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="1" style=""/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="8" style=""/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="weights"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="biases"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="29" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="biases"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="30" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="mult"/>
 <pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="31" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="acc"/>
-<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="36" instances="mul "/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="41" instances="mul "/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="shift" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="184" pragmaType="inline" parentfunction="kernel_shift_2d" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="206" pragmaType="unroll" parentfunction="kernel_shift_2d" factor="-1" skip_exit_check="0"/>
@@ -421,23 +444,131 @@
 <pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="12" pragmaType="unroll" parentfunction="fill_zero" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="19" pragmaType="inline" parentfunction="fill_data" off="0" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="23" pragmaType="unroll" parentfunction="fill_data" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="258" pragmaType="inline" parentfunction="compute_output_buffer_2d" off="1" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="294" pragmaType="unroll" parentfunction="compute_output_buffer_2d" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="272" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="1" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi10ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EELj4EEENS1_IS5_Lj6EEE7config9EEvRKT_PAsrT1_6n_chan_12ap_shift_regINS9_10value_typeEXsrSC_8in_widthEERN3hls6streamIT0_Li0EEEPNSC_8weight_tEPNSC_6bias_tEE11kernel_data"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="275" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="0" factor="0" mode="complete" dynamic="0" variable="res_out"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="29" pragmaType="pipeline" parentfunction="conv_2d_buffer_latency_cl" off="0" ii="8" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="28" pragmaType="loop_flatten" parentfunction="conv_2d_buffer_latency_cl" off="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="22" pragmaType="array_partition" parentfunction="conv_2d_buffer_latency_cl" dim="2" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi10ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EELj4EEENS1_IS5_Lj6EEE7config9EEvRN3hls6streamIT_Li0EEERNSA_IT0_Li0EEEPNT1_8weight_tEPNSH_6bias_tEE11line_buffer"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_shift_reg<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 129u>::ap_shift_reg()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="aggregate" parentfunction="ap_shift_reg<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 129u>::ap_shift_reg()" compact="1" variable="Array"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="221" pragmaType="pipeline" parentfunction="shift_line_buffer" off="0" ii="-1" style=""/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="240" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="229" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="225" pragmaType="array_partition" parentfunction="shift_line_buffer" dim="0" factor="0" mode="complete" dynamic="0" variable="shift_buffer"/>
+<pragma file="firmware/nnet_utils/nnet_dense.h" line="53" pragmaType="inline" parentfunction="dense" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="8" style=""/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="weights"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="biases"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="29" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="biases"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="30" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="mult"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="31" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="acc"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="27" instances="mul "/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="shift" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="184" pragmaType="inline" parentfunction="kernel_shift_2d" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="206" pragmaType="unroll" parentfunction="kernel_shift_2d" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="190" pragmaType="pipeline" parentfunction="kernel_shift_2d" off="0" ii="1" rewind="0" style=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="9" pragmaType="inline" parentfunction="fill_zero" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="12" pragmaType="unroll" parentfunction="fill_zero" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="19" pragmaType="inline" parentfunction="fill_data" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="23" pragmaType="unroll" parentfunction="fill_data" factor="-1" skip_exit_check="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<27, 9, true>::plus ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="29" pragmaType="pipeline" parentfunction="conv_2d_buffer_latency_cl" off="0" ii="8" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="28" pragmaType="loop_flatten" parentfunction="conv_2d_buffer_latency_cl" off="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="22" pragmaType="array_partition" parentfunction="conv_2d_buffer_latency_cl" dim="2" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj4EEENS1_IS2_ILi10ELi2ELS3_5ELS4_3ELi0EELj4EEE7config5EEvRN3hls6streamIT_Li0EEERNSB_IT0_Li0EEEPNT1_8weight_tEPNSI_6bias_tEE11line_buffer"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 130u>::ap_shift_reg()" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="aggregate" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 130u>::ap_shift_reg()" compact="1" variable="Array"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="258" pragmaType="inline" parentfunction="compute_output_buffer_2d" off="1" region="0" recursive="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="294" pragmaType="unroll" parentfunction="compute_output_buffer_2d" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="272" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="1" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj4EEES6_7config5EEvRKT_PAsrT1_6n_chan_12ap_shift_regINS8_10value_typeEXsrSB_8in_widthEERN3hls6streamIT0_Li0EEEPNSB_8weight_tEPNSB_6bias_tEE11kernel_data"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="272" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="1" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj4EEENS1_IS2_ILi10ELi2ELS3_5ELS4_3ELi0EELj4EEE7config5EEvRKT_PAsrT1_6n_chan_12ap_shift_regINSA_10value_typeEXsrSD_8in_widthEERN3hls6streamIT0_Li0EEEPNSD_8weight_tEPNSD_6bias_tEE11kernel_data"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="275" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="0" factor="0" mode="complete" dynamic="0" variable="res_out"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="221" pragmaType="pipeline" parentfunction="shift_line_buffer" off="0" ii="-1" style=""/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="240" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="229" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
 <pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="225" pragmaType="array_partition" parentfunction="shift_line_buffer" dim="0" factor="0" mode="complete" dynamic="0" variable="shift_buffer"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<($_0)32, ($_0)32, false>::mult operator*<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&, unsigned int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<48, 38, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<($_0)32, ($_0)32, true>::div operator/<48, 38, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<48, 38, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&, int)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<49, 39, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator int() const" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<17, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+=<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<33, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_dense.h" line="53" pragmaType="inline" parentfunction="dense" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="8" style=""/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="weights"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="biases"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="29" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="biases"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="30" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="mult"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="31" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="acc"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="18" instances="mul "/>
+<pragma file="firmware/nnet_utils/nnet_mult.h" line="72" pragmaType="inline" parentfunction="product" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::RType<10, 2, true>::mult ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator*<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="shift" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="184" pragmaType="inline" parentfunction="kernel_shift_2d" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="206" pragmaType="unroll" parentfunction="kernel_shift_2d" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="190" pragmaType="pipeline" parentfunction="kernel_shift_2d" off="0" ii="1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="9" pragmaType="inline" parentfunction="fill_zero" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="12" pragmaType="unroll" parentfunction="fill_zero" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="19" pragmaType="inline" parentfunction="fill_data" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="23" pragmaType="unroll" parentfunction="fill_data" factor="-1" skip_exit_check="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="bool ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator><27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="29" pragmaType="pipeline" parentfunction="conv_2d_buffer_latency_cl" off="0" ii="8" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="28" pragmaType="loop_flatten" parentfunction="conv_2d_buffer_latency_cl" off="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv2d_stream.h" line="22" pragmaType="array_partition" parentfunction="conv_2d_buffer_latency_cl" dim="2" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj1EEENS1_IS2_ILi10ELi2ELS3_5ELS4_3ELi0EELj4EEE7config2EEvRN3hls6streamIT_Li0EEERNSB_IT0_Li0EEEPNT1_8weight_tEPNSI_6bias_tEE11line_buffer"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 257u>::ap_shift_reg()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="aggregate" parentfunction="ap_shift_reg<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 257u>::ap_shift_reg()" compact="1" variable="Array"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="258" pragmaType="inline" parentfunction="compute_output_buffer_2d" off="1" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="294" pragmaType="unroll" parentfunction="compute_output_buffer_2d" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="272" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="1" factor="0" mode="complete" dynamic="0" variable="_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj1EEENS1_IS2_ILi10ELi2ELS3_5ELS4_3ELi0EELj4EEE7config2EEvRKT_PAsrT1_6n_chan_12ap_shift_regINSA_10value_typeEXsrSD_8in_widthEERN3hls6streamIT0_Li0EEEPNSD_8weight_tEPNSD_6bias_tEE11kernel_data"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="275" pragmaType="array_partition" parentfunction="compute_output_buffer_2d" dim="0" factor="0" mode="complete" dynamic="0" variable="res_out"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="221" pragmaType="pipeline" parentfunction="shift_line_buffer" off="0" ii="-1" style=""/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="240" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="229" pragmaType="unroll" parentfunction="shift_line_buffer" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="225" pragmaType="array_partition" parentfunction="shift_line_buffer" dim="0" factor="0" mode="complete" dynamic="0" variable="shift_buffer"/>
+<pragma file="firmware/nnet_utils/nnet_dense.h" line="53" pragmaType="inline" parentfunction="dense" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="26" pragmaType="pipeline" parentfunction="dense_latency" off="0" ii="8" style=""/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="weights"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="21" pragmaType="function_instantiate" parentfunction="dense_latency" variable="biases"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="29" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="biases"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="30" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="mult"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="31" pragmaType="array_partition" parentfunction="dense_latency" dim="1" factor="0" mode="complete" dynamic="0" variable="acc"/>
+<pragma file="firmware/nnet_utils/nnet_dense_latency.h" line="33" pragmaType="allocation" parentfunction="dense_latency" type="0" limit="5" instances="mul "/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="shift" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="184" pragmaType="inline" parentfunction="kernel_shift_2d" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="206" pragmaType="unroll" parentfunction="kernel_shift_2d" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_conv_stream.h" line="190" pragmaType="pipeline" parentfunction="kernel_shift_2d" off="0" ii="1" rewind="0" style=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="9" pragmaType="inline" parentfunction="fill_zero" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="12" pragmaType="unroll" parentfunction="fill_zero" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="19" pragmaType="inline" parentfunction="fill_data" off="0" region="0" recursive="0"/>
+<pragma file="firmware/nnet_utils/nnet_padding_stream.h" line="23" pragmaType="unroll" parentfunction="fill_data" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_stream.h" line="23" pragmaType="pipeline" parentfunction="clone_stream" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_stream.h" line="33" pragmaType="unroll" parentfunction="clone_stream" factor="-1" skip_exit_check="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+=<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+=<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<31, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<31, 13, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<30, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<11, 3, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<11, 3, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<28, 10, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<10, 2, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1u>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<27, 9, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<26, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<12, true>& ap_int_base<12, true>::operator=<13, true>(ap_int_base<13, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<36, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<37, 17, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<37, 17, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 </pragmas>

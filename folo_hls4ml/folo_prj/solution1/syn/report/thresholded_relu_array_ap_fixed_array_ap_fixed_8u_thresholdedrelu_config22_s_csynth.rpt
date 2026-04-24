@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'thresholded_relu_array_ap_fixed_array_ap_fixed_8u_thresholdedrelu_config22_s'
 ================================================================
-* Date:           Thu Apr 23 22:46:42 2026
+* Date:           Fri Apr 24 00:23:04 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        folo_prj
@@ -20,7 +20,7 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  5.00 ns|  3.647 ns|     1.35 ns|
+    |ap_clk  |  5.00 ns|  3.597 ns|     1.35 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
@@ -54,14 +54,14 @@
 |       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
 +-----------------+---------+------+--------+--------+-----+
 |DSP              |        -|     -|       -|       -|    -|
-|Expression       |        -|     -|       0|     348|    -|
+|Expression       |        -|     -|       0|     404|    -|
 |FIFO             |        -|     -|       -|       -|    -|
 |Instance         |        -|     -|       -|       -|    -|
 |Memory           |        -|     -|       -|       -|    -|
 |Multiplexer      |        -|     -|       0|      63|    -|
-|Register         |        -|     -|     135|       -|    -|
+|Register         |        -|     -|      95|       -|    -|
 +-----------------+---------+------+--------+--------+-----+
-|Total            |        0|     0|     135|     411|    0|
+|Total            |        0|     0|      95|     467|    0|
 +-----------------+---------+------+--------+--------+-----+
 |Available        |     1080|  1700|  406256|  203128|    0|
 +-----------------+---------+------+--------+--------+-----+
@@ -85,31 +85,31 @@
     +---------------------------------------+----------+----+---+----+------------+------------+
     |             Variable Name             | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +---------------------------------------+----------+----+---+----+------------+------------+
-    |i_fu_373_p2                            |         +|   0|  0|  17|          10|           1|
+    |i_fu_395_p2                            |         +|   0|  0|  17|          10|           1|
     |ap_condition_129                       |       and|   0|  0|   2|           1|           1|
-    |icmp_ln528_fu_379_p2                   |      icmp|   0|  0|  17|          10|           2|
-    |icmp_ln538_1_fu_275_p2                 |      icmp|   0|  0|  23|          16|           1|
-    |icmp_ln538_2_fu_289_p2                 |      icmp|   0|  0|  23|          16|           1|
-    |icmp_ln538_3_fu_303_p2                 |      icmp|   0|  0|  23|          16|           1|
-    |icmp_ln538_4_fu_317_p2                 |      icmp|   0|  0|  23|          16|           1|
-    |icmp_ln538_5_fu_331_p2                 |      icmp|   0|  0|  23|          16|           1|
-    |icmp_ln538_6_fu_345_p2                 |      icmp|   0|  0|  23|          16|           1|
-    |icmp_ln538_7_fu_359_p2                 |      icmp|   0|  0|  23|          16|           1|
-    |icmp_ln538_fu_261_p2                   |      icmp|   0|  0|  23|          16|           1|
+    |icmp_ln528_fu_401_p2                   |      icmp|   0|  0|  17|          10|           2|
+    |icmp_ln538_1_fu_227_p2                 |      icmp|   0|  0|  35|          28|           1|
+    |icmp_ln538_2_fu_251_p2                 |      icmp|   0|  0|  35|          28|           1|
+    |icmp_ln538_3_fu_275_p2                 |      icmp|   0|  0|  35|          28|           1|
+    |icmp_ln538_4_fu_299_p2                 |      icmp|   0|  0|  35|          28|           1|
+    |icmp_ln538_5_fu_323_p2                 |      icmp|   0|  0|  35|          28|           1|
+    |icmp_ln538_6_fu_347_p2                 |      icmp|   0|  0|  35|          28|           1|
+    |icmp_ln538_7_fu_371_p2                 |      icmp|   0|  0|  35|          28|           1|
+    |icmp_ln538_fu_203_p2                   |      icmp|   0|  0|  35|          28|           1|
     |ap_block_pp0_stage0_01001_grp1         |        or|   0|  0|   2|           1|           1|
     |ap_block_pp0_stage0_11001              |        or|   0|  0|   2|           1|           1|
     |ap_block_state1_pp0_stage0_iter0_grp1  |        or|   0|  0|   2|           1|           1|
-    |select_ln538_1_fu_281_p3               |    select|   0|  0|  15|           1|          15|
-    |select_ln538_2_fu_295_p3               |    select|   0|  0|  15|           1|          15|
-    |select_ln538_3_fu_309_p3               |    select|   0|  0|  15|           1|          15|
-    |select_ln538_4_fu_323_p3               |    select|   0|  0|  15|           1|          15|
-    |select_ln538_5_fu_337_p3               |    select|   0|  0|  15|           1|          15|
-    |select_ln538_6_fu_351_p3               |    select|   0|  0|  15|           1|          15|
-    |select_ln538_7_fu_365_p3               |    select|   0|  0|  15|           1|          15|
-    |select_ln538_fu_267_p3                 |    select|   0|  0|  15|           1|          15|
+    |select_ln538_1_fu_243_p3               |    select|   0|  0|  10|           1|          10|
+    |select_ln538_2_fu_267_p3               |    select|   0|  0|  10|           1|          10|
+    |select_ln538_3_fu_291_p3               |    select|   0|  0|  10|           1|          10|
+    |select_ln538_4_fu_315_p3               |    select|   0|  0|  10|           1|          10|
+    |select_ln538_5_fu_339_p3               |    select|   0|  0|  10|           1|          10|
+    |select_ln538_6_fu_363_p3               |    select|   0|  0|  10|           1|          10|
+    |select_ln538_7_fu_387_p3               |    select|   0|  0|  10|           1|          10|
+    |select_ln538_fu_219_p3                 |    select|   0|  0|  10|           1|          10|
     |ap_enable_pp0                          |       xor|   0|  0|   2|           1|           2|
     +---------------------------------------+----------+----+---+----+------------+------------+
-    |Total                                  |          |   0|  0| 348|         161|         137|
+    |Total                                  |          |   0|  0| 404|         257|          97|
     +---------------------------------------+----------+----+---+----+------------+------------+
 
     * Multiplexer: 
@@ -119,7 +119,7 @@
     |ap_done_int                       |   9|          2|    1|          2|
     |ap_loop_exit_ready_pp0_iter1_reg  |   9|          2|    1|          2|
     |ap_sig_allocacmp_i_14             |   9|          2|   10|         20|
-    |i_13_fu_88                        |   9|          2|   10|         20|
+    |i_13_fu_104                       |   9|          2|   10|         20|
     |layer21_out_blk_n                 |   9|          2|    1|          2|
     |layer22_out_blk_n                 |   9|          2|    1|          2|
     |real_start                        |   9|          2|    1|          2|
@@ -135,18 +135,18 @@
     |ap_done_reg                       |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter1           |   1|   0|    1|          0|
     |ap_loop_exit_ready_pp0_iter1_reg  |   1|   0|    1|          0|
-    |i_13_fu_88                        |  10|   0|   10|          0|
-    |select_ln538_1_reg_447            |  15|   0|   15|          0|
-    |select_ln538_2_reg_452            |  15|   0|   15|          0|
-    |select_ln538_3_reg_457            |  15|   0|   15|          0|
-    |select_ln538_4_reg_462            |  15|   0|   15|          0|
-    |select_ln538_5_reg_467            |  15|   0|   15|          0|
-    |select_ln538_6_reg_472            |  15|   0|   15|          0|
-    |select_ln538_7_reg_477            |  15|   0|   15|          0|
-    |select_ln538_reg_442              |  15|   0|   15|          0|
+    |i_13_fu_104                       |  10|   0|   10|          0|
+    |select_ln538_1_reg_437            |  10|   0|   10|          0|
+    |select_ln538_2_reg_442            |  10|   0|   10|          0|
+    |select_ln538_3_reg_447            |  10|   0|   10|          0|
+    |select_ln538_4_reg_452            |  10|   0|   10|          0|
+    |select_ln538_5_reg_457            |  10|   0|   10|          0|
+    |select_ln538_6_reg_462            |  10|   0|   10|          0|
+    |select_ln538_7_reg_467            |  10|   0|   10|          0|
+    |select_ln538_reg_432              |  10|   0|   10|          0|
     |start_once_reg                    |   1|   0|    1|          0|
     +----------------------------------+----+----+-----+-----------+
-    |Total                             | 135|   0|  135|          0|
+    |Total                             |  95|   0|   95|          0|
     +----------------------------------+----+----+-----+-----------+
 
 
@@ -168,12 +168,12 @@
 |ap_ready                    |  out|    1|  ap_ctrl_hs|  thresholded_relu<array,ap_fixed,array<ap_fixed,8u>,thresholdedrelu_config22>|  return value|
 |start_out                   |  out|    1|  ap_ctrl_hs|  thresholded_relu<array,ap_fixed,array<ap_fixed,8u>,thresholdedrelu_config22>|  return value|
 |start_write                 |  out|    1|  ap_ctrl_hs|  thresholded_relu<array,ap_fixed,array<ap_fixed,8u>,thresholdedrelu_config22>|  return value|
-|layer21_out_dout            |   in|  128|     ap_fifo|                                                                   layer21_out|       pointer|
+|layer21_out_dout            |   in|  224|     ap_fifo|                                                                   layer21_out|       pointer|
 |layer21_out_empty_n         |   in|    1|     ap_fifo|                                                                   layer21_out|       pointer|
 |layer21_out_read            |  out|    1|     ap_fifo|                                                                   layer21_out|       pointer|
 |layer21_out_num_data_valid  |   in|    3|     ap_fifo|                                                                   layer21_out|       pointer|
 |layer21_out_fifo_cap        |   in|    3|     ap_fifo|                                                                   layer21_out|       pointer|
-|layer22_out_din             |  out|  128|     ap_fifo|                                                                   layer22_out|       pointer|
+|layer22_out_din             |  out|   80|     ap_fifo|                                                                   layer22_out|       pointer|
 |layer22_out_full_n          |   in|    1|     ap_fifo|                                                                   layer22_out|       pointer|
 |layer22_out_write           |  out|    1|     ap_fifo|                                                                   layer22_out|       pointer|
 |layer22_out_num_data_valid  |   in|   32|     ap_fifo|                                                                   layer22_out|       pointer|

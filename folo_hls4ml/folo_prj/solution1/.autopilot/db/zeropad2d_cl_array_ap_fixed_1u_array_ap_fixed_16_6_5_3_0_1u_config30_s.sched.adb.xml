@@ -289,7 +289,7 @@ CopyMain.split:0 %speclooptripcount_ln59 = speclooptripcount void @_ssdm_op_Spec
 
 <Node id="15" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-CopyMain.split:1 %specloopname_ln59 = specloopname void @_ssdm_op_SpecLoopName, void @empty_14
+CopyMain.split:1 %specloopname_ln59 = specloopname void @_ssdm_op_SpecLoopName, void @empty
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln59"/></StgValue>

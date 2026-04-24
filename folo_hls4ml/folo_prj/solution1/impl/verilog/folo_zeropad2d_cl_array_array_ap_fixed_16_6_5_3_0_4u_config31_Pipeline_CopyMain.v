@@ -37,8 +37,8 @@ output   ap_ready;
 input  [63:0] layer27_cpy1_dout;
 input   layer27_cpy1_empty_n;
 output   layer27_cpy1_read;
-input  [6:0] layer27_cpy1_num_data_valid;
-input  [6:0] layer27_cpy1_fifo_cap;
+input  [4:0] layer27_cpy1_num_data_valid;
+input  [4:0] layer27_cpy1_fifo_cap;
 output  [63:0] layer31_out_din;
 input   layer31_out_full_n;
 output   layer31_out_write;
@@ -64,10 +64,10 @@ reg    layer27_cpy1_blk_n;
 wire    ap_block_pp0_stage0_grp1;
 reg    layer31_out_blk_n;
 reg   [7:0] j_fu_36;
-wire   [7:0] j_10_fu_68_p2;
+wire   [7:0] j_4_fu_68_p2;
 wire    ap_loop_init;
 reg    ap_block_pp0_stage0_11001;
-reg   [7:0] ap_sig_allocacmp_j_9;
+reg   [7:0] ap_sig_allocacmp_j_3;
 wire    ap_block_pp0_stage0;
 reg    ap_block_pp0_stage0_11001_grp1;
 reg    ap_block_pp0_stage0_01001_grp1;
@@ -139,7 +139,7 @@ end
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
         if (((icmp_ln65_fu_62_p2 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1))) begin
-            j_fu_36 <= j_10_fu_68_p2;
+            j_fu_36 <= j_4_fu_68_p2;
         end else if ((ap_loop_init == 1'b1)) begin
             j_fu_36 <= 8'd0;
         end
@@ -188,9 +188,9 @@ end
 
 always @ (*) begin
     if (((ap_loop_init == 1'b1) & (1'b0 == ap_block_pp0_stage0) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
-        ap_sig_allocacmp_j_9 = 8'd0;
+        ap_sig_allocacmp_j_3 = 8'd0;
     end else begin
-        ap_sig_allocacmp_j_9 = j_fu_36;
+        ap_sig_allocacmp_j_3 = j_fu_36;
     end
 end
 
@@ -273,9 +273,9 @@ assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage0;
 
 assign ap_ready = ap_ready_sig;
 
-assign icmp_ln65_fu_62_p2 = ((ap_sig_allocacmp_j_9 == 8'd128) ? 1'b1 : 1'b0);
+assign icmp_ln65_fu_62_p2 = ((ap_sig_allocacmp_j_3 == 8'd128) ? 1'b1 : 1'b0);
 
-assign j_10_fu_68_p2 = (ap_sig_allocacmp_j_9 + 8'd1);
+assign j_4_fu_68_p2 = (ap_sig_allocacmp_j_3 + 8'd1);
 
 assign layer31_out_din = layer27_cpy1_dout;
 

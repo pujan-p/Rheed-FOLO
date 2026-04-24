@@ -31,7 +31,7 @@
 						<control></control>
 						<opType></opType>
 						<implIndex></implIndex>
-						<coreName>FIFO</coreName>
+						<coreName>FIFO_SRL</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
 						<coreId>4294967295</coreId>
@@ -261,7 +261,7 @@
 					<Obj>
 						<type>0</type>
 						<id>9</id>
-						<name>j_9</name>
+						<name>j_3</name>
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>65</lineNumber>
@@ -375,7 +375,7 @@
 					<Obj>
 						<type>0</type>
 						<id>11</id>
-						<name>j_10</name>
+						<name>j_4</name>
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>65</lineNumber>
@@ -525,11 +525,11 @@
 						<rtlName></rtlName>
 						<control>auto</control>
 						<opType>fifo</opType>
-						<implIndex>memory</implIndex>
-						<coreName>FIFO</coreName>
+						<implIndex>srl</implIndex>
+						<coreName>FIFO_SRL</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>77</coreId>
+						<coreId>80</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1664,7 +1664,7 @@
 			</second>
 		</item>
 		<item>
-			<first>j_10_fu_68</first>
+			<first>j_4_fu_68</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -1688,7 +1688,7 @@
 		<count>5</count>
 		<item_version>0</item_version>
 		<item>
-			<first>j_9_load_fu_59</first>
+			<first>j_3_load_fu_59</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -1809,7 +1809,7 @@
 			<first>1</first>
 			<second>
 				<first>666</first>
-				<second>7</second>
+				<second>10</second>
 			</second>
 		</item>
 		<item>
@@ -1841,7 +1841,7 @@
 			<first>17</first>
 			<second>
 				<first>666</first>
-				<second>7</second>
+				<second>10</second>
 			</second>
 		</item>
 		<item>

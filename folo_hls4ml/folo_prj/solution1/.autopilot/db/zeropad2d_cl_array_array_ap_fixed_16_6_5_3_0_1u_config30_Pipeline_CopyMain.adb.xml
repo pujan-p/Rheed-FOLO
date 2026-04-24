@@ -100,10 +100,10 @@ newFuncRoot:4 %br_ln65 = br void %for.body25
 
 <Node id="9" bw="9" op_0_bw="9" op_1_bw="0">
 <![CDATA[
-for.body25:0 %j_11 = load i9 %j
+for.body25:0 %j_5 = load i9 %j
 
 ]]></Node>
-<StgValue><ssdm name="j_11"/></StgValue>
+<StgValue><ssdm name="j_5"/></StgValue>
 </operation>
 
 <operation id="11" st_id="1" stage="1" lat="1">
@@ -115,7 +115,7 @@ for.body25:0 %j_11 = load i9 %j
 
 <Node id="10" bw="1" op_0_bw="9" op_1_bw="9">
 <![CDATA[
-for.body25:1 %icmp_ln65 = icmp_eq  i9 %j_11, i9 256
+for.body25:1 %icmp_ln65 = icmp_eq  i9 %j_5, i9 256
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln65"/></StgValue>
@@ -130,10 +130,10 @@ for.body25:1 %icmp_ln65 = icmp_eq  i9 %j_11, i9 256
 
 <Node id="11" bw="9" op_0_bw="9" op_1_bw="9">
 <![CDATA[
-for.body25:2 %j_12 = add i9 %j_11, i9 1
+for.body25:2 %j_6 = add i9 %j_5, i9 1
 
 ]]></Node>
-<StgValue><ssdm name="j_12"/></StgValue>
+<StgValue><ssdm name="j_6"/></StgValue>
 </operation>
 
 <operation id="13" st_id="1" stage="1" lat="1">
@@ -161,7 +161,7 @@ for.body25:3 %br_ln65 = br i1 %icmp_ln65, void %for.body25.split, void %for.inc3
 
 <Node id="19" bw="0" op_0_bw="9" op_1_bw="9" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-for.body25.split:5 %store_ln65 = store i9 %j_12, i9 %j
+for.body25.split:5 %store_ln65 = store i9 %j_6, i9 %j
 
 ]]></Node>
 <StgValue><ssdm name="store_ln65"/></StgValue>
@@ -380,19 +380,19 @@ for.body25.split:6 %br_ln65 = br void %for.body25
 </dataflow>
 <dataflow id="86" from="j" to="store_ln65" fromId="5" toId="8">
 </dataflow>
-<dataflow id="87" from="j" to="j_11" fromId="5" toId="10">
+<dataflow id="87" from="j" to="j_5" fromId="5" toId="10">
 </dataflow>
-<dataflow id="88" from="j_11" to="icmp_ln65" fromId="10" toId="11">
+<dataflow id="88" from="j_5" to="icmp_ln65" fromId="10" toId="11">
 </dataflow>
 <dataflow id="90" from="StgValue_89" to="icmp_ln65" fromId="89" toId="11">
 </dataflow>
-<dataflow id="91" from="j_11" to="j_12" fromId="10" toId="12">
+<dataflow id="91" from="j_5" to="j_6" fromId="10" toId="12">
 </dataflow>
-<dataflow id="93" from="StgValue_92" to="j_12" fromId="92" toId="12">
+<dataflow id="93" from="StgValue_92" to="j_6" fromId="92" toId="12">
 </dataflow>
 <dataflow id="94" from="icmp_ln65" to="br_ln65" fromId="11" toId="13">
 </dataflow>
-<dataflow id="95" from="j_12" to="store_ln65" fromId="12" toId="14">
+<dataflow id="95" from="j_6" to="store_ln65" fromId="12" toId="14">
 </dataflow>
 <dataflow id="96" from="j" to="store_ln65" fromId="5" toId="14">
 </dataflow>

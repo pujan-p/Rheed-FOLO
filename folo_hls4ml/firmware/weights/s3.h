@@ -7,9 +7,9 @@
 #define S3_H_
 
 #ifndef __SYNTHESIS__
-model_default_t s3[4];
+b_1_1_scale_t s3[4];
 #else
-model_default_t s3[4] = {3.8854150772, 4.1879310608, 4.4630041122, 4.3680830002};
+b_1_1_scale_t s3[4] = {3.8854150772, 4.1879310608, 4.4630041122, 4.3680830002};
 
 #endif
 

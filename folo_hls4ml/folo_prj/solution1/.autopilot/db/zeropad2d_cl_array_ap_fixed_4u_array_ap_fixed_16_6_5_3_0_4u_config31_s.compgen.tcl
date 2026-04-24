@@ -10,7 +10,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 89 \
+    id 55 \
     name layer27_cpy1 \
     type fifo \
     dir I \
@@ -18,14 +18,14 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer27_cpy1 \
     op interface \
-    ports { layer27_cpy1_dout { I 64 vector } layer27_cpy1_empty_n { I 1 bit } layer27_cpy1_read { O 1 bit } layer27_cpy1_num_data_valid { I 7 vector } layer27_cpy1_fifo_cap { I 7 vector } } \
+    ports { layer27_cpy1_dout { I 64 vector } layer27_cpy1_empty_n { I 1 bit } layer27_cpy1_read { O 1 bit } layer27_cpy1_num_data_valid { I 5 vector } layer27_cpy1_fifo_cap { I 5 vector } } \
 } "
 }
 
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 90 \
+    id 56 \
     name layer31_out \
     type fifo \
     dir O \

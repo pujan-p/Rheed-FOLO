@@ -15,18 +15,18 @@ set hasInterrupt 0
 set DLRegFirstOffset 0
 set DLRegItemOffset 0
 set svuvm_can_support 1
-set cdfgNum 70
+set cdfgNum 72
 set C_modelName {zeropad2d_cl<array,array<ap_fixed,8u>,config35>_Pipeline_PadBottomWidth}
 set C_modelType { void 0 }
 set ap_memory_interface_dict [dict create]
 set C_modelArgList {
-	{ layer35_out int 128 regular {fifo 1 volatile }  }
+	{ layer35_out int 80 regular {fifo 1 volatile }  }
 }
 set hasAXIMCache 0
 set l_AXIML2Cache [list]
 set AXIMCacheInstDict [dict create]
 set C_modelArgMapList {[ 
-	{ "Name" : "layer35_out", "interface" : "fifo", "bitwidth" : 128, "direction" : "WRITEONLY"} ]}
+	{ "Name" : "layer35_out", "interface" : "fifo", "bitwidth" : 80, "direction" : "WRITEONLY"} ]}
 # RTL Port declarations: 
 set portNum 11
 set portList { 
@@ -36,7 +36,7 @@ set portList {
 	{ ap_done sc_out sc_logic 1 predone -1 } 
 	{ ap_idle sc_out sc_logic 1 done -1 } 
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
-	{ layer35_out_din sc_out sc_lv 128 signal 0 } 
+	{ layer35_out_din sc_out sc_lv 80 signal 0 } 
 	{ layer35_out_full_n sc_in sc_logic 1 signal 0 } 
 	{ layer35_out_write sc_out sc_logic 1 signal 0 } 
 	{ layer35_out_num_data_valid sc_in sc_lv 32 signal 0 } 
@@ -49,7 +49,7 @@ set NewPortList {[
  	{ "name": "ap_done", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "predone", "bundle":{"name": "ap_done", "role": "default" }} , 
  	{ "name": "ap_idle", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "done", "bundle":{"name": "ap_idle", "role": "default" }} , 
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
- 	{ "name": "layer35_out_din", "direction": "out", "datatype": "sc_lv", "bitwidth":128, "type": "signal", "bundle":{"name": "layer35_out", "role": "din" }} , 
+ 	{ "name": "layer35_out_din", "direction": "out", "datatype": "sc_lv", "bitwidth":80, "type": "signal", "bundle":{"name": "layer35_out", "role": "din" }} , 
  	{ "name": "layer35_out_full_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer35_out", "role": "full_n" }} , 
  	{ "name": "layer35_out_write", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer35_out", "role": "write" }} , 
  	{ "name": "layer35_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "layer35_out", "role": "num_data_valid" }} , 
@@ -71,5 +71,5 @@ set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	layer35_out { ap_fifo {  { layer35_out_din fifo_data_out 1 128 }  { layer35_out_full_n fifo_status_empty 0 1 }  { layer35_out_write fifo_data_in 1 1 }  { layer35_out_num_data_valid fifo_update 0 32 }  { layer35_out_fifo_cap fifo_data 0 32 } } }
+	layer35_out { ap_fifo {  { layer35_out_din fifo_data_out 1 80 }  { layer35_out_full_n fifo_status_empty 0 1 }  { layer35_out_write fifo_data_in 1 1 }  { layer35_out_num_data_valid fifo_update 0 32 }  { layer35_out_fifo_cap fifo_data 0 32 } } }
 }

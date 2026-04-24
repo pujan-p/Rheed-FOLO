@@ -19,10 +19,10 @@
 
 <Node id="4" bw="14" op_0_bw="32">
 <![CDATA[
-entry:0 %i_39 = alloca i32 1
+entry:0 %i = alloca i32 1
 
 ]]></Node>
-<StgValue><ssdm name="i_39"/></StgValue>
+<StgValue><ssdm name="i"/></StgValue>
 </operation>
 
 <operation id="5" st_id="1" stage="1" lat="1">
@@ -79,7 +79,7 @@ entry:3 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %la
 
 <Node id="8" bw="0" op_0_bw="14" op_1_bw="14">
 <![CDATA[
-entry:4 %store_ln22 = store i14 0, i14 %i_39
+entry:4 %store_ln22 = store i14 0, i14 %i
 
 ]]></Node>
 <StgValue><ssdm name="store_ln22"/></StgValue>
@@ -109,10 +109,10 @@ entry:5 %br_ln22 = br void %ClonePack.split
 
 <Node id="11" bw="14" op_0_bw="14" op_1_bw="0">
 <![CDATA[
-ClonePack.split:0 %i_40 = load i14 %i_39
+ClonePack.split:0 %i_39 = load i14 %i
 
 ]]></Node>
-<StgValue><ssdm name="i_40"/></StgValue>
+<StgValue><ssdm name="i_39"/></StgValue>
 </operation>
 
 <operation id="11" st_id="1" stage="1" lat="1">
@@ -154,7 +154,7 @@ ClonePack.split:2 %speclooptripcount_ln22 = speclooptripcount void @_ssdm_op_Spe
 
 <Node id="14" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-ClonePack.split:3 %specloopname_ln22 = specloopname void @_ssdm_op_SpecLoopName, void @empty
+ClonePack.split:3 %specloopname_ln22 = specloopname void @_ssdm_op_SpecLoopName, void @empty_14
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln22"/></StgValue>
@@ -176,7 +176,7 @@ ClonePack.split:4 %layer4_out_read = read i64 @_ssdm_op_Read.ap_fifo.volatile.i6
 </operation>
 
 <operation id="15" st_id="1" stage="1" lat="1">
-<core>FIFO</core>
+<core>FIFO_SRL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
@@ -214,10 +214,10 @@ ClonePack.split:6 %write_ln39 = write void @_ssdm_op_Write.ap_fifo.volatile.i64P
 
 <Node id="18" bw="14" op_0_bw="14" op_1_bw="14">
 <![CDATA[
-ClonePack.split:7 %i = add i14 %i_40, i14 1
+ClonePack.split:7 %i_40 = add i14 %i_39, i14 1
 
 ]]></Node>
-<StgValue><ssdm name="i"/></StgValue>
+<StgValue><ssdm name="i_40"/></StgValue>
 </operation>
 
 <operation id="18" st_id="1" stage="1" lat="1">
@@ -229,7 +229,7 @@ ClonePack.split:7 %i = add i14 %i_40, i14 1
 
 <Node id="19" bw="1" op_0_bw="14" op_1_bw="14">
 <![CDATA[
-ClonePack.split:8 %icmp_ln22 = icmp_eq  i14 %i_40, i14 16383
+ClonePack.split:8 %icmp_ln22 = icmp_eq  i14 %i_39, i14 16383
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln22"/></StgValue>
@@ -244,7 +244,7 @@ ClonePack.split:8 %icmp_ln22 = icmp_eq  i14 %i_40, i14 16383
 
 <Node id="20" bw="0" op_0_bw="14" op_1_bw="14" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-ClonePack.split:9 %store_ln22 = store i14 %i, i14 %i_39
+ClonePack.split:9 %store_ln22 = store i14 %i_40, i14 %i
 
 ]]></Node>
 <StgValue><ssdm name="store_ln22"/></StgValue>
@@ -289,7 +289,7 @@ for.end13:0 %ret_ln41 = ret
 <core>FIFO_SRL</core><StgValue><ssdm name="layer4_out"/></StgValue>
 </port>
 <port id="29" name="layer27_cpy1" dir="1" iftype="3">
-<core>FIFO</core><StgValue><ssdm name="layer27_cpy1"/></StgValue>
+<core>FIFO_SRL</core><StgValue><ssdm name="layer27_cpy1"/></StgValue>
 </port>
 <port id="30" name="layer27_cpy2" dir="1" iftype="3">
 <core>FIFO</core><StgValue><ssdm name="layer27_cpy2"/></StgValue>
@@ -298,7 +298,7 @@ for.end13:0 %ret_ln41 = ret
 
 
 <dataflows>
-<dataflow id="32" from="StgValue_31" to="i_39" fromId="31" toId="4">
+<dataflow id="32" from="StgValue_31" to="i" fromId="31" toId="4">
 </dataflow>
 <dataflow id="34" from="_ssdm_op_SpecInterface" to="specinterface_ln0" fromId="33" toId="5">
 </dataflow>
@@ -428,9 +428,9 @@ for.end13:0 %ret_ln41 = ret
 </dataflow>
 <dataflow id="102" from="StgValue_101" to="store_ln22" fromId="101" toId="8">
 </dataflow>
-<dataflow id="103" from="i_39" to="store_ln22" fromId="4" toId="8">
+<dataflow id="103" from="i" to="store_ln22" fromId="4" toId="8">
 </dataflow>
-<dataflow id="104" from="i_39" to="i_40" fromId="4" toId="10">
+<dataflow id="104" from="i" to="i_39" fromId="4" toId="10">
 </dataflow>
 <dataflow id="106" from="_ssdm_op_SpecPipeline" to="specpipeline_ln23" fromId="105" toId="11">
 </dataflow>
@@ -456,7 +456,7 @@ for.end13:0 %ret_ln41 = ret
 </dataflow>
 <dataflow id="120" from="_ssdm_op_SpecLoopName" to="specloopname_ln22" fromId="119" toId="13">
 </dataflow>
-<dataflow id="122" from="empty" to="specloopname_ln22" fromId="121" toId="13">
+<dataflow id="122" from="empty_14" to="specloopname_ln22" fromId="121" toId="13">
 </dataflow>
 <dataflow id="124" from="_ssdm_op_Read.ap_fifo.volatile.i64P0A" to="layer4_out_read" fromId="123" toId="14">
 </dataflow>
@@ -474,17 +474,17 @@ for.end13:0 %ret_ln41 = ret
 </dataflow>
 <dataflow id="132" from="layer4_out_read" to="write_ln39" fromId="14" toId="16">
 </dataflow>
-<dataflow id="133" from="i_40" to="i" fromId="10" toId="17">
+<dataflow id="133" from="i_39" to="i_40" fromId="10" toId="17">
 </dataflow>
-<dataflow id="135" from="StgValue_134" to="i" fromId="134" toId="17">
+<dataflow id="135" from="StgValue_134" to="i_40" fromId="134" toId="17">
 </dataflow>
-<dataflow id="136" from="i_40" to="icmp_ln22" fromId="10" toId="18">
+<dataflow id="136" from="i_39" to="icmp_ln22" fromId="10" toId="18">
 </dataflow>
 <dataflow id="138" from="StgValue_137" to="icmp_ln22" fromId="137" toId="18">
 </dataflow>
-<dataflow id="139" from="i" to="store_ln22" fromId="17" toId="19">
+<dataflow id="139" from="i_40" to="store_ln22" fromId="17" toId="19">
 </dataflow>
-<dataflow id="140" from="i_39" to="store_ln22" fromId="4" toId="19">
+<dataflow id="140" from="i" to="store_ln22" fromId="4" toId="19">
 </dataflow>
 <dataflow id="141" from="icmp_ln22" to="br_ln22" fromId="18" toId="20">
 </dataflow>

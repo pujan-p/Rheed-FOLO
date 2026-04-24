@@ -37,7 +37,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>64</bitwidth>
+					<bitwidth>40</bitwidth>
 				</Value>
 				<direction>1</direction>
 				<if_type>3</if_type>
@@ -60,8 +60,8 @@
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>77</lineNumber>
-						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
-						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
+						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
+						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -73,7 +73,7 @@
 									<item class_id="12" tracking_level="0" version="0">
 										<first class_id="13" tracking_level="0" version="0">
 											<first>firmware/nnet_utils/nnet_padding_stream.h</first>
-											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
+											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
 										</first>
 										<second>77</second>
 									</item>
@@ -116,8 +116,8 @@
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>77</lineNumber>
-						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
-						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
+						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
+						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -129,7 +129,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_padding_stream.h</first>
-											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
+											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
 										</first>
 										<second>77</second>
 									</item>
@@ -215,8 +215,8 @@
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>77</lineNumber>
-						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
-						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
+						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
+						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -228,7 +228,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_padding_stream.h</first>
-											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
+											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
 										</first>
 										<second>77</second>
 									</item>
@@ -272,8 +272,8 @@
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>77</lineNumber>
-						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
-						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
+						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
+						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -285,7 +285,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_padding_stream.h</first>
-											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
+											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
 										</first>
 										<second>77</second>
 									</item>
@@ -329,8 +329,8 @@
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>77</lineNumber>
-						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
-						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
+						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
+						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -342,7 +342,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_padding_stream.h</first>
-											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
+											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
 										</first>
 										<second>77</second>
 									</item>
@@ -386,8 +386,8 @@
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>77</lineNumber>
-						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
-						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
+						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
+						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -399,7 +399,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_padding_stream.h</first>
-											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
+											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
 										</first>
 										<second>77</second>
 									</item>
@@ -444,8 +444,8 @@
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>15</lineNumber>
-						<contextFuncName>fill_zero&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
-						<contextNormFuncName>fill_zero_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
+						<contextFuncName>fill_zero&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
+						<contextNormFuncName>fill_zero_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -457,14 +457,14 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_padding_stream.h</first>
-											<second>fill_zero&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
+											<second>fill_zero&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
 										</first>
 										<second>15</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_padding_stream.h</first>
-											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
+											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
 										</first>
 										<second>78</second>
 									</item>
@@ -509,8 +509,8 @@
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>77</lineNumber>
-						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
-						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
+						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
+						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -522,7 +522,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_padding_stream.h</first>
-											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
+											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
 										</first>
 										<second>77</second>
 									</item>
@@ -568,8 +568,8 @@
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>77</lineNumber>
-						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
-						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
+						<contextFuncName>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</contextFuncName>
+						<contextNormFuncName>zeropad2d_cl_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_nnet_array_ap_fixed_10_2_ap_q_mode_5_ap_o_mode_3_0_4U_config32_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -581,7 +581,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_padding_stream.h</first>
-											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
+											<second>zeropad2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;10, 2, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 4U&amp;gt;, config32&amp;gt;</second>
 										</first>
 										<second>77</second>
 									</item>
@@ -810,7 +810,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>64</bitwidth>
+					<bitwidth>40</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>

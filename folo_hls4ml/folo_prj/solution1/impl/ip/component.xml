@@ -192,7 +192,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>4ef6ae97</spirit:value>
+            <spirit:value>d71d4a41</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -208,7 +208,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>93685d12</spirit:value>
+            <spirit:value>68449750</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -224,7 +224,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>3eecc6ad</spirit:value>
+            <spirit:value>66fd84ed</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -240,7 +240,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>8cea4137</spirit:value>
+            <spirit:value>17b53097</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -471,15 +471,15 @@
         <spirit:userFileType>USED_IN_out_of_context</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -487,87 +487,91 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config2_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_4u_config2_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config5_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_4u_config5_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config9_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_6u_config9_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config12_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_6u_config12_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config16_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_8u_config16_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config19_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_8u_config19_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config9_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config12_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config9_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config16_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config12_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config19_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config16_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_10_2_5_3_0_config2_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config19_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_10_2_5_3_0_config5_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w16_d2_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_ap_fixed_30_12_5_3_0_config36_mult_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_ap_fixed_36_16_5_3_0_config37_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -575,7 +579,43 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w64_d1_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w36_d1_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w40_d1_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w40_d8_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w40_d122_A.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w60_d1_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w60_d2_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w60_d4_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w60_d61_A.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w60_d68_A.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w60_d121_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -583,11 +623,7 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w64_d22_A.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w64_d33_A.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w64_d16_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -595,43 +631,31 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w64_d170_A.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w64_d245_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w64_d250_A.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w80_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d1_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w80_d2_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d2_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w80_d36_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d4_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w80_d62_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d8_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w108_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d60_A.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d73_A.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d119_A.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w128_d1_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w112_d2_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -639,11 +663,23 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w128_d40_A.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w162_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w128_d60_A.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w168_d2_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w216_d1_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w224_d2_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w240_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -675,111 +711,135 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_5ns_21_1_0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_5ns_15_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_5s_21_1_0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_5s_15_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_6ns_22_1_0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_6ns_16_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_6s_22_1_0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_6s_16_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_7ns_23_1_0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_7ns_17_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_7s_23_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_7s_16_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_8ns_24_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_7s_17_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_8s_24_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_8ns_18_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_9ns_25_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_8s_17_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_9s_25_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_8s_18_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_10ns_25_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_9s_18_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_10ns_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_10ns_20_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_10s_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_11ns_20_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_11ns_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_11ns_21_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_11s_26_1_0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_12ns_21_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_12ns_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_12ns_22_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_12s_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_12s_21_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_13ns_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_13ns_22_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_14ns_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_13s_21_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_14ns_23_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_16s_7s_20_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_16s_8ns_20_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_16s_8s_20_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_16s_9s_20_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_16s_12s_28_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -788,6 +848,38 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/verilog/folo_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config24_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_4u_config9_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_4u_config9_s_p_ZZN4nnet25conv_2d_lbW.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config12_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config12_s_p_ZZN4nnet25conv_2dtde.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config16_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config16_s_p_ZZN4nnet25conv_2dFfa.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_8u_config19_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_8u_config19_s_p_ZZN4nnet25conv_2dRg6.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -807,38 +899,6 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s_p_ZZN4nnet25conv_2d_lbW.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s_p_ZZN4nnet25conv_2dtde.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s_p_ZZN4nnet25conv_2dFfa.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s_p_ZZN4nnet25conv_2dRg6.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/verilog/folo_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config26_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
@@ -851,15 +911,15 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -867,67 +927,67 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -963,7 +1023,7 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3bbk.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config3bbk.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -971,15 +1031,15 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bdk.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config3bdk.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bfk.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config3bfk.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config3bhl.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config3bhl.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1011,23 +1071,23 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config32_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config31_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config32_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config33_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config33_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config34_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config34_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config35_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config35_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1055,6 +1115,30 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_4u_config32_Pipeline_CopyMain.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_6u_config33_Pipeline_PadMain.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_6u_config33_Pipeline_PadTopWidth.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_6u_config34_Pipeline_PadMain.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_8u_config35_Pipeline_PadMain.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_8u_config35_Pipeline_PadTopWidth.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config30_Pipeline_CopyMain.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
@@ -1064,30 +1148,6 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_PadTopWidth.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config32_Pipeline_CopyMain.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config33_Pipeline_PadMain.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config33_Pipeline_PadTopWidth.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config34_Pipeline_PadMain.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config35_Pipeline_PadMain.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config35_Pipeline_PadTopWidth.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1098,17 +1158,17 @@
     <spirit:fileSet>
       <spirit:name>xilinx_verilogbehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1118,107 +1178,112 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config2_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_4u_config2_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config5_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_4u_config5_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config9_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_6u_config9_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config12_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_6u_config12_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config16_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_8u_config16_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config19_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_8u_config19_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config9_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config12_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config9_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config16_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config12_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config19_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config16_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_10_2_5_3_0_config2_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config19_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_10_2_5_3_0_config5_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w16_d2_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_ap_fixed_30_12_5_3_0_config36_mult_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_dense_latency_ap_fixed_ap_fixed_36_16_5_3_0_config37_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1228,7 +1293,52 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w64_d1_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w36_d1_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w40_d1_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w40_d8_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w40_d122_A.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w60_d1_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w60_d2_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w60_d4_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w60_d61_A.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w60_d68_A.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w60_d121_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1238,12 +1348,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w64_d22_A.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w64_d33_A.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w64_d16_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1253,52 +1358,37 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w64_d170_A.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w64_d245_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w64_d250_A.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w80_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d1_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w80_d2_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d2_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w80_d36_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d4_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w80_d62_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d8_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w108_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d60_A.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d73_A.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w96_d119_A.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w128_d1_S.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w112_d2_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1308,12 +1398,27 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w128_d40_A.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w162_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_fifo_w128_d60_A.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_fifo_w168_d2_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w216_d1_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w224_d2_S.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_fifo_w240_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1353,137 +1458,167 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_5ns_21_1_0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_5ns_15_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_5s_21_1_0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_5s_15_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_6ns_22_1_0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_6ns_16_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_6s_22_1_0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_6s_16_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_7ns_23_1_0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_7ns_17_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_7s_23_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_7s_16_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_8ns_24_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_7s_17_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_8s_24_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_8ns_18_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_9ns_25_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_8s_17_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_9s_25_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_8s_18_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_10ns_25_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_9s_18_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_10ns_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_10ns_20_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_10s_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_11ns_20_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_11ns_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_11ns_21_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_11s_26_1_0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_12ns_21_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_12ns_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_12ns_22_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_12s_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_12s_21_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_13ns_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_13ns_22_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_mul_16s_14ns_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_13s_21_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_10s_14ns_23_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_16s_7s_20_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_16s_8ns_20_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_16s_8s_20_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_16s_9s_20_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_mul_16s_12s_28_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1494,6 +1629,46 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/verilog/folo_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config24_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_4u_config9_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_4u_config9_s_p_ZZN4nnet25conv_2d_lbW.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config12_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config12_s_p_ZZN4nnet25conv_2dtde.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config16_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config16_s_p_ZZN4nnet25conv_2dFfa.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_8u_config19_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_8u_config19_s_p_ZZN4nnet25conv_2dRg6.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1518,46 +1693,6 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s_p_ZZN4nnet25conv_2d_lbW.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s_p_ZZN4nnet25conv_2dtde.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s_p_ZZN4nnet25conv_2dFfa.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s_p_ZZN4nnet25conv_2dRg6.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/verilog/folo_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config26_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
@@ -1572,17 +1707,17 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1592,82 +1727,82 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1712,7 +1847,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3bbk.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config3bbk.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1722,17 +1857,17 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bdk.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config3bdk.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bfk.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config3bfk.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config3bhl.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config3bhl.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1772,27 +1907,27 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config32_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config31_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config32_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config33_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config33_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config34_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config34_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config35_s.v</spirit:name>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config35_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1827,6 +1962,36 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_4u_config32_Pipeline_CopyMain.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_6u_config33_Pipeline_PadMain.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_6u_config33_Pipeline_PadTopWidth.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_6u_config34_Pipeline_PadMain.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_8u_config35_Pipeline_PadMain.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_8u_config35_Pipeline_PadTopWidth.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config30_Pipeline_CopyMain.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
@@ -1838,36 +2003,6 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_PadTopWidth.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config32_Pipeline_CopyMain.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config33_Pipeline_PadMain.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config33_Pipeline_PadTopWidth.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config34_Pipeline_PadMain.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config35_Pipeline_PadMain.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config35_Pipeline_PadTopWidth.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1885,15 +2020,15 @@
         <spirit:userFileType>USED_IN_out_of_context</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1901,87 +2036,91 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config2_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_4u_config2_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config5_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_4u_config5_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config9_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_6u_config9_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config12_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_6u_config12_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config16_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_8u_config16_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config19_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_8u_config19_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config9_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config12_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config9_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config16_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config12_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config19_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config16_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_10_2_5_3_0_config2_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config19_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_10_2_5_3_0_config5_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w16_d2_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_ap_fixed_30_12_5_3_0_config36_mult_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_ap_fixed_36_16_5_3_0_config37_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1989,7 +2128,43 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w64_d1_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w36_d1_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w40_d1_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w40_d8_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w40_d122_A.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w60_d1_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w60_d2_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w60_d4_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w60_d61_A.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w60_d68_A.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w60_d121_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1997,11 +2172,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w64_d22_A.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w64_d33_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w64_d16_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2009,43 +2180,31 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w64_d170_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w64_d245_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w64_d250_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w80_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d1_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w80_d2_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d2_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w80_d36_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d4_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w80_d62_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d8_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w108_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d60_A.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d73_A.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d119_A.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w128_d1_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w112_d2_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2053,11 +2212,23 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w128_d40_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w162_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w128_d60_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w168_d2_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w216_d1_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w224_d2_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w240_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2069,111 +2240,135 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_5ns_21_1_0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_5ns_15_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_5s_21_1_0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_5s_15_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_6ns_22_1_0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_6ns_16_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_6s_22_1_0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_6s_16_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_7ns_23_1_0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_7ns_17_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_7s_23_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_7s_16_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_8ns_24_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_7s_17_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_8s_24_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_8ns_18_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_9ns_25_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_8s_17_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_9s_25_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_8s_18_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_10ns_25_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_9s_18_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_10ns_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_10ns_20_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_10s_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_11ns_20_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_11ns_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_11ns_21_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_11s_26_1_0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_12ns_21_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_12ns_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_12ns_22_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_12s_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_12s_21_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_13ns_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_13ns_22_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_14ns_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_13s_21_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_14ns_23_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_16s_7s_20_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_16s_8ns_20_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_16s_8s_20_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_16s_9s_20_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_16s_12s_28_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2182,6 +2377,38 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/folo_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config24_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_4u_config9_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_4u_config9_s_p_ZZN4nnet25conv_2d_lbW.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config12_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config12_s_p_ZZN4nnet25conv_2dtde.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config16_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config16_s_p_ZZN4nnet25conv_2dFfa.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_8u_config19_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_8u_config19_s_p_ZZN4nnet25conv_2dRg6.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2201,38 +2428,6 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s_p_ZZN4nnet25conv_2d_lbW.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s_p_ZZN4nnet25conv_2dtde.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s_p_ZZN4nnet25conv_2dFfa.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s_p_ZZN4nnet25conv_2dRg6.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/vhdl/folo_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config26_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
@@ -2241,15 +2436,15 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2257,67 +2452,67 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2353,7 +2548,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3bbk.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config3bbk.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2361,15 +2556,15 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bdk.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config3bdk.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bfk.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config3bfk.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config3bhl.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config3bhl.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2401,23 +2596,23 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config32_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config31_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config32_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config33_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config33_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config34_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config34_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config35_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config35_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2445,6 +2640,30 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_4u_config32_Pipeline_CopyMain.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_6u_config33_Pipeline_PadMain.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_6u_config33_Pipeline_PadTopWidth.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_6u_config34_Pipeline_PadMain.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_8u_config35_Pipeline_PadMain.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_8u_config35_Pipeline_PadTopWidth.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config30_Pipeline_CopyMain.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
@@ -2454,52 +2673,28 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_PadTopWidth.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config32_Pipeline_CopyMain.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config33_Pipeline_PadMain.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config33_Pipeline_PadTopWidth.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config34_Pipeline_PadMain.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config35_Pipeline_PadMain.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config35_Pipeline_PadTopWidth.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/folo.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_d8c1b17b</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_36b66784</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
       <spirit:name>xilinx_vhdlbehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2509,107 +2704,112 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config2_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_4u_config2_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config5_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_4u_config5_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config9_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_6u_config9_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config12_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_6u_config12_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config16_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_8u_config16_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config19_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_compute_output_buffer_2d_array_array_ap_fixed_10_2_5_3_0_8u_config19_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config9_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config12_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config9_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config16_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config12_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_10_2_5_3_0_ap_fixed_10_2_5_3_0_config19_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config16_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_10_2_5_3_0_config2_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config19_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_10_2_5_3_0_config5_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w16_d2_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_ap_fixed_30_12_5_3_0_config36_mult_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_dense_latency_ap_fixed_ap_fixed_36_16_5_3_0_config37_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2619,7 +2819,52 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w64_d1_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w36_d1_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w40_d1_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w40_d8_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w40_d122_A.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w60_d1_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w60_d2_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w60_d4_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w60_d61_A.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w60_d68_A.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w60_d121_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2629,12 +2874,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w64_d22_A.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w64_d33_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w64_d16_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2644,52 +2884,37 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w64_d170_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w64_d245_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w64_d250_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w80_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d1_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w80_d2_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d2_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w80_d36_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d4_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w80_d62_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d8_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w108_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d60_A.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d73_A.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w96_d119_A.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w128_d1_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w112_d2_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2699,12 +2924,27 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w128_d40_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w162_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_fifo_w128_d60_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_fifo_w168_d2_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w216_d1_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w224_d2_S.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_fifo_w240_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2719,137 +2959,167 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_5ns_21_1_0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_5ns_15_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_5s_21_1_0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_5s_15_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_6ns_22_1_0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_6ns_16_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_6s_22_1_0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_6s_16_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_7ns_23_1_0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_7ns_17_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_7s_23_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_7s_16_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_8ns_24_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_7s_17_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_8s_24_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_8ns_18_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_9ns_25_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_8s_17_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_9s_25_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_8s_18_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_10ns_25_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_9s_18_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_10ns_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_10ns_20_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_10s_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_11ns_20_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_11ns_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_11ns_21_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_11s_26_1_0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_12ns_21_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_12ns_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_12ns_22_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_12s_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_12s_21_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_13ns_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_13ns_22_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_mul_16s_14ns_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_13s_21_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_10s_14ns_23_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_16s_7s_20_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_16s_8ns_20_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_16s_8s_20_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_16s_9s_20_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_mul_16s_12s_28_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2860,6 +3130,46 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/folo_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config24_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_4u_config9_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_4u_config9_s_p_ZZN4nnet25conv_2d_lbW.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config12_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config12_s_p_ZZN4nnet25conv_2dtde.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config16_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_6u_config16_s_p_ZZN4nnet25conv_2dFfa.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_8u_config19_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_10_2_5_3_0_8u_config19_s_p_ZZN4nnet25conv_2dRg6.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2884,46 +3194,6 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s_p_ZZN4nnet25conv_2d_lbW.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s_p_ZZN4nnet25conv_2dtde.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s_p_ZZN4nnet25conv_2dFfa.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s_p_ZZN4nnet25conv_2dRg6.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/vhdl/folo_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config26_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
@@ -2934,17 +3204,17 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2954,82 +3224,82 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3074,7 +3344,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3bbk.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config3bbk.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3084,17 +3354,17 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bdk.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config3bdk.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bfk.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config3bfk.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config3bhl.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_start_for_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config3bhl.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3134,27 +3404,27 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config32_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config31_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config32_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config33_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config33_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config34_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config34_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config35_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config35_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3189,6 +3459,36 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_4u_config32_Pipeline_CopyMain.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_6u_config33_Pipeline_PadMain.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_6u_config33_Pipeline_PadTopWidth.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_6u_config34_Pipeline_PadMain.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_8u_config35_Pipeline_PadMain.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_8u_config35_Pipeline_PadTopWidth.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config30_Pipeline_CopyMain.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
@@ -3200,36 +3500,6 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_PadTopWidth.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config32_Pipeline_CopyMain.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config33_Pipeline_PadMain.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config33_Pipeline_PadTopWidth.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config34_Pipeline_PadMain.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config35_Pipeline_PadMain.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config35_Pipeline_PadTopWidth.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3291,11 +3561,11 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>latency</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="4">264599</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="4">528790</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>II</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.II" spirit:order="5">264196</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.II" spirit:order="5">528392</spirit:value>
     </spirit:parameter>
   </spirit:parameters>
   <spirit:vendorExtensions>
@@ -3309,7 +3579,7 @@
       <xilinx:displayName>Folo</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
       <xilinx:coreRevision>0</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2026-04-23T22:46:52Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2026-04-24T00:23:10Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>
@@ -3318,9 +3588,9 @@
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2025.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="feecc4d9"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="0da8e368"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="7c9ea476"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="e1a132c2"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="fb620f9d"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="48cf404d"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

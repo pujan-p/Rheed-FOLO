@@ -183,7 +183,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>64</bitwidth>
+					<bitwidth>40</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -239,7 +239,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>64</bitwidth>
+					<bitwidth>108</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -519,7 +519,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>64</bitwidth>
+					<bitwidth>40</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -575,7 +575,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>64</bitwidth>
+					<bitwidth>108</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -631,7 +631,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>64</bitwidth>
+					<bitwidth>112</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -687,7 +687,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>64</bitwidth>
+					<bitwidth>40</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -743,7 +743,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>64</bitwidth>
+					<bitwidth>40</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -799,7 +799,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>96</bitwidth>
+					<bitwidth>60</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -855,7 +855,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>96</bitwidth>
+					<bitwidth>162</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -911,7 +911,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>96</bitwidth>
+					<bitwidth>60</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -967,7 +967,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>96</bitwidth>
+					<bitwidth>60</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1023,7 +1023,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>96</bitwidth>
+					<bitwidth>60</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1079,7 +1079,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>96</bitwidth>
+					<bitwidth>60</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1135,7 +1135,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>96</bitwidth>
+					<bitwidth>60</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1191,7 +1191,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>96</bitwidth>
+					<bitwidth>162</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1247,7 +1247,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>96</bitwidth>
+					<bitwidth>168</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1303,7 +1303,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>96</bitwidth>
+					<bitwidth>60</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1359,7 +1359,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>96</bitwidth>
+					<bitwidth>60</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1415,7 +1415,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>80</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1471,7 +1471,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>216</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1527,7 +1527,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>80</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1583,7 +1583,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>80</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1639,7 +1639,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>80</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1695,7 +1695,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>80</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1751,7 +1751,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>80</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1807,7 +1807,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>216</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1863,7 +1863,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>224</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1919,7 +1919,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>80</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1975,7 +1975,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>240</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -2087,7 +2087,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>16</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -4617,7 +4617,7 @@
 					<Obj>
 						<type>2</type>
 						<id>538</id>
-						<name>conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_s</name>
+						<name>conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4641,14 +4641,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:conv_2d_cl&lt;array&lt;ap_fixed,1u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,4u&gt;,config2&gt;&gt;</content>
+				<content>&lt;constant:conv_2d_cl&lt;array&lt;ap_fixed,1u&gt;,array&lt;ap_fixed&lt;10,2,5,3,0&gt;,4u&gt;,config2&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_77">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>542</id>
-						<name>normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_s</name>
+						<name>normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4672,7 +4672,7 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:normalize&lt;array&lt;ap_fixed,4u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,4u&gt;,config3&gt;&gt;</content>
+				<content>&lt;constant:normalize&lt;array&lt;ap_fixed,4u&gt;,array&lt;ap_fixed&lt;27,9,5,3,0&gt;,4u&gt;,config3&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_78">
 				<Value>
@@ -4772,7 +4772,7 @@
 					<Obj>
 						<type>2</type>
 						<id>559</id>
-						<name>conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_s</name>
+						<name>conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4796,14 +4796,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:conv_2d_cl&lt;array&lt;ap_fixed,4u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,4u&gt;,config5&gt;&gt;</content>
+				<content>&lt;constant:conv_2d_cl&lt;array&lt;ap_fixed,4u&gt;,array&lt;ap_fixed&lt;10,2,5,3,0&gt;,4u&gt;,config5&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_82">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>563</id>
-						<name>normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_s</name>
+						<name>normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4827,14 +4827,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:normalize&lt;array&lt;ap_fixed,4u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,4u&gt;,config6&gt;&gt;</content>
+				<content>&lt;constant:normalize&lt;array&lt;ap_fixed,4u&gt;,array&lt;ap_fixed&lt;27,9,5,3,0&gt;,4u&gt;,config6&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_83">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>567</id>
-						<name>add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_s</name>
+						<name>add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4858,7 +4858,7 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:add&lt;array,array&lt;ap_fixed,4u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,4u&gt;,config7&gt;&gt;</content>
+				<content>&lt;constant:add&lt;array,array&lt;ap_fixed,4u&gt;,array&lt;ap_fixed&lt;28,10,5,3,0&gt;,4u&gt;,config7&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_84">
 				<Value>
@@ -4896,7 +4896,7 @@
 					<Obj>
 						<type>2</type>
 						<id>576</id>
-						<name>zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config32_s</name>
+						<name>zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config32_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4920,14 +4920,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:zeropad2d_cl&lt;array&lt;ap_fixed,4u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,4u&gt;,config32&gt;&gt;</content>
+				<content>&lt;constant:zeropad2d_cl&lt;array&lt;ap_fixed,4u&gt;,array&lt;ap_fixed&lt;10,2,5,3,0&gt;,4u&gt;,config32&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_86">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>580</id>
-						<name>conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_s</name>
+						<name>conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4951,14 +4951,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:conv_2d_cl&lt;array&lt;ap_fixed,4u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,6u&gt;,config9&gt;&gt;</content>
+				<content>&lt;constant:conv_2d_cl&lt;array&lt;ap_fixed,4u&gt;,array&lt;ap_fixed&lt;10,2,5,3,0&gt;,6u&gt;,config9&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_87">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>584</id>
-						<name>normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_s</name>
+						<name>normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4982,7 +4982,7 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:normalize&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,6u&gt;,config10&gt;&gt;</content>
+				<content>&lt;constant:normalize&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;27,9,5,3,0&gt;,6u&gt;,config10&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_88">
 				<Value>
@@ -5020,7 +5020,7 @@
 					<Obj>
 						<type>2</type>
 						<id>592</id>
-						<name>clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_s</name>
+						<name>clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5044,14 +5044,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:clone_stream&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,6u&gt;,24576&gt;&gt;</content>
+				<content>&lt;constant:clone_stream&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;10,2,5,3,0&gt;,6u&gt;,24576&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_90">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>597</id>
-						<name>zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config33_s</name>
+						<name>zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config33_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5075,14 +5075,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:zeropad2d_cl&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,6u&gt;,config33&gt;&gt;</content>
+				<content>&lt;constant:zeropad2d_cl&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;10,2,5,3,0&gt;,6u&gt;,config33&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_91">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>601</id>
-						<name>conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_s</name>
+						<name>conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5106,14 +5106,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:conv_2d_cl&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,6u&gt;,config12&gt;&gt;</content>
+				<content>&lt;constant:conv_2d_cl&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;10,2,5,3,0&gt;,6u&gt;,config12&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_92">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>605</id>
-						<name>normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_s</name>
+						<name>normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5137,14 +5137,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:normalize&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,6u&gt;,config13&gt;&gt;</content>
+				<content>&lt;constant:normalize&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;27,9,5,3,0&gt;,6u&gt;,config13&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_93">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>609</id>
-						<name>add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_s</name>
+						<name>add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5168,7 +5168,7 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:add&lt;array,array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,6u&gt;,config14&gt;&gt;</content>
+				<content>&lt;constant:add&lt;array,array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;28,10,5,3,0&gt;,6u&gt;,config14&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_94">
 				<Value>
@@ -5206,7 +5206,7 @@
 					<Obj>
 						<type>2</type>
 						<id>618</id>
-						<name>zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config34_s</name>
+						<name>zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config34_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5230,14 +5230,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:zeropad2d_cl&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,6u&gt;,config34&gt;&gt;</content>
+				<content>&lt;constant:zeropad2d_cl&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;10,2,5,3,0&gt;,6u&gt;,config34&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_96">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>622</id>
-						<name>conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_s</name>
+						<name>conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5261,14 +5261,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:conv_2d_cl&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,8u&gt;,config16&gt;&gt;</content>
+				<content>&lt;constant:conv_2d_cl&lt;array&lt;ap_fixed,6u&gt;,array&lt;ap_fixed&lt;10,2,5,3,0&gt;,8u&gt;,config16&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_97">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>626</id>
-						<name>normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_s</name>
+						<name>normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5292,7 +5292,7 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,8u&gt;,config17&gt;&gt;</content>
+				<content>&lt;constant:normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;27,9,5,3,0&gt;,8u&gt;,config17&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_98">
 				<Value>
@@ -5330,7 +5330,7 @@
 					<Obj>
 						<type>2</type>
 						<id>634</id>
-						<name>clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_s</name>
+						<name>clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5354,14 +5354,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:clone_stream&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,8u&gt;,8192&gt;&gt;</content>
+				<content>&lt;constant:clone_stream&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;10,2,5,3,0&gt;,8u&gt;,8192&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_100">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>639</id>
-						<name>zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config35_s</name>
+						<name>zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config35_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5385,14 +5385,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:zeropad2d_cl&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,8u&gt;,config35&gt;&gt;</content>
+				<content>&lt;constant:zeropad2d_cl&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;10,2,5,3,0&gt;,8u&gt;,config35&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_101">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>643</id>
-						<name>conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_s</name>
+						<name>conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5416,14 +5416,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:conv_2d_cl&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,8u&gt;,config19&gt;&gt;</content>
+				<content>&lt;constant:conv_2d_cl&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;10,2,5,3,0&gt;,8u&gt;,config19&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_102">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>647</id>
-						<name>normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_s</name>
+						<name>normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5447,14 +5447,14 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,8u&gt;,config20&gt;&gt;</content>
+				<content>&lt;constant:normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;27,9,5,3,0&gt;,8u&gt;,config20&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_103">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>651</id>
-						<name>add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_s</name>
+						<name>add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5478,7 +5478,7 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:add&lt;array,array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,8u&gt;,config21&gt;&gt;</content>
+				<content>&lt;constant:add&lt;array,array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;28,10,5,3,0&gt;,8u&gt;,config21&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_104">
 				<Value>
@@ -5516,7 +5516,7 @@
 					<Obj>
 						<type>2</type>
 						<id>660</id>
-						<name>pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_s</name>
+						<name>pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5540,7 +5540,7 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:pointwise_conv_2d_cl&lt;array,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,8u&gt;,config36&gt;&gt;</content>
+				<content>&lt;constant:pointwise_conv_2d_cl&lt;array,array&lt;ap_fixed&lt;30,12,5,3,0&gt;,8u&gt;,config36&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_106">
 				<Value>
@@ -5578,7 +5578,7 @@
 					<Obj>
 						<type>2</type>
 						<id>668</id>
-						<name>pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_s</name>
+						<name>pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5602,7 +5602,7 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:pointwise_conv_2d_cl&lt;array,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,1u&gt;,config37&gt;&gt;</content>
+				<content>&lt;constant:pointwise_conv_2d_cl&lt;array,array&lt;ap_fixed&lt;36,16,5,3,0&gt;,1u&gt;,config37&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_108">
 				<Value>
@@ -9645,8 +9645,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>264599</mMinLatency>
-			<mMaxLatency>264599</mMaxLatency>
+			<mMinLatency>528790</mMinLatency>
+			<mMaxLatency>528790</mMaxLatency>
 			<mIsDfPipe>1</mIsDfPipe>
 			<mDfPipe class_id="23" tracking_level="1" version="0" object_id="_665">
 				<port_list class_id="24" tracking_level="0" version="0">
@@ -9701,7 +9701,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_672">
 						<type>0</type>
-						<name>conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0</name>
+						<name>conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_U0</name>
 						<ssdmobj_id>462</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9713,7 +9713,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_673">
 						<type>0</type>
-						<name>normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_U0</name>
+						<name>normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_U0</name>
 						<ssdmobj_id>463</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9761,7 +9761,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_677">
 						<type>0</type>
-						<name>conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0</name>
+						<name>conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_U0</name>
 						<ssdmobj_id>467</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9773,7 +9773,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_678">
 						<type>0</type>
-						<name>normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_U0</name>
+						<name>normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_U0</name>
 						<ssdmobj_id>468</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9785,7 +9785,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_679">
 						<type>0</type>
-						<name>add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_U0</name>
+						<name>add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_U0</name>
 						<ssdmobj_id>469</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9809,7 +9809,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_681">
 						<type>0</type>
-						<name>zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config32_U0</name>
+						<name>zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config32_U0</name>
 						<ssdmobj_id>471</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9821,7 +9821,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_682">
 						<type>0</type>
-						<name>conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0</name>
+						<name>conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_U0</name>
 						<ssdmobj_id>472</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9833,7 +9833,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_683">
 						<type>0</type>
-						<name>normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_U0</name>
+						<name>normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_U0</name>
 						<ssdmobj_id>473</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9857,7 +9857,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_685">
 						<type>0</type>
-						<name>clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_U0</name>
+						<name>clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_U0</name>
 						<ssdmobj_id>475</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9869,7 +9869,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_686">
 						<type>0</type>
-						<name>zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config33_U0</name>
+						<name>zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config33_U0</name>
 						<ssdmobj_id>476</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9881,7 +9881,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_687">
 						<type>0</type>
-						<name>conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0</name>
+						<name>conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_U0</name>
 						<ssdmobj_id>477</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9893,7 +9893,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_688">
 						<type>0</type>
-						<name>normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_U0</name>
+						<name>normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_U0</name>
 						<ssdmobj_id>478</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9905,7 +9905,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_689">
 						<type>0</type>
-						<name>add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_U0</name>
+						<name>add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_U0</name>
 						<ssdmobj_id>479</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9929,7 +9929,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_691">
 						<type>0</type>
-						<name>zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config34_U0</name>
+						<name>zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config34_U0</name>
 						<ssdmobj_id>481</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9941,7 +9941,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_692">
 						<type>0</type>
-						<name>conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0</name>
+						<name>conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_U0</name>
 						<ssdmobj_id>482</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9953,7 +9953,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_693">
 						<type>0</type>
-						<name>normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_U0</name>
+						<name>normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_U0</name>
 						<ssdmobj_id>483</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9977,7 +9977,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_695">
 						<type>0</type>
-						<name>clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_U0</name>
+						<name>clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_U0</name>
 						<ssdmobj_id>485</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -9989,7 +9989,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_696">
 						<type>0</type>
-						<name>zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config35_U0</name>
+						<name>zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config35_U0</name>
 						<ssdmobj_id>486</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -10001,7 +10001,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_697">
 						<type>0</type>
-						<name>conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0</name>
+						<name>conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_U0</name>
 						<ssdmobj_id>487</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -10013,7 +10013,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_698">
 						<type>0</type>
-						<name>normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_U0</name>
+						<name>normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_U0</name>
 						<ssdmobj_id>488</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -10025,7 +10025,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_699">
 						<type>0</type>
-						<name>add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_U0</name>
+						<name>add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_U0</name>
 						<ssdmobj_id>489</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -10049,7 +10049,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_701">
 						<type>0</type>
-						<name>pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_U0</name>
+						<name>pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_U0</name>
 						<ssdmobj_id>491</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -10073,7 +10073,7 @@
 					</item>
 					<item class_id_reference="28" object_id="_703">
 						<type>0</type>
-						<name>pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_U0</name>
+						<name>pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_U0</name>
 						<ssdmobj_id>493</ssdmobj_id>
 						<pins>
 							<count>0</count>
@@ -10152,7 +10152,7 @@
 								</port>
 								<inst class_id_reference="31" object_id="_713">
 									<type>0</type>
-									<name>conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0</name>
+									<name>conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_U0</name>
 									<ssdmobj_id>462</ssdmobj_id>
 								</inst>
 							</item>
@@ -10167,7 +10167,7 @@
 						<ssdmobj_id>356</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>1</depth>
-						<bitwidth>64</bitwidth>
+						<bitwidth>40</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -10199,22 +10199,22 @@
 								</port>
 								<inst class_id_reference="31" object_id="_719">
 									<type>0</type>
-									<name>normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_U0</name>
+									<name>normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_U0</name>
 									<ssdmobj_id>463</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>64 1 1</storage_size>
+						<storage_size>40 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_720">
 						<type>1</type>
 						<name>layer3_out</name>
 						<ssdmobj_id>359</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>2</depth>
-						<bitwidth>64</bitwidth>
+						<depth>1</depth>
+						<bitwidth>108</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -10253,7 +10253,7 @@
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>64 2 1</storage_size>
+						<storage_size>108 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_726">
 						<type>1</type>
@@ -10307,10 +10307,10 @@
 						<name>layer27_cpy1</name>
 						<ssdmobj_id>365</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>33</depth>
+						<depth>16</depth>
 						<bitwidth>64</bitwidth>
 						<suggested_type>0</suggested_type>
-						<suggested_depth>33</suggested_depth>
+						<suggested_depth>16</suggested_depth>
 						<source_list>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -10347,17 +10347,17 @@
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>64 33 1</storage_size>
+						<storage_size>64 16 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_738">
 						<type>1</type>
 						<name>layer27_cpy2</name>
 						<ssdmobj_id>368</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>170</depth>
+						<depth>131</depth>
 						<bitwidth>64</bitwidth>
 						<suggested_type>0</suggested_type>
-						<suggested_depth>170</suggested_depth>
+						<suggested_depth>131</suggested_depth>
 						<source_list>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -10387,24 +10387,24 @@
 								</port>
 								<inst class_id_reference="31" object_id="_743">
 									<type>0</type>
-									<name>add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_U0</name>
+									<name>add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_U0</name>
 									<ssdmobj_id>469</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>64 170 1</storage_size>
+						<storage_size>64 131 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_744">
 						<type>1</type>
 						<name>layer31_out</name>
 						<ssdmobj_id>371</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>250</depth>
+						<depth>245</depth>
 						<bitwidth>64</bitwidth>
 						<suggested_type>0</suggested_type>
-						<suggested_depth>250</suggested_depth>
+						<suggested_depth>245</suggested_depth>
 						<source_list>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -10434,14 +10434,14 @@
 								</port>
 								<inst class_id_reference="31" object_id="_749">
 									<type>0</type>
-									<name>conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0</name>
+									<name>conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_U0</name>
 									<ssdmobj_id>467</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>64 250 1</storage_size>
+						<storage_size>64 245 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_750">
 						<type>1</type>
@@ -10449,7 +10449,7 @@
 						<ssdmobj_id>374</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>1</depth>
-						<bitwidth>64</bitwidth>
+						<bitwidth>40</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -10481,22 +10481,22 @@
 								</port>
 								<inst class_id_reference="31" object_id="_755">
 									<type>0</type>
-									<name>normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_U0</name>
+									<name>normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_U0</name>
 									<ssdmobj_id>468</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>64 1 1</storage_size>
+						<storage_size>40 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_756">
 						<type>1</type>
 						<name>layer6_out</name>
 						<ssdmobj_id>377</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>2</depth>
-						<bitwidth>64</bitwidth>
+						<depth>1</depth>
+						<bitwidth>108</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -10531,7 +10531,7 @@
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>64 2 1</storage_size>
+						<storage_size>108 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_761">
 						<type>1</type>
@@ -10539,7 +10539,7 @@
 						<ssdmobj_id>380</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>2</depth>
-						<bitwidth>64</bitwidth>
+						<bitwidth>112</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -10578,17 +10578,17 @@
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>64 2 1</storage_size>
+						<storage_size>112 2 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_767">
 						<type>1</type>
 						<name>layer8_out</name>
 						<ssdmobj_id>383</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>22</depth>
-						<bitwidth>64</bitwidth>
+						<depth>8</depth>
+						<bitwidth>40</bitwidth>
 						<suggested_type>0</suggested_type>
-						<suggested_depth>22</suggested_depth>
+						<suggested_depth>8</suggested_depth>
 						<source_list>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -10618,24 +10618,24 @@
 								</port>
 								<inst class_id_reference="31" object_id="_772">
 									<type>0</type>
-									<name>zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config32_U0</name>
+									<name>zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config32_U0</name>
 									<ssdmobj_id>471</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>64 22 1</storage_size>
+						<storage_size>40 8 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_773">
 						<type>1</type>
 						<name>layer32_out</name>
 						<ssdmobj_id>386</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>131</depth>
-						<bitwidth>64</bitwidth>
+						<depth>122</depth>
+						<bitwidth>40</bitwidth>
 						<suggested_type>0</suggested_type>
-						<suggested_depth>131</suggested_depth>
+						<suggested_depth>122</suggested_depth>
 						<source_list>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -10665,14 +10665,14 @@
 								</port>
 								<inst class_id_reference="31" object_id="_778">
 									<type>0</type>
-									<name>conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0</name>
+									<name>conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_U0</name>
 									<ssdmobj_id>472</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>64 131 1</storage_size>
+						<storage_size>40 122 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_779">
 						<type>1</type>
@@ -10680,7 +10680,7 @@
 						<ssdmobj_id>389</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>1</depth>
-						<bitwidth>96</bitwidth>
+						<bitwidth>60</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -10712,22 +10712,22 @@
 								</port>
 								<inst class_id_reference="31" object_id="_784">
 									<type>0</type>
-									<name>normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_U0</name>
+									<name>normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_U0</name>
 									<ssdmobj_id>473</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>96 1 1</storage_size>
+						<storage_size>60 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_785">
 						<type>1</type>
 						<name>layer10_out</name>
 						<ssdmobj_id>392</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>2</depth>
-						<bitwidth>96</bitwidth>
+						<depth>1</depth>
+						<bitwidth>162</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -10766,7 +10766,7 @@
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>96 2 1</storage_size>
+						<storage_size>162 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_791">
 						<type>1</type>
@@ -10774,7 +10774,7 @@
 						<ssdmobj_id>395</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>2</depth>
-						<bitwidth>96</bitwidth>
+						<bitwidth>60</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -10806,24 +10806,24 @@
 								</port>
 								<inst class_id_reference="31" object_id="_796">
 									<type>0</type>
-									<name>clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_U0</name>
+									<name>clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_U0</name>
 									<ssdmobj_id>475</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>96 2 1</storage_size>
+						<storage_size>60 2 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_797">
 						<type>1</type>
 						<name>layer28_cpy1</name>
 						<ssdmobj_id>398</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>8</depth>
-						<bitwidth>96</bitwidth>
+						<depth>4</depth>
+						<bitwidth>60</bitwidth>
 						<suggested_type>0</suggested_type>
-						<suggested_depth>8</suggested_depth>
+						<suggested_depth>4</suggested_depth>
 						<source_list>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -10853,24 +10853,24 @@
 								</port>
 								<inst class_id_reference="31" object_id="_802">
 									<type>0</type>
-									<name>zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config33_U0</name>
+									<name>zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config33_U0</name>
 									<ssdmobj_id>476</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>96 8 1</storage_size>
+						<storage_size>60 4 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_803">
 						<type>1</type>
 						<name>layer28_cpy2</name>
 						<ssdmobj_id>401</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>73</depth>
-						<bitwidth>96</bitwidth>
+						<depth>68</depth>
+						<bitwidth>60</bitwidth>
 						<suggested_type>0</suggested_type>
-						<suggested_depth>73</suggested_depth>
+						<suggested_depth>68</suggested_depth>
 						<source_list>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -10900,24 +10900,24 @@
 								</port>
 								<inst class_id_reference="31" object_id="_808">
 									<type>0</type>
-									<name>add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_U0</name>
+									<name>add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_U0</name>
 									<ssdmobj_id>479</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>96 73 1</storage_size>
+						<storage_size>60 68 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_809">
 						<type>1</type>
 						<name>layer33_out</name>
 						<ssdmobj_id>404</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>119</depth>
-						<bitwidth>96</bitwidth>
+						<depth>121</depth>
+						<bitwidth>60</bitwidth>
 						<suggested_type>0</suggested_type>
-						<suggested_depth>119</suggested_depth>
+						<suggested_depth>121</suggested_depth>
 						<source_list>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -10947,14 +10947,14 @@
 								</port>
 								<inst class_id_reference="31" object_id="_814">
 									<type>0</type>
-									<name>conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0</name>
+									<name>conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_U0</name>
 									<ssdmobj_id>477</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>96 119 1</storage_size>
+						<storage_size>60 121 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_815">
 						<type>1</type>
@@ -10962,7 +10962,7 @@
 						<ssdmobj_id>407</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>1</depth>
-						<bitwidth>96</bitwidth>
+						<bitwidth>60</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -10994,22 +10994,22 @@
 								</port>
 								<inst class_id_reference="31" object_id="_820">
 									<type>0</type>
-									<name>normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_U0</name>
+									<name>normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_U0</name>
 									<ssdmobj_id>478</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>96 1 1</storage_size>
+						<storage_size>60 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_821">
 						<type>1</type>
 						<name>layer13_out</name>
 						<ssdmobj_id>410</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>2</depth>
-						<bitwidth>96</bitwidth>
+						<depth>1</depth>
+						<bitwidth>162</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -11044,7 +11044,7 @@
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>96 2 1</storage_size>
+						<storage_size>162 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_826">
 						<type>1</type>
@@ -11052,7 +11052,7 @@
 						<ssdmobj_id>413</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>2</depth>
-						<bitwidth>96</bitwidth>
+						<bitwidth>168</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -11091,17 +11091,17 @@
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>96 2 1</storage_size>
+						<storage_size>168 2 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_832">
 						<type>1</type>
 						<name>layer15_out</name>
 						<ssdmobj_id>416</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>4</depth>
-						<bitwidth>96</bitwidth>
+						<depth>2</depth>
+						<bitwidth>60</bitwidth>
 						<suggested_type>0</suggested_type>
-						<suggested_depth>4</suggested_depth>
+						<suggested_depth>2</suggested_depth>
 						<source_list>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -11131,24 +11131,24 @@
 								</port>
 								<inst class_id_reference="31" object_id="_837">
 									<type>0</type>
-									<name>zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config34_U0</name>
+									<name>zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config34_U0</name>
 									<ssdmobj_id>481</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>96 4 1</storage_size>
+						<storage_size>60 2 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_838">
 						<type>1</type>
 						<name>layer34_out</name>
 						<ssdmobj_id>419</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>60</depth>
-						<bitwidth>96</bitwidth>
+						<depth>61</depth>
+						<bitwidth>60</bitwidth>
 						<suggested_type>0</suggested_type>
-						<suggested_depth>60</suggested_depth>
+						<suggested_depth>61</suggested_depth>
 						<source_list>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -11178,14 +11178,14 @@
 								</port>
 								<inst class_id_reference="31" object_id="_843">
 									<type>0</type>
-									<name>conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0</name>
+									<name>conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_U0</name>
 									<ssdmobj_id>482</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>96 60 1</storage_size>
+						<storage_size>60 61 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_844">
 						<type>1</type>
@@ -11193,7 +11193,7 @@
 						<ssdmobj_id>422</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>1</depth>
-						<bitwidth>128</bitwidth>
+						<bitwidth>80</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -11225,22 +11225,22 @@
 								</port>
 								<inst class_id_reference="31" object_id="_849">
 									<type>0</type>
-									<name>normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_U0</name>
+									<name>normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_U0</name>
 									<ssdmobj_id>483</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>128 1 1</storage_size>
+						<storage_size>80 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_850">
 						<type>1</type>
 						<name>layer17_out</name>
 						<ssdmobj_id>425</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>2</depth>
-						<bitwidth>128</bitwidth>
+						<depth>1</depth>
+						<bitwidth>216</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -11279,7 +11279,7 @@
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>128 2 1</storage_size>
+						<storage_size>216 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_856">
 						<type>1</type>
@@ -11287,7 +11287,7 @@
 						<ssdmobj_id>428</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>2</depth>
-						<bitwidth>128</bitwidth>
+						<bitwidth>80</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -11319,14 +11319,14 @@
 								</port>
 								<inst class_id_reference="31" object_id="_861">
 									<type>0</type>
-									<name>clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_U0</name>
+									<name>clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_U0</name>
 									<ssdmobj_id>485</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>128 2 1</storage_size>
+						<storage_size>80 2 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_862">
 						<type>1</type>
@@ -11334,7 +11334,7 @@
 						<ssdmobj_id>431</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>2</depth>
-						<bitwidth>128</bitwidth>
+						<bitwidth>80</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -11366,24 +11366,24 @@
 								</port>
 								<inst class_id_reference="31" object_id="_867">
 									<type>0</type>
-									<name>zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config35_U0</name>
+									<name>zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config35_U0</name>
 									<ssdmobj_id>486</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>128 2 1</storage_size>
+						<storage_size>80 2 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_868">
 						<type>1</type>
 						<name>layer29_cpy2</name>
 						<ssdmobj_id>434</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>40</depth>
-						<bitwidth>128</bitwidth>
+						<depth>36</depth>
+						<bitwidth>80</bitwidth>
 						<suggested_type>0</suggested_type>
-						<suggested_depth>40</suggested_depth>
+						<suggested_depth>36</suggested_depth>
 						<source_list>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -11413,24 +11413,24 @@
 								</port>
 								<inst class_id_reference="31" object_id="_873">
 									<type>0</type>
-									<name>add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_U0</name>
+									<name>add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_U0</name>
 									<ssdmobj_id>489</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>128 40 1</storage_size>
+						<storage_size>80 36 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_874">
 						<type>1</type>
 						<name>layer35_out</name>
 						<ssdmobj_id>437</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>60</depth>
-						<bitwidth>128</bitwidth>
+						<depth>62</depth>
+						<bitwidth>80</bitwidth>
 						<suggested_type>0</suggested_type>
-						<suggested_depth>60</suggested_depth>
+						<suggested_depth>62</suggested_depth>
 						<source_list>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -11460,14 +11460,14 @@
 								</port>
 								<inst class_id_reference="31" object_id="_879">
 									<type>0</type>
-									<name>conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0</name>
+									<name>conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_U0</name>
 									<ssdmobj_id>487</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>128 60 1</storage_size>
+						<storage_size>80 62 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_880">
 						<type>1</type>
@@ -11475,7 +11475,7 @@
 						<ssdmobj_id>440</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>1</depth>
-						<bitwidth>128</bitwidth>
+						<bitwidth>80</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -11507,22 +11507,22 @@
 								</port>
 								<inst class_id_reference="31" object_id="_885">
 									<type>0</type>
-									<name>normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_U0</name>
+									<name>normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_U0</name>
 									<ssdmobj_id>488</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>128 1 1</storage_size>
+						<storage_size>80 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_886">
 						<type>1</type>
 						<name>layer20_out</name>
 						<ssdmobj_id>443</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>2</depth>
-						<bitwidth>128</bitwidth>
+						<depth>1</depth>
+						<bitwidth>216</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -11557,7 +11557,7 @@
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>128 2 1</storage_size>
+						<storage_size>216 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_891">
 						<type>1</type>
@@ -11565,7 +11565,7 @@
 						<ssdmobj_id>446</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>2</depth>
-						<bitwidth>128</bitwidth>
+						<bitwidth>224</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -11604,7 +11604,7 @@
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>128 2 1</storage_size>
+						<storage_size>224 2 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_897">
 						<type>1</type>
@@ -11612,7 +11612,7 @@
 						<ssdmobj_id>449</ssdmobj_id>
 						<ctype>0</ctype>
 						<depth>2</depth>
-						<bitwidth>128</bitwidth>
+						<bitwidth>80</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -11644,22 +11644,22 @@
 								</port>
 								<inst class_id_reference="31" object_id="_902">
 									<type>0</type>
-									<name>pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_U0</name>
+									<name>pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_U0</name>
 									<ssdmobj_id>491</ssdmobj_id>
 								</inst>
 							</item>
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>128 2 1</storage_size>
+						<storage_size>80 2 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_903">
 						<type>1</type>
 						<name>layer23_out</name>
 						<ssdmobj_id>452</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>2</depth>
-						<bitwidth>128</bitwidth>
+						<depth>1</depth>
+						<bitwidth>240</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -11698,7 +11698,7 @@
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>128 2 1</storage_size>
+						<storage_size>240 1 1</storage_size>
 					</item>
 					<item class_id_reference="26" object_id="_909">
 						<type>1</type>
@@ -11738,7 +11738,7 @@
 								</port>
 								<inst class_id_reference="31" object_id="_914">
 									<type>0</type>
-									<name>pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_U0</name>
+									<name>pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_U0</name>
 									<ssdmobj_id>493</ssdmobj_id>
 								</inst>
 							</item>
@@ -11752,8 +11752,8 @@
 						<name>layer25_out</name>
 						<ssdmobj_id>458</ssdmobj_id>
 						<ctype>0</ctype>
-						<depth>2</depth>
-						<bitwidth>16</bitwidth>
+						<depth>1</depth>
+						<bitwidth>36</bitwidth>
 						<suggested_type>0</suggested_type>
 						<suggested_depth>2</suggested_depth>
 						<source_list>
@@ -11788,7 +11788,7 @@
 						</sink_list>
 						<bram_cost>0</bram_cost>
 						<uram_cost>0</uram_cost>
-						<storage_size>16 2 1</storage_size>
+						<storage_size>36 1 1</storage_size>
 					</item>
 				</channel_list>
 				<net_list class_id="33" tracking_level="0" version="0">

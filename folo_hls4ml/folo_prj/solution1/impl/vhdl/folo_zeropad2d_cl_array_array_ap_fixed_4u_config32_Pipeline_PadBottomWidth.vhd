@@ -16,7 +16,7 @@ port (
     ap_done : OUT STD_LOGIC;
     ap_idle : OUT STD_LOGIC;
     ap_ready : OUT STD_LOGIC;
-    layer32_out_din : OUT STD_LOGIC_VECTOR (63 downto 0);
+    layer32_out_din : OUT STD_LOGIC_VECTOR (39 downto 0);
     layer32_out_full_n : IN STD_LOGIC;
     layer32_out_write : OUT STD_LOGIC;
     layer32_out_num_data_valid : IN STD_LOGIC_VECTOR (31 downto 0);
@@ -36,7 +36,7 @@ architecture behav of folo_zeropad2d_cl_array_array_ap_fixed_4u_config32_Pipelin
     constant ap_const_lv1_1 : STD_LOGIC_VECTOR (0 downto 0) := "1";
     constant ap_const_lv8_0 : STD_LOGIC_VECTOR (7 downto 0) := "00000000";
     constant ap_const_lv1_0 : STD_LOGIC_VECTOR (0 downto 0) := "0";
-    constant ap_const_lv64_0 : STD_LOGIC_VECTOR (63 downto 0) := "0000000000000000000000000000000000000000000000000000000000000000";
+    constant ap_const_lv40_0 : STD_LOGIC_VECTOR (39 downto 0) := "0000000000000000000000000000000000000000";
     constant ap_const_lv8_81 : STD_LOGIC_VECTOR (7 downto 0) := "10000001";
     constant ap_const_lv8_1 : STD_LOGIC_VECTOR (7 downto 0) := "00000001";
 
@@ -282,7 +282,7 @@ begin
         end if; 
     end process;
 
-    layer32_out_din <= ap_const_lv64_0;
+    layer32_out_din <= ap_const_lv40_0;
 
     layer32_out_write_assign_proc : process(ap_CS_fsm_pp0_stage0, ap_enable_reg_pp0_iter1, ap_block_pp0_stage0_11001_grp1)
     begin

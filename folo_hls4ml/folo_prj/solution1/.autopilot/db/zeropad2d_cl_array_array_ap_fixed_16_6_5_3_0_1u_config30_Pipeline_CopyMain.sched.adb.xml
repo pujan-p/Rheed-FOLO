@@ -100,10 +100,10 @@ newFuncRoot:4 %br_ln65 = br void %for.body25
 
 <Node id="9" bw="9" op_0_bw="9" op_1_bw="0">
 <![CDATA[
-for.body25:0 %j_11 = load i9 %j
+for.body25:0 %j_5 = load i9 %j
 
 ]]></Node>
-<StgValue><ssdm name="j_11"/></StgValue>
+<StgValue><ssdm name="j_5"/></StgValue>
 </operation>
 
 <operation id="11" st_id="1" stage="1" lat="1">
@@ -115,7 +115,7 @@ for.body25:0 %j_11 = load i9 %j
 
 <Node id="10" bw="1" op_0_bw="9" op_1_bw="9">
 <![CDATA[
-for.body25:1 %icmp_ln65 = icmp_eq  i9 %j_11, i9 256
+for.body25:1 %icmp_ln65 = icmp_eq  i9 %j_5, i9 256
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln65"/></StgValue>
@@ -130,10 +130,10 @@ for.body25:1 %icmp_ln65 = icmp_eq  i9 %j_11, i9 256
 
 <Node id="11" bw="9" op_0_bw="9" op_1_bw="9">
 <![CDATA[
-for.body25:2 %j_12 = add i9 %j_11, i9 1
+for.body25:2 %j_6 = add i9 %j_5, i9 1
 
 ]]></Node>
-<StgValue><ssdm name="j_12"/></StgValue>
+<StgValue><ssdm name="j_6"/></StgValue>
 </operation>
 
 <operation id="13" st_id="1" stage="1" lat="1">
@@ -161,7 +161,7 @@ for.body25:3 %br_ln65 = br i1 %icmp_ln65, void %for.body25.split, void %for.inc3
 
 <Node id="19" bw="0" op_0_bw="9" op_1_bw="9" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-for.body25.split:5 %store_ln65 = store i9 %j_12, i9 %j
+for.body25.split:5 %store_ln65 = store i9 %j_6, i9 %j
 
 ]]></Node>
 <StgValue><ssdm name="store_ln65"/></StgValue>

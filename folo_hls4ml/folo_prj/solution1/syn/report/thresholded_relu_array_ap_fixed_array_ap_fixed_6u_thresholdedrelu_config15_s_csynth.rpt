@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'thresholded_relu_array_ap_fixed_array_ap_fixed_6u_thresholdedrelu_config15_s'
 ================================================================
-* Date:           Thu Apr 23 22:46:39 2026
+* Date:           Fri Apr 24 00:23:01 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        folo_prj
@@ -20,7 +20,7 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  5.00 ns|  3.647 ns|     1.35 ns|
+    |ap_clk  |  5.00 ns|  3.597 ns|     1.35 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
@@ -54,14 +54,14 @@
 |       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
 +-----------------+---------+------+--------+--------+-----+
 |DSP              |        -|     -|       -|       -|    -|
-|Expression       |        -|     -|       0|     276|    -|
+|Expression       |        -|     -|       0|     318|    -|
 |FIFO             |        -|     -|       -|       -|    -|
 |Instance         |        -|     -|       -|       -|    -|
 |Memory           |        -|     -|       -|       -|    -|
 |Multiplexer      |        -|     -|       0|      63|    -|
-|Register         |        -|     -|     107|       -|    -|
+|Register         |        -|     -|      77|       -|    -|
 +-----------------+---------+------+--------+--------+-----+
-|Total            |        0|     0|     107|     339|    0|
+|Total            |        0|     0|      77|     381|    0|
 +-----------------+---------+------+--------+--------+-----+
 |Available        |     1080|  1700|  406256|  203128|    0|
 +-----------------+---------+------+--------+--------+-----+
@@ -85,27 +85,27 @@
     +---------------------------------------+----------+----+---+----+------------+------------+
     |             Variable Name             | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +---------------------------------------+----------+----+---+----+------------+------------+
-    |i_fu_293_p2                            |         +|   0|  0|  19|          12|           1|
+    |i_fu_313_p2                            |         +|   0|  0|  19|          12|           1|
     |ap_condition_125                       |       and|   0|  0|   2|           1|           1|
-    |icmp_ln528_fu_299_p2                   |      icmp|   0|  0|  19|          12|           2|
-    |icmp_ln538_15_fu_223_p2                |      icmp|   0|  0|  23|          16|           1|
-    |icmp_ln538_16_fu_237_p2                |      icmp|   0|  0|  23|          16|           1|
-    |icmp_ln538_17_fu_251_p2                |      icmp|   0|  0|  23|          16|           1|
-    |icmp_ln538_18_fu_265_p2                |      icmp|   0|  0|  23|          16|           1|
-    |icmp_ln538_19_fu_279_p2                |      icmp|   0|  0|  23|          16|           1|
-    |icmp_ln538_fu_209_p2                   |      icmp|   0|  0|  23|          16|           1|
+    |icmp_ln528_fu_319_p2                   |      icmp|   0|  0|  19|          12|           2|
+    |icmp_ln538_10_fu_241_p2                |      icmp|   0|  0|  35|          28|           1|
+    |icmp_ln538_11_fu_265_p2                |      icmp|   0|  0|  35|          28|           1|
+    |icmp_ln538_12_fu_289_p2                |      icmp|   0|  0|  35|          28|           1|
+    |icmp_ln538_8_fu_193_p2                 |      icmp|   0|  0|  35|          28|           1|
+    |icmp_ln538_9_fu_217_p2                 |      icmp|   0|  0|  35|          28|           1|
+    |icmp_ln538_fu_169_p2                   |      icmp|   0|  0|  35|          28|           1|
     |ap_block_pp0_stage0_01001_grp1         |        or|   0|  0|   2|           1|           1|
     |ap_block_pp0_stage0_11001              |        or|   0|  0|   2|           1|           1|
     |ap_block_state1_pp0_stage0_iter0_grp1  |        or|   0|  0|   2|           1|           1|
-    |select_ln538_15_fu_229_p3              |    select|   0|  0|  15|           1|          15|
-    |select_ln538_16_fu_243_p3              |    select|   0|  0|  15|           1|          15|
-    |select_ln538_17_fu_257_p3              |    select|   0|  0|  15|           1|          15|
-    |select_ln538_18_fu_271_p3              |    select|   0|  0|  15|           1|          15|
-    |select_ln538_19_fu_285_p3              |    select|   0|  0|  15|           1|          15|
-    |select_ln538_fu_215_p3                 |    select|   0|  0|  15|           1|          15|
+    |select_ln538_10_fu_257_p3              |    select|   0|  0|  10|           1|          10|
+    |select_ln538_11_fu_281_p3              |    select|   0|  0|  10|           1|          10|
+    |select_ln538_12_fu_305_p3              |    select|   0|  0|  10|           1|          10|
+    |select_ln538_8_fu_209_p3               |    select|   0|  0|  10|           1|          10|
+    |select_ln538_9_fu_233_p3               |    select|   0|  0|  10|           1|          10|
+    |select_ln538_fu_185_p3                 |    select|   0|  0|  10|           1|          10|
     |ap_enable_pp0                          |       xor|   0|  0|   2|           1|           2|
     +---------------------------------------+----------+----+---+----+------------+------------+
-    |Total                                  |          |   0|  0| 276|         131|         105|
+    |Total                                  |          |   0|  0| 318|         203|          75|
     +---------------------------------------+----------+----+---+----+------------+------------+
 
     * Multiplexer: 
@@ -115,7 +115,7 @@
     |ap_done_int                       |   9|          2|    1|          2|
     |ap_loop_exit_ready_pp0_iter1_reg  |   9|          2|    1|          2|
     |ap_sig_allocacmp_i_18             |   9|          2|   12|         24|
-    |i_17_fu_76                        |   9|          2|   12|         24|
+    |i_17_fu_90                        |   9|          2|   12|         24|
     |layer14_out_blk_n                 |   9|          2|    1|          2|
     |layer15_out_blk_n                 |   9|          2|    1|          2|
     |real_start                        |   9|          2|    1|          2|
@@ -131,16 +131,16 @@
     |ap_done_reg                       |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter1           |   1|   0|    1|          0|
     |ap_loop_exit_ready_pp0_iter1_reg  |   1|   0|    1|          0|
-    |i_17_fu_76                        |  12|   0|   12|          0|
-    |select_ln538_15_reg_357           |  15|   0|   15|          0|
-    |select_ln538_16_reg_362           |  15|   0|   15|          0|
-    |select_ln538_17_reg_367           |  15|   0|   15|          0|
-    |select_ln538_18_reg_372           |  15|   0|   15|          0|
-    |select_ln538_19_reg_377           |  15|   0|   15|          0|
-    |select_ln538_reg_352              |  15|   0|   15|          0|
+    |i_17_fu_90                        |  12|   0|   12|          0|
+    |select_ln538_10_reg_363           |  10|   0|   10|          0|
+    |select_ln538_11_reg_368           |  10|   0|   10|          0|
+    |select_ln538_12_reg_373           |  10|   0|   10|          0|
+    |select_ln538_8_reg_353            |  10|   0|   10|          0|
+    |select_ln538_9_reg_358            |  10|   0|   10|          0|
+    |select_ln538_reg_348              |  10|   0|   10|          0|
     |start_once_reg                    |   1|   0|    1|          0|
     +----------------------------------+----+----+-----+-----------+
-    |Total                             | 107|   0|  107|          0|
+    |Total                             |  77|   0|   77|          0|
     +----------------------------------+----+----+-----+-----------+
 
 
@@ -162,12 +162,12 @@
 |ap_ready                    |  out|    1|  ap_ctrl_hs|  thresholded_relu<array,ap_fixed,array<ap_fixed,6u>,thresholdedrelu_config15>|  return value|
 |start_out                   |  out|    1|  ap_ctrl_hs|  thresholded_relu<array,ap_fixed,array<ap_fixed,6u>,thresholdedrelu_config15>|  return value|
 |start_write                 |  out|    1|  ap_ctrl_hs|  thresholded_relu<array,ap_fixed,array<ap_fixed,6u>,thresholdedrelu_config15>|  return value|
-|layer14_out_dout            |   in|   96|     ap_fifo|                                                                   layer14_out|       pointer|
+|layer14_out_dout            |   in|  168|     ap_fifo|                                                                   layer14_out|       pointer|
 |layer14_out_empty_n         |   in|    1|     ap_fifo|                                                                   layer14_out|       pointer|
 |layer14_out_read            |  out|    1|     ap_fifo|                                                                   layer14_out|       pointer|
 |layer14_out_num_data_valid  |   in|    3|     ap_fifo|                                                                   layer14_out|       pointer|
 |layer14_out_fifo_cap        |   in|    3|     ap_fifo|                                                                   layer14_out|       pointer|
-|layer15_out_din             |  out|   96|     ap_fifo|                                                                   layer15_out|       pointer|
+|layer15_out_din             |  out|   60|     ap_fifo|                                                                   layer15_out|       pointer|
 |layer15_out_full_n          |   in|    1|     ap_fifo|                                                                   layer15_out|       pointer|
 |layer15_out_write           |  out|    1|     ap_fifo|                                                                   layer15_out|       pointer|
 |layer15_out_num_data_valid  |   in|   32|     ap_fifo|                                                                   layer15_out|       pointer|

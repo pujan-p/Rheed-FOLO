@@ -19,10 +19,10 @@
 
 <Node id="4" bw="14" op_0_bw="32">
 <![CDATA[
-entry:0 %i_39 = alloca i32 1
+entry:0 %i = alloca i32 1
 
 ]]></Node>
-<StgValue><ssdm name="i_39"/></StgValue>
+<StgValue><ssdm name="i"/></StgValue>
 </operation>
 
 <operation id="5" st_id="1" stage="1" lat="1">
@@ -79,7 +79,7 @@ entry:3 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %la
 
 <Node id="8" bw="0" op_0_bw="14" op_1_bw="14">
 <![CDATA[
-entry:4 %store_ln22 = store i14 0, i14 %i_39
+entry:4 %store_ln22 = store i14 0, i14 %i
 
 ]]></Node>
 <StgValue><ssdm name="store_ln22"/></StgValue>
@@ -109,10 +109,10 @@ entry:5 %br_ln22 = br void %ClonePack.split
 
 <Node id="11" bw="14" op_0_bw="14" op_1_bw="0">
 <![CDATA[
-ClonePack.split:0 %i_40 = load i14 %i_39
+ClonePack.split:0 %i_39 = load i14 %i
 
 ]]></Node>
-<StgValue><ssdm name="i_40"/></StgValue>
+<StgValue><ssdm name="i_39"/></StgValue>
 </operation>
 
 <operation id="11" st_id="1" stage="1" lat="1">
@@ -154,7 +154,7 @@ ClonePack.split:2 %speclooptripcount_ln22 = speclooptripcount void @_ssdm_op_Spe
 
 <Node id="14" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-ClonePack.split:3 %specloopname_ln22 = specloopname void @_ssdm_op_SpecLoopName, void @empty
+ClonePack.split:3 %specloopname_ln22 = specloopname void @_ssdm_op_SpecLoopName, void @empty_14
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln22"/></StgValue>
@@ -176,7 +176,7 @@ ClonePack.split:4 %layer4_out_read = read i64 @_ssdm_op_Read.ap_fifo.volatile.i6
 </operation>
 
 <operation id="15" st_id="1" stage="1" lat="1">
-<core>FIFO</core>
+<core>FIFO_SRL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
@@ -214,10 +214,10 @@ ClonePack.split:6 %write_ln39 = write void @_ssdm_op_Write.ap_fifo.volatile.i64P
 
 <Node id="18" bw="14" op_0_bw="14" op_1_bw="14">
 <![CDATA[
-ClonePack.split:7 %i = add i14 %i_40, i14 1
+ClonePack.split:7 %i_40 = add i14 %i_39, i14 1
 
 ]]></Node>
-<StgValue><ssdm name="i"/></StgValue>
+<StgValue><ssdm name="i_40"/></StgValue>
 </operation>
 
 <operation id="18" st_id="1" stage="1" lat="1">
@@ -229,7 +229,7 @@ ClonePack.split:7 %i = add i14 %i_40, i14 1
 
 <Node id="19" bw="1" op_0_bw="14" op_1_bw="14">
 <![CDATA[
-ClonePack.split:8 %icmp_ln22 = icmp_eq  i14 %i_40, i14 16383
+ClonePack.split:8 %icmp_ln22 = icmp_eq  i14 %i_39, i14 16383
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln22"/></StgValue>
@@ -244,7 +244,7 @@ ClonePack.split:8 %icmp_ln22 = icmp_eq  i14 %i_40, i14 16383
 
 <Node id="20" bw="0" op_0_bw="14" op_1_bw="14" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-ClonePack.split:9 %store_ln22 = store i14 %i, i14 %i_39
+ClonePack.split:9 %store_ln22 = store i14 %i_40, i14 %i
 
 ]]></Node>
 <StgValue><ssdm name="store_ln22"/></StgValue>

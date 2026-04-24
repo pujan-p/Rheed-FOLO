@@ -198,10 +198,10 @@ entry:6 %br_ln59 = br void %PadLeft
 
 <Node id="11" bw="8" op_0_bw="8" op_1_bw="0">
 <![CDATA[
-PadLeft:0 %i_3 = load i8 %i
+PadLeft:0 %i_1 = load i8 %i
 
 ]]></Node>
-<StgValue><ssdm name="i_3"/></StgValue>
+<StgValue><ssdm name="i_1"/></StgValue>
 </operation>
 
 <operation id="18" st_id="4" stage="1" lat="1">
@@ -213,7 +213,7 @@ PadLeft:0 %i_3 = load i8 %i
 
 <Node id="12" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-PadLeft:1 %icmp_ln59 = icmp_eq  i8 %i_3, i8 128
+PadLeft:1 %icmp_ln59 = icmp_eq  i8 %i_1, i8 128
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln59"/></StgValue>
@@ -228,10 +228,10 @@ PadLeft:1 %icmp_ln59 = icmp_eq  i8 %i_3, i8 128
 
 <Node id="13" bw="8" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-PadLeft:2 %i_4 = add i8 %i_3, i8 1
+PadLeft:2 %i_2 = add i8 %i_1, i8 1
 
 ]]></Node>
-<StgValue><ssdm name="i_4"/></StgValue>
+<StgValue><ssdm name="i_2"/></StgValue>
 </operation>
 
 <operation id="20" st_id="4" stage="1" lat="1">
@@ -275,7 +275,7 @@ PadLeft.split:2 %write_ln15 = write void @_ssdm_op_Write.ap_fifo.volatile.i64P0A
 
 <Node id="23" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-PadLeft.split:7 %store_ln59 = store i8 %i_4, i8 %i
+PadLeft.split:7 %store_ln59 = store i8 %i_2, i8 %i
 
 ]]></Node>
 <StgValue><ssdm name="store_ln59"/></StgValue>
@@ -391,7 +391,7 @@ PadLeft.split:0 %speclooptripcount_ln59 = speclooptripcount void @_ssdm_op_SpecL
 
 <Node id="17" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-PadLeft.split:1 %specloopname_ln59 = specloopname void @_ssdm_op_SpecLoopName, void @empty_14
+PadLeft.split:1 %specloopname_ln59 = specloopname void @_ssdm_op_SpecLoopName, void @empty
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln59"/></StgValue>

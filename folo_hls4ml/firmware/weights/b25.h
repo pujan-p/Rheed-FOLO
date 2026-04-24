@@ -7,9 +7,9 @@
 #define B25_H_
 
 #ifndef __SYNTHESIS__
-model_default_t b25[1];
+conv2d_5_bias_t b25[1];
 #else
-model_default_t b25[1] = {-0.2819244266};
+conv2d_5_bias_t b25[1] = {-0.2819244266};
 
 #endif
 

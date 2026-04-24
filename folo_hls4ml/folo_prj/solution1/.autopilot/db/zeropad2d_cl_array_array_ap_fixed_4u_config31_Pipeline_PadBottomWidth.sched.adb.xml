@@ -25,10 +25,10 @@
 
 <Node id="2" bw="8" op_0_bw="32">
 <![CDATA[
-newFuncRoot:0 %j_12 = alloca i32 1
+newFuncRoot:0 %j_2 = alloca i32 1
 
 ]]></Node>
-<StgValue><ssdm name="j_12"/></StgValue>
+<StgValue><ssdm name="j_2"/></StgValue>
 </operation>
 
 <operation id="6" st_id="1" stage="1" lat="1">
@@ -55,7 +55,7 @@ newFuncRoot:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i
 
 <Node id="4" bw="0" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-newFuncRoot:2 %store_ln77 = store i8 0, i8 %j_12
+newFuncRoot:2 %store_ln77 = store i8 0, i8 %j_2
 
 ]]></Node>
 <StgValue><ssdm name="store_ln77"/></StgValue>
@@ -85,7 +85,7 @@ newFuncRoot:3 %br_ln0 = br void %for.inc50
 
 <Node id="7" bw="8" op_0_bw="8" op_1_bw="0">
 <![CDATA[
-for.inc50:0 %j = load i8 %j_12
+for.inc50:0 %j = load i8 %j_2
 
 ]]></Node>
 <StgValue><ssdm name="j"/></StgValue>
@@ -146,7 +146,7 @@ for.inc50:3 %br_ln77 = br i1 %icmp_ln77, void %for.inc50.split, void %for.end55.
 
 <Node id="16" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-for.inc50.split:4 %store_ln77 = store i8 %j_19, i8 %j_12
+for.inc50.split:4 %store_ln77 = store i8 %j_19, i8 %j_2
 
 ]]></Node>
 <StgValue><ssdm name="store_ln77"/></StgValue>

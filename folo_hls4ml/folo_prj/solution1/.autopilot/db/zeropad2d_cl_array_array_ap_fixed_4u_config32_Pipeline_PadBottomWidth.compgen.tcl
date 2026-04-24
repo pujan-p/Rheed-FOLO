@@ -10,7 +10,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 302 \
+    id 175 \
     name layer32_out \
     type fifo \
     dir O \
@@ -18,7 +18,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer32_out \
     op interface \
-    ports { layer32_out_din { O 64 vector } layer32_out_full_n { I 1 bit } layer32_out_write { O 1 bit } layer32_out_num_data_valid { I 32 vector } layer32_out_fifo_cap { I 32 vector } } \
+    ports { layer32_out_din { O 40 vector } layer32_out_full_n { I 1 bit } layer32_out_write { O 1 bit } layer32_out_num_data_valid { I 32 vector } layer32_out_fifo_cap { I 32 vector } } \
 } "
 }
 

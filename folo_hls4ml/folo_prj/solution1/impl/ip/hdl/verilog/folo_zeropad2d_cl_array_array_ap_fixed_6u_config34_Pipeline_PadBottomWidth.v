@@ -29,7 +29,7 @@ input   ap_start;
 output   ap_done;
 output   ap_idle;
 output   ap_ready;
-output  [95:0] layer34_out_din;
+output  [59:0] layer34_out_din;
 input   layer34_out_full_n;
 output   layer34_out_write;
 input  [31:0] layer34_out_num_data_valid;
@@ -244,6 +244,6 @@ assign icmp_ln77_fu_54_p2 = ((ap_sig_allocacmp_j_14 == 7'd65) ? 1'b1 : 1'b0);
 
 assign j_15_fu_60_p2 = (ap_sig_allocacmp_j_14 + 7'd1);
 
-assign layer34_out_din = 96'd0;
+assign layer34_out_din = 60'd0;
 
 endmodule //folo_zeropad2d_cl_array_array_ap_fixed_6u_config34_Pipeline_PadBottomWidth

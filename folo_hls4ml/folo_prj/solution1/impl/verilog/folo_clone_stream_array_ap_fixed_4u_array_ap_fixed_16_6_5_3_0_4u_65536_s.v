@@ -53,8 +53,8 @@ input  [2:0] layer4_out_fifo_cap;
 output  [63:0] layer27_cpy1_din;
 input   layer27_cpy1_full_n;
 output   layer27_cpy1_write;
-input  [6:0] layer27_cpy1_num_data_valid;
-input  [6:0] layer27_cpy1_fifo_cap;
+input  [4:0] layer27_cpy1_num_data_valid;
+input  [4:0] layer27_cpy1_fifo_cap;
 output  [63:0] layer27_cpy2_din;
 input   layer27_cpy2_full_n;
 output   layer27_cpy2_write;
@@ -83,10 +83,10 @@ reg    ap_ready_int;
 reg    layer4_out_blk_n;
 reg    layer27_cpy1_blk_n;
 reg    layer27_cpy2_blk_n;
-reg   [13:0] i_39_fu_38;
-wire   [13:0] i_fu_72_p2;
+reg   [13:0] i_fu_38;
+wire   [13:0] i_40_fu_72_p2;
 wire    ap_loop_init;
-reg   [13:0] ap_sig_allocacmp_i_40;
+reg   [13:0] ap_sig_allocacmp_i_39;
 wire    ap_continue_int;
 reg    ap_done_int;
 reg   [0:0] ap_NS_fsm;
@@ -100,7 +100,7 @@ initial begin
 #0 start_once_reg = 1'b0;
 #0 ap_CS_fsm = 1'd1;
 #0 ap_done_reg = 1'b0;
-#0 i_39_fu_38 = 14'd0;
+#0 i_fu_38 = 14'd0;
 end
 
 folo_flow_control_loop_pipe flow_control_loop_pipe_U(
@@ -153,7 +153,7 @@ end
 
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_state1_pp0_stage0_iter0) & (1'b1 == ap_CS_fsm_state1))) begin
-        i_39_fu_38 <= i_fu_72_p2;
+        i_fu_38 <= i_40_fu_72_p2;
     end
 end
 
@@ -199,9 +199,9 @@ end
 
 always @ (*) begin
     if (((ap_loop_init == 1'b1) & (1'b1 == ap_CS_fsm_state1))) begin
-        ap_sig_allocacmp_i_40 = 14'd0;
+        ap_sig_allocacmp_i_39 = 14'd0;
     end else begin
-        ap_sig_allocacmp_i_40 = i_39_fu_38;
+        ap_sig_allocacmp_i_39 = i_fu_38;
     end
 end
 
@@ -292,9 +292,9 @@ assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage0;
 
 assign ap_ready = internal_ap_ready;
 
-assign i_fu_72_p2 = (ap_sig_allocacmp_i_40 + 14'd1);
+assign i_40_fu_72_p2 = (ap_sig_allocacmp_i_39 + 14'd1);
 
-assign icmp_ln22_fu_78_p2 = ((ap_sig_allocacmp_i_40 == 14'd16383) ? 1'b1 : 1'b0);
+assign icmp_ln22_fu_78_p2 = ((ap_sig_allocacmp_i_39 == 14'd16383) ? 1'b1 : 1'b0);
 
 assign layer27_cpy1_din = layer4_out_dout;
 

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'clone_stream_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_65536_s'" level="0">
-<item name = "Date">Thu Apr 23 22:46:37 2026
+<item name = "Date">Fri Apr 24 00:23:00 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">folo_prj</item>
@@ -78,7 +78,7 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="i_fu_72_p2">+, 0, 0, 21, 14, 1</column>
+<column name="i_40_fu_72_p2">+, 0, 0, 21, 14, 1</column>
 <column name="icmp_ln22_fu_78_p2">icmp, 0, 0, 21, 14, 2</column>
 <column name="ap_block_state1_pp0_stage0_iter0">or, 0, 0, 2, 1, 1</column>
 </table>
@@ -86,8 +86,8 @@
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
 <column name="ap_done_int">9, 2, 1, 2</column>
-<column name="ap_sig_allocacmp_i_40">9, 2, 14, 28</column>
-<column name="i_39_fu_38">9, 2, 14, 28</column>
+<column name="ap_sig_allocacmp_i_39">9, 2, 14, 28</column>
+<column name="i_fu_38">9, 2, 14, 28</column>
 <column name="layer27_cpy1_blk_n">9, 2, 1, 2</column>
 <column name="layer27_cpy2_blk_n">9, 2, 1, 2</column>
 <column name="layer4_out_blk_n">9, 2, 1, 2</column>
@@ -98,7 +98,7 @@
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
 <column name="ap_CS_fsm">1, 0, 1, 0</column>
 <column name="ap_done_reg">1, 0, 1, 0</column>
-<column name="i_39_fu_38">14, 0, 14, 0</column>
+<column name="i_fu_38">14, 0, 14, 0</column>
 <column name="start_once_reg">1, 0, 1, 0</column>
 </table>
 </item>
@@ -127,8 +127,8 @@
 <column name="layer27_cpy1_din">out, 64, ap_fifo, layer27_cpy1, pointer</column>
 <column name="layer27_cpy1_full_n">in, 1, ap_fifo, layer27_cpy1, pointer</column>
 <column name="layer27_cpy1_write">out, 1, ap_fifo, layer27_cpy1, pointer</column>
-<column name="layer27_cpy1_num_data_valid">in, 7, ap_fifo, layer27_cpy1, pointer</column>
-<column name="layer27_cpy1_fifo_cap">in, 7, ap_fifo, layer27_cpy1, pointer</column>
+<column name="layer27_cpy1_num_data_valid">in, 5, ap_fifo, layer27_cpy1, pointer</column>
+<column name="layer27_cpy1_fifo_cap">in, 5, ap_fifo, layer27_cpy1, pointer</column>
 <column name="layer27_cpy2_din">out, 64, ap_fifo, layer27_cpy2, pointer</column>
 <column name="layer27_cpy2_full_n">in, 1, ap_fifo, layer27_cpy2, pointer</column>
 <column name="layer27_cpy2_write">out, 1, ap_fifo, layer27_cpy2, pointer</column>

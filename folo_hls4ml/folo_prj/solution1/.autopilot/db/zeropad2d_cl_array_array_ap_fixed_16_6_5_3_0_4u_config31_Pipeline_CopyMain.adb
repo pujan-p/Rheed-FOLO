@@ -31,7 +31,7 @@
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
-              <coreName>FIFO</coreName>
+              <coreName>FIFO_SRL</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
               <coreId>4294967295</coreId>
@@ -261,7 +261,7 @@
             <Obj>
               <type>0</type>
               <id>9</id>
-              <name>j_9</name>
+              <name>j_3</name>
               <fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>65</lineNumber>
@@ -375,7 +375,7 @@
             <Obj>
               <type>0</type>
               <id>11</id>
-              <name>j_10</name>
+              <name>j_4</name>
               <fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>65</lineNumber>
@@ -400,7 +400,7 @@
                 </item>
               </inlineStackInfo>
               <originalName>j</originalName>
-              <rtlName>j_10_fu_68_p2</rtlName>
+              <rtlName>j_4_fu_68_p2</rtlName>
               <control>auto</control>
               <opType>add</opType>
               <implIndex>fabric</implIndex>
@@ -525,11 +525,11 @@
               <rtlName></rtlName>
               <control>auto</control>
               <opType>fifo</opType>
-              <implIndex>memory</implIndex>
-              <coreName>FIFO</coreName>
+              <implIndex>srl</implIndex>
+              <coreName>FIFO_SRL</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>77</coreId>
+              <coreId>80</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -1546,7 +1546,7 @@
           </second>
         </item>
         <item>
-          <first>j_10_fu_68_p2 ( + ) </first>
+          <first>j_4_fu_68_p2 ( + ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -1635,7 +1635,7 @@
           </second>
         </item>
         <item>
-          <first>ap_sig_allocacmp_j_9</first>
+          <first>ap_sig_allocacmp_j_3</first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
@@ -1850,7 +1850,7 @@
           </second>
         </item>
         <item>
-          <first>j_10_fu_68_p2 ( + ) </first>
+          <first>j_4_fu_68_p2 ( + ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -2092,7 +2092,7 @@
         </second>
       </item>
       <item>
-        <first>j_10_fu_68</first>
+        <first>j_4_fu_68</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -2116,7 +2116,7 @@
       <count>5</count>
       <item_version>0</item_version>
       <item>
-        <first>j_9_load_fu_59</first>
+        <first>j_3_load_fu_59</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -2237,7 +2237,7 @@
         <first>1</first>
         <second>
           <first>666</first>
-          <second>7</second>
+          <second>10</second>
         </second>
       </item>
       <item>
@@ -2269,7 +2269,7 @@
         <first>17</first>
         <second>
           <first>666</first>
-          <second>7</second>
+          <second>10</second>
         </second>
       </item>
       <item>

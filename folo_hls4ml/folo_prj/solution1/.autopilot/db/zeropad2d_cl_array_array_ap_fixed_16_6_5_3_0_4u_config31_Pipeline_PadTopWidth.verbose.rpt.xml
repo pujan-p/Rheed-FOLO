@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_PadTopWidth'" level="0">
-<item name = "Date">Thu Apr 23 22:46:37 2026
+<item name = "Date">Fri Apr 24 00:23:00 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">folo_prj</item>
@@ -78,7 +78,7 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="j_8_fu_60_p2">+, 0, 0, 15, 8, 1</column>
+<column name="j_2_fu_60_p2">+, 0, 0, 15, 8, 1</column>
 <column name="ap_block_pp0_stage0_01001_grp1">and, 0, 0, 2, 1, 1</column>
 <column name="icmp_ln53_fu_54_p2">icmp, 0, 0, 15, 8, 8</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
@@ -88,7 +88,7 @@
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
 <column name="ap_done_int">9, 2, 1, 2</column>
 <column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
-<column name="ap_sig_allocacmp_j_7">9, 2, 8, 16</column>
+<column name="ap_sig_allocacmp_j_1">9, 2, 8, 16</column>
 <column name="j_fu_34">9, 2, 8, 16</column>
 <column name="layer31_out_blk_n">9, 2, 1, 2</column>
 </table>

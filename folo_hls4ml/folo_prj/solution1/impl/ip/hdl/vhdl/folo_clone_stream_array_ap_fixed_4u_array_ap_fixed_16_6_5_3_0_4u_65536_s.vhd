@@ -26,8 +26,8 @@ port (
     layer27_cpy1_din : OUT STD_LOGIC_VECTOR (63 downto 0);
     layer27_cpy1_full_n : IN STD_LOGIC;
     layer27_cpy1_write : OUT STD_LOGIC;
-    layer27_cpy1_num_data_valid : IN STD_LOGIC_VECTOR (6 downto 0);
-    layer27_cpy1_fifo_cap : IN STD_LOGIC_VECTOR (6 downto 0);
+    layer27_cpy1_num_data_valid : IN STD_LOGIC_VECTOR (4 downto 0);
+    layer27_cpy1_fifo_cap : IN STD_LOGIC_VECTOR (4 downto 0);
     layer27_cpy2_din : OUT STD_LOGIC_VECTOR (63 downto 0);
     layer27_cpy2_full_n : IN STD_LOGIC;
     layer27_cpy2_write : OUT STD_LOGIC;
@@ -70,10 +70,10 @@ attribute shreg_extract : string;
     signal layer4_out_blk_n : STD_LOGIC;
     signal layer27_cpy1_blk_n : STD_LOGIC;
     signal layer27_cpy2_blk_n : STD_LOGIC;
-    signal i_39_fu_38 : STD_LOGIC_VECTOR (13 downto 0) := "00000000000000";
-    signal i_fu_72_p2 : STD_LOGIC_VECTOR (13 downto 0);
+    signal i_fu_38 : STD_LOGIC_VECTOR (13 downto 0) := "00000000000000";
+    signal i_40_fu_72_p2 : STD_LOGIC_VECTOR (13 downto 0);
     signal ap_loop_init : STD_LOGIC;
-    signal ap_sig_allocacmp_i_40 : STD_LOGIC_VECTOR (13 downto 0);
+    signal ap_sig_allocacmp_i_39 : STD_LOGIC_VECTOR (13 downto 0);
     signal ap_continue_int : STD_LOGIC;
     signal ap_done_int : STD_LOGIC;
     signal ap_NS_fsm : STD_LOGIC_VECTOR (0 downto 0);
@@ -166,11 +166,11 @@ begin
     end process;
 
 
-    i_39_fu_38_assign_proc : process (ap_clk)
+    i_fu_38_assign_proc : process (ap_clk)
     begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_state1_pp0_stage0_iter0) and (ap_const_logic_1 = ap_CS_fsm_state1))) then
-                i_39_fu_38 <= i_fu_72_p2;
+                i_fu_38 <= i_40_fu_72_p2;
             end if;
         end if;
     end process;
@@ -245,17 +245,17 @@ begin
     end process;
 
 
-    ap_sig_allocacmp_i_40_assign_proc : process(ap_CS_fsm_state1, i_39_fu_38, ap_loop_init)
+    ap_sig_allocacmp_i_39_assign_proc : process(ap_CS_fsm_state1, i_fu_38, ap_loop_init)
     begin
         if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            ap_sig_allocacmp_i_40 <= ap_const_lv14_0;
+            ap_sig_allocacmp_i_39 <= ap_const_lv14_0;
         else 
-            ap_sig_allocacmp_i_40 <= i_39_fu_38;
+            ap_sig_allocacmp_i_39 <= i_fu_38;
         end if; 
     end process;
 
-    i_fu_72_p2 <= std_logic_vector(unsigned(ap_sig_allocacmp_i_40) + unsigned(ap_const_lv14_1));
-    icmp_ln22_fu_78_p2 <= "1" when (ap_sig_allocacmp_i_40 = ap_const_lv14_3FFF) else "0";
+    i_40_fu_72_p2 <= std_logic_vector(unsigned(ap_sig_allocacmp_i_39) + unsigned(ap_const_lv14_1));
+    icmp_ln22_fu_78_p2 <= "1" when (ap_sig_allocacmp_i_39 = ap_const_lv14_3FFF) else "0";
 
     layer27_cpy1_blk_n_assign_proc : process(ap_CS_fsm_state1, layer27_cpy1_full_n, ap_done_reg, ap_start_int)
     begin

@@ -153,7 +153,7 @@
 <IOProtocol>ap_fifo</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>96</Bits>
+<Bits>60</Bits>
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>

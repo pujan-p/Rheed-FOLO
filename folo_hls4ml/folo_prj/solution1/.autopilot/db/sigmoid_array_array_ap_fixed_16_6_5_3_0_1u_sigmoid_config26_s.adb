@@ -37,7 +37,7 @@
               <coreId>4294967295</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>16</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <direction>0</direction>
           <if_type>3</if_type>
@@ -96,8 +96,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>80</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -109,7 +109,7 @@
                     <item class_id="12" tracking_level="0" version="0">
                       <first class_id="13" tracking_level="0" version="0">
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>80</second>
                     </item>
@@ -152,8 +152,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>80</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -165,7 +165,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>80</second>
                     </item>
@@ -209,8 +209,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>80</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -222,7 +222,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>80</second>
                     </item>
@@ -265,8 +265,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>80</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -278,7 +278,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>80</second>
                     </item>
@@ -302,7 +302,7 @@
             <count>2</count>
             <item_version>0</item_version>
             <item>51</item>
-            <item>206</item>
+            <item>207</item>
           </oprand_edges>
           <opcode>load</opcode>
           <m_Display>0</m_Display>
@@ -318,12 +318,12 @@
             <Obj>
               <type>0</type>
               <id>14</id>
-              <name>in_data</name>
+              <name>layer25_out_read</name>
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>83</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -335,14 +335,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>83</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
-              <originalName>in_data</originalName>
+              <originalName></originalName>
               <rtlName></rtlName>
               <control>auto</control>
               <opType>fifo</opType>
@@ -353,7 +353,7 @@
               <coreId>80</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>16</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -379,8 +379,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>90</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -392,7 +392,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>90</second>
                     </item>
@@ -400,7 +400,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>tmp_1_reg_267</rtlName>
+              <rtlName>tmp_1_reg_269</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -410,7 +410,7 @@
               <coreId>4294967295</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>12</bitwidth>
+            <bitwidth>22</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -438,8 +438,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>90</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -451,7 +451,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>90</second>
                     </item>
@@ -459,7 +459,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>tmp_fu_161_p3</rtlName>
+              <rtlName>tmp_fu_163_p3</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -496,8 +496,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>90</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -509,7 +509,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>90</second>
                     </item>
@@ -517,7 +517,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>trunc_ln90_fu_120_p1</rtlName>
+              <rtlName>trunc_ln90_fu_122_p1</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -527,7 +527,7 @@
               <coreId>4294967295</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>4</bitwidth>
+            <bitwidth>14</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
@@ -552,8 +552,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>90</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -565,7 +565,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>90</second>
                     </item>
@@ -573,7 +573,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>tmp_2_fu_124_p3</rtlName>
+              <rtlName>tmp_2_fu_126_p3</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -583,7 +583,7 @@
               <coreId>4294967295</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>10</bitwidth>
+            <bitwidth>20</bitwidth>
           </Value>
           <oprand_edges>
             <count>3</count>
@@ -610,8 +610,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>90</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -623,7 +623,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>90</second>
                     </item>
@@ -631,7 +631,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>icmp_ln90_fu_132_p2</rtlName>
+              <rtlName>icmp_ln90_fu_134_p2</rtlName>
               <control>auto</control>
               <opType>setne</opType>
               <implIndex>auto</implIndex>
@@ -647,14 +647,14 @@
             <count>2</count>
             <item_version>0</item_version>
             <item>72</item>
-            <item>73</item>
+            <item>74</item>
           </oprand_edges>
           <opcode>icmp</opcode>
           <m_Display>0</m_Display>
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.31</m_delay>
+          <m_delay>1.43</m_delay>
           <m_topoIndex>9</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -667,8 +667,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>90</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -680,7 +680,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>90</second>
                     </item>
@@ -688,7 +688,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>add_ln90_fu_138_p2</rtlName>
+              <rtlName>add_ln90_fu_140_p2</rtlName>
               <control>auto</control>
               <opType>add</opType>
               <implIndex>fabric</implIndex>
@@ -698,20 +698,20 @@
               <coreId>1</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>12</bitwidth>
+            <bitwidth>22</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
             <item_version>0</item_version>
-            <item>74</item>
-            <item>76</item>
+            <item>75</item>
+            <item>77</item>
           </oprand_edges>
           <opcode>add</opcode>
           <m_Display>0</m_Display>
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.35</m_delay>
+          <m_delay>1.44</m_delay>
           <m_topoIndex>10</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -724,8 +724,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>90</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -737,7 +737,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>90</second>
                     </item>
@@ -745,7 +745,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>select_ln90_fu_168_p3</rtlName>
+              <rtlName>select_ln90_fu_170_p3</rtlName>
               <control>auto</control>
               <opType>select</opType>
               <implIndex>auto_sel</implIndex>
@@ -755,14 +755,14 @@
               <coreId>73</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>12</bitwidth>
+            <bitwidth>22</bitwidth>
           </Value>
           <oprand_edges>
             <count>3</count>
             <item_version>0</item_version>
-            <item>77</item>
             <item>78</item>
             <item>79</item>
+            <item>80</item>
           </oprand_edges>
           <opcode>select</opcode>
           <m_Display>0</m_Display>
@@ -782,8 +782,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>90</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -795,7 +795,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>90</second>
                     </item>
@@ -803,7 +803,7 @@
                 </item>
               </inlineStackInfo>
               <originalName>data_round</originalName>
-              <rtlName>data_round_fu_173_p3</rtlName>
+              <rtlName>data_round_fu_175_p3</rtlName>
               <control>auto</control>
               <opType>select</opType>
               <implIndex>auto_sel</implIndex>
@@ -813,14 +813,14 @@
               <coreId>73</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>12</bitwidth>
+            <bitwidth>22</bitwidth>
           </Value>
           <oprand_edges>
             <count>3</count>
             <item_version>0</item_version>
-            <item>80</item>
             <item>81</item>
             <item>82</item>
+            <item>83</item>
           </oprand_edges>
           <opcode>select</opcode>
           <m_Display>0</m_Display>
@@ -840,8 +840,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>90</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -853,7 +853,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>90</second>
                     </item>
@@ -861,7 +861,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>sext_ln90_fu_180_p1</rtlName>
+              <rtlName>sext_ln90_fu_182_p1</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -871,12 +871,12 @@
               <coreId>4294967295</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>13</bitwidth>
+            <bitwidth>23</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
             <item_version>0</item_version>
-            <item>83</item>
+            <item>84</item>
           </oprand_edges>
           <opcode>sext</opcode>
           <m_Display>0</m_Display>
@@ -896,8 +896,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>91</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -909,7 +909,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>91</second>
                     </item>
@@ -917,7 +917,7 @@
                 </item>
               </inlineStackInfo>
               <originalName>index</originalName>
-              <rtlName>index_fu_184_p2</rtlName>
+              <rtlName>index_fu_186_p2</rtlName>
               <control>auto</control>
               <opType>add</opType>
               <implIndex>fabric</implIndex>
@@ -927,20 +927,20 @@
               <coreId>1</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>13</bitwidth>
+            <bitwidth>23</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
             <item_version>0</item_version>
-            <item>84</item>
-            <item>86</item>
+            <item>85</item>
+            <item>87</item>
           </oprand_edges>
           <opcode>add</opcode>
           <m_Display>0</m_Display>
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.35</m_delay>
+          <m_delay>1.44</m_delay>
           <m_topoIndex>19</m_topoIndex>
           <m_clusterGroupNumber>1</m_clusterGroupNumber>
         </item>
@@ -953,8 +953,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>91</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -966,7 +966,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>91</second>
                     </item>
@@ -974,7 +974,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>trunc_ln91_fu_190_p1</rtlName>
+              <rtlName>trunc_ln91_fu_192_p1</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -989,7 +989,7 @@
           <oprand_edges>
             <count>1</count>
             <item_version>0</item_version>
-            <item>87</item>
+            <item>88</item>
           </oprand_edges>
           <opcode>trunc</opcode>
           <m_Display>0</m_Display>
@@ -1009,8 +1009,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>92</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1022,7 +1022,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>92</second>
                     </item>
@@ -1030,7 +1030,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>tmp_3_fu_194_p3</rtlName>
+              <rtlName>tmp_3_fu_196_p3</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -1045,9 +1045,9 @@
           <oprand_edges>
             <count>3</count>
             <item_version>0</item_version>
-            <item>89</item>
             <item>90</item>
-            <item>92</item>
+            <item>91</item>
+            <item>93</item>
           </oprand_edges>
           <opcode>bitselect</opcode>
           <m_Display>0</m_Display>
@@ -1067,8 +1067,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>94</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1080,7 +1080,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>94</second>
                     </item>
@@ -1088,7 +1088,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>tmp_4_fu_202_p4</rtlName>
+              <rtlName>tmp_4_fu_204_p4</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -1098,15 +1098,15 @@
               <coreId>4294967295</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>3</bitwidth>
+            <bitwidth>13</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
             <item_version>0</item_version>
-            <item>94</item>
             <item>95</item>
-            <item>97</item>
+            <item>96</item>
             <item>98</item>
+            <item>99</item>
           </oprand_edges>
           <opcode>partselect</opcode>
           <m_Display>0</m_Display>
@@ -1126,8 +1126,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>94</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1139,7 +1139,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>94</second>
                     </item>
@@ -1147,7 +1147,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>icmp_ln94_fu_212_p2</rtlName>
+              <rtlName>icmp_ln94_fu_214_p2</rtlName>
               <control>auto</control>
               <opType>setne</opType>
               <implIndex>auto</implIndex>
@@ -1162,15 +1162,15 @@
           <oprand_edges>
             <count>2</count>
             <item_version>0</item_version>
-            <item>99</item>
-            <item>101</item>
+            <item>100</item>
+            <item>102</item>
           </oprand_edges>
           <opcode>icmp</opcode>
           <m_Display>0</m_Display>
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.83</m_delay>
+          <m_delay>1.36</m_delay>
           <m_topoIndex>23</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -1183,8 +1183,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>92</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1196,7 +1196,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>92</second>
                     </item>
@@ -1204,7 +1204,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>xor_ln92_fu_218_p2</rtlName>
+              <rtlName>xor_ln92_fu_220_p2</rtlName>
               <control>auto</control>
               <opType>xor</opType>
               <implIndex>auto</implIndex>
@@ -1219,8 +1219,8 @@
           <oprand_edges>
             <count>2</count>
             <item_version>0</item_version>
-            <item>102</item>
-            <item>104</item>
+            <item>103</item>
+            <item>105</item>
           </oprand_edges>
           <opcode>xor</opcode>
           <m_Display>0</m_Display>
@@ -1240,8 +1240,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>92</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1253,7 +1253,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>92</second>
                     </item>
@@ -1261,7 +1261,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>select_ln92_fu_224_p3</rtlName>
+              <rtlName>select_ln92_fu_226_p3</rtlName>
               <control>auto</control>
               <opType>select</opType>
               <implIndex>auto_sel</implIndex>
@@ -1276,9 +1276,9 @@
           <oprand_edges>
             <count>3</count>
             <item_version>0</item_version>
-            <item>105</item>
-            <item>107</item>
+            <item>106</item>
             <item>108</item>
+            <item>109</item>
           </oprand_edges>
           <opcode>select</opcode>
           <m_Display>0</m_Display>
@@ -1298,8 +1298,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>92</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1311,7 +1311,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>92</second>
                     </item>
@@ -1319,7 +1319,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>or_ln92_fu_232_p2</rtlName>
+              <rtlName>or_ln92_fu_234_p2</rtlName>
               <control>auto</control>
               <opType>or</opType>
               <implIndex>auto</implIndex>
@@ -1334,8 +1334,8 @@
           <oprand_edges>
             <count>2</count>
             <item_version>0</item_version>
-            <item>109</item>
             <item>110</item>
+            <item>111</item>
           </oprand_edges>
           <opcode>or</opcode>
           <m_Display>0</m_Display>
@@ -1355,8 +1355,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>92</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1368,7 +1368,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>92</second>
                     </item>
@@ -1376,7 +1376,7 @@
                 </item>
               </inlineStackInfo>
               <originalName>index</originalName>
-              <rtlName>index_1_fu_238_p3</rtlName>
+              <rtlName>index_1_fu_240_p3</rtlName>
               <control>auto</control>
               <opType>select</opType>
               <implIndex>auto_sel</implIndex>
@@ -1391,9 +1391,9 @@
           <oprand_edges>
             <count>3</count>
             <item_version>0</item_version>
-            <item>111</item>
             <item>112</item>
             <item>113</item>
+            <item>114</item>
           </oprand_edges>
           <opcode>select</opcode>
           <m_Display>0</m_Display>
@@ -1413,8 +1413,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>96</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1426,7 +1426,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>96</second>
                     </item>
@@ -1434,7 +1434,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>zext_ln96_fu_246_p1</rtlName>
+              <rtlName>zext_ln96_fu_248_p1</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -1449,7 +1449,7 @@
           <oprand_edges>
             <count>1</count>
             <item_version>0</item_version>
-            <item>114</item>
+            <item>115</item>
           </oprand_edges>
           <opcode>zext</opcode>
           <m_Display>0</m_Display>
@@ -1469,8 +1469,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>96</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1482,7 +1482,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>96</second>
                     </item>
@@ -1505,9 +1505,9 @@
           <oprand_edges>
             <count>3</count>
             <item_version>0</item_version>
-            <item>115</item>
-            <item>117</item>
+            <item>116</item>
             <item>118</item>
+            <item>119</item>
           </oprand_edges>
           <opcode>getelementptr</opcode>
           <m_Display>0</m_Display>
@@ -1527,8 +1527,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>96</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1540,7 +1540,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>96</second>
                     </item>
@@ -1563,7 +1563,7 @@
           <oprand_edges>
             <count>1</count>
             <item_version>0</item_version>
-            <item>119</item>
+            <item>120</item>
           </oprand_edges>
           <opcode>load</opcode>
           <m_Display>0</m_Display>
@@ -1583,8 +1583,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>96</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1596,7 +1596,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>96</second>
                     </item>
@@ -1619,7 +1619,7 @@
           <oprand_edges>
             <count>1</count>
             <item_version>0</item_version>
-            <item>120</item>
+            <item>121</item>
           </oprand_edges>
           <opcode>zext</opcode>
           <m_Display>0</m_Display>
@@ -1639,8 +1639,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>99</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1652,7 +1652,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>99</second>
                     </item>
@@ -1675,9 +1675,9 @@
           <oprand_edges>
             <count>3</count>
             <item_version>0</item_version>
-            <item>122</item>
             <item>123</item>
             <item>124</item>
+            <item>125</item>
           </oprand_edges>
           <opcode>write</opcode>
           <m_Display>0</m_Display>
@@ -1697,8 +1697,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>80</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1710,7 +1710,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>80</second>
                     </item>
@@ -1718,7 +1718,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>i_26_fu_144_p2</rtlName>
+              <rtlName>i_26_fu_146_p2</rtlName>
               <control>auto</control>
               <opType>add</opType>
               <implIndex>fabric</implIndex>
@@ -1733,8 +1733,8 @@
           <oprand_edges>
             <count>2</count>
             <item_version>0</item_version>
-            <item>125</item>
-            <item>127</item>
+            <item>126</item>
+            <item>128</item>
           </oprand_edges>
           <opcode>add</opcode>
           <m_Display>0</m_Display>
@@ -1754,8 +1754,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>80</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1767,7 +1767,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>80</second>
                     </item>
@@ -1775,7 +1775,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>icmp_ln80_fu_150_p2</rtlName>
+              <rtlName>icmp_ln80_fu_152_p2</rtlName>
               <control>auto</control>
               <opType>seteq</opType>
               <implIndex>auto</implIndex>
@@ -1790,8 +1790,8 @@
           <oprand_edges>
             <count>2</count>
             <item_version>0</item_version>
-            <item>128</item>
             <item>129</item>
+            <item>130</item>
           </oprand_edges>
           <opcode>icmp</opcode>
           <m_Display>0</m_Display>
@@ -1811,8 +1811,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>80</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1824,7 +1824,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>80</second>
                     </item>
@@ -1847,10 +1847,10 @@
           <oprand_edges>
             <count>4</count>
             <item_version>0</item_version>
-            <item>130</item>
             <item>131</item>
-            <item>205</item>
-            <item>207</item>
+            <item>132</item>
+            <item>206</item>
+            <item>208</item>
           </oprand_edges>
           <opcode>store</opcode>
           <m_Display>0</m_Display>
@@ -1870,8 +1870,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>80</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1883,7 +1883,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>80</second>
                     </item>
@@ -1906,9 +1906,9 @@
           <oprand_edges>
             <count>3</count>
             <item_version>0</item_version>
-            <item>132</item>
             <item>133</item>
             <item>134</item>
+            <item>135</item>
           </oprand_edges>
           <opcode>br</opcode>
           <m_Display>0</m_Display>
@@ -1928,8 +1928,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>101</lineNumber>
-              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+              <contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+              <contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -1941,7 +1941,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+                        <second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
                       </first>
                       <second>101</second>
                     </item>
@@ -1978,7 +1978,7 @@
           <Value>
             <Obj>
               <type>0</type>
-              <id>208</id>
+              <id>209</id>
               <name>sigmoid_table</name>
               <fileName></fileName>
               <fileDirectory></fileDirectory>
@@ -2017,7 +2017,7 @@
         </item>
       </nodes>
       <consts class_id="15" tracking_level="0" version="0">
-        <count>14</count>
+        <count>15</count>
         <item_version>0</item_version>
         <item class_id="16" tracking_level="1" version="0" object_id="_37">
           <Value>
@@ -2110,7 +2110,7 @@
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>4</content>
+          <content>14</content>
         </item>
         <item class_id_reference="16" object_id="_40">
           <Value>
@@ -2141,7 +2141,7 @@
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>15</content>
+          <content>35</content>
         </item>
         <item class_id_reference="16" object_id="_41">
           <Value>
@@ -2178,7 +2178,7 @@
           <Value>
             <Obj>
               <type>2</type>
-              <id>75</id>
+              <id>73</id>
               <name>empty</name>
               <fileName></fileName>
               <fileDirectory></fileDirectory>
@@ -2200,16 +2200,16 @@
               <coreId>4294967295</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>12</bitwidth>
+            <bitwidth>20</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>1</content>
+          <content>0</content>
         </item>
         <item class_id_reference="16" object_id="_43">
           <Value>
             <Obj>
               <type>2</type>
-              <id>85</id>
+              <id>76</id>
               <name>empty</name>
               <fileName></fileName>
               <fileDirectory></fileDirectory>
@@ -2231,16 +2231,47 @@
               <coreId>4294967295</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>13</bitwidth>
+            <bitwidth>22</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>512</content>
+          <content>1</content>
         </item>
         <item class_id_reference="16" object_id="_44">
           <Value>
             <Obj>
               <type>2</type>
-              <id>91</id>
+              <id>86</id>
+              <name>empty</name>
+              <fileName></fileName>
+              <fileDirectory></fileDirectory>
+              <lineNumber>0</lineNumber>
+              <contextFuncName></contextFuncName>
+              <contextNormFuncName></contextNormFuncName>
+              <inlineStackInfo>
+                <count>0</count>
+                <item_version>0</item_version>
+              </inlineStackInfo>
+              <originalName></originalName>
+              <rtlName></rtlName>
+              <control></control>
+              <opType></opType>
+              <implIndex></implIndex>
+              <coreName></coreName>
+              <isStorage>0</isStorage>
+              <storageDepth>0</storageDepth>
+              <coreId>4294967295</coreId>
+              <rtlModuleName></rtlModuleName>
+            </Obj>
+            <bitwidth>23</bitwidth>
+          </Value>
+          <const_type>0</const_type>
+          <content>512</content>
+        </item>
+        <item class_id_reference="16" object_id="_45">
+          <Value>
+            <Obj>
+              <type>2</type>
+              <id>92</id>
               <name>empty</name>
               <fileName></fileName>
               <fileDirectory></fileDirectory>
@@ -2265,13 +2296,13 @@
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>12</content>
+          <content>22</content>
         </item>
-        <item class_id_reference="16" object_id="_45">
+        <item class_id_reference="16" object_id="_46">
           <Value>
             <Obj>
               <type>2</type>
-              <id>96</id>
+              <id>97</id>
               <name>empty</name>
               <fileName></fileName>
               <fileDirectory></fileDirectory>
@@ -2298,11 +2329,11 @@
           <const_type>0</const_type>
           <content>10</content>
         </item>
-        <item class_id_reference="16" object_id="_46">
+        <item class_id_reference="16" object_id="_47">
           <Value>
             <Obj>
               <type>2</type>
-              <id>100</id>
+              <id>101</id>
               <name>empty</name>
               <fileName></fileName>
               <fileDirectory></fileDirectory>
@@ -2324,16 +2355,16 @@
               <coreId>4294967295</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
-            <bitwidth>3</bitwidth>
+            <bitwidth>13</bitwidth>
           </Value>
           <const_type>0</const_type>
           <content>0</content>
         </item>
-        <item class_id_reference="16" object_id="_47">
+        <item class_id_reference="16" object_id="_48">
           <Value>
             <Obj>
               <type>2</type>
-              <id>103</id>
+              <id>104</id>
               <name>empty</name>
               <fileName></fileName>
               <fileDirectory></fileDirectory>
@@ -2360,11 +2391,11 @@
           <const_type>0</const_type>
           <content>1</content>
         </item>
-        <item class_id_reference="16" object_id="_48">
+        <item class_id_reference="16" object_id="_49">
           <Value>
             <Obj>
               <type>2</type>
-              <id>106</id>
+              <id>107</id>
               <name>empty</name>
               <fileName></fileName>
               <fileDirectory></fileDirectory>
@@ -2391,11 +2422,11 @@
           <const_type>0</const_type>
           <content>1023</content>
         </item>
-        <item class_id_reference="16" object_id="_49">
+        <item class_id_reference="16" object_id="_50">
           <Value>
             <Obj>
               <type>2</type>
-              <id>116</id>
+              <id>117</id>
               <name>empty</name>
               <fileName></fileName>
               <fileDirectory></fileDirectory>
@@ -2422,11 +2453,11 @@
           <const_type>0</const_type>
           <content>0</content>
         </item>
-        <item class_id_reference="16" object_id="_50">
+        <item class_id_reference="16" object_id="_51">
           <Value>
             <Obj>
               <type>2</type>
-              <id>126</id>
+              <id>127</id>
               <name>empty</name>
               <fileName></fileName>
               <fileDirectory></fileDirectory>
@@ -2457,7 +2488,7 @@
       <blocks class_id="17" tracking_level="0" version="0">
         <count>3</count>
         <item_version>0</item_version>
-        <item class_id="18" tracking_level="1" version="0" object_id="_51">
+        <item class_id="18" tracking_level="1" version="0" object_id="_52">
           <Obj>
             <type>3</type>
             <id>9</id>
@@ -2490,7 +2521,7 @@
             <item>8</item>
           </node_objs>
         </item>
-        <item class_id_reference="18" object_id="_52">
+        <item class_id_reference="18" object_id="_53">
           <Obj>
             <type>3</type>
             <id>42</id>
@@ -2549,7 +2580,7 @@
             <item>41</item>
           </node_objs>
         </item>
-        <item class_id_reference="18" object_id="_53">
+        <item class_id_reference="18" object_id="_54">
           <Obj>
             <type>3</type>
             <id>44</id>
@@ -2584,477 +2615,477 @@
       <edges class_id="19" tracking_level="0" version="0">
         <count>68</count>
         <item_version>0</item_version>
-        <item class_id="20" tracking_level="1" version="0" object_id="_54">
+        <item class_id="20" tracking_level="1" version="0" object_id="_55">
           <id>46</id>
           <edge_type>1</edge_type>
           <source_obj>45</source_obj>
           <sink_obj>4</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_55">
+        <item class_id_reference="20" object_id="_56">
           <id>48</id>
           <edge_type>1</edge_type>
           <source_obj>47</source_obj>
           <sink_obj>7</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_56">
+        <item class_id_reference="20" object_id="_57">
           <id>49</id>
           <edge_type>1</edge_type>
           <source_obj>4</source_obj>
           <sink_obj>7</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_57">
+        <item class_id_reference="20" object_id="_58">
           <id>50</id>
           <edge_type>2</edge_type>
           <source_obj>42</source_obj>
           <sink_obj>8</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_58">
+        <item class_id_reference="20" object_id="_59">
           <id>51</id>
           <edge_type>1</edge_type>
           <source_obj>4</source_obj>
           <sink_obj>10</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_59">
+        <item class_id_reference="20" object_id="_60">
           <id>54</id>
           <edge_type>1</edge_type>
           <source_obj>1</source_obj>
           <sink_obj>14</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_60">
+        <item class_id_reference="20" object_id="_61">
           <id>57</id>
           <edge_type>1</edge_type>
           <source_obj>14</source_obj>
           <sink_obj>15</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_61">
+        <item class_id_reference="20" object_id="_62">
           <id>59</id>
           <edge_type>1</edge_type>
           <source_obj>58</source_obj>
           <sink_obj>15</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_62">
+        <item class_id_reference="20" object_id="_63">
           <id>61</id>
           <edge_type>1</edge_type>
           <source_obj>60</source_obj>
           <sink_obj>15</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_63">
+        <item class_id_reference="20" object_id="_64">
           <id>64</id>
           <edge_type>1</edge_type>
           <source_obj>14</source_obj>
           <sink_obj>16</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_64">
+        <item class_id_reference="20" object_id="_65">
           <id>65</id>
           <edge_type>1</edge_type>
           <source_obj>60</source_obj>
           <sink_obj>16</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_65">
+        <item class_id_reference="20" object_id="_66">
           <id>66</id>
           <edge_type>1</edge_type>
           <source_obj>14</source_obj>
           <sink_obj>17</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_66">
+        <item class_id_reference="20" object_id="_67">
           <id>69</id>
           <edge_type>1</edge_type>
           <source_obj>17</source_obj>
           <sink_obj>18</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_67">
+        <item class_id_reference="20" object_id="_68">
           <id>71</id>
           <edge_type>1</edge_type>
           <source_obj>70</source_obj>
           <sink_obj>18</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_68">
+        <item class_id_reference="20" object_id="_69">
           <id>72</id>
           <edge_type>1</edge_type>
           <source_obj>18</source_obj>
           <sink_obj>19</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_69">
-          <id>73</id>
-          <edge_type>1</edge_type>
-          <source_obj>47</source_obj>
-          <sink_obj>19</sink_obj>
-          <is_back_edge>0</is_back_edge>
-        </item>
         <item class_id_reference="20" object_id="_70">
           <id>74</id>
           <edge_type>1</edge_type>
-          <source_obj>15</source_obj>
-          <sink_obj>20</sink_obj>
+          <source_obj>73</source_obj>
+          <sink_obj>19</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_71">
-          <id>76</id>
+          <id>75</id>
           <edge_type>1</edge_type>
-          <source_obj>75</source_obj>
+          <source_obj>15</source_obj>
           <sink_obj>20</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_72">
           <id>77</id>
           <edge_type>1</edge_type>
-          <source_obj>19</source_obj>
-          <sink_obj>21</sink_obj>
+          <source_obj>76</source_obj>
+          <sink_obj>20</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_73">
           <id>78</id>
           <edge_type>1</edge_type>
-          <source_obj>20</source_obj>
+          <source_obj>19</source_obj>
           <sink_obj>21</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_74">
           <id>79</id>
           <edge_type>1</edge_type>
-          <source_obj>15</source_obj>
+          <source_obj>20</source_obj>
           <sink_obj>21</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_75">
           <id>80</id>
           <edge_type>1</edge_type>
-          <source_obj>16</source_obj>
-          <sink_obj>22</sink_obj>
+          <source_obj>15</source_obj>
+          <sink_obj>21</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_76">
           <id>81</id>
           <edge_type>1</edge_type>
-          <source_obj>21</source_obj>
+          <source_obj>16</source_obj>
           <sink_obj>22</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_77">
           <id>82</id>
           <edge_type>1</edge_type>
-          <source_obj>15</source_obj>
+          <source_obj>21</source_obj>
           <sink_obj>22</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_78">
           <id>83</id>
           <edge_type>1</edge_type>
-          <source_obj>22</source_obj>
-          <sink_obj>23</sink_obj>
+          <source_obj>15</source_obj>
+          <sink_obj>22</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_79">
           <id>84</id>
           <edge_type>1</edge_type>
-          <source_obj>23</source_obj>
-          <sink_obj>24</sink_obj>
+          <source_obj>22</source_obj>
+          <sink_obj>23</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_80">
-          <id>86</id>
+          <id>85</id>
           <edge_type>1</edge_type>
-          <source_obj>85</source_obj>
+          <source_obj>23</source_obj>
           <sink_obj>24</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_81">
           <id>87</id>
           <edge_type>1</edge_type>
+          <source_obj>86</source_obj>
+          <sink_obj>24</sink_obj>
+          <is_back_edge>0</is_back_edge>
+        </item>
+        <item class_id_reference="20" object_id="_82">
+          <id>88</id>
+          <edge_type>1</edge_type>
           <source_obj>24</source_obj>
           <sink_obj>25</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_82">
-          <id>90</id>
+        <item class_id_reference="20" object_id="_83">
+          <id>91</id>
           <edge_type>1</edge_type>
           <source_obj>24</source_obj>
-          <sink_obj>26</sink_obj>
-          <is_back_edge>0</is_back_edge>
-        </item>
-        <item class_id_reference="20" object_id="_83">
-          <id>92</id>
-          <edge_type>1</edge_type>
-          <source_obj>91</source_obj>
           <sink_obj>26</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_84">
-          <id>95</id>
+          <id>93</id>
           <edge_type>1</edge_type>
-          <source_obj>24</source_obj>
-          <sink_obj>27</sink_obj>
+          <source_obj>92</source_obj>
+          <sink_obj>26</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_85">
-          <id>97</id>
+          <id>96</id>
           <edge_type>1</edge_type>
-          <source_obj>96</source_obj>
+          <source_obj>24</source_obj>
           <sink_obj>27</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_86">
           <id>98</id>
           <edge_type>1</edge_type>
-          <source_obj>91</source_obj>
+          <source_obj>97</source_obj>
           <sink_obj>27</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_87">
           <id>99</id>
           <edge_type>1</edge_type>
-          <source_obj>27</source_obj>
-          <sink_obj>28</sink_obj>
+          <source_obj>92</source_obj>
+          <sink_obj>27</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_88">
-          <id>101</id>
+          <id>100</id>
           <edge_type>1</edge_type>
-          <source_obj>100</source_obj>
+          <source_obj>27</source_obj>
           <sink_obj>28</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_89">
           <id>102</id>
           <edge_type>1</edge_type>
-          <source_obj>26</source_obj>
-          <sink_obj>29</sink_obj>
+          <source_obj>101</source_obj>
+          <sink_obj>28</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_90">
-          <id>104</id>
+          <id>103</id>
           <edge_type>1</edge_type>
-          <source_obj>103</source_obj>
+          <source_obj>26</source_obj>
           <sink_obj>29</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_91">
           <id>105</id>
           <edge_type>1</edge_type>
-          <source_obj>29</source_obj>
-          <sink_obj>30</sink_obj>
+          <source_obj>104</source_obj>
+          <sink_obj>29</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_92">
-          <id>107</id>
+          <id>106</id>
           <edge_type>1</edge_type>
-          <source_obj>106</source_obj>
+          <source_obj>29</source_obj>
           <sink_obj>30</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_93">
           <id>108</id>
           <edge_type>1</edge_type>
-          <source_obj>47</source_obj>
+          <source_obj>107</source_obj>
           <sink_obj>30</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_94">
           <id>109</id>
           <edge_type>1</edge_type>
-          <source_obj>26</source_obj>
-          <sink_obj>31</sink_obj>
+          <source_obj>47</source_obj>
+          <sink_obj>30</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_95">
           <id>110</id>
           <edge_type>1</edge_type>
-          <source_obj>28</source_obj>
+          <source_obj>26</source_obj>
           <sink_obj>31</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_96">
           <id>111</id>
           <edge_type>1</edge_type>
-          <source_obj>31</source_obj>
-          <sink_obj>32</sink_obj>
+          <source_obj>28</source_obj>
+          <sink_obj>31</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_97">
           <id>112</id>
           <edge_type>1</edge_type>
-          <source_obj>30</source_obj>
+          <source_obj>31</source_obj>
           <sink_obj>32</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_98">
           <id>113</id>
           <edge_type>1</edge_type>
-          <source_obj>25</source_obj>
+          <source_obj>30</source_obj>
           <sink_obj>32</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_99">
           <id>114</id>
           <edge_type>1</edge_type>
-          <source_obj>32</source_obj>
-          <sink_obj>33</sink_obj>
+          <source_obj>25</source_obj>
+          <sink_obj>32</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_100">
           <id>115</id>
           <edge_type>1</edge_type>
-          <source_obj>3</source_obj>
-          <sink_obj>34</sink_obj>
+          <source_obj>32</source_obj>
+          <sink_obj>33</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_101">
-          <id>117</id>
+          <id>116</id>
           <edge_type>1</edge_type>
-          <source_obj>116</source_obj>
+          <source_obj>3</source_obj>
           <sink_obj>34</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_102">
           <id>118</id>
           <edge_type>1</edge_type>
-          <source_obj>33</source_obj>
+          <source_obj>117</source_obj>
           <sink_obj>34</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_103">
           <id>119</id>
           <edge_type>1</edge_type>
-          <source_obj>34</source_obj>
-          <sink_obj>35</sink_obj>
+          <source_obj>33</source_obj>
+          <sink_obj>34</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_104">
           <id>120</id>
           <edge_type>1</edge_type>
-          <source_obj>35</source_obj>
-          <sink_obj>36</sink_obj>
+          <source_obj>34</source_obj>
+          <sink_obj>35</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_105">
-          <id>123</id>
+          <id>121</id>
           <edge_type>1</edge_type>
-          <source_obj>2</source_obj>
-          <sink_obj>37</sink_obj>
+          <source_obj>35</source_obj>
+          <sink_obj>36</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_106">
           <id>124</id>
           <edge_type>1</edge_type>
-          <source_obj>36</source_obj>
+          <source_obj>2</source_obj>
           <sink_obj>37</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_107">
           <id>125</id>
           <edge_type>1</edge_type>
-          <source_obj>10</source_obj>
-          <sink_obj>38</sink_obj>
+          <source_obj>36</source_obj>
+          <sink_obj>37</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_108">
-          <id>127</id>
+          <id>126</id>
           <edge_type>1</edge_type>
-          <source_obj>126</source_obj>
+          <source_obj>10</source_obj>
           <sink_obj>38</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_109">
           <id>128</id>
           <edge_type>1</edge_type>
-          <source_obj>10</source_obj>
-          <sink_obj>39</sink_obj>
+          <source_obj>127</source_obj>
+          <sink_obj>38</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_110">
           <id>129</id>
           <edge_type>1</edge_type>
-          <source_obj>106</source_obj>
+          <source_obj>10</source_obj>
           <sink_obj>39</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_111">
           <id>130</id>
           <edge_type>1</edge_type>
-          <source_obj>38</source_obj>
-          <sink_obj>40</sink_obj>
+          <source_obj>107</source_obj>
+          <sink_obj>39</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_112">
           <id>131</id>
           <edge_type>1</edge_type>
-          <source_obj>4</source_obj>
+          <source_obj>38</source_obj>
           <sink_obj>40</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_113">
           <id>132</id>
           <edge_type>1</edge_type>
-          <source_obj>39</source_obj>
-          <sink_obj>41</sink_obj>
+          <source_obj>4</source_obj>
+          <sink_obj>40</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_114">
           <id>133</id>
-          <edge_type>2</edge_type>
-          <source_obj>42</source_obj>
+          <edge_type>1</edge_type>
+          <source_obj>39</source_obj>
           <sink_obj>41</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_115">
           <id>134</id>
           <edge_type>2</edge_type>
-          <source_obj>44</source_obj>
+          <source_obj>42</source_obj>
           <sink_obj>41</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_116">
-          <id>202</id>
+          <id>135</id>
           <edge_type>2</edge_type>
-          <source_obj>9</source_obj>
-          <sink_obj>42</sink_obj>
+          <source_obj>44</source_obj>
+          <sink_obj>41</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_117">
           <id>203</id>
           <edge_type>2</edge_type>
-          <source_obj>42</source_obj>
-          <sink_obj>44</sink_obj>
+          <source_obj>9</source_obj>
+          <sink_obj>42</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_118">
           <id>204</id>
           <edge_type>2</edge_type>
           <source_obj>42</source_obj>
-          <sink_obj>42</sink_obj>
-          <is_back_edge>1</is_back_edge>
+          <sink_obj>44</sink_obj>
+          <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_119">
           <id>205</id>
+          <edge_type>2</edge_type>
+          <source_obj>42</source_obj>
+          <sink_obj>42</sink_obj>
+          <is_back_edge>1</is_back_edge>
+        </item>
+        <item class_id_reference="20" object_id="_120">
+          <id>206</id>
           <edge_type>4</edge_type>
           <source_obj>10</source_obj>
           <sink_obj>40</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_120">
-          <id>206</id>
+        <item class_id_reference="20" object_id="_121">
+          <id>207</id>
           <edge_type>4</edge_type>
           <source_obj>7</source_obj>
           <sink_obj>10</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_121">
-          <id>207</id>
+        <item class_id_reference="20" object_id="_122">
+          <id>208</id>
           <edge_type>4</edge_type>
           <source_obj>7</source_obj>
           <sink_obj>40</sink_obj>
@@ -3065,7 +3096,7 @@
     <cdfg_regions class_id="21" tracking_level="0" version="0">
       <count>4</count>
       <item_version>0</item_version>
-      <item class_id="22" tracking_level="1" version="0" object_id="_122">
+      <item class_id="22" tracking_level="1" version="0" object_id="_123">
         <mId>1</mId>
         <mTag>sigmoid&lt;array,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,1u&gt;,sigmoid_config26&gt;</mTag>
         <mNormTag>sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config26_s</mNormTag>
@@ -3090,7 +3121,7 @@
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"></mDfPipe>
       </item>
-      <item class_id_reference="22" object_id="_123">
+      <item class_id_reference="22" object_id="_124">
         <mId>2</mId>
         <mTag>Entry</mTag>
         <mNormTag>Entry</mNormTag>
@@ -3113,7 +3144,7 @@
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"></mDfPipe>
       </item>
-      <item class_id_reference="22" object_id="_124">
+      <item class_id_reference="22" object_id="_125">
         <mId>3</mId>
         <mTag>SigmoidActLoop</mTag>
         <mNormTag>SigmoidActLoop</mNormTag>
@@ -3136,7 +3167,7 @@
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"></mDfPipe>
       </item>
-      <item class_id_reference="22" object_id="_125">
+      <item class_id_reference="22" object_id="_126">
         <mId>4</mId>
         <mTag>Return</mTag>
         <mNormTag>Return</mNormTag>
@@ -3160,239 +3191,239 @@
         <mDfPipe class_id="-1"></mDfPipe>
       </item>
     </cdfg_regions>
-    <fsm class_id="24" tracking_level="1" version="0" object_id="_126">
+    <fsm class_id="24" tracking_level="1" version="0" object_id="_127">
       <states class_id="25" tracking_level="0" version="0">
         <count>5</count>
         <item_version>0</item_version>
-        <item class_id="26" tracking_level="1" version="0" object_id="_127">
+        <item class_id="26" tracking_level="1" version="0" object_id="_128">
           <id>1</id>
           <operations class_id="27" tracking_level="0" version="0">
             <count>16</count>
             <item_version>0</item_version>
-            <item class_id="28" tracking_level="1" version="0" object_id="_128">
+            <item class_id="28" tracking_level="1" version="0" object_id="_129">
               <id>4</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_129">
+            <item class_id_reference="28" object_id="_130">
               <id>5</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_130">
+            <item class_id_reference="28" object_id="_131">
               <id>6</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_131">
+            <item class_id_reference="28" object_id="_132">
               <id>7</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_132">
+            <item class_id_reference="28" object_id="_133">
               <id>8</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_133">
+            <item class_id_reference="28" object_id="_134">
               <id>10</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_134">
+            <item class_id_reference="28" object_id="_135">
               <id>14</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_135">
+            <item class_id_reference="28" object_id="_136">
               <id>15</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_136">
+            <item class_id_reference="28" object_id="_137">
               <id>17</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_137">
+            <item class_id_reference="28" object_id="_138">
               <id>18</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_138">
+            <item class_id_reference="28" object_id="_139">
               <id>19</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_139">
+            <item class_id_reference="28" object_id="_140">
               <id>20</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_140">
+            <item class_id_reference="28" object_id="_141">
               <id>38</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_141">
+            <item class_id_reference="28" object_id="_142">
               <id>39</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_142">
+            <item class_id_reference="28" object_id="_143">
               <id>40</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_143">
+            <item class_id_reference="28" object_id="_144">
               <id>41</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
           </operations>
         </item>
-        <item class_id_reference="26" object_id="_144">
+        <item class_id_reference="26" object_id="_145">
           <id>2</id>
           <operations>
             <count>13</count>
             <item_version>0</item_version>
-            <item class_id_reference="28" object_id="_145">
+            <item class_id_reference="28" object_id="_146">
               <id>16</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_146">
+            <item class_id_reference="28" object_id="_147">
               <id>21</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_147">
+            <item class_id_reference="28" object_id="_148">
               <id>22</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_148">
+            <item class_id_reference="28" object_id="_149">
               <id>23</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_149">
+            <item class_id_reference="28" object_id="_150">
               <id>24</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_150">
+            <item class_id_reference="28" object_id="_151">
               <id>25</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_151">
+            <item class_id_reference="28" object_id="_152">
               <id>26</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_152">
+            <item class_id_reference="28" object_id="_153">
               <id>27</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_153">
+            <item class_id_reference="28" object_id="_154">
               <id>28</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_154">
+            <item class_id_reference="28" object_id="_155">
               <id>29</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_155">
+            <item class_id_reference="28" object_id="_156">
               <id>30</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_156">
+            <item class_id_reference="28" object_id="_157">
               <id>31</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_157">
+            <item class_id_reference="28" object_id="_158">
               <id>32</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
           </operations>
         </item>
-        <item class_id_reference="26" object_id="_158">
+        <item class_id_reference="26" object_id="_159">
           <id>3</id>
           <operations>
             <count>3</count>
             <item_version>0</item_version>
-            <item class_id_reference="28" object_id="_159">
+            <item class_id_reference="28" object_id="_160">
               <id>33</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_160">
+            <item class_id_reference="28" object_id="_161">
               <id>34</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_161">
+            <item class_id_reference="28" object_id="_162">
               <id>35</id>
               <stage>2</stage>
               <latency>2</latency>
             </item>
           </operations>
         </item>
-        <item class_id_reference="26" object_id="_162">
+        <item class_id_reference="26" object_id="_163">
           <id>4</id>
           <operations>
             <count>3</count>
             <item_version>0</item_version>
-            <item class_id_reference="28" object_id="_163">
+            <item class_id_reference="28" object_id="_164">
               <id>35</id>
               <stage>1</stage>
               <latency>2</latency>
             </item>
-            <item class_id_reference="28" object_id="_164">
+            <item class_id_reference="28" object_id="_165">
               <id>36</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_165">
+            <item class_id_reference="28" object_id="_166">
               <id>37</id>
               <stage>2</stage>
               <latency>2</latency>
             </item>
           </operations>
         </item>
-        <item class_id_reference="26" object_id="_166">
+        <item class_id_reference="26" object_id="_167">
           <id>5</id>
           <operations>
             <count>5</count>
             <item_version>0</item_version>
-            <item class_id_reference="28" object_id="_167">
+            <item class_id_reference="28" object_id="_168">
               <id>11</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_168">
+            <item class_id_reference="28" object_id="_169">
               <id>12</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_169">
+            <item class_id_reference="28" object_id="_170">
               <id>13</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_170">
+            <item class_id_reference="28" object_id="_171">
               <id>37</id>
               <stage>1</stage>
               <latency>2</latency>
             </item>
-            <item class_id_reference="28" object_id="_171">
+            <item class_id_reference="28" object_id="_172">
               <id>43</id>
               <stage>1</stage>
               <latency>1</latency>
@@ -3403,7 +3434,7 @@
       <transitions class_id="29" tracking_level="0" version="0">
         <count>4</count>
         <item_version>0</item_version>
-        <item class_id="30" tracking_level="1" version="0" object_id="_172">
+        <item class_id="30" tracking_level="1" version="0" object_id="_173">
           <inState>1</inState>
           <outState>2</outState>
           <condition class_id="31" tracking_level="0" version="0">
@@ -3418,7 +3449,7 @@
             </sop>
           </condition>
         </item>
-        <item class_id_reference="30" object_id="_173">
+        <item class_id_reference="30" object_id="_174">
           <inState>2</inState>
           <outState>3</outState>
           <condition>
@@ -3433,7 +3464,7 @@
             </sop>
           </condition>
         </item>
-        <item class_id_reference="30" object_id="_174">
+        <item class_id_reference="30" object_id="_175">
           <inState>3</inState>
           <outState>4</outState>
           <condition>
@@ -3448,7 +3479,7 @@
             </sop>
           </condition>
         </item>
-        <item class_id_reference="30" object_id="_175">
+        <item class_id_reference="30" object_id="_176">
           <inState>4</inState>
           <outState>5</outState>
           <condition>
@@ -3465,7 +3496,7 @@
         </item>
       </transitions>
     </fsm>
-    <res class_id="34" tracking_level="1" version="0" object_id="_176">
+    <res class_id="34" tracking_level="1" version="0" object_id="_177">
       <dp_component_resource class_id="35" tracking_level="0" version="0">
         <count>2</count>
         <item_version>0</item_version>
@@ -3488,13 +3519,13 @@
         <count>17</count>
         <item_version>0</item_version>
         <item>
-          <first>add_ln90_fu_138_p2 ( + ) </first>
+          <first>add_ln90_fu_140_p2 ( + ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
             <item class_id="38" tracking_level="0" version="0">
               <first>(0P0)</first>
-              <second>12</second>
+              <second>22</second>
             </item>
             <item>
               <first>(1P1)</first>
@@ -3506,7 +3537,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>19</second>
+              <second>29</second>
             </item>
           </second>
         </item>
@@ -3626,7 +3657,7 @@
           </second>
         </item>
         <item>
-          <first>data_round_fu_173_p3 ( select ) </first>
+          <first>data_round_fu_175_p3 ( select ) </first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
@@ -3636,11 +3667,11 @@
             </item>
             <item>
               <first>(1P1)</first>
-              <second>12</second>
+              <second>22</second>
             </item>
             <item>
               <first>(2P2)</first>
-              <second>12</second>
+              <second>22</second>
             </item>
             <item>
               <first>FF</first>
@@ -3648,12 +3679,12 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>12</second>
+              <second>22</second>
             </item>
           </second>
         </item>
         <item>
-          <first>i_26_fu_144_p2 ( + ) </first>
+          <first>i_26_fu_146_p2 ( + ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -3676,7 +3707,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln80_fu_150_p2 ( icmp ) </first>
+          <first>icmp_ln80_fu_152_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -3699,13 +3730,13 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln90_fu_132_p2 ( icmp ) </first>
+          <first>icmp_ln90_fu_134_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>10</second>
+              <second>20</second>
             </item>
             <item>
               <first>(1P1)</first>
@@ -3717,62 +3748,12 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>17</second>
+              <second>27</second>
             </item>
           </second>
         </item>
         <item>
-          <first>icmp_ln94_fu_212_p2 ( icmp ) </first>
-          <second>
-            <count>4</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>3</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>10</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>index_1_fu_238_p3 ( select ) </first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>10</second>
-            </item>
-            <item>
-              <first>(2P2)</first>
-              <second>10</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>10</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>index_fu_184_p2 ( + ) </first>
+          <first>icmp_ln94_fu_214_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -3782,7 +3763,7 @@
             </item>
             <item>
               <first>(1P1)</first>
-              <second>10</second>
+              <second>1</second>
             </item>
             <item>
               <first>FF</first>
@@ -3795,7 +3776,57 @@
           </second>
         </item>
         <item>
-          <first>or_ln92_fu_232_p2 ( or ) </first>
+          <first>index_1_fu_240_p3 ( select ) </first>
+          <second>
+            <count>5</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>10</second>
+            </item>
+            <item>
+              <first>(2P2)</first>
+              <second>10</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>10</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>index_fu_186_p2 ( + ) </first>
+          <second>
+            <count>4</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>23</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>10</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>30</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>or_ln92_fu_234_p2 ( or ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -3818,7 +3849,7 @@
           </second>
         </item>
         <item>
-          <first>select_ln90_fu_168_p3 ( select ) </first>
+          <first>select_ln90_fu_170_p3 ( select ) </first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
@@ -3828,11 +3859,11 @@
             </item>
             <item>
               <first>(1P1)</first>
-              <second>12</second>
+              <second>22</second>
             </item>
             <item>
               <first>(2P2)</first>
-              <second>12</second>
+              <second>22</second>
             </item>
             <item>
               <first>FF</first>
@@ -3840,12 +3871,12 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>12</second>
+              <second>22</second>
             </item>
           </second>
         </item>
         <item>
-          <first>select_ln92_fu_224_p3 ( select ) </first>
+          <first>select_ln92_fu_226_p3 ( select ) </first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
@@ -3872,7 +3903,7 @@
           </second>
         </item>
         <item>
-          <first>xor_ln92_fu_218_p2 ( xor ) </first>
+          <first>xor_ln92_fu_220_p2 ( xor ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -4023,7 +4054,7 @@
           </second>
         </item>
         <item>
-          <first>i_fu_72</first>
+          <first>i_fu_74</first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
@@ -4108,13 +4139,13 @@
         <count>18</count>
         <item_version>0</item_version>
         <item>
-          <first>add_ln90_reg_278</first>
+          <first>add_ln90_reg_280</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>12</second>
+              <second>22</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -4122,7 +4153,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>12</second>
+              <second>22</second>
             </item>
           </second>
         </item>
@@ -4355,7 +4386,7 @@
           </second>
         </item>
         <item>
-          <first>i_fu_72</first>
+          <first>i_fu_74</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -4374,7 +4405,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln90_reg_273</first>
+          <first>icmp_ln90_reg_275</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -4393,26 +4424,7 @@
           </second>
         </item>
         <item>
-          <first>in_data_reg_262</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>16</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>16</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>index_1_reg_287</first>
+          <first>index_1_reg_289</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -4431,13 +4443,13 @@
           </second>
         </item>
         <item>
-          <first>tmp_1_reg_267</first>
+          <first>layer25_out_read_reg_264</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>12</second>
+              <second>36</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -4445,7 +4457,26 @@
             </item>
             <item>
               <first>FF</first>
-              <second>12</second>
+              <second>36</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>tmp_1_reg_269</first>
+          <second>
+            <count>3</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(Bits)</first>
+              <second>22</second>
+            </item>
+            <item>
+              <first>(Consts)</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>22</second>
             </item>
           </second>
         </item>
@@ -4476,7 +4507,7 @@
         <count>12</count>
         <item_version>0</item_version>
         <item class_id="40" tracking_level="0" version="0">
-          <first>add_ln90_fu_138_p2 ( + ) </first>
+          <first>add_ln90_fu_140_p2 ( + ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4484,7 +4515,7 @@
           </second>
         </item>
         <item>
-          <first>data_round_fu_173_p3 ( select ) </first>
+          <first>data_round_fu_175_p3 ( select ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4492,7 +4523,7 @@
           </second>
         </item>
         <item>
-          <first>i_26_fu_144_p2 ( + ) </first>
+          <first>i_26_fu_146_p2 ( + ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4500,7 +4531,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln80_fu_150_p2 ( icmp ) </first>
+          <first>icmp_ln80_fu_152_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4508,7 +4539,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln90_fu_132_p2 ( icmp ) </first>
+          <first>icmp_ln90_fu_134_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4516,7 +4547,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln94_fu_212_p2 ( icmp ) </first>
+          <first>icmp_ln94_fu_214_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4524,7 +4555,7 @@
           </second>
         </item>
         <item>
-          <first>index_1_fu_238_p3 ( select ) </first>
+          <first>index_1_fu_240_p3 ( select ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4532,7 +4563,7 @@
           </second>
         </item>
         <item>
-          <first>index_fu_184_p2 ( + ) </first>
+          <first>index_fu_186_p2 ( + ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4540,7 +4571,7 @@
           </second>
         </item>
         <item>
-          <first>or_ln92_fu_232_p2 ( or ) </first>
+          <first>or_ln92_fu_234_p2 ( or ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4548,7 +4579,7 @@
           </second>
         </item>
         <item>
-          <first>select_ln90_fu_168_p3 ( select ) </first>
+          <first>select_ln90_fu_170_p3 ( select ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4556,7 +4587,7 @@
           </second>
         </item>
         <item>
-          <first>select_ln92_fu_224_p3 ( select ) </first>
+          <first>select_ln92_fu_226_p3 ( select ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4564,7 +4595,7 @@
           </second>
         </item>
         <item>
-          <first>xor_ln92_fu_218_p2 ( xor ) </first>
+          <first>xor_ln92_fu_220_p2 ( xor ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4824,7 +4855,7 @@
         </second>
       </item>
       <item>
-        <first>208</first>
+        <first>209</first>
         <second>
           <first>0</first>
           <second>2</second>
@@ -4859,7 +4890,7 @@
     <regions class_id="47" tracking_level="0" version="0">
       <count>1</count>
       <item_version>0</item_version>
-      <item class_id="48" tracking_level="1" version="0" object_id="_177">
+      <item class_id="48" tracking_level="1" version="0" object_id="_178">
         <region_name>SigmoidActLoop</region_name>
         <basic_blocks>
           <count>1</count>
@@ -4884,7 +4915,7 @@
       <count>30</count>
       <item_version>0</item_version>
       <item class_id="51" tracking_level="0" version="0">
-        <first>72</first>
+        <first>74</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -4892,7 +4923,7 @@
         </second>
       </item>
       <item>
-        <first>76</first>
+        <first>78</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -4900,7 +4931,7 @@
         </second>
       </item>
       <item>
-        <first>82</first>
+        <first>84</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
@@ -4909,7 +4940,7 @@
         </second>
       </item>
       <item>
-        <first>89</first>
+        <first>91</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -4917,7 +4948,7 @@
         </second>
       </item>
       <item>
-        <first>96</first>
+        <first>98</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
@@ -4926,7 +4957,7 @@
         </second>
       </item>
       <item>
-        <first>102</first>
+        <first>104</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -4934,7 +4965,7 @@
         </second>
       </item>
       <item>
-        <first>107</first>
+        <first>109</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -4942,7 +4973,7 @@
         </second>
       </item>
       <item>
-        <first>110</first>
+        <first>112</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -4950,7 +4981,7 @@
         </second>
       </item>
       <item>
-        <first>120</first>
+        <first>122</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -4958,7 +4989,7 @@
         </second>
       </item>
       <item>
-        <first>124</first>
+        <first>126</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -4966,7 +4997,7 @@
         </second>
       </item>
       <item>
-        <first>132</first>
+        <first>134</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -4974,7 +5005,7 @@
         </second>
       </item>
       <item>
-        <first>138</first>
+        <first>140</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -4982,7 +5013,7 @@
         </second>
       </item>
       <item>
-        <first>144</first>
+        <first>146</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -4990,7 +5021,7 @@
         </second>
       </item>
       <item>
-        <first>150</first>
+        <first>152</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -4998,7 +5029,7 @@
         </second>
       </item>
       <item>
-        <first>156</first>
+        <first>158</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5006,7 +5037,7 @@
         </second>
       </item>
       <item>
-        <first>161</first>
+        <first>163</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5014,7 +5045,7 @@
         </second>
       </item>
       <item>
-        <first>168</first>
+        <first>170</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5022,7 +5053,7 @@
         </second>
       </item>
       <item>
-        <first>173</first>
+        <first>175</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5030,7 +5061,7 @@
         </second>
       </item>
       <item>
-        <first>180</first>
+        <first>182</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5038,7 +5069,7 @@
         </second>
       </item>
       <item>
-        <first>184</first>
+        <first>186</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5046,7 +5077,7 @@
         </second>
       </item>
       <item>
-        <first>190</first>
+        <first>192</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5054,7 +5085,7 @@
         </second>
       </item>
       <item>
-        <first>194</first>
+        <first>196</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5062,7 +5093,7 @@
         </second>
       </item>
       <item>
-        <first>202</first>
+        <first>204</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5070,7 +5101,7 @@
         </second>
       </item>
       <item>
-        <first>212</first>
+        <first>214</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5078,7 +5109,7 @@
         </second>
       </item>
       <item>
-        <first>218</first>
+        <first>220</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5086,7 +5117,7 @@
         </second>
       </item>
       <item>
-        <first>224</first>
+        <first>226</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5094,7 +5125,7 @@
         </second>
       </item>
       <item>
-        <first>232</first>
+        <first>234</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5102,7 +5133,7 @@
         </second>
       </item>
       <item>
-        <first>238</first>
+        <first>240</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5110,7 +5141,7 @@
         </second>
       </item>
       <item>
-        <first>246</first>
+        <first>248</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5118,7 +5149,7 @@
         </second>
       </item>
       <item>
-        <first>250</first>
+        <first>252</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5130,7 +5161,7 @@
       <count>24</count>
       <item_version>0</item_version>
       <item class_id="54" tracking_level="0" version="0">
-        <first>add_ln90_fu_138</first>
+        <first>add_ln90_fu_140</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5138,7 +5169,7 @@
         </second>
       </item>
       <item>
-        <first>data_round_fu_173</first>
+        <first>data_round_fu_175</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5146,7 +5177,7 @@
         </second>
       </item>
       <item>
-        <first>i_26_fu_144</first>
+        <first>i_26_fu_146</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5154,7 +5185,7 @@
         </second>
       </item>
       <item>
-        <first>i_fu_72</first>
+        <first>i_fu_74</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5162,7 +5193,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln80_fu_150</first>
+        <first>icmp_ln80_fu_152</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5170,7 +5201,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln90_fu_132</first>
+        <first>icmp_ln90_fu_134</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5178,7 +5209,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln94_fu_212</first>
+        <first>icmp_ln94_fu_214</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5186,7 +5217,7 @@
         </second>
       </item>
       <item>
-        <first>index_1_fu_238</first>
+        <first>index_1_fu_240</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5194,7 +5225,7 @@
         </second>
       </item>
       <item>
-        <first>index_fu_184</first>
+        <first>index_fu_186</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5202,7 +5233,7 @@
         </second>
       </item>
       <item>
-        <first>or_ln92_fu_232</first>
+        <first>or_ln92_fu_234</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5210,7 +5241,7 @@
         </second>
       </item>
       <item>
-        <first>select_ln90_fu_168</first>
+        <first>select_ln90_fu_170</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5218,7 +5249,7 @@
         </second>
       </item>
       <item>
-        <first>select_ln92_fu_224</first>
+        <first>select_ln92_fu_226</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5226,7 +5257,7 @@
         </second>
       </item>
       <item>
-        <first>sext_ln90_fu_180</first>
+        <first>sext_ln90_fu_182</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5234,7 +5265,7 @@
         </second>
       </item>
       <item>
-        <first>sigmoid_table_addr_gep_fu_89</first>
+        <first>sigmoid_table_addr_gep_fu_91</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5242,7 +5273,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_1_fu_110</first>
+        <first>tmp_1_fu_112</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5250,7 +5281,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_2_fu_124</first>
+        <first>tmp_2_fu_126</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5258,7 +5289,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_3_fu_194</first>
+        <first>tmp_3_fu_196</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5266,7 +5297,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_4_fu_202</first>
+        <first>tmp_4_fu_204</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5274,7 +5305,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_fu_161</first>
+        <first>tmp_fu_163</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5282,7 +5313,7 @@
         </second>
       </item>
       <item>
-        <first>trunc_ln90_fu_120</first>
+        <first>trunc_ln90_fu_122</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5290,7 +5321,7 @@
         </second>
       </item>
       <item>
-        <first>trunc_ln91_fu_190</first>
+        <first>trunc_ln91_fu_192</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5298,7 +5329,7 @@
         </second>
       </item>
       <item>
-        <first>xor_ln92_fu_218</first>
+        <first>xor_ln92_fu_220</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5306,7 +5337,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln96_1_fu_250</first>
+        <first>zext_ln96_1_fu_252</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5314,7 +5345,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln96_fu_246</first>
+        <first>zext_ln96_fu_248</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5330,7 +5361,7 @@
       <count>5</count>
       <item_version>0</item_version>
       <item>
-        <first>grp_write_fu_82</first>
+        <first>grp_write_fu_84</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
@@ -5339,7 +5370,7 @@
         </second>
       </item>
       <item>
-        <first>i_25_load_fu_107</first>
+        <first>i_25_load_fu_109</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5347,7 +5378,7 @@
         </second>
       </item>
       <item>
-        <first>in_data_read_fu_76</first>
+        <first>layer25_out_read_read_fu_78</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5355,7 +5386,7 @@
         </second>
       </item>
       <item>
-        <first>store_ln80_store_fu_102</first>
+        <first>store_ln80_store_fu_104</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5363,7 +5394,7 @@
         </second>
       </item>
       <item>
-        <first>store_ln80_store_fu_156</first>
+        <first>store_ln80_store_fu_158</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5395,7 +5426,7 @@
       <count>9</count>
       <item_version>0</item_version>
       <item>
-        <first>255</first>
+        <first>257</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5403,7 +5434,7 @@
         </second>
       </item>
       <item>
-        <first>262</first>
+        <first>264</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5411,7 +5442,7 @@
         </second>
       </item>
       <item>
-        <first>267</first>
+        <first>269</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5419,7 +5450,7 @@
         </second>
       </item>
       <item>
-        <first>273</first>
+        <first>275</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5427,7 +5458,7 @@
         </second>
       </item>
       <item>
-        <first>278</first>
+        <first>280</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5435,7 +5466,7 @@
         </second>
       </item>
       <item>
-        <first>283</first>
+        <first>285</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5443,7 +5474,7 @@
         </second>
       </item>
       <item>
-        <first>287</first>
+        <first>289</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5451,7 +5482,7 @@
         </second>
       </item>
       <item>
-        <first>292</first>
+        <first>294</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5459,7 +5490,7 @@
         </second>
       </item>
       <item>
-        <first>297</first>
+        <first>299</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5471,7 +5502,7 @@
       <count>9</count>
       <item_version>0</item_version>
       <item>
-        <first>add_ln90_reg_278</first>
+        <first>add_ln90_reg_280</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5479,7 +5510,7 @@
         </second>
       </item>
       <item>
-        <first>i_reg_255</first>
+        <first>i_reg_257</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5487,7 +5518,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln80_reg_283</first>
+        <first>icmp_ln80_reg_285</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5495,7 +5526,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln90_reg_273</first>
+        <first>icmp_ln90_reg_275</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5503,15 +5534,7 @@
         </second>
       </item>
       <item>
-        <first>in_data_reg_262</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>14</item>
-        </second>
-      </item>
-      <item>
-        <first>index_1_reg_287</first>
+        <first>index_1_reg_289</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5519,7 +5542,15 @@
         </second>
       </item>
       <item>
-        <first>sigmoid_table_addr_reg_292</first>
+        <first>layer25_out_read_reg_264</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>14</item>
+        </second>
+      </item>
+      <item>
+        <first>sigmoid_table_addr_reg_294</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5527,7 +5558,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_1_reg_267</first>
+        <first>tmp_1_reg_269</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5535,7 +5566,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln96_1_reg_297</first>
+        <first>zext_ln96_1_reg_299</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5705,7 +5736,7 @@
         </second>
       </item>
     </node2core>
-    <sched_res class_id="60" tracking_level="1" version="0" object_id="_178">
+    <sched_res class_id="60" tracking_level="1" version="0" object_id="_179">
       <ResourceTableActual class_id="61" tracking_level="0" version="0">
         <II>1</II>
       </ResourceTableActual>

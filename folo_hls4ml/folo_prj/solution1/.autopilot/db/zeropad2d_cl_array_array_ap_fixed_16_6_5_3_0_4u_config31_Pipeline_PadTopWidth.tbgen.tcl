@@ -15,7 +15,7 @@ set hasInterrupt 0
 set DLRegFirstOffset 0
 set DLRegItemOffset 0
 set svuvm_can_support 1
-set cdfgNum 70
+set cdfgNum 72
 set C_modelName {zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,4u>,config31>_Pipeline_PadTopWidth}
 set C_modelType { void 0 }
 set ap_memory_interface_dict [dict create]

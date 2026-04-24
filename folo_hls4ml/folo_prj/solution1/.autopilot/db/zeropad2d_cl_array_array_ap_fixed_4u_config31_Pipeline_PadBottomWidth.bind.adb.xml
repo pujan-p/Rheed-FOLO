@@ -25,10 +25,10 @@
 
 <Node id="2" bw="8" op_0_bw="32">
 <![CDATA[
-newFuncRoot:0 %j_12 = alloca i32 1
+newFuncRoot:0 %j_2 = alloca i32 1
 
 ]]></Node>
-<StgValue><ssdm name="j_12"/></StgValue>
+<StgValue><ssdm name="j_2"/></StgValue>
 </operation>
 
 <operation id="6" st_id="1" stage="1" lat="1">
@@ -55,7 +55,7 @@ newFuncRoot:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i
 
 <Node id="4" bw="0" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-newFuncRoot:2 %store_ln77 = store i8 0, i8 %j_12
+newFuncRoot:2 %store_ln77 = store i8 0, i8 %j_2
 
 ]]></Node>
 <StgValue><ssdm name="store_ln77"/></StgValue>
@@ -85,7 +85,7 @@ newFuncRoot:3 %br_ln0 = br void %for.inc50
 
 <Node id="7" bw="8" op_0_bw="8" op_1_bw="0">
 <![CDATA[
-for.inc50:0 %j = load i8 %j_12
+for.inc50:0 %j = load i8 %j_2
 
 ]]></Node>
 <StgValue><ssdm name="j"/></StgValue>
@@ -146,7 +146,7 @@ for.inc50:3 %br_ln77 = br i1 %icmp_ln77, void %for.inc50.split, void %for.end55.
 
 <Node id="16" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-for.inc50.split:4 %store_ln77 = store i8 %j_19, i8 %j_12
+for.inc50.split:4 %store_ln77 = store i8 %j_19, i8 %j_2
 
 ]]></Node>
 <StgValue><ssdm name="store_ln77"/></StgValue>
@@ -257,7 +257,7 @@ for.inc50.split:5 %br_ln77 = br void %for.inc50
 
 
 <dataflows>
-<dataflow id="31" from="StgValue_30" to="j_12" fromId="30" toId="5">
+<dataflow id="31" from="StgValue_30" to="j_2" fromId="30" toId="5">
 </dataflow>
 <dataflow id="33" from="_ssdm_op_SpecInterface" to="specinterface_ln0" fromId="32" toId="6">
 </dataflow>
@@ -303,9 +303,9 @@ for.inc50.split:5 %br_ln77 = br void %for.inc50
 </dataflow>
 <dataflow id="59" from="StgValue_58" to="store_ln77" fromId="58" toId="7">
 </dataflow>
-<dataflow id="60" from="j_12" to="store_ln77" fromId="5" toId="7">
+<dataflow id="60" from="j_2" to="store_ln77" fromId="5" toId="7">
 </dataflow>
-<dataflow id="61" from="j_12" to="j" fromId="5" toId="9">
+<dataflow id="61" from="j_2" to="j" fromId="5" toId="9">
 </dataflow>
 <dataflow id="62" from="j" to="icmp_ln77" fromId="9" toId="10">
 </dataflow>
@@ -319,7 +319,7 @@ for.inc50.split:5 %br_ln77 = br void %for.inc50
 </dataflow>
 <dataflow id="69" from="j_19" to="store_ln77" fromId="11" toId="13">
 </dataflow>
-<dataflow id="70" from="j_12" to="store_ln77" fromId="5" toId="13">
+<dataflow id="70" from="j_2" to="store_ln77" fromId="5" toId="13">
 </dataflow>
 <dataflow id="72" from="_ssdm_op_SpecPipeline" to="specpipeline_ln8" fromId="71" toId="14">
 </dataflow>

@@ -85,10 +85,10 @@ newFuncRoot:3 %br_ln0 = br void %for.inc
 
 <Node id="7" bw="8" op_0_bw="8" op_1_bw="0">
 <![CDATA[
-for.inc:0 %j_7 = load i8 %j
+for.inc:0 %j_1 = load i8 %j
 
 ]]></Node>
-<StgValue><ssdm name="j_7"/></StgValue>
+<StgValue><ssdm name="j_1"/></StgValue>
 </operation>
 
 <operation id="10" st_id="1" stage="1" lat="1">
@@ -100,7 +100,7 @@ for.inc:0 %j_7 = load i8 %j
 
 <Node id="8" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-for.inc:1 %icmp_ln53 = icmp_eq  i8 %j_7, i8 130
+for.inc:1 %icmp_ln53 = icmp_eq  i8 %j_1, i8 130
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln53"/></StgValue>
@@ -115,10 +115,10 @@ for.inc:1 %icmp_ln53 = icmp_eq  i8 %j_7, i8 130
 
 <Node id="9" bw="8" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-for.inc:2 %j_8 = add i8 %j_7, i8 1
+for.inc:2 %j_2 = add i8 %j_1, i8 1
 
 ]]></Node>
-<StgValue><ssdm name="j_8"/></StgValue>
+<StgValue><ssdm name="j_2"/></StgValue>
 </operation>
 
 <operation id="12" st_id="1" stage="1" lat="1">
@@ -146,7 +146,7 @@ for.inc:3 %br_ln53 = br i1 %icmp_ln53, void %for.inc.split, void %PadLeft.prehea
 
 <Node id="16" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-for.inc.split:4 %store_ln53 = store i8 %j_8, i8 %j
+for.inc.split:4 %store_ln53 = store i8 %j_2, i8 %j
 
 ]]></Node>
 <StgValue><ssdm name="store_ln53"/></StgValue>

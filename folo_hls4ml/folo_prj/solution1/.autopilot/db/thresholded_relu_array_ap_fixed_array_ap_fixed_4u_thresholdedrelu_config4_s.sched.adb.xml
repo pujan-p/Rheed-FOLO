@@ -3,7 +3,7 @@
 
 <trans_list>
 
-<trans id="47" from="1" to="2">
+<trans id="43" from="1" to="2">
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
@@ -53,9 +53,9 @@ entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %la
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="5" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32" op_20_bw="32">
+<Node id="5" bw="0" op_0_bw="0" op_1_bw="108" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32" op_20_bw="32">
 <![CDATA[
-entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %layer3_out, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0, i32 0
+entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i108 %layer3_out, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -113,9 +113,9 @@ ThresholdedReLUPackLoop.split:0 %i_24 = load i14 %i_23
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="13" bw="64" op_0_bw="64" op_1_bw="64">
+<Node id="13" bw="108" op_0_bw="108" op_1_bw="108">
 <![CDATA[
-ThresholdedReLUPackLoop.split:4 %layer3_out_read = read i64 @_ssdm_op_Read.ap_fifo.volatile.i64P0A, i64 %layer3_out
+ThresholdedReLUPackLoop.split:4 %layer3_out_read = read i108 @_ssdm_op_Read.ap_fifo.volatile.i108P0A, i108 %layer3_out
 
 ]]></Node>
 <StgValue><ssdm name="layer3_out_read"/></StgValue>
@@ -128,9 +128,9 @@ ThresholdedReLUPackLoop.split:4 %layer3_out_read = read i64 @_ssdm_op_Read.ap_fi
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="14" bw="16" op_0_bw="64">
+<Node id="14" bw="27" op_0_bw="108">
 <![CDATA[
-ThresholdedReLUPackLoop.split:5 %trunc_ln531 = trunc i64 %layer3_out_read
+ThresholdedReLUPackLoop.split:5 %trunc_ln531 = trunc i108 %layer3_out_read
 
 ]]></Node>
 <StgValue><ssdm name="trunc_ln531"/></StgValue>
@@ -143,12 +143,12 @@ ThresholdedReLUPackLoop.split:5 %trunc_ln531 = trunc i64 %layer3_out_read
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="15" bw="15" op_0_bw="64">
+<Node id="15" bw="27" op_0_bw="27" op_1_bw="108" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-ThresholdedReLUPackLoop.split:6 %trunc_ln531_33 = trunc i64 %layer3_out_read
+ThresholdedReLUPackLoop.split:6 %trunc_ln531_s = partselect i27 @_ssdm_op_PartSelect.i27.i108.i32.i32, i108 %layer3_out_read, i32 27, i32 53
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln531_33"/></StgValue>
+<StgValue><ssdm name="trunc_ln531_s"/></StgValue>
 </operation>
 
 <operation id="14" st_id="1" stage="1" lat="1">
@@ -158,12 +158,12 @@ ThresholdedReLUPackLoop.split:6 %trunc_ln531_33 = trunc i64 %layer3_out_read
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="16" bw="16" op_0_bw="16" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<Node id="16" bw="27" op_0_bw="27" op_1_bw="108" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-ThresholdedReLUPackLoop.split:7 %trunc_ln531_28 = partselect i16 @_ssdm_op_PartSelect.i16.i64.i32.i32, i64 %layer3_out_read, i32 16, i32 31
+ThresholdedReLUPackLoop.split:7 %trunc_ln531_8 = partselect i27 @_ssdm_op_PartSelect.i27.i108.i32.i32, i108 %layer3_out_read, i32 54, i32 80
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln531_28"/></StgValue>
+<StgValue><ssdm name="trunc_ln531_8"/></StgValue>
 </operation>
 
 <operation id="15" st_id="1" stage="1" lat="1">
@@ -173,27 +173,27 @@ ThresholdedReLUPackLoop.split:7 %trunc_ln531_28 = partselect i16 @_ssdm_op_PartS
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="17" bw="15" op_0_bw="15" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<Node id="17" bw="27" op_0_bw="27" op_1_bw="108" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-ThresholdedReLUPackLoop.split:8 %trunc_ln531_s = partselect i15 @_ssdm_op_PartSelect.i15.i64.i32.i32, i64 %layer3_out_read, i32 16, i32 30
+ThresholdedReLUPackLoop.split:8 %trunc_ln531_9 = partselect i27 @_ssdm_op_PartSelect.i27.i108.i32.i32, i108 %layer3_out_read, i32 81, i32 107
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln531_s"/></StgValue>
+<StgValue><ssdm name="trunc_ln531_9"/></StgValue>
 </operation>
 
 <operation id="16" st_id="1" stage="1" lat="1">
-<core>NULL</core>
+<core>Cmp</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="18" bw="16" op_0_bw="16" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<Node id="18" bw="1" op_0_bw="27" op_1_bw="27">
 <![CDATA[
-ThresholdedReLUPackLoop.split:9 %trunc_ln531_29 = partselect i16 @_ssdm_op_PartSelect.i16.i64.i32.i32, i64 %layer3_out_read, i32 32, i32 47
+ThresholdedReLUPackLoop.split:9 %icmp_ln538 = icmp_sgt  i27 %trunc_ln531, i27 0
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln531_29"/></StgValue>
+<StgValue><ssdm name="icmp_ln538"/></StgValue>
 </operation>
 
 <operation id="17" st_id="1" stage="1" lat="1">
@@ -203,27 +203,27 @@ ThresholdedReLUPackLoop.split:9 %trunc_ln531_29 = partselect i16 @_ssdm_op_PartS
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="19" bw="15" op_0_bw="15" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<Node id="19" bw="16" op_0_bw="16" op_1_bw="108" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-ThresholdedReLUPackLoop.split:10 %trunc_ln531_31 = partselect i15 @_ssdm_op_PartSelect.i15.i64.i32.i32, i64 %layer3_out_read, i32 32, i32 46
+ThresholdedReLUPackLoop.split:10 %trunc_ln6 = partselect i16 @_ssdm_op_PartSelect.i16.i108.i32.i32, i108 %layer3_out_read, i32 8, i32 23
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln531_31"/></StgValue>
+<StgValue><ssdm name="trunc_ln6"/></StgValue>
 </operation>
 
 <operation id="18" st_id="1" stage="1" lat="1">
-<core>NULL</core>
+<core>Cmp</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="20" bw="16" op_0_bw="16" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<Node id="21" bw="1" op_0_bw="27" op_1_bw="27">
 <![CDATA[
-ThresholdedReLUPackLoop.split:11 %trunc_ln531_30 = partselect i16 @_ssdm_op_PartSelect.i16.i64.i32.i32, i64 %layer3_out_read, i32 48, i32 63
+ThresholdedReLUPackLoop.split:12 %icmp_ln538_20 = icmp_sgt  i27 %trunc_ln531_s, i27 0
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln531_30"/></StgValue>
+<StgValue><ssdm name="icmp_ln538_20"/></StgValue>
 </operation>
 
 <operation id="19" st_id="1" stage="1" lat="1">
@@ -233,12 +233,12 @@ ThresholdedReLUPackLoop.split:11 %trunc_ln531_30 = partselect i16 @_ssdm_op_Part
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="21" bw="15" op_0_bw="15" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<Node id="22" bw="16" op_0_bw="16" op_1_bw="108" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-ThresholdedReLUPackLoop.split:12 %trunc_ln6 = partselect i15 @_ssdm_op_PartSelect.i15.i64.i32.i32, i64 %layer3_out_read, i32 48, i32 62
+ThresholdedReLUPackLoop.split:13 %trunc_ln539_s = partselect i16 @_ssdm_op_PartSelect.i16.i108.i32.i32, i108 %layer3_out_read, i32 35, i32 50
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln6"/></StgValue>
+<StgValue><ssdm name="trunc_ln539_s"/></StgValue>
 </operation>
 
 <operation id="20" st_id="1" stage="1" lat="1">
@@ -248,27 +248,27 @@ ThresholdedReLUPackLoop.split:12 %trunc_ln6 = partselect i15 @_ssdm_op_PartSelec
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="22" bw="1" op_0_bw="16" op_1_bw="16">
+<Node id="24" bw="1" op_0_bw="27" op_1_bw="27">
 <![CDATA[
-ThresholdedReLUPackLoop.split:13 %icmp_ln538 = icmp_sgt  i16 %trunc_ln531, i16 0
+ThresholdedReLUPackLoop.split:15 %icmp_ln538_21 = icmp_sgt  i27 %trunc_ln531_8, i27 0
 
 ]]></Node>
-<StgValue><ssdm name="icmp_ln538"/></StgValue>
+<StgValue><ssdm name="icmp_ln538_21"/></StgValue>
 </operation>
 
 <operation id="21" st_id="1" stage="1" lat="1">
-<core>Sel</core>
+<core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="23" bw="15" op_0_bw="1" op_1_bw="15" op_2_bw="15">
+<Node id="25" bw="16" op_0_bw="16" op_1_bw="108" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-ThresholdedReLUPackLoop.split:14 %select_ln538 = select i1 %icmp_ln538, i15 %trunc_ln531_33, i15 0
+ThresholdedReLUPackLoop.split:16 %trunc_ln539_8 = partselect i16 @_ssdm_op_PartSelect.i16.i108.i32.i32, i108 %layer3_out_read, i32 62, i32 77
 
 ]]></Node>
-<StgValue><ssdm name="select_ln538"/></StgValue>
+<StgValue><ssdm name="trunc_ln539_8"/></StgValue>
 </operation>
 
 <operation id="22" st_id="1" stage="1" lat="1">
@@ -278,144 +278,84 @@ ThresholdedReLUPackLoop.split:14 %select_ln538 = select i1 %icmp_ln538, i15 %tru
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="25" bw="1" op_0_bw="16" op_1_bw="16">
+<Node id="27" bw="1" op_0_bw="27" op_1_bw="27">
 <![CDATA[
-ThresholdedReLUPackLoop.split:16 %icmp_ln538_28 = icmp_sgt  i16 %trunc_ln531_28, i16 0
+ThresholdedReLUPackLoop.split:18 %icmp_ln538_22 = icmp_sgt  i27 %trunc_ln531_9, i27 0
 
 ]]></Node>
-<StgValue><ssdm name="icmp_ln538_28"/></StgValue>
+<StgValue><ssdm name="icmp_ln538_22"/></StgValue>
 </operation>
 
 <operation id="23" st_id="1" stage="1" lat="1">
-<core>Sel</core>
+<core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="26" bw="15" op_0_bw="1" op_1_bw="15" op_2_bw="15">
+<Node id="28" bw="16" op_0_bw="16" op_1_bw="108" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-ThresholdedReLUPackLoop.split:17 %select_ln538_28 = select i1 %icmp_ln538_28, i15 %trunc_ln531_s, i15 0
+ThresholdedReLUPackLoop.split:19 %trunc_ln539_9 = partselect i16 @_ssdm_op_PartSelect.i16.i108.i32.i32, i108 %layer3_out_read, i32 89, i32 104
 
 ]]></Node>
-<StgValue><ssdm name="select_ln538_28"/></StgValue>
+<StgValue><ssdm name="trunc_ln539_9"/></StgValue>
 </operation>
 
 <operation id="24" st_id="1" stage="1" lat="1">
-<core>Cmp</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="28" bw="1" op_0_bw="16" op_1_bw="16">
-<![CDATA[
-ThresholdedReLUPackLoop.split:19 %icmp_ln538_29 = icmp_sgt  i16 %trunc_ln531_29, i16 0
-
-]]></Node>
-<StgValue><ssdm name="icmp_ln538_29"/></StgValue>
-</operation>
-
-<operation id="25" st_id="1" stage="1" lat="1">
-<core>Sel</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="29" bw="15" op_0_bw="1" op_1_bw="15" op_2_bw="15">
-<![CDATA[
-ThresholdedReLUPackLoop.split:20 %select_ln538_29 = select i1 %icmp_ln538_29, i15 %trunc_ln531_31, i15 0
-
-]]></Node>
-<StgValue><ssdm name="select_ln538_29"/></StgValue>
-</operation>
-
-<operation id="26" st_id="1" stage="1" lat="1">
-<core>Cmp</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="31" bw="1" op_0_bw="16" op_1_bw="16">
-<![CDATA[
-ThresholdedReLUPackLoop.split:22 %icmp_ln538_30 = icmp_sgt  i16 %trunc_ln531_30, i16 0
-
-]]></Node>
-<StgValue><ssdm name="icmp_ln538_30"/></StgValue>
-</operation>
-
-<operation id="27" st_id="1" stage="1" lat="1">
-<core>Sel</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="32" bw="15" op_0_bw="1" op_1_bw="15" op_2_bw="15">
-<![CDATA[
-ThresholdedReLUPackLoop.split:23 %select_ln538_30 = select i1 %icmp_ln538_30, i15 %trunc_ln6, i15 0
-
-]]></Node>
-<StgValue><ssdm name="select_ln538_30"/></StgValue>
-</operation>
-
-<operation id="28" st_id="1" stage="1" lat="1">
 <core>Adder</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="36" bw="14" op_0_bw="14" op_1_bw="14">
+<Node id="32" bw="14" op_0_bw="14" op_1_bw="14">
 <![CDATA[
-ThresholdedReLUPackLoop.split:27 %i = add i14 %i_24, i14 1
+ThresholdedReLUPackLoop.split:23 %i = add i14 %i_24, i14 1
 
 ]]></Node>
 <StgValue><ssdm name="i"/></StgValue>
 </operation>
 
-<operation id="29" st_id="1" stage="1" lat="1">
+<operation id="25" st_id="1" stage="1" lat="1">
 <core>Cmp</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="37" bw="1" op_0_bw="14" op_1_bw="14">
+<Node id="33" bw="1" op_0_bw="14" op_1_bw="14">
 <![CDATA[
-ThresholdedReLUPackLoop.split:28 %icmp_ln528 = icmp_eq  i14 %i_24, i14 16383
+ThresholdedReLUPackLoop.split:24 %icmp_ln528 = icmp_eq  i14 %i_24, i14 16383
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln528"/></StgValue>
 </operation>
 
-<operation id="30" st_id="1" stage="1" lat="1">
+<operation id="26" st_id="1" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="38" bw="0" op_0_bw="14" op_1_bw="14" op_2_bw="0" op_3_bw="0">
+<Node id="34" bw="0" op_0_bw="14" op_1_bw="14" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-ThresholdedReLUPackLoop.split:29 %store_ln528 = store i14 %i, i14 %i_23
+ThresholdedReLUPackLoop.split:25 %store_ln528 = store i14 %i, i14 %i_23
 
 ]]></Node>
 <StgValue><ssdm name="store_ln528"/></StgValue>
 </operation>
 
-<operation id="31" st_id="1" stage="1" lat="1">
+<operation id="27" st_id="1" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="39" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<Node id="35" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
 <![CDATA[
-ThresholdedReLUPackLoop.split:30 %br_ln528 = br i1 %icmp_ln528, void %ThresholdedReLUPackLoop.split, void %for.end14
+ThresholdedReLUPackLoop.split:26 %br_ln528 = br i1 %icmp_ln528, void %ThresholdedReLUPackLoop.split, void %for.end15
 
 ]]></Node>
 <StgValue><ssdm name="br_ln528"/></StgValue>
@@ -424,7 +364,7 @@ ThresholdedReLUPackLoop.split:30 %br_ln528 = br i1 %icmp_ln528, void %Thresholde
 
 <state id="2" st_id="3">
 
-<operation id="32" st_id="2" stage="1" lat="1">
+<operation id="28" st_id="2" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -439,7 +379,7 @@ ThresholdedReLUPackLoop.split:1 %specpipeline_ln529 = specpipeline void @_ssdm_o
 <StgValue><ssdm name="specpipeline_ln529"/></StgValue>
 </operation>
 
-<operation id="33" st_id="2" stage="1" lat="1">
+<operation id="29" st_id="2" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -454,7 +394,7 @@ ThresholdedReLUPackLoop.split:2 %speclooptripcount_ln528 = speclooptripcount voi
 <StgValue><ssdm name="speclooptripcount_ln528"/></StgValue>
 </operation>
 
-<operation id="34" st_id="2" stage="1" lat="1">
+<operation id="30" st_id="2" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -469,6 +409,66 @@ ThresholdedReLUPackLoop.split:3 %specloopname_ln528 = specloopname void @_ssdm_o
 <StgValue><ssdm name="specloopname_ln528"/></StgValue>
 </operation>
 
+<operation id="31" st_id="2" stage="1" lat="1">
+<core>Sel</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="20" bw="16" op_0_bw="1" op_1_bw="16" op_2_bw="16">
+<![CDATA[
+ThresholdedReLUPackLoop.split:11 %select_ln538 = select i1 %icmp_ln538, i16 %trunc_ln6, i16 0
+
+]]></Node>
+<StgValue><ssdm name="select_ln538"/></StgValue>
+</operation>
+
+<operation id="32" st_id="2" stage="1" lat="1">
+<core>Sel</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="23" bw="16" op_0_bw="1" op_1_bw="16" op_2_bw="16">
+<![CDATA[
+ThresholdedReLUPackLoop.split:14 %select_ln538_20 = select i1 %icmp_ln538_20, i16 %trunc_ln539_s, i16 0
+
+]]></Node>
+<StgValue><ssdm name="select_ln538_20"/></StgValue>
+</operation>
+
+<operation id="33" st_id="2" stage="1" lat="1">
+<core>Sel</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="26" bw="16" op_0_bw="1" op_1_bw="16" op_2_bw="16">
+<![CDATA[
+ThresholdedReLUPackLoop.split:17 %select_ln538_21 = select i1 %icmp_ln538_21, i16 %trunc_ln539_8, i16 0
+
+]]></Node>
+<StgValue><ssdm name="select_ln538_21"/></StgValue>
+</operation>
+
+<operation id="34" st_id="2" stage="1" lat="1">
+<core>Sel</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="29" bw="16" op_0_bw="1" op_1_bw="16" op_2_bw="16">
+<![CDATA[
+ThresholdedReLUPackLoop.split:20 %select_ln538_22 = select i1 %icmp_ln538_22, i16 %trunc_ln539_9, i16 0
+
+]]></Node>
+<StgValue><ssdm name="select_ln538_22"/></StgValue>
+</operation>
+
 <operation id="35" st_id="2" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
@@ -476,90 +476,30 @@ ThresholdedReLUPackLoop.split:3 %specloopname_ln528 = specloopname void @_ssdm_o
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="24" bw="16" op_0_bw="15">
+<Node id="30" bw="64" op_0_bw="64" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16">
 <![CDATA[
-ThresholdedReLUPackLoop.split:15 %zext_ln538 = zext i15 %select_ln538
-
-]]></Node>
-<StgValue><ssdm name="zext_ln538"/></StgValue>
-</operation>
-
-<operation id="36" st_id="2" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="27" bw="16" op_0_bw="15">
-<![CDATA[
-ThresholdedReLUPackLoop.split:18 %zext_ln538_23 = zext i15 %select_ln538_28
-
-]]></Node>
-<StgValue><ssdm name="zext_ln538_23"/></StgValue>
-</operation>
-
-<operation id="37" st_id="2" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="30" bw="16" op_0_bw="15">
-<![CDATA[
-ThresholdedReLUPackLoop.split:21 %zext_ln538_24 = zext i15 %select_ln538_29
-
-]]></Node>
-<StgValue><ssdm name="zext_ln538_24"/></StgValue>
-</operation>
-
-<operation id="38" st_id="2" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="33" bw="63" op_0_bw="63" op_1_bw="15" op_2_bw="16" op_3_bw="16" op_4_bw="16">
-<![CDATA[
-ThresholdedReLUPackLoop.split:24 %or_ln544_s = bitconcatenate i63 @_ssdm_op_BitConcatenate.i63.i15.i16.i16.i16, i15 %select_ln538_30, i16 %zext_ln538_24, i16 %zext_ln538_23, i16 %zext_ln538
+ThresholdedReLUPackLoop.split:21 %or_ln544_s = bitconcatenate i64 @_ssdm_op_BitConcatenate.i64.i16.i16.i16.i16, i16 %select_ln538_22, i16 %select_ln538_21, i16 %select_ln538_20, i16 %select_ln538
 
 ]]></Node>
 <StgValue><ssdm name="or_ln544_s"/></StgValue>
 </operation>
 
-<operation id="39" st_id="2" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="34" bw="64" op_0_bw="63">
-<![CDATA[
-ThresholdedReLUPackLoop.split:25 %zext_ln544 = zext i63 %or_ln544_s
-
-]]></Node>
-<StgValue><ssdm name="zext_ln544"/></StgValue>
-</operation>
-
-<operation id="40" st_id="2" stage="1" lat="1">
+<operation id="36" st_id="2" stage="1" lat="1">
 <core>FIFO_SRL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="35" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="64">
+<Node id="31" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-ThresholdedReLUPackLoop.split:26 %write_ln544 = write void @_ssdm_op_Write.ap_fifo.volatile.i64P0A, i64 %layer4_out, i64 %zext_ln544
+ThresholdedReLUPackLoop.split:22 %write_ln544 = write void @_ssdm_op_Write.ap_fifo.volatile.i64P0A, i64 %layer4_out, i64 %or_ln544_s
 
 ]]></Node>
 <StgValue><ssdm name="write_ln544"/></StgValue>
 </operation>
 
-<operation id="41" st_id="2" stage="1" lat="1">
+<operation id="37" st_id="2" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -567,9 +507,9 @@ ThresholdedReLUPackLoop.split:26 %write_ln544 = write void @_ssdm_op_Write.ap_fi
 </and_exp></or_exp>
 </condition>
 
-<Node id="41" bw="0">
+<Node id="37" bw="0">
 <![CDATA[
-for.end14:0 %ret_ln546 = ret
+for.end15:0 %ret_ln546 = ret
 
 ]]></Node>
 <StgValue><ssdm name="ret_ln546"/></StgValue>

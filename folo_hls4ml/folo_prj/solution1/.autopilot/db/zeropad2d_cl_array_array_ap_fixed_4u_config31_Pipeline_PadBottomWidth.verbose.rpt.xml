@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_4u_config31_Pipeline_PadBottomWidth'" level="0">
-<item name = "Date">Thu Apr 23 22:46:38 2026
+<item name = "Date">Fri Apr 24 00:23:00 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">folo_prj</item>
@@ -89,7 +89,7 @@
 <column name="ap_done_int">9, 2, 1, 2</column>
 <column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
 <column name="ap_sig_allocacmp_j">9, 2, 8, 16</column>
-<column name="j_12_fu_34">9, 2, 8, 16</column>
+<column name="j_2_fu_34">9, 2, 8, 16</column>
 <column name="layer31_out_blk_n">9, 2, 1, 2</column>
 </table>
 </item>
@@ -98,7 +98,7 @@
 <column name="ap_CS_fsm">1, 0, 1, 0</column>
 <column name="ap_done_reg">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
-<column name="j_12_fu_34">8, 0, 8, 0</column>
+<column name="j_2_fu_34">8, 0, 8, 0</column>
 </table>
 </item>
 </section>

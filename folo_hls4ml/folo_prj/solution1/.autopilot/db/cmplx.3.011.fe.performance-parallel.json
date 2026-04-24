@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 1,
-    "calls": "30 51 26 8 21 3 32 19 52 31 15 6 16 46 18 47 49 36 37 35 22 24 7 25 40 41 45 5 12 23 44 27 34 38",
+    "calls": "10 15 37 49 16 54 2 21 46 48 7 42 29 30 5 51 34 53 6 40 36 35 45 18 32 25 14 4 22 12 31 19 26 24",
     "control_depth": 0,
     "def_use_depth": 1,
     "file": "folo.cpp",
@@ -9,9 +9,524 @@
     "instructions": 203,
     "memory_accesses": 0,
     "name": "folo",
-    "total_instructions": 27258
+    "total_instructions": 38007
   },
   "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 38,
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 1530,
+    "loads": {
+      "G": 36
+    },
+    "memory_accesses": 40,
+    "name": "dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, config5_mult>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 1530
+  },
+  "10": {
+    "basicblocks": 7,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "nnet_padding_stream.h",
+    "fileloc": 48,
+    "instructions": 23,
+    "memory_accesses": 3,
+    "name": "zeropad2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, config30>",
+    "total_instructions": 35
+  },
+  "11": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 4,
+    "file": "nnet_conv_stream.h",
+    "fileloc": 215,
+    "instructions": 163,
+    "loads": {
+      "G": 36,
+      "L": 6
+    },
+    "memory_accesses": 120,
+    "name": "shift_line_buffer<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config12>",
+    "stores": {
+      "G": 54
+    },
+    "total_instructions": 211
+  },
+  "12": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 14,
+    "file": "nnet_activation_stream.h",
+    "fileloc": 526,
+    "instructions": 58,
+    "memory_accesses": 2,
+    "name": "thresholded_relu<nnet::array<ap_fixed<28, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, thresholdedrelu_config22>",
+    "total_instructions": 162
+  },
+  "13": {
+    "basicblocks": 10,
+    "calls": "52 17",
+    "control_depth": 0,
+    "def_use_depth": 10,
+    "file": "nnet_conv_stream.h",
+    "fileloc": 251,
+    "instructions": 74,
+    "loads": {
+      "G": 8,
+      "L": 8
+    },
+    "memory_accesses": 0,
+    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config19>",
+    "stores": {
+      "G": 7
+    },
+    "total_instructions": 6212
+  },
+  "14": {
+    "basicblocks": 5,
+    "calls": "13",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "nnet_conv2d_stream.h",
+    "fileloc": 67,
+    "instructions": 58,
+    "memory_accesses": 10,
+    "name": "conv_2d_cl<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config19>",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 6318
+  },
+  "15": {
+    "basicblocks": 5,
+    "calls": "50",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "nnet_conv2d_stream.h",
+    "fileloc": 67,
+    "instructions": 17,
+    "memory_accesses": 2,
+    "name": "conv_2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config2>",
+    "total_instructions": 504
+  },
+  "16": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 4,
+    "file": "nnet_stream.h",
+    "fileloc": 20,
+    "instructions": 12,
+    "memory_accesses": 3,
+    "name": "clone_stream<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, 65536>",
+    "total_instructions": 64
+  },
+  "17": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 74,
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 5801,
+    "loads": {
+      "G": 72
+    },
+    "memory_accesses": 80,
+    "name": "dense_latency<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, config19_mult>",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 5801
+  },
+  "18": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 14,
+    "file": "nnet_activation_stream.h",
+    "fileloc": 526,
+    "instructions": 58,
+    "memory_accesses": 2,
+    "name": "thresholded_relu<nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, thresholdedrelu_config18>",
+    "total_instructions": 162
+  },
+  "19": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 14,
+    "file": "nnet_activation_stream.h",
+    "fileloc": 39,
+    "instructions": 58,
+    "memory_accesses": 2,
+    "name": "relu<nnet::array<ap_fixed<30, 12, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, relu_config24>",
+    "total_instructions": 162
+  },
+  "2": {
+    "basicblocks": 5,
+    "calls": "20",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "nnet_conv2d_stream.h",
+    "fileloc": 67,
+    "instructions": 38,
+    "memory_accesses": 6,
+    "name": "conv_2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config5>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 1823
+  },
+  "20": {
+    "basicblocks": 10,
+    "calls": "41 1",
+    "control_depth": 0,
+    "def_use_depth": 6,
+    "file": "nnet_conv_stream.h",
+    "fileloc": 251,
+    "instructions": 62,
+    "loads": {
+      "G": 8,
+      "L": 4
+    },
+    "memory_accesses": 0,
+    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config5>",
+    "stores": {
+      "G": 7
+    },
+    "total_instructions": 1761
+  },
+  "21": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 10,
+    "file": "nnet_batchnorm_stream.h",
+    "fileloc": 16,
+    "instructions": 51,
+    "memory_accesses": 2,
+    "name": "normalize<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config6>",
+    "total_instructions": 103
+  },
+  "22": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 14,
+    "file": "nnet_merge_stream.h",
+    "fileloc": 11,
+    "instructions": 108,
+    "memory_accesses": 3,
+    "name": "add<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<28, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config21>",
+    "total_instructions": 260
+  },
+  "23": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 56,
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 3315,
+    "loads": {
+      "G": 54
+    },
+    "memory_accesses": 60,
+    "name": "dense_latency<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, config12_mult>",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 3315
+  },
+  "24": {
+    "basicblocks": 5,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 15,
+    "file": "nnet_activation_stream.h",
+    "fileloc": 65,
+    "instructions": 35,
+    "loads": {
+      "G": 1
+    },
+    "memory_accesses": 3,
+    "name": "sigmoid<nnet::array<ap_fixed<36, 16, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, sigmoid_config26>",
+    "total_instructions": 39
+  },
+  "25": {
+    "basicblocks": 7,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 4,
+    "file": "nnet_padding_stream.h",
+    "fileloc": 48,
+    "instructions": 181,
+    "memory_accesses": 68,
+    "name": "zeropad2d_cl<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config35>",
+    "total_instructions": 3565
+  },
+  "26": {
+    "basicblocks": 5,
+    "calls": "47",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "nnet_sepconv2d_stream.h",
+    "fileloc": 56,
+    "instructions": 30,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 4,
+    "name": "pointwise_conv_2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<36, 16, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, config37>",
+    "total_instructions": 119
+  },
+  "27": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 4,
+    "file": "nnet_conv_stream.h",
+    "fileloc": 215,
+    "instructions": 163,
+    "loads": {
+      "G": 36,
+      "L": 6
+    },
+    "memory_accesses": 120,
+    "name": "shift_line_buffer<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config16>",
+    "stores": {
+      "G": 54
+    },
+    "total_instructions": 211
+  },
+  "28": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 11,
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 357,
+    "loads": {
+      "G": 9
+    },
+    "memory_accesses": 13,
+    "name": "dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, config2_mult>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 357
+  },
+  "29": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 12,
+    "file": "nnet_batchnorm_stream.h",
+    "fileloc": 16,
+    "instructions": 71,
+    "memory_accesses": 2,
+    "name": "normalize<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config10>",
+    "total_instructions": 149
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 10,
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 581,
+    "memory_accesses": 8,
+    "name": "dense_latency<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<30, 12, (ap_q_mode)5, (ap_o_mode)3, 0>, config36_mult>",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 581
+  },
+  "30": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 12,
+    "file": "nnet_activation_stream.h",
+    "fileloc": 526,
+    "instructions": 46,
+    "memory_accesses": 2,
+    "name": "thresholded_relu<nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, thresholdedrelu_config11>",
+    "total_instructions": 124
+  },
+  "31": {
+    "basicblocks": 5,
+    "calls": "3",
+    "control_depth": 0,
+    "def_use_depth": 10,
+    "file": "nnet_sepconv2d_stream.h",
+    "fileloc": 56,
+    "instructions": 72,
+    "loads": {
+      "L": 8
+    },
+    "memory_accesses": 11,
+    "name": "pointwise_conv_2d_cl<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<30, 12, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config36>",
+    "total_instructions": 757
+  },
+  "32": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 4,
+    "file": "nnet_stream.h",
+    "fileloc": 20,
+    "instructions": 12,
+    "memory_accesses": 3,
+    "name": "clone_stream<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, 8192>",
+    "total_instructions": 116
+  },
+  "33": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "nnet_conv_stream.h",
+    "fileloc": 215,
+    "instructions": 26,
+    "loads": {
+      "G": 6
+    },
+    "memory_accesses": 19,
+    "name": "shift_line_buffer<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, config2>",
+    "stores": {
+      "G": 9
+    },
+    "total_instructions": 34
+  },
+  "34": {
+    "basicblocks": 5,
+    "calls": "38",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "nnet_conv2d_stream.h",
+    "fileloc": 67,
+    "instructions": 48,
+    "memory_accesses": 8,
+    "name": "conv_2d_cl<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config12>",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 3720
+  },
+  "35": {
+    "basicblocks": 5,
+    "calls": "44",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "nnet_conv2d_stream.h",
+    "fileloc": 67,
+    "instructions": 48,
+    "memory_accesses": 8,
+    "name": "conv_2d_cl<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config16>",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 4800
+  },
+  "36": {
+    "basicblocks": 5,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 4,
+    "file": "nnet_padding_stream.h",
+    "fileloc": 48,
+    "instructions": 334,
+    "memory_accesses": 130,
+    "name": "zeropad2d_cl<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config34>",
+    "total_instructions": 5368
+  },
+  "37": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 10,
+    "file": "nnet_batchnorm_stream.h",
+    "fileloc": 16,
+    "instructions": 51,
+    "memory_accesses": 2,
+    "name": "normalize<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config3>",
+    "total_instructions": 103
+  },
+  "38": {
+    "basicblocks": 10,
+    "calls": "11 23",
+    "control_depth": 0,
+    "def_use_depth": 8,
+    "file": "nnet_conv_stream.h",
+    "fileloc": 251,
+    "instructions": 68,
+    "loads": {
+      "G": 8,
+      "L": 6
+    },
+    "memory_accesses": 0,
+    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config12>",
+    "stores": {
+      "G": 7
+    },
+    "total_instructions": 3636
+  },
+  "39": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 38,
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 2187,
+    "loads": {
+      "G": 36
+    },
+    "memory_accesses": 42,
+    "name": "dense_latency<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, config9_mult>",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 2187
+  },
+  "4": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 14,
+    "file": "nnet_batchnorm_stream.h",
+    "fileloc": 16,
+    "instructions": 91,
+    "memory_accesses": 2,
+    "name": "normalize<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config20>",
+    "total_instructions": 195
+  },
+  "40": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 12,
+    "file": "nnet_activation_stream.h",
+    "fileloc": 526,
+    "instructions": 46,
+    "memory_accesses": 2,
+    "name": "thresholded_relu<nnet::array<ap_fixed<28, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, thresholdedrelu_config15>",
+    "total_instructions": 124
+  },
+  "41": {
     "basicblocks": 1,
     "calls": "",
     "control_depth": 0,
@@ -30,534 +545,20 @@
     },
     "total_instructions": 141
   },
-  "10": {
-    "basicblocks": 1,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 3,
-    "file": "nnet_conv_stream.h",
-    "fileloc": 215,
-    "instructions": 26,
-    "loads": {
-      "G": 6
-    },
-    "memory_accesses": 19,
-    "name": "shift_line_buffer<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, config2>",
-    "stores": {
-      "G": 9
-    },
-    "total_instructions": 34
-  },
-  "11": {
-    "basicblocks": 1,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 7,
-    "file": "nnet_dense_latency.h",
-    "fileloc": 13,
-    "instructions": 164,
-    "loads": {
-      "G": 9
-    },
-    "memory_accesses": 13,
-    "name": "dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2_mult>",
-    "stores": {
-      "L": 4
-    },
-    "total_instructions": 164
-  },
-  "12": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 13,
-    "file": "nnet_merge_stream.h",
-    "fileloc": 11,
-    "instructions": 44,
-    "memory_accesses": 3,
-    "name": "add<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config21>",
-    "total_instructions": 196
-  },
-  "13": {
-    "basicblocks": 10,
-    "calls": "50 2",
-    "control_depth": 0,
-    "def_use_depth": 8,
-    "file": "nnet_conv_stream.h",
-    "fileloc": 251,
-    "instructions": 68,
-    "loads": {
-      "G": 8,
-      "L": 6
-    },
-    "memory_accesses": 0,
-    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config12>",
-    "stores": {
-      "G": 7
-    },
-    "total_instructions": 1723
-  },
-  "14": {
-    "basicblocks": 1,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 4,
-    "file": "nnet_conv_stream.h",
-    "fileloc": 215,
-    "instructions": 217,
-    "loads": {
-      "G": 48,
-      "L": 8
-    },
-    "memory_accesses": 160,
-    "name": "shift_line_buffer<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config19>",
-    "stores": {
-      "G": 72
-    },
-    "total_instructions": 281
-  },
-  "15": {
-    "basicblocks": 7,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 4,
-    "file": "nnet_padding_stream.h",
-    "fileloc": 48,
-    "instructions": 24,
-    "memory_accesses": 3,
-    "name": "zeropad2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config32>",
-    "total_instructions": 104
-  },
-  "16": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 13,
-    "file": "nnet_batchnorm_stream.h",
-    "fileloc": 16,
-    "instructions": 59,
-    "memory_accesses": 2,
-    "name": "normalize<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config10>",
-    "total_instructions": 137
-  },
-  "17": {
-    "basicblocks": 1,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 9,
-    "file": "nnet_dense_latency.h",
-    "fileloc": 13,
-    "instructions": 650,
-    "loads": {
-      "G": 36
-    },
-    "memory_accesses": 40,
-    "name": "dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config5_mult>",
-    "stores": {
-      "L": 4
-    },
-    "total_instructions": 650
-  },
-  "18": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 4,
-    "file": "nnet_stream.h",
-    "fileloc": 20,
-    "instructions": 12,
-    "memory_accesses": 3,
-    "name": "clone_stream<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, 24576>",
-    "total_instructions": 90
-  },
-  "19": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 11,
-    "file": "nnet_batchnorm_stream.h",
-    "fileloc": 16,
-    "instructions": 43,
-    "memory_accesses": 2,
-    "name": "normalize<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config6>",
-    "total_instructions": 95
-  },
-  "2": {
-    "basicblocks": 1,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 9,
-    "file": "nnet_dense_latency.h",
-    "fileloc": 13,
-    "instructions": 1402,
-    "loads": {
-      "G": 54
-    },
-    "memory_accesses": 60,
-    "name": "dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config12_mult>",
-    "stores": {
-      "L": 6
-    },
-    "total_instructions": 1402
-  },
-  "20": {
-    "basicblocks": 10,
-    "calls": "10 11",
-    "control_depth": 0,
-    "def_use_depth": 6,
-    "file": "nnet_conv_stream.h",
-    "fileloc": 251,
-    "instructions": 64,
-    "loads": {
-      "G": 8,
-      "L": 4
-    },
-    "memory_accesses": 0,
-    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config2>",
-    "stores": {
-      "G": 7
-    },
-    "total_instructions": 290
-  },
-  "21": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 4,
-    "file": "nnet_stream.h",
-    "fileloc": 20,
-    "instructions": 12,
-    "memory_accesses": 3,
-    "name": "clone_stream<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, 65536>",
-    "total_instructions": 64
-  },
-  "22": {
+  "42": {
     "basicblocks": 5,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 4,
-    "file": "nnet_padding_stream.h",
-    "fileloc": 48,
-    "instructions": 334,
-    "memory_accesses": 130,
-    "name": "zeropad2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config34>",
-    "total_instructions": 5368
-  },
-  "23": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 14,
-    "file": "nnet_activation_stream.h",
-    "fileloc": 526,
-    "instructions": 42,
-    "memory_accesses": 2,
-    "name": "thresholded_relu<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, thresholdedrelu_config22>",
-    "total_instructions": 146
-  },
-  "24": {
-    "basicblocks": 5,
-    "calls": "29",
-    "control_depth": 0,
-    "def_use_depth": 3,
-    "file": "nnet_conv2d_stream.h",
-    "fileloc": 67,
-    "instructions": 48,
-    "memory_accesses": 8,
-    "name": "conv_2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config16>",
-    "stores": {
-      "L": 6
-    },
-    "total_instructions": 2262
-  },
-  "25": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 14,
-    "file": "nnet_activation_stream.h",
-    "fileloc": 526,
-    "instructions": 42,
-    "memory_accesses": 2,
-    "name": "thresholded_relu<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, thresholdedrelu_config18>",
-    "total_instructions": 146
-  },
-  "26": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 11,
-    "file": "nnet_batchnorm_stream.h",
-    "fileloc": 16,
-    "instructions": 43,
-    "memory_accesses": 2,
-    "name": "normalize<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config3>",
-    "total_instructions": 95
-  },
-  "27": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 14,
-    "file": "nnet_activation_stream.h",
-    "fileloc": 39,
-    "instructions": 42,
-    "memory_accesses": 2,
-    "name": "relu<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, relu_config24>",
-    "total_instructions": 146
-  },
-  "28": {
-    "basicblocks": 1,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 13,
-    "file": "nnet_dense_latency.h",
-    "fileloc": 13,
-    "instructions": 2436,
-    "loads": {
-      "G": 72
-    },
-    "memory_accesses": 80,
-    "name": "dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config19_mult>",
-    "stores": {
-      "L": 8
-    },
-    "total_instructions": 2436
-  },
-  "29": {
-    "basicblocks": 10,
-    "calls": "9 39",
-    "control_depth": 0,
-    "def_use_depth": 10,
-    "file": "nnet_conv_stream.h",
-    "fileloc": 251,
-    "instructions": 76,
-    "loads": {
-      "G": 8,
-      "L": 8
-    },
-    "memory_accesses": 0,
-    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config16>",
-    "stores": {
-      "G": 7
-    },
-    "total_instructions": 2178
-  },
-  "3": {
-    "basicblocks": 9,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 4,
-    "file": "nnet_padding_stream.h",
-    "fileloc": 48,
-    "instructions": 31,
-    "memory_accesses": 4,
-    "name": "zeropad2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config31>",
-    "total_instructions": 111
-  },
-  "30": {
-    "basicblocks": 7,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 3,
-    "file": "nnet_padding_stream.h",
-    "fileloc": 48,
-    "instructions": 23,
-    "memory_accesses": 3,
-    "name": "zeropad2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, config30>",
-    "total_instructions": 35
-  },
-  "31": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 10,
-    "file": "nnet_activation_stream.h",
-    "fileloc": 526,
-    "instructions": 26,
-    "memory_accesses": 2,
-    "name": "thresholded_relu<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, thresholdedrelu_config8>",
-    "total_instructions": 78
-  },
-  "32": {
-    "basicblocks": 5,
-    "calls": "4",
+    "calls": "8",
     "control_depth": 0,
     "def_use_depth": 3,
     "file": "nnet_conv2d_stream.h",
     "fileloc": 67,
     "instructions": 38,
     "memory_accesses": 6,
-    "name": "conv_2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config5>",
+    "name": "conv_2d_cl<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config9>",
     "stores": {
       "L": 4
     },
-    "total_instructions": 943
-  },
-  "33": {
-    "basicblocks": 10,
-    "calls": "43 48",
-    "control_depth": 0,
-    "def_use_depth": 8,
-    "file": "nnet_conv_stream.h",
-    "fileloc": 251,
-    "instructions": 70,
-    "loads": {
-      "G": 8,
-      "L": 6
-    },
-    "memory_accesses": 0,
-    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config9>",
-    "stores": {
-      "G": 7
-    },
-    "total_instructions": 1191
-  },
-  "34": {
-    "basicblocks": 5,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 11,
-    "file": "nnet_sepconv2d_stream.h",
-    "fileloc": 56,
-    "instructions": 70,
-    "memory_accesses": 3,
-    "name": "pointwise_conv_2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, config37>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 124
-  },
-  "35": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 12,
-    "file": "nnet_activation_stream.h",
-    "fileloc": 526,
-    "instructions": 34,
-    "memory_accesses": 2,
-    "name": "thresholded_relu<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, thresholdedrelu_config15>",
-    "total_instructions": 112
-  },
-  "36": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 13,
-    "file": "nnet_batchnorm_stream.h",
-    "fileloc": 16,
-    "instructions": 59,
-    "memory_accesses": 2,
-    "name": "normalize<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config13>",
-    "total_instructions": 137
-  },
-  "37": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 11,
-    "file": "nnet_merge_stream.h",
-    "fileloc": 11,
-    "instructions": 36,
-    "memory_accesses": 3,
-    "name": "add<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config14>",
-    "total_instructions": 150
-  },
-  "38": {
-    "basicblocks": 5,
-    "calls": "",
-    "control_depth": 2,
-    "def_use_depth": 15,
-    "file": "nnet_activation_stream.h",
-    "fileloc": 65,
-    "instructions": 35,
-    "loads": {
-      "G": 1
-    },
-    "memory_accesses": 3,
-    "name": "sigmoid<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, sigmoid_config26>",
-    "total_instructions": 39
-  },
-  "39": {
-    "basicblocks": 1,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 9,
-    "file": "nnet_dense_latency.h",
-    "fileloc": 13,
-    "instructions": 1835,
-    "loads": {
-      "G": 54
-    },
-    "memory_accesses": 62,
-    "name": "dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config16_mult>",
-    "stores": {
-      "L": 8
-    },
-    "total_instructions": 1835
-  },
-  "4": {
-    "basicblocks": 10,
-    "calls": "1 17",
-    "control_depth": 0,
-    "def_use_depth": 6,
-    "file": "nnet_conv_stream.h",
-    "fileloc": 251,
-    "instructions": 62,
-    "loads": {
-      "G": 8,
-      "L": 4
-    },
-    "memory_accesses": 0,
-    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config5>",
-    "stores": {
-      "G": 7
-    },
-    "total_instructions": 881
-  },
-  "40": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 4,
-    "file": "nnet_stream.h",
-    "fileloc": 20,
-    "instructions": 12,
-    "memory_accesses": 3,
-    "name": "clone_stream<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, 8192>",
-    "total_instructions": 116
-  },
-  "41": {
-    "basicblocks": 7,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 4,
-    "file": "nnet_padding_stream.h",
-    "fileloc": 48,
-    "instructions": 181,
-    "memory_accesses": 68,
-    "name": "zeropad2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config35>",
-    "total_instructions": 3565
-  },
-  "42": {
-    "basicblocks": 10,
-    "calls": "14 28",
-    "control_depth": 0,
-    "def_use_depth": 10,
-    "file": "nnet_conv_stream.h",
-    "fileloc": 251,
-    "instructions": 74,
-    "loads": {
-      "G": 8,
-      "L": 8
-    },
-    "memory_accesses": 0,
-    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config19>",
-    "stores": {
-      "G": 7
-    },
-    "total_instructions": 2847
+    "total_instructions": 2502
   },
   "43": {
     "basicblocks": 1,
@@ -572,55 +573,126 @@
       "L": 4
     },
     "memory_accesses": 80,
-    "name": "shift_line_buffer<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config9>",
+    "name": "shift_line_buffer<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config9>",
     "stores": {
       "G": 36
     },
     "total_instructions": 141
   },
   "44": {
-    "basicblocks": 5,
-    "calls": "",
+    "basicblocks": 10,
+    "calls": "27 9",
     "control_depth": 0,
-    "def_use_depth": 18,
-    "file": "nnet_sepconv2d_stream.h",
-    "fileloc": 56,
-    "instructions": 341,
-    "memory_accesses": 10,
-    "name": "pointwise_conv_2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config36>",
-    "stores": {
+    "def_use_depth": 10,
+    "file": "nnet_conv_stream.h",
+    "fileloc": 251,
+    "instructions": 76,
+    "loads": {
+      "G": 8,
       "L": 8
     },
-    "total_instructions": 445
+    "memory_accesses": 0,
+    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config16>",
+    "stores": {
+      "G": 7
+    },
+    "total_instructions": 4716
   },
   "45": {
-    "basicblocks": 5,
-    "calls": "42",
+    "basicblocks": 3,
+    "calls": "",
     "control_depth": 0,
-    "def_use_depth": 3,
-    "file": "nnet_conv2d_stream.h",
-    "fileloc": 67,
-    "instructions": 58,
-    "memory_accesses": 10,
-    "name": "conv_2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config19>",
-    "stores": {
-      "L": 8
-    },
-    "total_instructions": 2953
+    "def_use_depth": 14,
+    "file": "nnet_batchnorm_stream.h",
+    "fileloc": 16,
+    "instructions": 91,
+    "memory_accesses": 2,
+    "name": "normalize<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config17>",
+    "total_instructions": 195
   },
   "46": {
     "basicblocks": 3,
     "calls": "",
     "control_depth": 0,
-    "def_use_depth": 12,
+    "def_use_depth": 10,
+    "file": "nnet_merge_stream.h",
+    "fileloc": 11,
+    "instructions": 60,
+    "memory_accesses": 3,
+    "name": "add<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<28, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config7>",
+    "total_instructions": 136
+  },
+  "47": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 6,
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 35,
+    "memory_accesses": 1,
+    "name": "dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<36, 16, (ap_q_mode)5, (ap_o_mode)3, 0>, config37_mult>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 35
+  },
+  "48": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 10,
     "file": "nnet_activation_stream.h",
     "fileloc": 526,
     "instructions": 34,
     "memory_accesses": 2,
-    "name": "thresholded_relu<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, thresholdedrelu_config11>",
-    "total_instructions": 112
+    "name": "thresholded_relu<nnet::array<ap_fixed<28, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, thresholdedrelu_config8>",
+    "total_instructions": 86
   },
-  "47": {
+  "49": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 10,
+    "file": "nnet_activation_stream.h",
+    "fileloc": 526,
+    "instructions": 34,
+    "memory_accesses": 2,
+    "name": "thresholded_relu<nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, thresholdedrelu_config4>",
+    "total_instructions": 86
+  },
+  "5": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 4,
+    "file": "nnet_stream.h",
+    "fileloc": 20,
+    "instructions": 12,
+    "memory_accesses": 3,
+    "name": "clone_stream<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, 24576>",
+    "total_instructions": 90
+  },
+  "50": {
+    "basicblocks": 10,
+    "calls": "33 28",
+    "control_depth": 0,
+    "def_use_depth": 6,
+    "file": "nnet_conv_stream.h",
+    "fileloc": 251,
+    "instructions": 64,
+    "loads": {
+      "G": 8,
+      "L": 4
+    },
+    "memory_accesses": 0,
+    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config2>",
+    "stores": {
+      "G": 7
+    },
+    "total_instructions": 483
+  },
+  "51": {
     "basicblocks": 7,
     "calls": "",
     "control_depth": 0,
@@ -629,153 +701,111 @@
     "fileloc": 48,
     "instructions": 341,
     "memory_accesses": 132,
-    "name": "zeropad2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config33>",
+    "name": "zeropad2d_cl<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config33>",
     "total_instructions": 5375
   },
-  "48": {
-    "basicblocks": 1,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 9,
-    "file": "nnet_dense_latency.h",
-    "fileloc": 13,
-    "instructions": 938,
-    "loads": {
-      "G": 36
-    },
-    "memory_accesses": 42,
-    "name": "dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config9_mult>",
-    "stores": {
-      "L": 6
-    },
-    "total_instructions": 938
-  },
-  "49": {
-    "basicblocks": 5,
-    "calls": "13",
-    "control_depth": 0,
-    "def_use_depth": 3,
-    "file": "nnet_conv2d_stream.h",
-    "fileloc": 67,
-    "instructions": 48,
-    "memory_accesses": 8,
-    "name": "conv_2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config12>",
-    "stores": {
-      "L": 6
-    },
-    "total_instructions": 1807
-  },
-  "5": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 15,
-    "file": "nnet_batchnorm_stream.h",
-    "fileloc": 16,
-    "instructions": 75,
-    "memory_accesses": 2,
-    "name": "normalize<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config20>",
-    "total_instructions": 179
-  },
-  "50": {
+  "52": {
     "basicblocks": 1,
     "calls": "",
     "control_depth": 0,
     "def_use_depth": 4,
     "file": "nnet_conv_stream.h",
     "fileloc": 215,
-    "instructions": 163,
+    "instructions": 217,
     "loads": {
-      "G": 36,
-      "L": 6
+      "G": 48,
+      "L": 8
     },
-    "memory_accesses": 120,
-    "name": "shift_line_buffer<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config12>",
+    "memory_accesses": 160,
+    "name": "shift_line_buffer<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config19>",
     "stores": {
-      "G": 54
+      "G": 72
     },
-    "total_instructions": 211
+    "total_instructions": 281
   },
-  "51": {
-    "basicblocks": 5,
-    "calls": "20",
-    "control_depth": 0,
-    "def_use_depth": 3,
-    "file": "nnet_conv2d_stream.h",
-    "fileloc": 67,
-    "instructions": 17,
-    "memory_accesses": 2,
-    "name": "conv_2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 1U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config2>",
-    "total_instructions": 311
-  },
-  "52": {
+  "53": {
     "basicblocks": 3,
     "calls": "",
     "control_depth": 0,
-    "def_use_depth": 9,
-    "file": "nnet_merge_stream.h",
-    "fileloc": 11,
-    "instructions": 28,
-    "memory_accesses": 3,
-    "name": "add<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config7>",
-    "total_instructions": 104
-  },
-  "6": {
-    "basicblocks": 5,
-    "calls": "33",
-    "control_depth": 0,
-    "def_use_depth": 3,
-    "file": "nnet_conv2d_stream.h",
-    "fileloc": 67,
-    "instructions": 38,
-    "memory_accesses": 6,
-    "name": "conv_2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config9>",
-    "stores": {
-      "L": 4
-    },
-    "total_instructions": 1253
-  },
-  "7": {
-    "basicblocks": 3,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 15,
+    "def_use_depth": 12,
     "file": "nnet_batchnorm_stream.h",
     "fileloc": 16,
-    "instructions": 75,
+    "instructions": 71,
     "memory_accesses": 2,
-    "name": "normalize<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8U>, config17>",
-    "total_instructions": 179
+    "name": "normalize<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config13>",
+    "total_instructions": 149
   },
-  "8": {
+  "54": {
+    "basicblocks": 9,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 4,
+    "file": "nnet_padding_stream.h",
+    "fileloc": 48,
+    "instructions": 31,
+    "memory_accesses": 4,
+    "name": "zeropad2d_cl<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config31>",
+    "total_instructions": 111
+  },
+  "6": {
     "basicblocks": 3,
     "calls": "",
     "control_depth": 0,
-    "def_use_depth": 10,
-    "file": "nnet_activation_stream.h",
-    "fileloc": 526,
-    "instructions": 26,
-    "memory_accesses": 2,
-    "name": "thresholded_relu<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, thresholdedrelu_config4>",
-    "total_instructions": 78
+    "def_use_depth": 12,
+    "file": "nnet_merge_stream.h",
+    "fileloc": 11,
+    "instructions": 84,
+    "memory_accesses": 3,
+    "name": "add<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<27, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, nnet::array<ap_fixed<28, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config14>",
+    "total_instructions": 198
+  },
+  "7": {
+    "basicblocks": 7,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 4,
+    "file": "nnet_padding_stream.h",
+    "fileloc": 48,
+    "instructions": 24,
+    "memory_accesses": 3,
+    "name": "zeropad2d_cl<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, config32>",
+    "total_instructions": 104
+  },
+  "8": {
+    "basicblocks": 10,
+    "calls": "43 39",
+    "control_depth": 0,
+    "def_use_depth": 8,
+    "file": "nnet_conv_stream.h",
+    "fileloc": 251,
+    "instructions": 70,
+    "loads": {
+      "G": 8,
+      "L": 6
+    },
+    "memory_accesses": 0,
+    "name": "compute_output_buffer_2d<nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 4U>, nnet::array<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config9>",
+    "stores": {
+      "G": 7
+    },
+    "total_instructions": 2440
   },
   "9": {
     "basicblocks": 1,
     "calls": "",
     "control_depth": 0,
-    "def_use_depth": 4,
-    "file": "nnet_conv_stream.h",
-    "fileloc": 215,
-    "instructions": 163,
+    "def_use_depth": 56,
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 4373,
     "loads": {
-      "G": 36,
-      "L": 6
-    },
-    "memory_accesses": 120,
-    "name": "shift_line_buffer<nnet::array<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 6U>, config16>",
-    "stores": {
       "G": 54
     },
-    "total_instructions": 211
+    "memory_accesses": 62,
+    "name": "dense_latency<ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<10, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, config16_mult>",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 4373
   }
 }

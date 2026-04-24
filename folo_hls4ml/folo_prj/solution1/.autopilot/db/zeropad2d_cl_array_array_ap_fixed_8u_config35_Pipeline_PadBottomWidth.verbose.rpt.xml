@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_8u_config35_Pipeline_PadBottomWidth'" level="0">
-<item name = "Date">Thu Apr 23 22:46:41 2026
+<item name = "Date">Fri Apr 24 00:23:02 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">folo_prj</item>
@@ -114,7 +114,7 @@
 <column name="ap_done">out, 1, ap_ctrl_hs, zeropad2d_cl&lt;array,array&lt;ap_fixed,8u&gt;,config35&gt;_Pipeline_PadBottomWidth, return value</column>
 <column name="ap_idle">out, 1, ap_ctrl_hs, zeropad2d_cl&lt;array,array&lt;ap_fixed,8u&gt;,config35&gt;_Pipeline_PadBottomWidth, return value</column>
 <column name="ap_ready">out, 1, ap_ctrl_hs, zeropad2d_cl&lt;array,array&lt;ap_fixed,8u&gt;,config35&gt;_Pipeline_PadBottomWidth, return value</column>
-<column name="layer35_out_din">out, 128, ap_fifo, layer35_out, pointer</column>
+<column name="layer35_out_din">out, 80, ap_fifo, layer35_out, pointer</column>
 <column name="layer35_out_full_n">in, 1, ap_fifo, layer35_out, pointer</column>
 <column name="layer35_out_write">out, 1, ap_fifo, layer35_out, pointer</column>
 <column name="layer35_out_num_data_valid">in, 32, ap_fifo, layer35_out, pointer</column>

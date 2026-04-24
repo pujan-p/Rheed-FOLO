@@ -29,7 +29,7 @@ input   ap_start;
 output   ap_done;
 output   ap_idle;
 output   ap_ready;
-output  [127:0] layer35_out_din;
+output  [79:0] layer35_out_din;
 input   layer35_out_full_n;
 output   layer35_out_write;
 input  [31:0] layer35_out_num_data_valid;
@@ -244,6 +244,6 @@ assign icmp_ln77_fu_54_p2 = ((ap_sig_allocacmp_j == 6'd34) ? 1'b1 : 1'b0);
 
 assign j_13_fu_60_p2 = (ap_sig_allocacmp_j + 6'd1);
 
-assign layer35_out_din = 128'd0;
+assign layer35_out_din = 80'd0;
 
 endmodule //folo_zeropad2d_cl_array_array_ap_fixed_8u_config35_Pipeline_PadBottomWidth

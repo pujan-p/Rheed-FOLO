@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config30_Pipeline_CopyMain'
 ================================================================
-* Date:           Thu Apr 23 22:46:37 2026
+* Date:           Fri Apr 24 00:23:00 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        folo_prj
@@ -85,7 +85,7 @@
     +---------------------------------------+----------+----+---+----+------------+------------+
     |             Variable Name             | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +---------------------------------------+----------+----+---+----+------------+------------+
-    |j_12_fu_72_p2                          |         +|   0|  0|  16|           9|           1|
+    |j_6_fu_72_p2                           |         +|   0|  0|  16|           9|           1|
     |ap_block_pp0_stage0_01001_grp1         |       and|   0|  0|   2|           1|           1|
     |icmp_ln65_fu_66_p2                     |      icmp|   0|  0|  17|           9|          10|
     |ap_block_state2_pp0_stage0_iter1_grp1  |        or|   0|  0|   2|           1|           1|
@@ -100,7 +100,7 @@
     +---------------------------+----+-----------+-----+-----------+
     |ap_done_int                |   9|          2|    1|          2|
     |ap_enable_reg_pp0_iter1    |   9|          2|    1|          2|
-    |ap_sig_allocacmp_j_11      |   9|          2|    9|         18|
+    |ap_sig_allocacmp_j_5       |   9|          2|    9|         18|
     |input_layer_1_TDATA_blk_n  |   9|          2|    1|          2|
     |j_fu_40                    |   9|          2|    9|         18|
     |layer30_out_blk_n          |   9|          2|    1|          2|

@@ -50,7 +50,7 @@ wire    ap_loop_exit_ready;
 reg    ap_ready_int;
 reg    layer31_out_blk_n;
 wire    ap_block_pp0_stage0_grp1;
-reg   [7:0] j_12_fu_34;
+reg   [7:0] j_2_fu_34;
 wire   [7:0] j_19_fu_60_p2;
 wire    ap_loop_init;
 reg    ap_block_pp0_stage0_11001;
@@ -72,7 +72,7 @@ wire    ap_ce_reg;
 initial begin
 #0 ap_CS_fsm = 1'd1;
 #0 ap_enable_reg_pp0_iter1 = 1'b0;
-#0 j_12_fu_34 = 8'd0;
+#0 j_2_fu_34 = 8'd0;
 #0 ap_done_reg = 1'b0;
 end
 
@@ -126,9 +126,9 @@ end
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
         if (((icmp_ln77_fu_54_p2 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1))) begin
-            j_12_fu_34 <= j_19_fu_60_p2;
+            j_2_fu_34 <= j_19_fu_60_p2;
         end else if ((ap_loop_init == 1'b1)) begin
-            j_12_fu_34 <= 8'd0;
+            j_2_fu_34 <= 8'd0;
         end
     end
 end
@@ -177,7 +177,7 @@ always @ (*) begin
     if (((ap_loop_init == 1'b1) & (1'b0 == ap_block_pp0_stage0) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
         ap_sig_allocacmp_j = 8'd0;
     end else begin
-        ap_sig_allocacmp_j = j_12_fu_34;
+        ap_sig_allocacmp_j = j_2_fu_34;
     end
 end
 

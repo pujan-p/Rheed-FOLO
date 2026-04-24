@@ -51,10 +51,10 @@ reg    ap_ready_int;
 reg    layer31_out_blk_n;
 wire    ap_block_pp0_stage0_grp1;
 reg   [7:0] j_fu_34;
-wire   [7:0] j_8_fu_60_p2;
+wire   [7:0] j_2_fu_60_p2;
 wire    ap_loop_init;
 reg    ap_block_pp0_stage0_11001;
-reg   [7:0] ap_sig_allocacmp_j_7;
+reg   [7:0] ap_sig_allocacmp_j_1;
 wire    ap_block_pp0_stage0;
 reg    ap_block_pp0_stage0_01001_grp1;
 reg    ap_block_pp0_stage0_11001_grp1;
@@ -126,7 +126,7 @@ end
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
         if (((icmp_ln53_fu_54_p2 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1))) begin
-            j_fu_34 <= j_8_fu_60_p2;
+            j_fu_34 <= j_2_fu_60_p2;
         end else if ((ap_loop_init == 1'b1)) begin
             j_fu_34 <= 8'd0;
         end
@@ -175,9 +175,9 @@ end
 
 always @ (*) begin
     if (((ap_loop_init == 1'b1) & (1'b0 == ap_block_pp0_stage0) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
-        ap_sig_allocacmp_j_7 = 8'd0;
+        ap_sig_allocacmp_j_1 = 8'd0;
     end else begin
-        ap_sig_allocacmp_j_7 = j_fu_34;
+        ap_sig_allocacmp_j_1 = j_fu_34;
     end
 end
 
@@ -240,9 +240,9 @@ assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage0;
 
 assign ap_ready = ap_ready_sig;
 
-assign icmp_ln53_fu_54_p2 = ((ap_sig_allocacmp_j_7 == 8'd130) ? 1'b1 : 1'b0);
+assign icmp_ln53_fu_54_p2 = ((ap_sig_allocacmp_j_1 == 8'd130) ? 1'b1 : 1'b0);
 
-assign j_8_fu_60_p2 = (ap_sig_allocacmp_j_7 + 8'd1);
+assign j_2_fu_60_p2 = (ap_sig_allocacmp_j_1 + 8'd1);
 
 assign layer31_out_din = 64'd0;
 

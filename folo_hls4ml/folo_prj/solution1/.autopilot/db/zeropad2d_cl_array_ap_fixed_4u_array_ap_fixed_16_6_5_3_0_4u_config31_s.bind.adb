@@ -366,7 +366,7 @@
 					<Obj>
 						<type>0</type>
 						<id>11</id>
-						<name>i_3</name>
+						<name>i_1</name>
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>59</lineNumber>
@@ -480,7 +480,7 @@
 					<Obj>
 						<type>0</type>
 						<id>13</id>
-						<name>i_4</name>
+						<name>i_2</name>
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>59</lineNumber>
@@ -2943,7 +2943,7 @@
 			</second>
 		</item>
 		<item>
-			<first>i_4_fu_102</first>
+			<first>i_2_fu_102</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3011,7 +3011,7 @@
 			</second>
 		</item>
 		<item>
-			<first>i_3_load_fu_93</first>
+			<first>i_1_load_fu_93</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

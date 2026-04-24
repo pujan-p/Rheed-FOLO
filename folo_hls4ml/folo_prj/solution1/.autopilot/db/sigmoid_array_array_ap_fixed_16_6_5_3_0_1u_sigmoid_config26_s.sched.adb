@@ -37,7 +37,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>16</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<direction>0</direction>
 				<if_type>3</if_type>
@@ -96,8 +96,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>80</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -109,7 +109,7 @@
 									<item class_id="12" tracking_level="0" version="0">
 										<first class_id="13" tracking_level="0" version="0">
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>80</second>
 									</item>
@@ -152,8 +152,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>80</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -165,7 +165,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>80</second>
 									</item>
@@ -209,8 +209,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>80</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -222,7 +222,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>80</second>
 									</item>
@@ -265,8 +265,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>80</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -278,7 +278,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>80</second>
 									</item>
@@ -302,7 +302,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>51</item>
-					<item>206</item>
+					<item>207</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -318,12 +318,12 @@
 					<Obj>
 						<type>0</type>
 						<id>14</id>
-						<name>in_data</name>
+						<name>layer25_out_read</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>83</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -335,14 +335,14 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>83</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>in_data</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -353,7 +353,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>16</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -379,8 +379,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -392,7 +392,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -410,7 +410,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>12</bitwidth>
+					<bitwidth>22</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
@@ -438,8 +438,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -451,7 +451,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -496,8 +496,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -509,7 +509,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -527,7 +527,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>4</bitwidth>
+					<bitwidth>14</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -552,8 +552,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -565,7 +565,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -583,7 +583,7 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>10</bitwidth>
+					<bitwidth>20</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>3</count>
@@ -610,8 +610,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -623,7 +623,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -647,14 +647,14 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>72</item>
-					<item>73</item>
+					<item>74</item>
 				</oprand_edges>
 				<opcode>icmp</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.31</m_delay>
+				<m_delay>1.43</m_delay>
 				<m_topoIndex>9</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -667,8 +667,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -680,7 +680,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -698,20 +698,20 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>12</bitwidth>
+					<bitwidth>22</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>74</item>
-					<item>76</item>
+					<item>75</item>
+					<item>77</item>
 				</oprand_edges>
 				<opcode>add</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.35</m_delay>
+				<m_delay>1.44</m_delay>
 				<m_topoIndex>10</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -724,8 +724,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -737,7 +737,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -755,14 +755,14 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>12</bitwidth>
+					<bitwidth>22</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>77</item>
 					<item>78</item>
 					<item>79</item>
+					<item>80</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -782,8 +782,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -795,7 +795,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -813,14 +813,14 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>12</bitwidth>
+					<bitwidth>22</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>80</item>
 					<item>81</item>
 					<item>82</item>
+					<item>83</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -840,8 +840,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -853,7 +853,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -871,12 +871,12 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>23</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>83</item>
+					<item>84</item>
 				</oprand_edges>
 				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
@@ -896,8 +896,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>91</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -909,7 +909,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>91</second>
 									</item>
@@ -927,20 +927,20 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>23</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>84</item>
-					<item>86</item>
+					<item>85</item>
+					<item>87</item>
 				</oprand_edges>
 				<opcode>add</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.35</m_delay>
+				<m_delay>1.44</m_delay>
 				<m_topoIndex>19</m_topoIndex>
 				<m_clusterGroupNumber>1</m_clusterGroupNumber>
 			</item>
@@ -953,8 +953,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>91</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -966,7 +966,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>91</second>
 									</item>
@@ -989,7 +989,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>87</item>
+					<item>88</item>
 				</oprand_edges>
 				<opcode>trunc</opcode>
 				<m_Display>0</m_Display>
@@ -1009,8 +1009,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>92</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1022,7 +1022,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>92</second>
 									</item>
@@ -1045,9 +1045,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>89</item>
 					<item>90</item>
-					<item>92</item>
+					<item>91</item>
+					<item>93</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -1067,8 +1067,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>94</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1080,7 +1080,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>94</second>
 									</item>
@@ -1098,15 +1098,15 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>3</bitwidth>
+					<bitwidth>13</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>94</item>
 					<item>95</item>
-					<item>97</item>
+					<item>96</item>
 					<item>98</item>
+					<item>99</item>
 				</oprand_edges>
 				<opcode>partselect</opcode>
 				<m_Display>0</m_Display>
@@ -1126,8 +1126,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>94</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1139,7 +1139,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>94</second>
 									</item>
@@ -1162,15 +1162,15 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>99</item>
-					<item>101</item>
+					<item>100</item>
+					<item>102</item>
 				</oprand_edges>
 				<opcode>icmp</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.83</m_delay>
+				<m_delay>1.36</m_delay>
 				<m_topoIndex>23</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1183,8 +1183,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>92</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1196,7 +1196,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>92</second>
 									</item>
@@ -1219,8 +1219,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>102</item>
-					<item>104</item>
+					<item>103</item>
+					<item>105</item>
 				</oprand_edges>
 				<opcode>xor</opcode>
 				<m_Display>0</m_Display>
@@ -1240,8 +1240,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>92</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1253,7 +1253,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>92</second>
 									</item>
@@ -1276,9 +1276,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>105</item>
-					<item>107</item>
+					<item>106</item>
 					<item>108</item>
+					<item>109</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -1298,8 +1298,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>92</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1311,7 +1311,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>92</second>
 									</item>
@@ -1334,8 +1334,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>109</item>
 					<item>110</item>
+					<item>111</item>
 				</oprand_edges>
 				<opcode>or</opcode>
 				<m_Display>0</m_Display>
@@ -1355,8 +1355,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>92</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1368,7 +1368,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>92</second>
 									</item>
@@ -1391,9 +1391,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>111</item>
 					<item>112</item>
 					<item>113</item>
+					<item>114</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -1413,8 +1413,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>96</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1426,7 +1426,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>96</second>
 									</item>
@@ -1449,7 +1449,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>114</item>
+					<item>115</item>
 				</oprand_edges>
 				<opcode>zext</opcode>
 				<m_Display>0</m_Display>
@@ -1469,8 +1469,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>96</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1482,7 +1482,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>96</second>
 									</item>
@@ -1505,9 +1505,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>115</item>
-					<item>117</item>
+					<item>116</item>
 					<item>118</item>
+					<item>119</item>
 				</oprand_edges>
 				<opcode>getelementptr</opcode>
 				<m_Display>0</m_Display>
@@ -1527,8 +1527,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>96</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1540,7 +1540,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>96</second>
 									</item>
@@ -1563,7 +1563,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>119</item>
+					<item>120</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1583,8 +1583,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>96</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1596,7 +1596,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>96</second>
 									</item>
@@ -1619,7 +1619,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>120</item>
+					<item>121</item>
 				</oprand_edges>
 				<opcode>zext</opcode>
 				<m_Display>0</m_Display>
@@ -1639,8 +1639,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>99</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1652,7 +1652,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>99</second>
 									</item>
@@ -1675,9 +1675,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>122</item>
 					<item>123</item>
 					<item>124</item>
+					<item>125</item>
 				</oprand_edges>
 				<opcode>write</opcode>
 				<m_Display>0</m_Display>
@@ -1697,8 +1697,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>80</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1710,7 +1710,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>80</second>
 									</item>
@@ -1733,8 +1733,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>125</item>
-					<item>127</item>
+					<item>126</item>
+					<item>128</item>
 				</oprand_edges>
 				<opcode>add</opcode>
 				<m_Display>0</m_Display>
@@ -1754,8 +1754,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>80</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1767,7 +1767,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>80</second>
 									</item>
@@ -1790,8 +1790,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>128</item>
 					<item>129</item>
+					<item>130</item>
 				</oprand_edges>
 				<opcode>icmp</opcode>
 				<m_Display>0</m_Display>
@@ -1811,8 +1811,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>80</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1824,7 +1824,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>80</second>
 									</item>
@@ -1847,10 +1847,10 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>130</item>
 					<item>131</item>
-					<item>205</item>
-					<item>207</item>
+					<item>132</item>
+					<item>206</item>
+					<item>208</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -1870,8 +1870,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>80</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1883,7 +1883,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>80</second>
 									</item>
@@ -1906,9 +1906,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>132</item>
 					<item>133</item>
 					<item>134</item>
+					<item>135</item>
 				</oprand_edges>
 				<opcode>br</opcode>
 				<m_Display>0</m_Display>
@@ -1928,8 +1928,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>101</lineNumber>
-						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
-						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
+						<contextFuncName>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</contextFuncName>
+						<contextNormFuncName>sigmoid_nnet_array_ap_fixed_36_16_ap_q_mode_5_ap_o_mode_3_0_1U_nnet_array_ap_fixed_16_6_ap_q_mode_5_ap_o_mode_3_0_1U_sigmoid_config26_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1941,7 +1941,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
+											<second>sigmoid&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;36, 16, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&amp;gt;, 1U&amp;gt;, sigmoid_config26&amp;gt;</second>
 										</first>
 										<second>101</second>
 									</item>
@@ -1976,7 +1976,7 @@
 			</item>
 		</nodes>
 		<consts class_id="15" tracking_level="0" version="0">
-			<count>14</count>
+			<count>15</count>
 			<item_version>0</item_version>
 			<item class_id="16" tracking_level="1" version="0" object_id="_36">
 				<Value>
@@ -2069,7 +2069,7 @@
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>4</content>
+				<content>14</content>
 			</item>
 			<item class_id_reference="16" object_id="_39">
 				<Value>
@@ -2100,7 +2100,7 @@
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>15</content>
+				<content>35</content>
 			</item>
 			<item class_id_reference="16" object_id="_40">
 				<Value>
@@ -2137,7 +2137,7 @@
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>75</id>
+						<id>73</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2159,16 +2159,16 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>12</bitwidth>
+					<bitwidth>20</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1</content>
+				<content>0</content>
 			</item>
 			<item class_id_reference="16" object_id="_42">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>85</id>
+						<id>76</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2190,16 +2190,47 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>22</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>512</content>
+				<content>1</content>
 			</item>
 			<item class_id_reference="16" object_id="_43">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>91</id>
+						<id>86</id>
+						<name>empty</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>4294967295</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>23</bitwidth>
+				</Value>
+				<const_type>0</const_type>
+				<content>512</content>
+			</item>
+			<item class_id_reference="16" object_id="_44">
+				<Value>
+					<Obj>
+						<type>2</type>
+						<id>92</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2224,13 +2255,13 @@
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>12</content>
+				<content>22</content>
 			</item>
-			<item class_id_reference="16" object_id="_44">
+			<item class_id_reference="16" object_id="_45">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>96</id>
+						<id>97</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2257,11 +2288,11 @@
 				<const_type>0</const_type>
 				<content>10</content>
 			</item>
-			<item class_id_reference="16" object_id="_45">
+			<item class_id_reference="16" object_id="_46">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>100</id>
+						<id>101</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2283,16 +2314,16 @@
 						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>3</bitwidth>
+					<bitwidth>13</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
 			</item>
-			<item class_id_reference="16" object_id="_46">
+			<item class_id_reference="16" object_id="_47">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>103</id>
+						<id>104</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2319,11 +2350,11 @@
 				<const_type>0</const_type>
 				<content>1</content>
 			</item>
-			<item class_id_reference="16" object_id="_47">
+			<item class_id_reference="16" object_id="_48">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>106</id>
+						<id>107</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2350,11 +2381,11 @@
 				<const_type>0</const_type>
 				<content>1023</content>
 			</item>
-			<item class_id_reference="16" object_id="_48">
+			<item class_id_reference="16" object_id="_49">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>116</id>
+						<id>117</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2381,11 +2412,11 @@
 				<const_type>0</const_type>
 				<content>0</content>
 			</item>
-			<item class_id_reference="16" object_id="_49">
+			<item class_id_reference="16" object_id="_50">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>126</id>
+						<id>127</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2416,7 +2447,7 @@
 		<blocks class_id="17" tracking_level="0" version="0">
 			<count>3</count>
 			<item_version>0</item_version>
-			<item class_id="18" tracking_level="1" version="0" object_id="_50">
+			<item class_id="18" tracking_level="1" version="0" object_id="_51">
 				<Obj>
 					<type>3</type>
 					<id>9</id>
@@ -2449,7 +2480,7 @@
 					<item>8</item>
 				</node_objs>
 			</item>
-			<item class_id_reference="18" object_id="_51">
+			<item class_id_reference="18" object_id="_52">
 				<Obj>
 					<type>3</type>
 					<id>42</id>
@@ -2508,7 +2539,7 @@
 					<item>41</item>
 				</node_objs>
 			</item>
-			<item class_id_reference="18" object_id="_52">
+			<item class_id_reference="18" object_id="_53">
 				<Obj>
 					<type>3</type>
 					<id>44</id>
@@ -2543,477 +2574,477 @@
 		<edges class_id="19" tracking_level="0" version="0">
 			<count>68</count>
 			<item_version>0</item_version>
-			<item class_id="20" tracking_level="1" version="0" object_id="_53">
+			<item class_id="20" tracking_level="1" version="0" object_id="_54">
 				<id>46</id>
 				<edge_type>1</edge_type>
 				<source_obj>45</source_obj>
 				<sink_obj>4</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_54">
+			<item class_id_reference="20" object_id="_55">
 				<id>48</id>
 				<edge_type>1</edge_type>
 				<source_obj>47</source_obj>
 				<sink_obj>7</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_55">
+			<item class_id_reference="20" object_id="_56">
 				<id>49</id>
 				<edge_type>1</edge_type>
 				<source_obj>4</source_obj>
 				<sink_obj>7</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_56">
+			<item class_id_reference="20" object_id="_57">
 				<id>50</id>
 				<edge_type>2</edge_type>
 				<source_obj>42</source_obj>
 				<sink_obj>8</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_57">
+			<item class_id_reference="20" object_id="_58">
 				<id>51</id>
 				<edge_type>1</edge_type>
 				<source_obj>4</source_obj>
 				<sink_obj>10</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_58">
+			<item class_id_reference="20" object_id="_59">
 				<id>54</id>
 				<edge_type>1</edge_type>
 				<source_obj>1</source_obj>
 				<sink_obj>14</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_59">
+			<item class_id_reference="20" object_id="_60">
 				<id>57</id>
 				<edge_type>1</edge_type>
 				<source_obj>14</source_obj>
 				<sink_obj>15</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_60">
+			<item class_id_reference="20" object_id="_61">
 				<id>59</id>
 				<edge_type>1</edge_type>
 				<source_obj>58</source_obj>
 				<sink_obj>15</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_61">
+			<item class_id_reference="20" object_id="_62">
 				<id>61</id>
 				<edge_type>1</edge_type>
 				<source_obj>60</source_obj>
 				<sink_obj>15</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_62">
+			<item class_id_reference="20" object_id="_63">
 				<id>64</id>
 				<edge_type>1</edge_type>
 				<source_obj>14</source_obj>
 				<sink_obj>16</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_63">
+			<item class_id_reference="20" object_id="_64">
 				<id>65</id>
 				<edge_type>1</edge_type>
 				<source_obj>60</source_obj>
 				<sink_obj>16</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_64">
+			<item class_id_reference="20" object_id="_65">
 				<id>66</id>
 				<edge_type>1</edge_type>
 				<source_obj>14</source_obj>
 				<sink_obj>17</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_65">
+			<item class_id_reference="20" object_id="_66">
 				<id>69</id>
 				<edge_type>1</edge_type>
 				<source_obj>17</source_obj>
 				<sink_obj>18</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_66">
+			<item class_id_reference="20" object_id="_67">
 				<id>71</id>
 				<edge_type>1</edge_type>
 				<source_obj>70</source_obj>
 				<sink_obj>18</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_67">
+			<item class_id_reference="20" object_id="_68">
 				<id>72</id>
 				<edge_type>1</edge_type>
 				<source_obj>18</source_obj>
 				<sink_obj>19</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_68">
-				<id>73</id>
-				<edge_type>1</edge_type>
-				<source_obj>47</source_obj>
-				<sink_obj>19</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
 			<item class_id_reference="20" object_id="_69">
 				<id>74</id>
 				<edge_type>1</edge_type>
-				<source_obj>15</source_obj>
-				<sink_obj>20</sink_obj>
+				<source_obj>73</source_obj>
+				<sink_obj>19</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_70">
-				<id>76</id>
+				<id>75</id>
 				<edge_type>1</edge_type>
-				<source_obj>75</source_obj>
+				<source_obj>15</source_obj>
 				<sink_obj>20</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_71">
 				<id>77</id>
 				<edge_type>1</edge_type>
-				<source_obj>19</source_obj>
-				<sink_obj>21</sink_obj>
+				<source_obj>76</source_obj>
+				<sink_obj>20</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_72">
 				<id>78</id>
 				<edge_type>1</edge_type>
-				<source_obj>20</source_obj>
+				<source_obj>19</source_obj>
 				<sink_obj>21</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_73">
 				<id>79</id>
 				<edge_type>1</edge_type>
-				<source_obj>15</source_obj>
+				<source_obj>20</source_obj>
 				<sink_obj>21</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_74">
 				<id>80</id>
 				<edge_type>1</edge_type>
-				<source_obj>16</source_obj>
-				<sink_obj>22</sink_obj>
+				<source_obj>15</source_obj>
+				<sink_obj>21</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_75">
 				<id>81</id>
 				<edge_type>1</edge_type>
-				<source_obj>21</source_obj>
+				<source_obj>16</source_obj>
 				<sink_obj>22</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_76">
 				<id>82</id>
 				<edge_type>1</edge_type>
-				<source_obj>15</source_obj>
+				<source_obj>21</source_obj>
 				<sink_obj>22</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_77">
 				<id>83</id>
 				<edge_type>1</edge_type>
-				<source_obj>22</source_obj>
-				<sink_obj>23</sink_obj>
+				<source_obj>15</source_obj>
+				<sink_obj>22</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_78">
 				<id>84</id>
 				<edge_type>1</edge_type>
-				<source_obj>23</source_obj>
-				<sink_obj>24</sink_obj>
+				<source_obj>22</source_obj>
+				<sink_obj>23</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_79">
-				<id>86</id>
+				<id>85</id>
 				<edge_type>1</edge_type>
-				<source_obj>85</source_obj>
+				<source_obj>23</source_obj>
 				<sink_obj>24</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_80">
 				<id>87</id>
 				<edge_type>1</edge_type>
+				<source_obj>86</source_obj>
+				<sink_obj>24</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_81">
+				<id>88</id>
+				<edge_type>1</edge_type>
 				<source_obj>24</source_obj>
 				<sink_obj>25</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_81">
-				<id>90</id>
+			<item class_id_reference="20" object_id="_82">
+				<id>91</id>
 				<edge_type>1</edge_type>
 				<source_obj>24</source_obj>
-				<sink_obj>26</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_82">
-				<id>92</id>
-				<edge_type>1</edge_type>
-				<source_obj>91</source_obj>
 				<sink_obj>26</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_83">
-				<id>95</id>
+				<id>93</id>
 				<edge_type>1</edge_type>
-				<source_obj>24</source_obj>
-				<sink_obj>27</sink_obj>
+				<source_obj>92</source_obj>
+				<sink_obj>26</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_84">
-				<id>97</id>
+				<id>96</id>
 				<edge_type>1</edge_type>
-				<source_obj>96</source_obj>
+				<source_obj>24</source_obj>
 				<sink_obj>27</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_85">
 				<id>98</id>
 				<edge_type>1</edge_type>
-				<source_obj>91</source_obj>
+				<source_obj>97</source_obj>
 				<sink_obj>27</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_86">
 				<id>99</id>
 				<edge_type>1</edge_type>
-				<source_obj>27</source_obj>
-				<sink_obj>28</sink_obj>
+				<source_obj>92</source_obj>
+				<sink_obj>27</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_87">
-				<id>101</id>
+				<id>100</id>
 				<edge_type>1</edge_type>
-				<source_obj>100</source_obj>
+				<source_obj>27</source_obj>
 				<sink_obj>28</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_88">
 				<id>102</id>
 				<edge_type>1</edge_type>
-				<source_obj>26</source_obj>
-				<sink_obj>29</sink_obj>
+				<source_obj>101</source_obj>
+				<sink_obj>28</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_89">
-				<id>104</id>
+				<id>103</id>
 				<edge_type>1</edge_type>
-				<source_obj>103</source_obj>
+				<source_obj>26</source_obj>
 				<sink_obj>29</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_90">
 				<id>105</id>
 				<edge_type>1</edge_type>
-				<source_obj>29</source_obj>
-				<sink_obj>30</sink_obj>
+				<source_obj>104</source_obj>
+				<sink_obj>29</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_91">
-				<id>107</id>
+				<id>106</id>
 				<edge_type>1</edge_type>
-				<source_obj>106</source_obj>
+				<source_obj>29</source_obj>
 				<sink_obj>30</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_92">
 				<id>108</id>
 				<edge_type>1</edge_type>
-				<source_obj>47</source_obj>
+				<source_obj>107</source_obj>
 				<sink_obj>30</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_93">
 				<id>109</id>
 				<edge_type>1</edge_type>
-				<source_obj>26</source_obj>
-				<sink_obj>31</sink_obj>
+				<source_obj>47</source_obj>
+				<sink_obj>30</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_94">
 				<id>110</id>
 				<edge_type>1</edge_type>
-				<source_obj>28</source_obj>
+				<source_obj>26</source_obj>
 				<sink_obj>31</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_95">
 				<id>111</id>
 				<edge_type>1</edge_type>
-				<source_obj>31</source_obj>
-				<sink_obj>32</sink_obj>
+				<source_obj>28</source_obj>
+				<sink_obj>31</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_96">
 				<id>112</id>
 				<edge_type>1</edge_type>
-				<source_obj>30</source_obj>
+				<source_obj>31</source_obj>
 				<sink_obj>32</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_97">
 				<id>113</id>
 				<edge_type>1</edge_type>
-				<source_obj>25</source_obj>
+				<source_obj>30</source_obj>
 				<sink_obj>32</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_98">
 				<id>114</id>
 				<edge_type>1</edge_type>
-				<source_obj>32</source_obj>
-				<sink_obj>33</sink_obj>
+				<source_obj>25</source_obj>
+				<sink_obj>32</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_99">
 				<id>115</id>
 				<edge_type>1</edge_type>
-				<source_obj>3</source_obj>
-				<sink_obj>34</sink_obj>
+				<source_obj>32</source_obj>
+				<sink_obj>33</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_100">
-				<id>117</id>
+				<id>116</id>
 				<edge_type>1</edge_type>
-				<source_obj>116</source_obj>
+				<source_obj>3</source_obj>
 				<sink_obj>34</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_101">
 				<id>118</id>
 				<edge_type>1</edge_type>
-				<source_obj>33</source_obj>
+				<source_obj>117</source_obj>
 				<sink_obj>34</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_102">
 				<id>119</id>
 				<edge_type>1</edge_type>
-				<source_obj>34</source_obj>
-				<sink_obj>35</sink_obj>
+				<source_obj>33</source_obj>
+				<sink_obj>34</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_103">
 				<id>120</id>
 				<edge_type>1</edge_type>
-				<source_obj>35</source_obj>
-				<sink_obj>36</sink_obj>
+				<source_obj>34</source_obj>
+				<sink_obj>35</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_104">
-				<id>123</id>
+				<id>121</id>
 				<edge_type>1</edge_type>
-				<source_obj>2</source_obj>
-				<sink_obj>37</sink_obj>
+				<source_obj>35</source_obj>
+				<sink_obj>36</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_105">
 				<id>124</id>
 				<edge_type>1</edge_type>
-				<source_obj>36</source_obj>
+				<source_obj>2</source_obj>
 				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_106">
 				<id>125</id>
 				<edge_type>1</edge_type>
-				<source_obj>10</source_obj>
-				<sink_obj>38</sink_obj>
+				<source_obj>36</source_obj>
+				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_107">
-				<id>127</id>
+				<id>126</id>
 				<edge_type>1</edge_type>
-				<source_obj>126</source_obj>
+				<source_obj>10</source_obj>
 				<sink_obj>38</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_108">
 				<id>128</id>
 				<edge_type>1</edge_type>
-				<source_obj>10</source_obj>
-				<sink_obj>39</sink_obj>
+				<source_obj>127</source_obj>
+				<sink_obj>38</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_109">
 				<id>129</id>
 				<edge_type>1</edge_type>
-				<source_obj>106</source_obj>
+				<source_obj>10</source_obj>
 				<sink_obj>39</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_110">
 				<id>130</id>
 				<edge_type>1</edge_type>
-				<source_obj>38</source_obj>
-				<sink_obj>40</sink_obj>
+				<source_obj>107</source_obj>
+				<sink_obj>39</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_111">
 				<id>131</id>
 				<edge_type>1</edge_type>
-				<source_obj>4</source_obj>
+				<source_obj>38</source_obj>
 				<sink_obj>40</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_112">
 				<id>132</id>
 				<edge_type>1</edge_type>
-				<source_obj>39</source_obj>
-				<sink_obj>41</sink_obj>
+				<source_obj>4</source_obj>
+				<sink_obj>40</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_113">
 				<id>133</id>
-				<edge_type>2</edge_type>
-				<source_obj>42</source_obj>
+				<edge_type>1</edge_type>
+				<source_obj>39</source_obj>
 				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_114">
 				<id>134</id>
 				<edge_type>2</edge_type>
-				<source_obj>44</source_obj>
+				<source_obj>42</source_obj>
 				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_115">
-				<id>202</id>
+				<id>135</id>
 				<edge_type>2</edge_type>
-				<source_obj>9</source_obj>
-				<sink_obj>42</sink_obj>
+				<source_obj>44</source_obj>
+				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_116">
 				<id>203</id>
 				<edge_type>2</edge_type>
-				<source_obj>42</source_obj>
-				<sink_obj>44</sink_obj>
+				<source_obj>9</source_obj>
+				<sink_obj>42</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_117">
 				<id>204</id>
 				<edge_type>2</edge_type>
 				<source_obj>42</source_obj>
-				<sink_obj>42</sink_obj>
-				<is_back_edge>1</is_back_edge>
+				<sink_obj>44</sink_obj>
+				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_118">
 				<id>205</id>
+				<edge_type>2</edge_type>
+				<source_obj>42</source_obj>
+				<sink_obj>42</sink_obj>
+				<is_back_edge>1</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_119">
+				<id>206</id>
 				<edge_type>4</edge_type>
 				<source_obj>10</source_obj>
 				<sink_obj>40</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_119">
-				<id>206</id>
+			<item class_id_reference="20" object_id="_120">
+				<id>207</id>
 				<edge_type>4</edge_type>
 				<source_obj>7</source_obj>
 				<sink_obj>10</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_120">
-				<id>207</id>
+			<item class_id_reference="20" object_id="_121">
+				<id>208</id>
 				<edge_type>4</edge_type>
 				<source_obj>7</source_obj>
 				<sink_obj>40</sink_obj>
@@ -3024,7 +3055,7 @@
 	<cdfg_regions class_id="21" tracking_level="0" version="0">
 		<count>4</count>
 		<item_version>0</item_version>
-		<item class_id="22" tracking_level="1" version="0" object_id="_121">
+		<item class_id="22" tracking_level="1" version="0" object_id="_122">
 			<mId>1</mId>
 			<mTag>sigmoid&lt;array,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,1u&gt;,sigmoid_config26&gt;</mTag>
 			<mNormTag>sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config26_s</mNormTag>
@@ -3049,7 +3080,7 @@
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
-		<item class_id_reference="22" object_id="_122">
+		<item class_id_reference="22" object_id="_123">
 			<mId>2</mId>
 			<mTag>Entry</mTag>
 			<mNormTag>Entry</mNormTag>
@@ -3072,7 +3103,7 @@
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
-		<item class_id_reference="22" object_id="_123">
+		<item class_id_reference="22" object_id="_124">
 			<mId>3</mId>
 			<mTag>SigmoidActLoop</mTag>
 			<mNormTag>SigmoidActLoop</mNormTag>
@@ -3095,7 +3126,7 @@
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
-		<item class_id_reference="22" object_id="_124">
+		<item class_id_reference="22" object_id="_125">
 			<mId>4</mId>
 			<mTag>Return</mTag>
 			<mNormTag>Return</mNormTag>
@@ -3384,7 +3415,7 @@
 	<regions class_id="32" tracking_level="0" version="0">
 		<count>1</count>
 		<item_version>0</item_version>
-		<item class_id="33" tracking_level="1" version="0" object_id="_125">
+		<item class_id="33" tracking_level="1" version="0" object_id="_126">
 			<region_name>SigmoidActLoop</region_name>
 			<basic_blocks>
 				<count>1</count>
@@ -3457,7 +3488,7 @@
 		<count>0</count>
 		<item_version>0</item_version>
 	</node2core>
-	<sched_res class_id="39" tracking_level="1" version="0" object_id="_126">
+	<sched_res class_id="39" tracking_level="1" version="0" object_id="_127">
 		<ResourceTableActual class_id="40" tracking_level="0" version="0">
 			<II>1</II>
 		</ResourceTableActual>

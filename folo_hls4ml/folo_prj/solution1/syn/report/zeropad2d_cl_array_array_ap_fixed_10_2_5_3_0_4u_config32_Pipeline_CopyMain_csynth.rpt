@@ -1,0 +1,149 @@
+
+
+================================================================
+== Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_10_2_5_3_0_4u_config32_Pipeline_CopyMain'
+================================================================
+* Date:           Fri Apr 24 00:23:00 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
+* Project:        folo_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: kintexu
+* Target device:  xcku035-fbva676-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.650 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
+    |   min   |   max   |    min   |    max   | min | max |        Type       |
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |      130|      130|  0.650 us|  0.650 us|    0|    0|  loop pipeline stp|
+    +---------+---------+----------+----------+-----+-----+-------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +------------+---------+---------+----------+-----------+-----------+------+----------+
+        |            |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- CopyMain  |      128|      128|         2|          1|          1|   128|       yes|
+        +------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|      37|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|     -|       -|       -|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       0|      54|    -|
+|Register         |        -|     -|      11|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     0|      11|      91|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |     1080|  1700|  406256|  203128|    0|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     0|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------------------------+----------+----+---+----+------------+------------+
+    |             Variable Name             | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------------------+----------+----+---+----+------------+------------+
+    |j_12_fu_68_p2                          |         +|   0|  0|  15|           8|           1|
+    |ap_block_pp0_stage0_01001_grp1         |       and|   0|  0|   2|           1|           1|
+    |icmp_ln65_fu_62_p2                     |      icmp|   0|  0|  16|           8|           9|
+    |ap_block_state2_pp0_stage0_iter1_grp1  |        or|   0|  0|   2|           1|           1|
+    |ap_enable_pp0                          |       xor|   0|  0|   2|           1|           2|
+    +---------------------------------------+----------+----+---+----+------------+------------+
+    |Total                                  |          |   0|  0|  37|          19|          14|
+    +---------------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |ap_done_int              |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
+    |ap_sig_allocacmp_j_11    |   9|          2|    8|         16|
+    |j_fu_36                  |   9|          2|    8|         16|
+    |layer32_out_blk_n        |   9|          2|    1|          2|
+    |layer8_out_blk_n         |   9|          2|    1|          2|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  54|         12|   20|         40|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------+---+----+-----+-----------+
+    |           Name          | FF| LUT| Bits| Const Bits|
+    +-------------------------+---+----+-----+-----------+
+    |ap_CS_fsm                |  1|   0|    1|          0|
+    |ap_done_reg              |  1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1  |  1|   0|    1|          0|
+    |j_fu_36                  |  8|   0|    8|          0|
+    +-------------------------+---+----+-----+-----------+
+    |Total                    | 11|   0|   11|          0|
+    +-------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------------+-----+-----+------------+-------------------------------------------------------------------------------+--------------+
+|          RTL Ports         | Dir | Bits|  Protocol  |                                 Source Object                                 |    C Type    |
++----------------------------+-----+-----+------------+-------------------------------------------------------------------------------+--------------+
+|ap_clk                      |   in|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<10,2,5,3,0>,4u>,config32>_Pipeline_CopyMain|  return value|
+|ap_rst                      |   in|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<10,2,5,3,0>,4u>,config32>_Pipeline_CopyMain|  return value|
+|ap_start                    |   in|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<10,2,5,3,0>,4u>,config32>_Pipeline_CopyMain|  return value|
+|ap_done                     |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<10,2,5,3,0>,4u>,config32>_Pipeline_CopyMain|  return value|
+|ap_idle                     |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<10,2,5,3,0>,4u>,config32>_Pipeline_CopyMain|  return value|
+|ap_ready                    |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<10,2,5,3,0>,4u>,config32>_Pipeline_CopyMain|  return value|
+|layer8_out_dout             |   in|   40|     ap_fifo|                                                                     layer8_out|       pointer|
+|layer8_out_empty_n          |   in|    1|     ap_fifo|                                                                     layer8_out|       pointer|
+|layer8_out_read             |  out|    1|     ap_fifo|                                                                     layer8_out|       pointer|
+|layer8_out_num_data_valid   |   in|    4|     ap_fifo|                                                                     layer8_out|       pointer|
+|layer8_out_fifo_cap         |   in|    4|     ap_fifo|                                                                     layer8_out|       pointer|
+|layer32_out_din             |  out|   40|     ap_fifo|                                                                    layer32_out|       pointer|
+|layer32_out_full_n          |   in|    1|     ap_fifo|                                                                    layer32_out|       pointer|
+|layer32_out_write           |  out|    1|     ap_fifo|                                                                    layer32_out|       pointer|
+|layer32_out_num_data_valid  |   in|   32|     ap_fifo|                                                                    layer32_out|       pointer|
+|layer32_out_fifo_cap        |   in|   32|     ap_fifo|                                                                    layer32_out|       pointer|
++----------------------------+-----+-----+------------+-------------------------------------------------------------------------------+--------------+
+

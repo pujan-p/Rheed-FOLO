@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'thresholded_relu_array_ap_fixed_array_ap_fixed_8u_thresholdedrelu_config22_s'" level="0">
-<item name = "Date">Thu Apr 23 22:46:37 2026
+<item name = "Date">Fri Apr 24 00:22:59 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">folo_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00 ns, 3.647 ns, 1.35 ns</column>
+<column name="ap_clk">5.00 ns, 3.597 ns, 1.35 ns</column>
 </table>
 </item>
 </section>

@@ -366,7 +366,7 @@
             <Obj>
               <type>0</type>
               <id>11</id>
-              <name>i_3</name>
+              <name>i_1</name>
               <fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>59</lineNumber>
@@ -480,7 +480,7 @@
             <Obj>
               <type>0</type>
               <id>13</id>
-              <name>i_4</name>
+              <name>i_2</name>
               <fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>59</lineNumber>
@@ -505,7 +505,7 @@
                 </item>
               </inlineStackInfo>
               <originalName>i</originalName>
-              <rtlName>i_4_fu_102_p2</rtlName>
+              <rtlName>i_2_fu_102_p2</rtlName>
               <control>auto</control>
               <opType>add</opType>
               <implIndex>fabric</implIndex>
@@ -2713,7 +2713,7 @@
           </second>
         </item>
         <item>
-          <first>i_4_fu_102_p2 ( + ) </first>
+          <first>i_2_fu_102_p2 ( + ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -3154,7 +3154,7 @@
         <count>2</count>
         <item_version>0</item_version>
         <item>
-          <first>i_4_fu_102_p2 ( + ) </first>
+          <first>i_2_fu_102_p2 ( + ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -3508,7 +3508,7 @@
         </second>
       </item>
       <item>
-        <first>i_4_fu_102</first>
+        <first>i_2_fu_102</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -3576,7 +3576,7 @@
         </second>
       </item>
       <item>
-        <first>i_3_load_fu_93</first>
+        <first>i_1_load_fu_93</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

@@ -67,7 +67,7 @@
 						<control></control>
 						<opType></opType>
 						<implIndex></implIndex>
-						<coreName>FIFO</coreName>
+						<coreName>FIFO_SRL</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
 						<coreId>4294967295</coreId>
@@ -128,7 +128,7 @@
 					<Obj>
 						<type>0</type>
 						<id>4</id>
-						<name>i_39</name>
+						<name>i</name>
 						<fileName>firmware/nnet_utils/nnet_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>22</lineNumber>
@@ -184,7 +184,7 @@
 					<Obj>
 						<type>0</type>
 						<id>8</id>
-						<name>i_39_write_ln22</name>
+						<name>i_write_ln22</name>
 						<fileName>firmware/nnet_utils/nnet_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>22</lineNumber>
@@ -297,7 +297,7 @@
 					<Obj>
 						<type>0</type>
 						<id>11</id>
-						<name>i_40</name>
+						<name>i_39</name>
 						<fileName>firmware/nnet_utils/nnet_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>22</lineNumber>
@@ -439,11 +439,11 @@
 						<rtlName></rtlName>
 						<control>auto</control>
 						<opType>fifo</opType>
-						<implIndex>memory</implIndex>
-						<coreName>FIFO</coreName>
+						<implIndex>srl</implIndex>
+						<coreName>FIFO_SRL</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>77</coreId>
+						<coreId>80</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -527,7 +527,7 @@
 					<Obj>
 						<type>0</type>
 						<id>18</id>
-						<name>i</name>
+						<name>i_40</name>
 						<fileName>firmware/nnet_utils/nnet_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>22</lineNumber>
@@ -641,7 +641,7 @@
 					<Obj>
 						<type>0</type>
 						<id>20</id>
-						<name>i_39_write_ln22</name>
+						<name>i_write_ln22</name>
 						<fileName>firmware/nnet_utils/nnet_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>22</lineNumber>
@@ -1646,19 +1646,19 @@
 		<count>3</count>
 		<item_version>0</item_version>
 		<item class_id="44" tracking_level="0" version="0">
-			<first>i_39_fu_38</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>4</item>
-			</second>
-		</item>
-		<item>
-			<first>i_fu_72</first>
+			<first>i_40_fu_72</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
 				<item>18</item>
+			</second>
+		</item>
+		<item>
+			<first>i_fu_38</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>4</item>
 			</second>
 		</item>
 		<item>
@@ -1678,7 +1678,7 @@
 		<count>6</count>
 		<item_version>0</item_version>
 		<item>
-			<first>i_40_load_fu_69</first>
+			<first>i_39_load_fu_69</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -1750,7 +1750,7 @@
 		<count>1</count>
 		<item_version>0</item_version>
 		<item>
-			<first>i_39_reg_89</first>
+			<first>i_reg_89</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -1829,7 +1829,7 @@
 			<first>2</first>
 			<second>
 				<first>666</first>
-				<second>7</second>
+				<second>10</second>
 			</second>
 		</item>
 		<item>
@@ -1854,7 +1854,7 @@
 			<first>16</first>
 			<second>
 				<first>666</first>
-				<second>7</second>
+				<second>10</second>
 			</second>
 		</item>
 		<item>

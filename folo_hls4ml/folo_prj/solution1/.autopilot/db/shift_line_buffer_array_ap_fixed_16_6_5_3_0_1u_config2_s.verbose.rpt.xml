@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s'" level="0">
-<item name = "Date">Thu Apr 23 22:46:37 2026
+<item name = "Date">Fri Apr 24 00:23:00 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">folo_prj</item>
@@ -83,12 +83,12 @@
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_50_o">9, 2, 16, 32</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_51_o">9, 2, 16, 32</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_53_o">9, 2, 16, 32</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_54_o">9, 2, 16, 32</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_56_o">9, 2, 16, 32</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_57_o">9, 2, 16, 32</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10_o">9, 2, 16, 32</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11_o">9, 2, 16, 32</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13_o">9, 2, 16, 32</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_14_o">9, 2, 16, 32</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o">9, 2, 16, 32</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17_o">9, 2, 16, 32</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
@@ -111,30 +111,30 @@
 <column name="ap_ready">out, 1, ap_ctrl_hs, shift_line_buffer&lt;array&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, 1u&gt;, config2&gt;, return value</column>
 <column name="ap_ce">in, 1, ap_ctrl_hs, shift_line_buffer&lt;array&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, 1u&gt;, config2&gt;, return value</column>
 <column name="in_elem_0_0_0_0_0_val">in, 16, ap_none, in_elem_0_0_0_0_0_val, scalar</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_57_i">in, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_57, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_57_o">out, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_57, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_57_o_ap_vld">out, 1, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_57, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_58">out, 16, ap_vld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_58, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_58_ap_vld">out, 1, ap_vld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_58, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_54_i">in, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_54, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_54_o">out, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_54, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_54_o_ap_vld">out, 1, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_54, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_55">out, 16, ap_vld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_55, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_55_ap_vld">out, 1, ap_vld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_55, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_51_i">in, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_51, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_51_o">out, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_51, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_51_o_ap_vld">out, 1, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_51, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_52">out, 16, ap_vld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_52, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_52_ap_vld">out, 1, ap_vld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_52, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_56_i">in, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_56, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_56_o">out, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_56, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_56_o_ap_vld">out, 1, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_56, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_53_i">in, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_53, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_53_o">out, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_53, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_53_o_ap_vld">out, 1, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_53, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_50_i">in, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_50, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_50_o">out, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_50, pointer</column>
-<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_50_o_ap_vld">out, 1, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_50, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17_i">in, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17_o">out, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17_o_ap_vld">out, 1, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18">out, 16, ap_vld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18_ap_vld">out, 1, ap_vld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_14_i">in, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_14, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_14_o">out, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_14, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_14_o_ap_vld">out, 1, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_14, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15">out, 16, ap_vld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_ap_vld">out, 1, ap_vld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11_i">in, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11_o">out, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11_o_ap_vld">out, 1, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_12">out, 16, ap_vld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_12, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_12_ap_vld">out, 1, ap_vld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_12, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_i">in, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o">out, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o_ap_vld">out, 1, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13_i">in, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13_o">out, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13_o_ap_vld">out, 1, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10_i">in, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10_o">out, 16, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10, pointer</column>
+<column name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10_o_ap_vld">out, 1, ap_ovld, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10, pointer</column>
 </table>
 </item>
 </section>

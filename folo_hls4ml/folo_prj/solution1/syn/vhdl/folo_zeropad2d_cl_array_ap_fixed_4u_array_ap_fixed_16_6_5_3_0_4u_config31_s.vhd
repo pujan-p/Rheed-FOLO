@@ -23,8 +23,8 @@ port (
     layer27_cpy1_dout : IN STD_LOGIC_VECTOR (63 downto 0);
     layer27_cpy1_empty_n : IN STD_LOGIC;
     layer27_cpy1_read : OUT STD_LOGIC;
-    layer27_cpy1_num_data_valid : IN STD_LOGIC_VECTOR (6 downto 0);
-    layer27_cpy1_fifo_cap : IN STD_LOGIC_VECTOR (6 downto 0);
+    layer27_cpy1_num_data_valid : IN STD_LOGIC_VECTOR (4 downto 0);
+    layer27_cpy1_fifo_cap : IN STD_LOGIC_VECTOR (4 downto 0);
     layer31_out_din : OUT STD_LOGIC_VECTOR (63 downto 0);
     layer31_out_full_n : IN STD_LOGIC;
     layer31_out_write : OUT STD_LOGIC;
@@ -61,7 +61,7 @@ architecture behav of folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_
     constant ap_const_lv64_0 : STD_LOGIC_VECTOR (63 downto 0) := "0000000000000000000000000000000000000000000000000000000000000000";
     constant ap_const_lv8_80 : STD_LOGIC_VECTOR (7 downto 0) := "10000000";
     constant ap_const_lv8_1 : STD_LOGIC_VECTOR (7 downto 0) := "00000001";
-    constant ap_const_lv7_0 : STD_LOGIC_VECTOR (6 downto 0) := "0000000";
+    constant ap_const_lv5_0 : STD_LOGIC_VECTOR (4 downto 0) := "00000";
 
 attribute shreg_extract : string;
     signal real_start : STD_LOGIC;
@@ -112,7 +112,7 @@ attribute shreg_extract : string;
     signal ap_CS_fsm_state6 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state6 : signal is "none";
     signal i_fu_42 : STD_LOGIC_VECTOR (7 downto 0) := "00000000";
-    signal i_4_fu_102_p2 : STD_LOGIC_VECTOR (7 downto 0);
+    signal i_2_fu_102_p2 : STD_LOGIC_VECTOR (7 downto 0);
     signal ap_block_state4 : BOOLEAN;
     signal ap_block_state1 : BOOLEAN;
     signal ap_NS_fsm : STD_LOGIC_VECTOR (7 downto 0);
@@ -169,8 +169,8 @@ attribute shreg_extract : string;
         layer27_cpy1_dout : IN STD_LOGIC_VECTOR (63 downto 0);
         layer27_cpy1_empty_n : IN STD_LOGIC;
         layer27_cpy1_read : OUT STD_LOGIC;
-        layer27_cpy1_num_data_valid : IN STD_LOGIC_VECTOR (6 downto 0);
-        layer27_cpy1_fifo_cap : IN STD_LOGIC_VECTOR (6 downto 0);
+        layer27_cpy1_num_data_valid : IN STD_LOGIC_VECTOR (4 downto 0);
+        layer27_cpy1_fifo_cap : IN STD_LOGIC_VECTOR (4 downto 0);
         layer31_out_din : OUT STD_LOGIC_VECTOR (63 downto 0);
         layer31_out_full_n : IN STD_LOGIC;
         layer31_out_write : OUT STD_LOGIC;
@@ -220,8 +220,8 @@ begin
         layer27_cpy1_dout => layer27_cpy1_dout,
         layer27_cpy1_empty_n => layer27_cpy1_empty_n,
         layer27_cpy1_read => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_CopyMain_fu_66_layer27_cpy1_read,
-        layer27_cpy1_num_data_valid => ap_const_lv7_0,
-        layer27_cpy1_fifo_cap => ap_const_lv7_0,
+        layer27_cpy1_num_data_valid => ap_const_lv5_0,
+        layer27_cpy1_fifo_cap => ap_const_lv5_0,
         layer31_out_din => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_CopyMain_fu_66_layer31_out_din,
         layer31_out_full_n => layer31_out_full_n,
         layer31_out_write => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_CopyMain_fu_66_layer31_out_write,
@@ -330,7 +330,7 @@ begin
             if (((ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_boolean_0 = ap_block_state1))) then 
                 i_fu_42 <= ap_const_lv8_0;
             elsif (((icmp_ln59_fu_96_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state4) and (ap_const_boolean_0 = ap_block_state4))) then 
-                i_fu_42 <= i_4_fu_102_p2;
+                i_fu_42 <= i_2_fu_102_p2;
             end if; 
         end if;
     end process;
@@ -501,7 +501,7 @@ begin
     grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_CopyMain_fu_66_ap_start <= grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_CopyMain_fu_66_ap_start_reg;
     grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_PadTopWidth_fu_54_ap_start <= grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_PadTopWidth_fu_54_ap_start_reg;
     grp_zeropad2d_cl_array_array_ap_fixed_4u_config31_Pipeline_PadBottomWidth_fu_60_ap_start <= grp_zeropad2d_cl_array_array_ap_fixed_4u_config31_Pipeline_PadBottomWidth_fu_60_ap_start_reg;
-    i_4_fu_102_p2 <= std_logic_vector(unsigned(i_fu_42) + unsigned(ap_const_lv8_1));
+    i_2_fu_102_p2 <= std_logic_vector(unsigned(i_fu_42) + unsigned(ap_const_lv8_1));
     icmp_ln59_fu_96_p2 <= "1" when (i_fu_42 = ap_const_lv8_80) else "0";
 
     internal_ap_ready_assign_proc : process(grp_zeropad2d_cl_array_array_ap_fixed_4u_config31_Pipeline_PadBottomWidth_fu_60_ap_done, ap_CS_fsm_state8)

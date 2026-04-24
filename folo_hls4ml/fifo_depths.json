@@ -5,7 +5,7 @@
     },
     "layer3_out": {
         "initial": 16384,
-        "optimized": 2
+        "optimized": 1
     },
     "layer4_out": {
         "initial": 16384,
@@ -17,7 +17,7 @@
     },
     "layer6_out": {
         "initial": 16384,
-        "optimized": 2
+        "optimized": 1
     },
     "layer7_out": {
         "initial": 16384,
@@ -25,7 +25,7 @@
     },
     "layer8_out": {
         "initial": 16384,
-        "optimized": 22
+        "optimized": 8
     },
     "layer9_out": {
         "initial": 4096,
@@ -33,7 +33,7 @@
     },
     "layer10_out": {
         "initial": 4096,
-        "optimized": 2
+        "optimized": 1
     },
     "layer11_out": {
         "initial": 4096,
@@ -45,7 +45,7 @@
     },
     "layer13_out": {
         "initial": 4096,
-        "optimized": 2
+        "optimized": 1
     },
     "layer14_out": {
         "initial": 4096,
@@ -53,7 +53,7 @@
     },
     "layer15_out": {
         "initial": 4096,
-        "optimized": 4
+        "optimized": 2
     },
     "layer16_out": {
         "initial": 1024,
@@ -61,7 +61,7 @@
     },
     "layer17_out": {
         "initial": 1024,
-        "optimized": 2
+        "optimized": 1
     },
     "layer18_out": {
         "initial": 1024,
@@ -73,7 +73,7 @@
     },
     "layer20_out": {
         "initial": 1024,
-        "optimized": 2
+        "optimized": 1
     },
     "layer21_out": {
         "initial": 1024,
@@ -85,7 +85,7 @@
     },
     "layer23_out": {
         "initial": 1024,
-        "optimized": 2
+        "optimized": 1
     },
     "layer24_out": {
         "initial": 1024,
@@ -93,23 +93,23 @@
     },
     "layer25_out": {
         "initial": 1024,
-        "optimized": 2
+        "optimized": 1
     },
     "layer27_cpy1": {
         "initial": 16384,
-        "optimized": 33
+        "optimized": 16
     },
     "layer27_cpy2": {
         "initial": 16384,
-        "optimized": 170
+        "optimized": 131
     },
     "layer28_cpy1": {
         "initial": 4096,
-        "optimized": 8
+        "optimized": 4
     },
     "layer28_cpy2": {
         "initial": 4096,
-        "optimized": 73
+        "optimized": 68
     },
     "layer29_cpy1": {
         "initial": 1024,
@@ -117,7 +117,7 @@
     },
     "layer29_cpy2": {
         "initial": 1024,
-        "optimized": 40
+        "optimized": 36
     },
     "layer30_out": {
         "initial": 66049,
@@ -125,22 +125,22 @@
     },
     "layer31_out": {
         "initial": 16900,
-        "optimized": 250
+        "optimized": 245
     },
     "layer32_out": {
         "initial": 16641,
-        "optimized": 131
+        "optimized": 122
     },
     "layer33_out": {
         "initial": 4356,
-        "optimized": 119
+        "optimized": 121
     },
     "layer34_out": {
         "initial": 4225,
-        "optimized": 60
+        "optimized": 61
     },
     "layer35_out": {
         "initial": 1156,
-        "optimized": 60
+        "optimized": 62
     }
 }

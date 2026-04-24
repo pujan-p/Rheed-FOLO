@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_6u_config34_Pipeline_PadBottomWidth'
 ================================================================
-* Date:           Thu Apr 23 22:46:39 2026
+* Date:           Fri Apr 24 00:23:02 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        folo_prj
@@ -133,7 +133,7 @@
 |ap_done                     |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed,6u>,config34>_Pipeline_PadBottomWidth|  return value|
 |ap_idle                     |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed,6u>,config34>_Pipeline_PadBottomWidth|  return value|
 |ap_ready                    |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed,6u>,config34>_Pipeline_PadBottomWidth|  return value|
-|layer34_out_din             |  out|   96|     ap_fifo|                                                              layer34_out|       pointer|
+|layer34_out_din             |  out|   60|     ap_fifo|                                                              layer34_out|       pointer|
 |layer34_out_full_n          |   in|    1|     ap_fifo|                                                              layer34_out|       pointer|
 |layer34_out_write           |  out|    1|     ap_fifo|                                                              layer34_out|       pointer|
 |layer34_out_num_data_valid  |   in|   32|     ap_fifo|                                                              layer34_out|       pointer|

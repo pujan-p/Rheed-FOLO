@@ -100,10 +100,10 @@ newFuncRoot:4 %br_ln65 = br void %for.body25
 
 <Node id="9" bw="8" op_0_bw="8" op_1_bw="0">
 <![CDATA[
-for.body25:0 %j_9 = load i8 %j
+for.body25:0 %j_3 = load i8 %j
 
 ]]></Node>
-<StgValue><ssdm name="j_9"/></StgValue>
+<StgValue><ssdm name="j_3"/></StgValue>
 </operation>
 
 <operation id="11" st_id="1" stage="1" lat="1">
@@ -115,7 +115,7 @@ for.body25:0 %j_9 = load i8 %j
 
 <Node id="10" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-for.body25:1 %icmp_ln65 = icmp_eq  i8 %j_9, i8 128
+for.body25:1 %icmp_ln65 = icmp_eq  i8 %j_3, i8 128
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln65"/></StgValue>
@@ -130,10 +130,10 @@ for.body25:1 %icmp_ln65 = icmp_eq  i8 %j_9, i8 128
 
 <Node id="11" bw="8" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-for.body25:2 %j_10 = add i8 %j_9, i8 1
+for.body25:2 %j_4 = add i8 %j_3, i8 1
 
 ]]></Node>
-<StgValue><ssdm name="j_10"/></StgValue>
+<StgValue><ssdm name="j_4"/></StgValue>
 </operation>
 
 <operation id="13" st_id="1" stage="1" lat="1">
@@ -161,7 +161,7 @@ for.body25:3 %br_ln65 = br i1 %icmp_ln65, void %for.body25.split, void %for.inc3
 
 <Node id="19" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-for.body25.split:5 %store_ln65 = store i8 %j_10, i8 %j
+for.body25.split:5 %store_ln65 = store i8 %j_4, i8 %j
 
 ]]></Node>
 <StgValue><ssdm name="store_ln65"/></StgValue>
@@ -232,7 +232,7 @@ for.body25.split:2 %specloopname_ln65 = specloopname void @_ssdm_op_SpecLoopName
 </operation>
 
 <operation id="18" st_id="2" stage="1" lat="1">
-<core>FIFO</core>
+<core>FIFO_SRL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>

@@ -128,7 +128,7 @@
 					<Obj>
 						<type>0</type>
 						<id>4</id>
-						<name>i_39</name>
+						<name>i</name>
 						<fileName>firmware/nnet_utils/nnet_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>22</lineNumber>
@@ -184,7 +184,7 @@
 					<Obj>
 						<type>0</type>
 						<id>8</id>
-						<name>i_39_write_ln22</name>
+						<name>i_write_ln22</name>
 						<fileName>firmware/nnet_utils/nnet_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>22</lineNumber>
@@ -297,7 +297,7 @@
 					<Obj>
 						<type>0</type>
 						<id>11</id>
-						<name>i_40</name>
+						<name>i_39</name>
 						<fileName>firmware/nnet_utils/nnet_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>22</lineNumber>
@@ -527,7 +527,7 @@
 					<Obj>
 						<type>0</type>
 						<id>18</id>
-						<name>i</name>
+						<name>i_40</name>
 						<fileName>firmware/nnet_utils/nnet_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>22</lineNumber>
@@ -641,7 +641,7 @@
 					<Obj>
 						<type>0</type>
 						<id>20</id>
-						<name>i_39_write_ln22</name>
+						<name>i_write_ln22</name>
 						<fileName>firmware/nnet_utils/nnet_stream.h</fileName>
 						<fileDirectory>/home/pujan/Research/Rheed-FOLO/folo_hls4ml</fileDirectory>
 						<lineNumber>22</lineNumber>

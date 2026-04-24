@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config31_s'
 ================================================================
-* Date:           Thu Apr 23 22:46:38 2026
+* Date:           Fri Apr 24 00:23:00 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        folo_prj
@@ -100,7 +100,7 @@
     +--------------------+----------+----+---+----+------------+------------+
     |    Variable Name   | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +--------------------+----------+----+---+----+------------+------------+
-    |i_4_fu_102_p2       |         +|   0|  0|  15|           8|           1|
+    |i_2_fu_102_p2       |         +|   0|  0|  15|           8|           1|
     |ap_block_state4     |       and|   0|  0|   2|           1|           1|
     |icmp_ln59_fu_96_p2  |      icmp|   0|  0|  16|           8|           9|
     |ap_block_state1     |        or|   0|  0|   2|           1|           1|
@@ -160,8 +160,8 @@
 |layer27_cpy1_dout            |   in|   64|     ap_fifo|                                                              layer27_cpy1|       pointer|
 |layer27_cpy1_empty_n         |   in|    1|     ap_fifo|                                                              layer27_cpy1|       pointer|
 |layer27_cpy1_read            |  out|    1|     ap_fifo|                                                              layer27_cpy1|       pointer|
-|layer27_cpy1_num_data_valid  |   in|    7|     ap_fifo|                                                              layer27_cpy1|       pointer|
-|layer27_cpy1_fifo_cap        |   in|    7|     ap_fifo|                                                              layer27_cpy1|       pointer|
+|layer27_cpy1_num_data_valid  |   in|    5|     ap_fifo|                                                              layer27_cpy1|       pointer|
+|layer27_cpy1_fifo_cap        |   in|    5|     ap_fifo|                                                              layer27_cpy1|       pointer|
 |layer31_out_din              |  out|   64|     ap_fifo|                                                               layer31_out|       pointer|
 |layer31_out_full_n           |   in|    1|     ap_fifo|                                                               layer31_out|       pointer|
 |layer31_out_write            |  out|    1|     ap_fifo|                                                               layer31_out|       pointer|

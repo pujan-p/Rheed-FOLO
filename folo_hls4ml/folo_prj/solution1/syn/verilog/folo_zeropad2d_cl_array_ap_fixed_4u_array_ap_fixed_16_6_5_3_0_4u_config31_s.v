@@ -52,8 +52,8 @@ output   start_write;
 input  [63:0] layer27_cpy1_dout;
 input   layer27_cpy1_empty_n;
 output   layer27_cpy1_read;
-input  [6:0] layer27_cpy1_num_data_valid;
-input  [6:0] layer27_cpy1_fifo_cap;
+input  [4:0] layer27_cpy1_num_data_valid;
+input  [4:0] layer27_cpy1_fifo_cap;
 output  [63:0] layer31_out_din;
 input   layer31_out_full_n;
 output   layer31_out_write;
@@ -105,7 +105,7 @@ reg    grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_Cop
 wire    ap_CS_fsm_state5;
 wire    ap_CS_fsm_state6;
 reg   [7:0] i_fu_42;
-wire   [7:0] i_4_fu_102_p2;
+wire   [7:0] i_2_fu_102_p2;
 reg    ap_block_state4;
 reg    ap_block_state1;
 reg   [7:0] ap_NS_fsm;
@@ -168,8 +168,8 @@ folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_CopyMain 
     .layer27_cpy1_dout(layer27_cpy1_dout),
     .layer27_cpy1_empty_n(layer27_cpy1_empty_n),
     .layer27_cpy1_read(grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_CopyMain_fu_66_layer27_cpy1_read),
-    .layer27_cpy1_num_data_valid(7'd0),
-    .layer27_cpy1_fifo_cap(7'd0),
+    .layer27_cpy1_num_data_valid(5'd0),
+    .layer27_cpy1_fifo_cap(5'd0),
     .layer31_out_din(grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_CopyMain_fu_66_layer31_out_din),
     .layer31_out_full_n(layer31_out_full_n),
     .layer31_out_write(grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_CopyMain_fu_66_layer31_out_write),
@@ -249,7 +249,7 @@ always @ (posedge ap_clk) begin
     if (((1'b1 == ap_CS_fsm_state1) & (1'b0 == ap_block_state1))) begin
         i_fu_42 <= 8'd0;
     end else if (((icmp_ln59_fu_96_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state4) & (1'b0 == ap_block_state4))) begin
-        i_fu_42 <= i_4_fu_102_p2;
+        i_fu_42 <= i_2_fu_102_p2;
     end
 end
 
@@ -477,7 +477,7 @@ assign grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_Pad
 
 assign grp_zeropad2d_cl_array_array_ap_fixed_4u_config31_Pipeline_PadBottomWidth_fu_60_ap_start = grp_zeropad2d_cl_array_array_ap_fixed_4u_config31_Pipeline_PadBottomWidth_fu_60_ap_start_reg;
 
-assign i_4_fu_102_p2 = (i_fu_42 + 8'd1);
+assign i_2_fu_102_p2 = (i_fu_42 + 8'd1);
 
 assign icmp_ln59_fu_96_p2 = ((i_fu_42 == 8'd128) ? 1'b1 : 1'b0);
 

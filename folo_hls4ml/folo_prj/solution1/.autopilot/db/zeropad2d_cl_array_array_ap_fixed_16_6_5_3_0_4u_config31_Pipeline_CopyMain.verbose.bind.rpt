@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config31_Pipeline_CopyMain'
 ================================================================
-* Date:           Thu Apr 23 22:46:28 2026
+* Date:           Fri Apr 24 00:22:53 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        folo_prj
@@ -90,19 +90,19 @@ ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface v
 ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %layer31_out, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 7 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 8 [1/1] (0.53ns)   --->   "%store_ln65 = store i8 0, i8 %j" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 8 'store' 'store_ln65' <Predicate = true> <Delay = 0.53>
 ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%br_ln65 = br void %for.body25" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 9 'br' 'br_ln65' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%j_9 = load i8 %j" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 10 'load' 'j_9' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 11 [1/1] (1.28ns)   --->   "%icmp_ln65 = icmp_eq  i8 %j_9, i8 128" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 11 'icmp' 'icmp_ln65' <Predicate = true> <Delay = 1.28> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.28> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 12 [1/1] (1.28ns)   --->   "%j_10 = add i8 %j_9, i8 1" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 12 'add' 'j_10' <Predicate = true> <Delay = 1.28> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.28> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%j_3 = load i8 %j" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 10 'load' 'j_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (1.28ns)   --->   "%icmp_ln65 = icmp_eq  i8 %j_3, i8 128" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 11 'icmp' 'icmp_ln65' <Predicate = true> <Delay = 1.28> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.28> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (1.28ns)   --->   "%j_4 = add i8 %j_3, i8 1" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 12 'add' 'j_4' <Predicate = true> <Delay = 1.28> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.28> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%br_ln65 = br i1 %icmp_ln65, void %for.body25.split, void %for.inc34.exitStub" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 13 'br' 'br_ln65' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 14 [1/1] (0.53ns)   --->   "%store_ln65 = store i8 %j_10, i8 %j" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 14 'store' 'store_ln65' <Predicate = (!icmp_ln65)> <Delay = 0.53>
+ST_1 : Operation 14 [1/1] (0.53ns)   --->   "%store_ln65 = store i8 %j_4, i8 %j" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 14 'store' 'store_ln65' <Predicate = (!icmp_ln65)> <Delay = 0.53>
 ST_1 : Operation 21 [1/1] (0.53ns)   --->   "%ret_ln0 = ret"   --->   Operation 21 'ret' 'ret_ln0' <Predicate = (icmp_ln65)> <Delay = 0.53>
 
 State 2 <SV = 1> <Delay = 3.65>
 ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%specpipeline_ln18 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, i32 4294967295, void @empty_1" [firmware/nnet_utils/nnet_padding_stream.h:18->firmware/nnet_utils/nnet_padding_stream.h:66]   --->   Operation 15 'specpipeline' 'specpipeline_ln18' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%speclooptripcount_ln18 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 128, i64 128, i64 128" [firmware/nnet_utils/nnet_padding_stream.h:18->firmware/nnet_utils/nnet_padding_stream.h:66]   --->   Operation 16 'speclooptripcount' 'speclooptripcount_ln18' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 17 [1/1] (0.00ns)   --->   "%specloopname_ln65 = specloopname void @_ssdm_op_SpecLoopName, void @empty_13" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 17 'specloopname' 'specloopname_ln65' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 18 [1/1] ( I:1.82ns O:1.82ns )   --->   "%layer27_cpy1_read = read i64 @_ssdm_op_Read.ap_fifo.volatile.i64P0A, i64 %layer27_cpy1" [firmware/nnet_utils/nnet_padding_stream.h:20->firmware/nnet_utils/nnet_padding_stream.h:66]   --->   Operation 18 'read' 'layer27_cpy1_read' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO">   --->   Core 77 'FIFO' <Latency = 0> <II = 1> <Delay = 2.18> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 64> <Depth = 33> <FIFO>
-ST_2 : Operation 19 [1/1] ( I:1.82ns O:1.82ns )   --->   "%write_ln26 = write void @_ssdm_op_Write.ap_fifo.volatile.i64P0A, i64 %layer31_out, i64 %layer27_cpy1_read" [firmware/nnet_utils/nnet_padding_stream.h:26->firmware/nnet_utils/nnet_padding_stream.h:66]   --->   Operation 19 'write' 'write_ln26' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO">   --->   Core 77 'FIFO' <Latency = 0> <II = 1> <Delay = 2.18> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 64> <Depth = 250> <FIFO>
+ST_2 : Operation 18 [1/1] ( I:1.82ns O:1.82ns )   --->   "%layer27_cpy1_read = read i64 @_ssdm_op_Read.ap_fifo.volatile.i64P0A, i64 %layer27_cpy1" [firmware/nnet_utils/nnet_padding_stream.h:20->firmware/nnet_utils/nnet_padding_stream.h:66]   --->   Operation 18 'read' 'layer27_cpy1_read' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.93> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 64> <Depth = 16> <FIFO>
+ST_2 : Operation 19 [1/1] ( I:1.82ns O:1.82ns )   --->   "%write_ln26 = write void @_ssdm_op_Write.ap_fifo.volatile.i64P0A, i64 %layer31_out, i64 %layer27_cpy1_read" [firmware/nnet_utils/nnet_padding_stream.h:26->firmware/nnet_utils/nnet_padding_stream.h:66]   --->   Operation 19 'write' 'write_ln26' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO">   --->   Core 77 'FIFO' <Latency = 0> <II = 1> <Delay = 2.17> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 64> <Depth = 245> <FIFO>
 ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%br_ln65 = br void %for.body25" [firmware/nnet_utils/nnet_padding_stream.h:65]   --->   Operation 20 'br' 'br_ln65' <Predicate = true> <Delay = 0.00>
 
 
@@ -130,9 +130,9 @@ specinterface_ln0      (specinterface    ) [ 000]
 specinterface_ln0      (specinterface    ) [ 000]
 store_ln65             (store            ) [ 000]
 br_ln65                (br               ) [ 000]
-j_9                    (load             ) [ 000]
+j_3                    (load             ) [ 000]
 icmp_ln65              (icmp             ) [ 010]
-j_10                   (add              ) [ 000]
+j_4                    (add              ) [ 000]
 br_ln65                (br               ) [ 000]
 store_ln65             (store            ) [ 000]
 specpipeline_ln18      (specpipeline     ) [ 000]
@@ -357,14 +357,14 @@ ret_ln0                (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="59" class="1004" name="j_9_load_fu_59">
+<comp id="59" class="1004" name="j_3_load_fu_59">
 <pin_list>
 <pin id="60" dir="0" index="0" bw="8" slack="0"/>
 <pin id="61" dir="1" index="1" bw="8" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
-<opset="j_9/1 "/>
+<opset="j_3/1 "/>
 </bind>
 </comp>
 
@@ -380,7 +380,7 @@ ret_ln0                (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="68" class="1004" name="j_10_fu_68">
+<comp id="68" class="1004" name="j_4_fu_68">
 <pin_list>
 <pin id="69" dir="0" index="0" bw="8" slack="0"/>
 <pin id="70" dir="0" index="1" bw="1" slack="0"/>
@@ -388,7 +388,7 @@ ret_ln0                (ret              ) [ 000]
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
-<opset="j_10/1 "/>
+<opset="j_4/1 "/>
 </bind>
 </comp>
 
@@ -462,9 +462,9 @@ ret_ln0                (ret              ) [ 000]
   - Chain level:
 	State 1
 		store_ln65 : 1
-		j_9 : 1
+		j_3 : 1
 		icmp_ln65 : 2
-		j_10 : 2
+		j_4 : 2
 		br_ln65 : 3
 		store_ln65 : 3
 	State 2
@@ -480,7 +480,7 @@ ret_ln0                (ret              ) [ 000]
 |----------|------------------------------|---------|---------|
 |   icmp   |        icmp_ln65_fu_62       |    0    |    15   |
 |----------|------------------------------|---------|---------|
-|    add   |          j_10_fu_68          |    0    |    15   |
+|    add   |           j_4_fu_68          |    0    |    15   |
 |----------|------------------------------|---------|---------|
 |   read   | layer27_cpy1_read_read_fu_40 |    0    |    0    |
 |----------|------------------------------|---------|---------|

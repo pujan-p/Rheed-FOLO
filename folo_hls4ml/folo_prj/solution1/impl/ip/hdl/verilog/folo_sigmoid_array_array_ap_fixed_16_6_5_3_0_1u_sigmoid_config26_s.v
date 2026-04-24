@@ -34,11 +34,11 @@ output   ap_done;
 input   ap_continue;
 output   ap_idle;
 output   ap_ready;
-input  [15:0] layer25_out_dout;
+input  [35:0] layer25_out_dout;
 input   layer25_out_empty_n;
 output   layer25_out_read;
-input  [2:0] layer25_out_num_data_valid;
-input  [2:0] layer25_out_fifo_cap;
+input  [1:0] layer25_out_num_data_valid;
+input  [1:0] layer25_out_fifo_cap;
 input   layer26_out_TREADY;
 output  [15:0] layer26_out_TDATA;
 output   layer26_out_TVALID;
@@ -63,7 +63,7 @@ reg    ap_block_pp0_stage0_subdone_grp1_done_reg;
 wire    regslice_both_layer26_out_U_apdone_blk;
 wire    ap_loop_exit_ready;
 reg    ap_loop_exit_ready_pp0_iter4_reg;
-wire   [0:0] icmp_ln80_fu_150_p2;
+wire   [0:0] icmp_ln80_fu_152_p2;
 reg    ap_condition_exit_pp0_iter0_stage0;
 reg    ap_ready_int;
 wire   [9:0] sigmoid_table_address0;
@@ -71,39 +71,39 @@ wire   [9:0] sigmoid_table_q0;
 reg    layer25_out_blk_n;
 wire    ap_block_pp0_stage0_grp1;
 reg    layer26_out_TDATA_blk_n;
-reg   [15:0] in_data_reg_262;
+reg   [35:0] layer25_out_read_reg_264;
 reg    ap_block_pp0_stage0_11001_grp1;
-wire   [11:0] tmp_1_fu_110_p4;
-reg   [11:0] tmp_1_reg_267;
-wire   [0:0] icmp_ln90_fu_132_p2;
-reg   [0:0] icmp_ln90_reg_273;
-wire   [11:0] add_ln90_fu_138_p2;
-reg   [11:0] add_ln90_reg_278;
+wire   [21:0] tmp_1_fu_112_p4;
+reg   [21:0] tmp_1_reg_269;
+wire   [0:0] icmp_ln90_fu_134_p2;
+reg   [0:0] icmp_ln90_reg_275;
+wire   [21:0] add_ln90_fu_140_p2;
+reg   [21:0] add_ln90_reg_280;
 reg    ap_block_pp0_stage0_11001;
-wire   [9:0] index_1_fu_238_p3;
-reg   [9:0] index_1_reg_287;
-wire   [63:0] zext_ln96_fu_246_p1;
-reg   [9:0] i_fu_72;
-wire   [9:0] i_26_fu_144_p2;
+wire   [9:0] index_1_fu_240_p3;
+reg   [9:0] index_1_reg_289;
+wire   [63:0] zext_ln96_fu_248_p1;
+reg   [9:0] i_fu_74;
+wire   [9:0] i_26_fu_146_p2;
 wire    ap_loop_init;
 reg   [9:0] ap_sig_allocacmp_i_25;
 wire    ap_block_pp0_stage0;
 reg    ap_block_pp0_stage0_01001_grp1;
 reg    sigmoid_table_ce0_local;
-wire   [3:0] trunc_ln90_fu_120_p1;
-wire   [9:0] tmp_2_fu_124_p3;
-wire   [0:0] tmp_fu_161_p3;
-wire   [11:0] select_ln90_fu_168_p3;
-wire   [11:0] data_round_fu_173_p3;
-wire  signed [12:0] sext_ln90_fu_180_p1;
-wire   [12:0] index_fu_184_p2;
-wire   [2:0] tmp_4_fu_202_p4;
-wire   [0:0] tmp_3_fu_194_p3;
-wire   [0:0] xor_ln92_fu_218_p2;
-wire   [0:0] icmp_ln94_fu_212_p2;
-wire   [0:0] or_ln92_fu_232_p2;
-wire   [9:0] select_ln92_fu_224_p3;
-wire   [9:0] trunc_ln91_fu_190_p1;
+wire   [13:0] trunc_ln90_fu_122_p1;
+wire   [19:0] tmp_2_fu_126_p3;
+wire   [0:0] tmp_fu_163_p3;
+wire   [21:0] select_ln90_fu_170_p3;
+wire   [21:0] data_round_fu_175_p3;
+wire  signed [22:0] sext_ln90_fu_182_p1;
+wire   [22:0] index_fu_186_p2;
+wire   [12:0] tmp_4_fu_204_p4;
+wire   [0:0] tmp_3_fu_196_p3;
+wire   [0:0] xor_ln92_fu_220_p2;
+wire   [0:0] icmp_ln94_fu_214_p2;
+wire   [0:0] or_ln92_fu_234_p2;
+wire   [9:0] select_ln92_fu_226_p3;
+wire   [9:0] trunc_ln91_fu_192_p1;
 wire    ap_continue_int;
 reg    ap_done_int;
 reg    ap_loop_exit_ready_pp0_iter1_reg;
@@ -131,7 +131,7 @@ initial begin
 #0 ap_done_reg = 1'b0;
 #0 ap_block_pp0_stage0_subdone_grp1_done_reg_iter0 = 1'b0;
 #0 ap_block_pp0_stage0_subdone_grp1_done_reg = 1'b0;
-#0 i_fu_72 = 10'd0;
+#0 i_fu_74 = 10'd0;
 end
 
 folo_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config26_s_sigmoid_table_R7jG #(
@@ -272,16 +272,16 @@ end
 
 always @ (posedge ap_clk) begin
     if ((1'b1 == ap_condition_163)) begin
-        i_fu_72 <= i_26_fu_144_p2;
+        i_fu_74 <= i_26_fu_146_p2;
     end
 end
 
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_pp0_stage0_subdone_grp1_done_reg_iter0) & (1'b0 == ap_block_pp0_stage0_11001_grp1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
-        add_ln90_reg_278 <= add_ln90_fu_138_p2;
-        icmp_ln90_reg_273 <= icmp_ln90_fu_132_p2;
-        in_data_reg_262 <= layer25_out_dout;
-        tmp_1_reg_267 <= {{layer25_out_dout[15:4]}};
+        add_ln90_reg_280 <= add_ln90_fu_140_p2;
+        icmp_ln90_reg_275 <= icmp_ln90_fu_134_p2;
+        layer25_out_read_reg_264 <= layer25_out_dout;
+        tmp_1_reg_269 <= {{layer25_out_dout[35:14]}};
     end
 end
 
@@ -300,12 +300,12 @@ end
 
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_pp0_stage0_subdone_grp1_done_reg) & (1'b0 == ap_block_pp0_stage0_11001_grp1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
-        index_1_reg_287 <= index_1_fu_238_p3;
+        index_1_reg_289 <= index_1_fu_240_p3;
     end
 end
 
 always @ (*) begin
-    if (((icmp_ln80_fu_150_p2 == 1'd1) & (1'b0 == ap_block_pp0_stage0_subdone) & (ap_start_int == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
+    if (((icmp_ln80_fu_152_p2 == 1'd1) & (1'b0 == ap_block_pp0_stage0_subdone) & (ap_start_int == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
         ap_condition_exit_pp0_iter0_stage0 = 1'b1;
     end else begin
         ap_condition_exit_pp0_iter0_stage0 = 1'b0;
@@ -348,7 +348,7 @@ always @ (*) begin
     if (((1'b0 == ap_block_pp0_stage0) & (ap_start_int == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0) & (ap_loop_init == 1'b1))) begin
         ap_sig_allocacmp_i_25 = 10'd0;
     end else begin
-        ap_sig_allocacmp_i_25 = i_fu_72;
+        ap_sig_allocacmp_i_25 = i_fu_74;
     end
 end
 
@@ -403,7 +403,7 @@ always @ (*) begin
     endcase
 end
 
-assign add_ln90_fu_138_p2 = (tmp_1_fu_110_p4 + 12'd1);
+assign add_ln90_fu_140_p2 = (tmp_1_fu_112_p4 + 22'd1);
 
 assign ap_CS_fsm_pp0_stage0 = ap_CS_fsm[32'd0];
 
@@ -449,50 +449,50 @@ assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage0;
 
 assign ap_ready = ap_ready_sig;
 
-assign data_round_fu_173_p3 = ((tmp_fu_161_p3[0:0] == 1'b1) ? select_ln90_fu_168_p3 : tmp_1_reg_267);
+assign data_round_fu_175_p3 = ((tmp_fu_163_p3[0:0] == 1'b1) ? select_ln90_fu_170_p3 : tmp_1_reg_269);
 
-assign i_26_fu_144_p2 = (ap_sig_allocacmp_i_25 + 10'd1);
+assign i_26_fu_146_p2 = (ap_sig_allocacmp_i_25 + 10'd1);
 
-assign icmp_ln80_fu_150_p2 = ((ap_sig_allocacmp_i_25 == 10'd1023) ? 1'b1 : 1'b0);
+assign icmp_ln80_fu_152_p2 = ((ap_sig_allocacmp_i_25 == 10'd1023) ? 1'b1 : 1'b0);
 
-assign icmp_ln90_fu_132_p2 = ((tmp_2_fu_124_p3 != 10'd0) ? 1'b1 : 1'b0);
+assign icmp_ln90_fu_134_p2 = ((tmp_2_fu_126_p3 != 20'd0) ? 1'b1 : 1'b0);
 
-assign icmp_ln94_fu_212_p2 = ((tmp_4_fu_202_p4 != 3'd0) ? 1'b1 : 1'b0);
+assign icmp_ln94_fu_214_p2 = ((tmp_4_fu_204_p4 != 13'd0) ? 1'b1 : 1'b0);
 
-assign index_1_fu_238_p3 = ((or_ln92_fu_232_p2[0:0] == 1'b1) ? select_ln92_fu_224_p3 : trunc_ln91_fu_190_p1);
+assign index_1_fu_240_p3 = ((or_ln92_fu_234_p2[0:0] == 1'b1) ? select_ln92_fu_226_p3 : trunc_ln91_fu_192_p1);
 
-assign index_fu_184_p2 = ($signed(sext_ln90_fu_180_p1) + $signed(13'd512));
+assign index_fu_186_p2 = ($signed(sext_ln90_fu_182_p1) + $signed(23'd512));
 
 assign layer26_out_TDATA_int_regslice = sigmoid_table_q0;
 
 assign layer26_out_TVALID = regslice_both_layer26_out_U_vld_out;
 
-assign or_ln92_fu_232_p2 = (tmp_3_fu_194_p3 | icmp_ln94_fu_212_p2);
+assign or_ln92_fu_234_p2 = (tmp_3_fu_196_p3 | icmp_ln94_fu_214_p2);
 
-assign select_ln90_fu_168_p3 = ((icmp_ln90_reg_273[0:0] == 1'b1) ? add_ln90_reg_278 : tmp_1_reg_267);
+assign select_ln90_fu_170_p3 = ((icmp_ln90_reg_275[0:0] == 1'b1) ? add_ln90_reg_280 : tmp_1_reg_269);
 
-assign select_ln92_fu_224_p3 = ((xor_ln92_fu_218_p2[0:0] == 1'b1) ? 10'd1023 : 10'd0);
+assign select_ln92_fu_226_p3 = ((xor_ln92_fu_220_p2[0:0] == 1'b1) ? 10'd1023 : 10'd0);
 
-assign sext_ln90_fu_180_p1 = $signed(data_round_fu_173_p3);
+assign sext_ln90_fu_182_p1 = $signed(data_round_fu_175_p3);
 
-assign sigmoid_table_address0 = zext_ln96_fu_246_p1;
+assign sigmoid_table_address0 = zext_ln96_fu_248_p1;
 
-assign tmp_1_fu_110_p4 = {{layer25_out_dout[15:4]}};
+assign tmp_1_fu_112_p4 = {{layer25_out_dout[35:14]}};
 
-assign tmp_2_fu_124_p3 = {{trunc_ln90_fu_120_p1}, {6'd0}};
+assign tmp_2_fu_126_p3 = {{trunc_ln90_fu_122_p1}, {6'd0}};
 
-assign tmp_3_fu_194_p3 = index_fu_184_p2[32'd12];
+assign tmp_3_fu_196_p3 = index_fu_186_p2[32'd22];
 
-assign tmp_4_fu_202_p4 = {{index_fu_184_p2[12:10]}};
+assign tmp_4_fu_204_p4 = {{index_fu_186_p2[22:10]}};
 
-assign tmp_fu_161_p3 = in_data_reg_262[32'd15];
+assign tmp_fu_163_p3 = layer25_out_read_reg_264[32'd35];
 
-assign trunc_ln90_fu_120_p1 = layer25_out_dout[3:0];
+assign trunc_ln90_fu_122_p1 = layer25_out_dout[13:0];
 
-assign trunc_ln91_fu_190_p1 = index_fu_184_p2[9:0];
+assign trunc_ln91_fu_192_p1 = index_fu_186_p2[9:0];
 
-assign xor_ln92_fu_218_p2 = (tmp_3_fu_194_p3 ^ 1'd1);
+assign xor_ln92_fu_220_p2 = (tmp_3_fu_196_p3 ^ 1'd1);
 
-assign zext_ln96_fu_246_p1 = index_1_reg_287;
+assign zext_ln96_fu_248_p1 = index_1_reg_289;
 
 endmodule //folo_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config26_s

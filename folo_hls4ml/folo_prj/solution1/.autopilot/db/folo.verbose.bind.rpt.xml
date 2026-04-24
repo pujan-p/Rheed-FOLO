@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'folo'" level="0">
-<item name = "Date">Thu Apr 23 22:46:37 2026
+<item name = "Date">Fri Apr 24 00:22:59 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">folo_prj</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">264599, 264599, 1.323 ms, 1.323 ms, 264196, 264196, dataflow</column>
+<column name="">528790, 528790, 2.644 ms, 2.644 ms, 528392, 528392, dataflow</column>
 </table>
 </item>
 <item name = "Detail">
@@ -32,38 +32,38 @@
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
 <column name="grp_zeropad2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_1u_config30_s_fu_1032">zeropad2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_1u_config30_s, 67077, 67077, 0.335 ms, 0.335 ms, 67077, 67077, no</column>
-<column name="grp_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_s_fu_1039">conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_s, 264199, 264199, 1.321 ms, 1.321 ms, 264196, 264196, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_s_fu_1075">normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config3_s, 16387, 16387, 81.935 us, 81.935 us, 16384, 16384, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_s_fu_1039">conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_10_2_5_3_0_4u_config2_s, 528394, 528394, 2.642 ms, 2.642 ms, 528392, 528392, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_s_fu_1075">normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config3_s, 49153, 49153, 0.246 ms, 0.246 ms, 49152, 49152, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 <column name="grp_thresholded_relu_array_ap_fixed_array_ap_fixed_4u_thresholdedrelu_config4_s_fu_1081">thresholded_relu_array_ap_fixed_array_ap_fixed_4u_thresholdedrelu_config4_s, 16386, 16386, 81.930 us, 81.930 us, 16384, 16384, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 <column name="grp_clone_stream_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_65536_s_fu_1087">clone_stream_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_65536_s, 16385, 16385, 81.925 us, 81.925 us, 16384, 16384, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 <column name="grp_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config31_s_fu_1094">zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config31_s, 17420, 17420, 87.100 us, 87.100 us, 17420, 17420, no</column>
-<column name="grp_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_s_fu_1100">conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_s, 101403, 101403, 0.507 ms, 0.507 ms, 101400, 101400, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_s_fu_1202">normalize_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config6_s, 16387, 16387, 81.935 us, 81.935 us, 16384, 16384, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_s_fu_1208">add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_s, 16386, 16386, 81.930 us, 81.930 us, 16384, 16384, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_s_fu_1100">conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config5_s, 135202, 135202, 0.676 ms, 0.676 ms, 135200, 135200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_s_fu_1202">normalize_array_ap_fixed_4u_array_ap_fixed_27_9_5_3_0_4u_config6_s, 49153, 49153, 0.246 ms, 0.246 ms, 49152, 49152, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_s_fu_1208">add_array_array_ap_fixed_4u_array_ap_fixed_28_10_5_3_0_4u_config7_s, 16386, 16386, 81.930 us, 81.930 us, 16384, 16384, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 <column name="grp_thresholded_relu_array_ap_fixed_array_ap_fixed_4u_thresholdedrelu_config8_s_fu_1215">thresholded_relu_array_ap_fixed_array_ap_fixed_4u_thresholdedrelu_config8_s, 16386, 16386, 81.930 us, 81.930 us, 16384, 16384, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config32_s_fu_1221">zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config32_s, 17157, 17157, 85.785 us, 85.785 us, 17157, 17157, no</column>
-<column name="grp_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_s_fu_1227">conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_s, 99849, 99849, 0.499 ms, 0.499 ms, 99846, 99846, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_s_fu_1329">normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config10_s, 4099, 4099, 20.495 us, 20.495 us, 4096, 4096, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config32_s_fu_1221">zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_4u_config32_s, 17157, 17157, 85.785 us, 85.785 us, 17157, 17157, no</column>
+<column name="grp_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_s_fu_1227">conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_10_2_5_3_0_6u_config9_s, 133130, 133130, 0.666 ms, 0.666 ms, 133128, 133128, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_s_fu_1329">normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config10_s, 12289, 12289, 61.445 us, 61.445 us, 12288, 12288, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 <column name="grp_thresholded_relu_array_ap_fixed_array_ap_fixed_6u_thresholdedrelu_config11_s_fu_1335">thresholded_relu_array_ap_fixed_array_ap_fixed_6u_thresholdedrelu_config11_s, 4098, 4098, 20.490 us, 20.490 us, 4096, 4096, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_s_fu_1341">clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_s, 4097, 4097, 20.485 us, 20.485 us, 4096, 4096, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config33_s_fu_1348">zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config33_s, 4367, 4367, 21.835 us, 21.835 us, 4367, 4367, no</column>
-<column name="grp_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_s_fu_1354">conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_s, 26139, 26139, 0.131 ms, 0.131 ms, 26136, 26136, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_s_fu_1500">normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config13_s, 4099, 4099, 20.495 us, 20.495 us, 4096, 4096, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_s_fu_1506">add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_s, 4098, 4098, 20.490 us, 20.490 us, 4096, 4096, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_s_fu_1341">clone_stream_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_24576_s, 4097, 4097, 20.485 us, 20.485 us, 4096, 4096, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config33_s_fu_1348">zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config33_s, 4367, 4367, 21.835 us, 21.835 us, 4367, 4367, no</column>
+<column name="grp_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_s_fu_1354">conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config12_s, 34849, 34849, 0.174 ms, 0.174 ms, 34848, 34848, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_s_fu_1500">normalize_array_ap_fixed_6u_array_ap_fixed_27_9_5_3_0_6u_config13_s, 12289, 12289, 61.445 us, 61.445 us, 12288, 12288, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_s_fu_1506">add_array_array_ap_fixed_6u_array_ap_fixed_28_10_5_3_0_6u_config14_s, 4098, 4098, 20.490 us, 20.490 us, 4096, 4096, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 <column name="grp_thresholded_relu_array_ap_fixed_array_ap_fixed_6u_thresholdedrelu_config15_s_fu_1513">thresholded_relu_array_ap_fixed_array_ap_fixed_6u_thresholdedrelu_config15_s, 4098, 4098, 20.490 us, 20.490 us, 4096, 4096, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config34_s_fu_1519">zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config34_s, 4232, 4232, 21.160 us, 21.160 us, 4232, 4232, no</column>
-<column name="grp_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_s_fu_1525">conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_s, 25353, 25353, 0.127 ms, 0.127 ms, 25350, 25350, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_s_fu_1671">normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config17_s, 1027, 1027, 5.135 us, 5.135 us, 1024, 1024, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config34_s_fu_1519">zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_6u_config34_s, 4232, 4232, 21.160 us, 21.160 us, 4232, 4232, no</column>
+<column name="grp_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_s_fu_1525">conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_10_2_5_3_0_8u_config16_s, 33801, 33801, 0.169 ms, 0.169 ms, 33800, 33800, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_s_fu_1671">normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config17_s, 3073, 3073, 15.365 us, 15.365 us, 3072, 3072, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 <column name="grp_thresholded_relu_array_ap_fixed_array_ap_fixed_8u_thresholdedrelu_config18_s_fu_1677">thresholded_relu_array_ap_fixed_array_ap_fixed_8u_thresholdedrelu_config18_s, 1026, 1026, 5.130 us, 5.130 us, 1024, 1024, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_s_fu_1683">clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_s, 1025, 1025, 5.125 us, 5.125 us, 1024, 1024, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config35_s_fu_1690">zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config35_s, 1167, 1167, 5.835 us, 5.835 us, 1167, 1167, no</column>
-<column name="grp_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_s_fu_1696">conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_s, 6938, 6938, 34.690 us, 34.690 us, 6936, 6936, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_s_fu_1886">normalize_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config20_s, 1027, 1027, 5.135 us, 5.135 us, 1024, 1024, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_s_fu_1892">add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_s, 1026, 1026, 5.130 us, 5.130 us, 1024, 1024, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_s_fu_1683">clone_stream_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_8192_s, 1025, 1025, 5.125 us, 5.125 us, 1024, 1024, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config35_s_fu_1690">zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config35_s, 1167, 1167, 5.835 us, 5.835 us, 1167, 1167, no</column>
+<column name="grp_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_s_fu_1696">conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_10_2_5_3_0_8u_config19_s, 9250, 9250, 46.250 us, 46.250 us, 9248, 9248, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_s_fu_1886">normalize_array_ap_fixed_8u_array_ap_fixed_27_9_5_3_0_8u_config20_s, 3073, 3073, 15.365 us, 15.365 us, 3072, 3072, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_s_fu_1892">add_array_array_ap_fixed_8u_array_ap_fixed_28_10_5_3_0_8u_config21_s, 1026, 1026, 5.130 us, 5.130 us, 1024, 1024, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 <column name="grp_thresholded_relu_array_ap_fixed_array_ap_fixed_8u_thresholdedrelu_config22_s_fu_1899">thresholded_relu_array_ap_fixed_array_ap_fixed_8u_thresholdedrelu_config22_s, 1026, 1026, 5.130 us, 5.130 us, 1024, 1024, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_s_fu_1905">pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config36_s, 1029, 1029, 5.145 us, 5.145 us, 1024, 1024, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_s_fu_1905">pointwise_conv_2d_cl_array_array_ap_fixed_30_12_5_3_0_8u_config36_s, 8195, 8195, 40.975 us, 40.975 us, 8192, 8192, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 <column name="grp_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config24_s_fu_1911">relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config24_s, 1026, 1026, 5.130 us, 5.130 us, 1024, 1024, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_s_fu_1917">pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config37_s, 1028, 1028, 5.140 us, 5.140 us, 1024, 1024, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_s_fu_1917">pointwise_conv_2d_cl_array_array_ap_fixed_36_16_5_3_0_1u_config37_s, 8195, 8195, 40.975 us, 40.975 us, 8192, 8192, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 <column name="grp_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config26_s_fu_1923">sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config26_s, 1029, 1029, 5.145 us, 5.145 us, 1024, 1024, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 </table>
 </item>

@@ -11,11 +11,11 @@ Diagnostics:
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '168:74'
+    FileOffset:      '168:80'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '168:78'
+    FileOffset:      '168:84'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
@@ -27,11 +27,11 @@ Diagnostics:
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '178:74'
+    FileOffset:      '178:80'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '178:78'
+    FileOffset:      '178:84'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
@@ -43,11 +43,11 @@ Diagnostics:
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '188:77'
+    FileOffset:      '188:82'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '188:82'
+    FileOffset:      '188:87'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
@@ -59,11 +59,11 @@ Diagnostics:
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '198:79'
+    FileOffset:      '198:84'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '198:84'
+    FileOffset:      '198:89'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
@@ -75,11 +75,11 @@ Diagnostics:
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '208:79'
+    FileOffset:      '208:84'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '208:84'
+    FileOffset:      '208:89'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
@@ -91,26 +91,26 @@ Diagnostics:
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '218:79'
-    FilePath:        'firmware/folo.cpp'
-  - DiagnosticName:  clang-diagnostic-warning
-    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
     FileOffset:      '218:84'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '224:90'
+    FileOffset:      '218:89'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '224:95'
+    FileOffset:      '224:98'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '228:90'
+    FileOffset:      '224:103'
     FilePath:        'firmware/folo.cpp'
   - DiagnosticName:  clang-diagnostic-warning
     Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
-    FileOffset:      '228:95'
+    FileOffset:      '228:98'
+    FilePath:        'firmware/folo.cpp'
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '228:103'
     FilePath:        'firmware/folo.cpp'
 ...

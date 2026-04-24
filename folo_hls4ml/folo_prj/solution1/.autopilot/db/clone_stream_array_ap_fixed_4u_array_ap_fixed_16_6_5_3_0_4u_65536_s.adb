@@ -67,7 +67,7 @@
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
-              <coreName>FIFO</coreName>
+              <coreName>FIFO_SRL</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
               <coreId>4294967295</coreId>
@@ -128,7 +128,7 @@
             <Obj>
               <type>0</type>
               <id>4</id>
-              <name>i_39</name>
+              <name>i</name>
               <fileName>firmware/nnet_utils/nnet_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>22</lineNumber>
@@ -184,7 +184,7 @@
             <Obj>
               <type>0</type>
               <id>8</id>
-              <name>i_39_write_ln22</name>
+              <name>i_write_ln22</name>
               <fileName>firmware/nnet_utils/nnet_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>22</lineNumber>
@@ -297,7 +297,7 @@
             <Obj>
               <type>0</type>
               <id>11</id>
-              <name>i_40</name>
+              <name>i_39</name>
               <fileName>firmware/nnet_utils/nnet_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>22</lineNumber>
@@ -439,11 +439,11 @@
               <rtlName></rtlName>
               <control>auto</control>
               <opType>fifo</opType>
-              <implIndex>memory</implIndex>
-              <coreName>FIFO</coreName>
+              <implIndex>srl</implIndex>
+              <coreName>FIFO_SRL</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>77</coreId>
+              <coreId>80</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -527,7 +527,7 @@
             <Obj>
               <type>0</type>
               <id>18</id>
-              <name>i</name>
+              <name>i_40</name>
               <fileName>firmware/nnet_utils/nnet_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>22</lineNumber>
@@ -552,7 +552,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>i_fu_72_p2</rtlName>
+              <rtlName>i_40_fu_72_p2</rtlName>
               <control>auto</control>
               <opType>add</opType>
               <implIndex>fabric</implIndex>
@@ -641,7 +641,7 @@
             <Obj>
               <type>0</type>
               <id>20</id>
-              <name>i_39_write_ln22</name>
+              <name>i_write_ln22</name>
               <fileName>firmware/nnet_utils/nnet_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>22</lineNumber>
@@ -1467,7 +1467,7 @@
           </second>
         </item>
         <item>
-          <first>i_fu_72_p2 ( + ) </first>
+          <first>i_40_fu_72_p2 ( + ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -1552,7 +1552,7 @@
           </second>
         </item>
         <item>
-          <first>ap_sig_allocacmp_i_40</first>
+          <first>ap_sig_allocacmp_i_39</first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
@@ -1579,7 +1579,7 @@
           </second>
         </item>
         <item>
-          <first>i_39_fu_38</first>
+          <first>i_fu_38</first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
@@ -1756,7 +1756,7 @@
           </second>
         </item>
         <item>
-          <first>i_39_fu_38</first>
+          <first>i_fu_38</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -1813,7 +1813,7 @@
         <count>2</count>
         <item_version>0</item_version>
         <item class_id="36" tracking_level="0" version="0">
-          <first>i_fu_72_p2 ( + ) </first>
+          <first>i_40_fu_72_p2 ( + ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -2055,19 +2055,19 @@
       <count>3</count>
       <item_version>0</item_version>
       <item class_id="50" tracking_level="0" version="0">
-        <first>i_39_fu_38</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>4</item>
-        </second>
-      </item>
-      <item>
-        <first>i_fu_72</first>
+        <first>i_40_fu_72</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
           <item>18</item>
+        </second>
+      </item>
+      <item>
+        <first>i_fu_38</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>4</item>
         </second>
       </item>
       <item>
@@ -2087,7 +2087,7 @@
       <count>6</count>
       <item_version>0</item_version>
       <item>
-        <first>i_40_load_fu_69</first>
+        <first>i_39_load_fu_69</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -2159,7 +2159,7 @@
       <count>1</count>
       <item_version>0</item_version>
       <item>
-        <first>i_39_reg_89</first>
+        <first>i_reg_89</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -2238,7 +2238,7 @@
         <first>2</first>
         <second>
           <first>666</first>
-          <second>7</second>
+          <second>10</second>
         </second>
       </item>
       <item>
@@ -2263,7 +2263,7 @@
         <first>16</first>
         <second>
           <first>666</first>
-          <second>7</second>
+          <second>10</second>
         </second>
       </item>
       <item>

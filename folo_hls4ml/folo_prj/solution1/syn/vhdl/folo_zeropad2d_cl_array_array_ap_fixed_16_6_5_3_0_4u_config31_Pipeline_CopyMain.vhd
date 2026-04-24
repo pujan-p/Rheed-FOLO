@@ -19,8 +19,8 @@ port (
     layer27_cpy1_dout : IN STD_LOGIC_VECTOR (63 downto 0);
     layer27_cpy1_empty_n : IN STD_LOGIC;
     layer27_cpy1_read : OUT STD_LOGIC;
-    layer27_cpy1_num_data_valid : IN STD_LOGIC_VECTOR (6 downto 0);
-    layer27_cpy1_fifo_cap : IN STD_LOGIC_VECTOR (6 downto 0);
+    layer27_cpy1_num_data_valid : IN STD_LOGIC_VECTOR (4 downto 0);
+    layer27_cpy1_fifo_cap : IN STD_LOGIC_VECTOR (4 downto 0);
     layer31_out_din : OUT STD_LOGIC_VECTOR (63 downto 0);
     layer31_out_full_n : IN STD_LOGIC;
     layer31_out_write : OUT STD_LOGIC;
@@ -63,10 +63,10 @@ attribute shreg_extract : string;
     signal ap_block_pp0_stage0_grp1 : BOOLEAN;
     signal layer31_out_blk_n : STD_LOGIC;
     signal j_fu_36 : STD_LOGIC_VECTOR (7 downto 0) := "00000000";
-    signal j_10_fu_68_p2 : STD_LOGIC_VECTOR (7 downto 0);
+    signal j_4_fu_68_p2 : STD_LOGIC_VECTOR (7 downto 0);
     signal ap_loop_init : STD_LOGIC;
     signal ap_block_pp0_stage0_11001 : BOOLEAN;
-    signal ap_sig_allocacmp_j_9 : STD_LOGIC_VECTOR (7 downto 0);
+    signal ap_sig_allocacmp_j_3 : STD_LOGIC_VECTOR (7 downto 0);
     signal ap_block_pp0_stage0 : BOOLEAN;
     signal ap_block_pp0_stage0_11001_grp1 : BOOLEAN;
     signal ap_block_pp0_stage0_01001_grp1 : BOOLEAN;
@@ -167,7 +167,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then
                 if (((icmp_ln65_fu_62_p2 = ap_const_lv1_0) and (ap_enable_reg_pp0_iter0 = ap_const_logic_1))) then 
-                    j_fu_36 <= j_10_fu_68_p2;
+                    j_fu_36 <= j_4_fu_68_p2;
                 elsif ((ap_loop_init = ap_const_logic_1)) then 
                     j_fu_36 <= ap_const_lv8_0;
                 end if;
@@ -273,17 +273,17 @@ begin
     end process;
 
 
-    ap_sig_allocacmp_j_9_assign_proc : process(ap_CS_fsm_pp0_stage0, j_fu_36, ap_loop_init, ap_block_pp0_stage0)
+    ap_sig_allocacmp_j_3_assign_proc : process(ap_CS_fsm_pp0_stage0, j_fu_36, ap_loop_init, ap_block_pp0_stage0)
     begin
         if (((ap_loop_init = ap_const_logic_1) and (ap_const_boolean_0 = ap_block_pp0_stage0) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-            ap_sig_allocacmp_j_9 <= ap_const_lv8_0;
+            ap_sig_allocacmp_j_3 <= ap_const_lv8_0;
         else 
-            ap_sig_allocacmp_j_9 <= j_fu_36;
+            ap_sig_allocacmp_j_3 <= j_fu_36;
         end if; 
     end process;
 
-    icmp_ln65_fu_62_p2 <= "1" when (ap_sig_allocacmp_j_9 = ap_const_lv8_80) else "0";
-    j_10_fu_68_p2 <= std_logic_vector(unsigned(ap_sig_allocacmp_j_9) + unsigned(ap_const_lv8_1));
+    icmp_ln65_fu_62_p2 <= "1" when (ap_sig_allocacmp_j_3 = ap_const_lv8_80) else "0";
+    j_4_fu_68_p2 <= std_logic_vector(unsigned(ap_sig_allocacmp_j_3) + unsigned(ap_const_lv8_1));
 
     layer27_cpy1_blk_n_assign_proc : process(ap_CS_fsm_pp0_stage0, ap_enable_reg_pp0_iter1, layer27_cpy1_empty_n, ap_block_pp0_stage0_grp1)
     begin

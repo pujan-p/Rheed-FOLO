@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_1u_config30_s'
 ================================================================
-* Date:           Thu Apr 23 22:46:27 2026
+* Date:           Fri Apr 24 00:22:53 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        folo_prj
@@ -105,7 +105,7 @@ ST_3 : Operation 19 [1/2] (2.37ns)   --->   "%call_ln0 = call void @zeropad2d_cl
 
 State 4 <SV = 3> <Delay = 1.82>
 ST_4 : Operation 20 [1/1] (0.00ns)   --->   "%speclooptripcount_ln59 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 256, i64 256, i64 256" [firmware/nnet_utils/nnet_padding_stream.h:59]   --->   Operation 20 'speclooptripcount' 'speclooptripcount_ln59' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 21 [1/1] (0.00ns)   --->   "%specloopname_ln59 = specloopname void @_ssdm_op_SpecLoopName, void @empty_14" [firmware/nnet_utils/nnet_padding_stream.h:59]   --->   Operation 21 'specloopname' 'specloopname_ln59' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 21 [1/1] (0.00ns)   --->   "%specloopname_ln59 = specloopname void @_ssdm_op_SpecLoopName, void @empty" [firmware/nnet_utils/nnet_padding_stream.h:59]   --->   Operation 21 'specloopname' 'specloopname_ln59' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 22 [1/1] (0.00ns)   --->   "%fence_ln8 = fence void @_ssdm_op_Fence, i16 %input_layer_1, i16 %layer30_out, i32 4294967295, i16 %layer30_out, i32 0" [firmware/nnet_utils/nnet_padding_stream.h:8->firmware/nnet_utils/nnet_padding_stream.h:70]   --->   Operation 22 'fence' 'fence_ln8' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 23 [1/1] ( I:1.82ns O:1.82ns )   --->   "%write_ln15 = write void @_ssdm_op_Write.ap_fifo.volatile.i16P0A, i16 %layer30_out, i16 0" [firmware/nnet_utils/nnet_padding_stream.h:15->firmware/nnet_utils/nnet_padding_stream.h:70]   --->   Operation 23 'write' 'write_ln15' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO">   --->   Core 77 'FIFO' <Latency = 0> <II = 1> <Delay = 2.16> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 100000> <FIFO>
 ST_4 : Operation 24 [1/1] (0.00ns)   --->   "%br_ln59 = br void %CopyMain" [firmware/nnet_utils/nnet_padding_stream.h:59]   --->   Operation 24 'br' 'br_ln59' <Predicate = true> <Delay = 0.00>

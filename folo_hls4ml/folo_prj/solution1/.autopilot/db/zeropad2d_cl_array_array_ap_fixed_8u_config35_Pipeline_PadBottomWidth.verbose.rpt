@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_8u_config35_Pipeline_PadBottomWidth'
 ================================================================
-* Date:           Thu Apr 23 22:46:41 2026
+* Date:           Fri Apr 24 00:23:02 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        folo_prj
@@ -133,7 +133,7 @@
 |ap_done                     |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed,8u>,config35>_Pipeline_PadBottomWidth|  return value|
 |ap_idle                     |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed,8u>,config35>_Pipeline_PadBottomWidth|  return value|
 |ap_ready                    |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed,8u>,config35>_Pipeline_PadBottomWidth|  return value|
-|layer35_out_din             |  out|  128|     ap_fifo|                                                              layer35_out|       pointer|
+|layer35_out_din             |  out|   80|     ap_fifo|                                                              layer35_out|       pointer|
 |layer35_out_full_n          |   in|    1|     ap_fifo|                                                              layer35_out|       pointer|
 |layer35_out_write           |  out|    1|     ap_fifo|                                                              layer35_out|       pointer|
 |layer35_out_num_data_valid  |   in|   32|     ap_fifo|                                                              layer35_out|       pointer|
@@ -182,7 +182,7 @@ IsGatedGlobalClock: 0
 
 State 1 <SV = 0> <Delay = 2.19>
 ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%j_2 = alloca i32 1" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 5 'alloca' 'j_2' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer35_out, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i80 %layer35_out, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 7 [1/1] (0.53ns)   --->   "%store_ln77 = store i6 0, i6 %j_2" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 7 'store' 'store_ln77' <Predicate = true> <Delay = 0.53>
 ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%br_ln0 = br void %for.inc50"   --->   Operation 8 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%j = load i6 %j_2" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 9 'load' 'j' <Predicate = true> <Delay = 0.00>
@@ -196,7 +196,7 @@ State 2 <SV = 1> <Delay = 1.82>
 ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%specpipeline_ln8 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, i32 4294967295, void @empty_1" [firmware/nnet_utils/nnet_padding_stream.h:8->firmware/nnet_utils/nnet_padding_stream.h:78]   --->   Operation 14 'specpipeline' 'specpipeline_ln8' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%speclooptripcount_ln8 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 34, i64 34, i64 34" [firmware/nnet_utils/nnet_padding_stream.h:8->firmware/nnet_utils/nnet_padding_stream.h:78]   --->   Operation 15 'speclooptripcount' 'speclooptripcount_ln8' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%specloopname_ln77 = specloopname void @_ssdm_op_SpecLoopName, void @empty_6" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 16 'specloopname' 'specloopname_ln77' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 17 [1/1] ( I:1.82ns O:1.82ns )   --->   "%write_ln15 = write void @_ssdm_op_Write.ap_fifo.volatile.i128P0A, i128 %layer35_out, i128 0" [firmware/nnet_utils/nnet_padding_stream.h:15->firmware/nnet_utils/nnet_padding_stream.h:78]   --->   Operation 17 'write' 'write_ln15' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO">   --->   Core 77 'FIFO' <Latency = 0> <II = 1> <Delay = 2.27> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 128> <Depth = 60> <FIFO>
+ST_2 : Operation 17 [1/1] ( I:1.82ns O:1.82ns )   --->   "%write_ln15 = write void @_ssdm_op_Write.ap_fifo.volatile.i80P0A, i80 %layer35_out, i80 0" [firmware/nnet_utils/nnet_padding_stream.h:15->firmware/nnet_utils/nnet_padding_stream.h:78]   --->   Operation 17 'write' 'write_ln15' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO">   --->   Core 77 'FIFO' <Latency = 0> <II = 1> <Delay = 2.27> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 80> <Depth = 62> <FIFO>
 ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%br_ln77 = br void %for.inc50" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 18 'br' 'br_ln77' <Predicate = true> <Delay = 0.00>
 
 
@@ -378,7 +378,7 @@ ret_ln0               (ret              ) [ 000]
 <pin id="31" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="_ssdm_op_Write.ap_fifo.volatile.i128P0A"/></StgValue>
+<StgValue><ssdm name="_ssdm_op_Write.ap_fifo.volatile.i80P0A"/></StgValue>
 </bind>
 </comp>
 
@@ -405,7 +405,7 @@ ret_ln0               (ret              ) [ 000]
 <comp id="38" class="1004" name="write_ln15_write_fu_38">
 <pin_list>
 <pin id="39" dir="0" index="0" bw="0" slack="0"/>
-<pin id="40" dir="0" index="1" bw="128" slack="0"/>
+<pin id="40" dir="0" index="1" bw="80" slack="0"/>
 <pin id="41" dir="0" index="2" bw="1" slack="0"/>
 <pin id="42" dir="1" index="3" bw="0" slack="2147483647"/>
 </pin_list>

@@ -15,20 +15,20 @@ set hasInterrupt 0
 set DLRegFirstOffset 0
 set DLRegItemOffset 0
 set svuvm_can_support 1
-set cdfgNum 70
+set cdfgNum 72
 set C_modelName {thresholded_relu<array,ap_fixed,array<ap_fixed,4u>,thresholdedrelu_config8>}
 set C_modelType { void 0 }
 set ap_memory_interface_dict [dict create]
 set C_modelArgList {
-	{ layer7_out int 64 regular {fifo 0 volatile }  }
-	{ layer8_out int 64 regular {fifo 1 volatile }  }
+	{ layer7_out int 112 regular {fifo 0 volatile }  }
+	{ layer8_out int 40 regular {fifo 1 volatile }  }
 }
 set hasAXIMCache 0
 set l_AXIML2Cache [list]
 set AXIMCacheInstDict [dict create]
 set C_modelArgMapList {[ 
-	{ "Name" : "layer7_out", "interface" : "fifo", "bitwidth" : 64, "direction" : "READONLY"} , 
- 	{ "Name" : "layer8_out", "interface" : "fifo", "bitwidth" : 64, "direction" : "WRITEONLY"} ]}
+	{ "Name" : "layer7_out", "interface" : "fifo", "bitwidth" : 112, "direction" : "READONLY"} , 
+ 	{ "Name" : "layer8_out", "interface" : "fifo", "bitwidth" : 40, "direction" : "WRITEONLY"} ]}
 # RTL Port declarations: 
 set portNum 20
 set portList { 
@@ -40,12 +40,12 @@ set portList {
 	{ ap_continue sc_in sc_logic 1 continue -1 } 
 	{ ap_idle sc_out sc_logic 1 done -1 } 
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
-	{ layer7_out_dout sc_in sc_lv 64 signal 0 } 
+	{ layer7_out_dout sc_in sc_lv 112 signal 0 } 
 	{ layer7_out_empty_n sc_in sc_logic 1 signal 0 } 
 	{ layer7_out_read sc_out sc_logic 1 signal 0 } 
 	{ layer7_out_num_data_valid sc_in sc_lv 3 signal 0 } 
 	{ layer7_out_fifo_cap sc_in sc_lv 3 signal 0 } 
-	{ layer8_out_din sc_out sc_lv 64 signal 1 } 
+	{ layer8_out_din sc_out sc_lv 40 signal 1 } 
 	{ layer8_out_full_n sc_in sc_logic 1 signal 1 } 
 	{ layer8_out_write sc_out sc_logic 1 signal 1 } 
 	{ layer8_out_num_data_valid sc_in sc_lv 32 signal 1 } 
@@ -62,12 +62,12 @@ set NewPortList {[
  	{ "name": "ap_continue", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "continue", "bundle":{"name": "ap_continue", "role": "default" }} , 
  	{ "name": "ap_idle", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "done", "bundle":{"name": "ap_idle", "role": "default" }} , 
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
- 	{ "name": "layer7_out_dout", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "layer7_out", "role": "dout" }} , 
+ 	{ "name": "layer7_out_dout", "direction": "in", "datatype": "sc_lv", "bitwidth":112, "type": "signal", "bundle":{"name": "layer7_out", "role": "dout" }} , 
  	{ "name": "layer7_out_empty_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer7_out", "role": "empty_n" }} , 
  	{ "name": "layer7_out_read", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer7_out", "role": "read" }} , 
  	{ "name": "layer7_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":3, "type": "signal", "bundle":{"name": "layer7_out", "role": "num_data_valid" }} , 
  	{ "name": "layer7_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":3, "type": "signal", "bundle":{"name": "layer7_out", "role": "fifo_cap" }} , 
- 	{ "name": "layer8_out_din", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "layer8_out", "role": "din" }} , 
+ 	{ "name": "layer8_out_din", "direction": "out", "datatype": "sc_lv", "bitwidth":40, "type": "signal", "bundle":{"name": "layer8_out", "role": "din" }} , 
  	{ "name": "layer8_out_full_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer8_out", "role": "full_n" }} , 
  	{ "name": "layer8_out_write", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer8_out", "role": "write" }} , 
  	{ "name": "layer8_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "layer8_out", "role": "num_data_valid" }} , 
@@ -92,6 +92,6 @@ set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	layer7_out { ap_fifo {  { layer7_out_dout fifo_data_out 0 64 }  { layer7_out_empty_n fifo_status_empty 0 1 }  { layer7_out_read fifo_data_in 1 1 }  { layer7_out_num_data_valid fifo_update 0 3 }  { layer7_out_fifo_cap fifo_data 0 3 } } }
-	layer8_out { ap_fifo {  { layer8_out_din fifo_data_out 1 64 }  { layer8_out_full_n fifo_status_empty 0 1 }  { layer8_out_write fifo_data_in 1 1 }  { layer8_out_num_data_valid fifo_update 0 32 }  { layer8_out_fifo_cap fifo_data 0 32 } } }
+	layer7_out { ap_fifo {  { layer7_out_dout fifo_data_out 0 112 }  { layer7_out_empty_n fifo_status_empty 0 1 }  { layer7_out_read fifo_data_in 1 1 }  { layer7_out_num_data_valid fifo_update 0 3 }  { layer7_out_fifo_cap fifo_data 0 3 } } }
+	layer8_out { ap_fifo {  { layer8_out_din fifo_data_out 1 40 }  { layer8_out_full_n fifo_status_empty 0 1 }  { layer8_out_write fifo_data_in 1 1 }  { layer8_out_num_data_valid fifo_update 0 32 }  { layer8_out_fifo_cap fifo_data 0 32 } } }
 }

@@ -10,7 +10,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 970 \
+    id 494 \
     name layer14_out \
     type fifo \
     dir I \
@@ -18,14 +18,14 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer14_out \
     op interface \
-    ports { layer14_out_dout { I 96 vector } layer14_out_empty_n { I 1 bit } layer14_out_read { O 1 bit } layer14_out_num_data_valid { I 3 vector } layer14_out_fifo_cap { I 3 vector } } \
+    ports { layer14_out_dout { I 168 vector } layer14_out_empty_n { I 1 bit } layer14_out_read { O 1 bit } layer14_out_num_data_valid { I 3 vector } layer14_out_fifo_cap { I 3 vector } } \
 } "
 }
 
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 971 \
+    id 495 \
     name layer15_out \
     type fifo \
     dir O \
@@ -33,7 +33,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer15_out \
     op interface \
-    ports { layer15_out_din { O 96 vector } layer15_out_full_n { I 1 bit } layer15_out_write { O 1 bit } layer15_out_num_data_valid { I 32 vector } layer15_out_fifo_cap { I 32 vector } } \
+    ports { layer15_out_din { O 60 vector } layer15_out_full_n { I 1 bit } layer15_out_write { O 1 bit } layer15_out_num_data_valid { I 32 vector } layer15_out_fifo_cap { I 32 vector } } \
 } "
 }
 
