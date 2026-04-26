@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/./sim/autowrap/testbench/folo.cpp_pre.cpp.tb.cpp

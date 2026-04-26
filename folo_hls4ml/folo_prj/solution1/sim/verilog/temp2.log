@@ -1,0 +1,793 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/tools/Xilinx/2025/2025.2/Vivado/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_folo_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj folo.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib ieee_proposed=./ieee_proposed -L uvm -relax -i ./svr -i ./svtb -i ./file_agent -i ./folo_subsystem -s folo -debug all 
+Multi-threading is on. Using 14 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by AMD, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config12_mult_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config12_mult_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_8u_config37_Pipeline_PadBottomWidth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_8u_config37_Pipeline_PadBottomWidth
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_8ns_24_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_8ns_24_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_clone_stream_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_65536_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_clone_stream_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_65536_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_clone_stream_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_65536_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config18_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config18_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config18_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_6ns_22_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_6ns_22_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config37_Pipeline_PadMain.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config37_Pipeline_PadMain
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config2_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_void_conv_2d_buffer_bkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_void_conv_2d_buffer_bkb_core
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_void_conv_2d_buffer_bkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_4u_config33_Pipeline_PadBottomWidth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_4u_config33_Pipeline_PadBottomWidth
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config33_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config33_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_8s_24_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_8s_24_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_6u_config36_Pipeline_PadBottomWidth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_6u_config36_Pipeline_PadBottomWidth
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config9_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config9_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config35_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config35_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config11_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config11_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config11_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/AESL_deadlock_idx0_monitor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_idx0_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config33_Pipeline_PadTopWidth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config33_Pipeline_PadTopWidth
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_5ns_21_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_5ns_21_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config37_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config37_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config19_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config19_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/AESL_deadlock_report_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_report_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_7ns_23_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_7ns_23_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config35_Pipeline_PadTopWidth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config35_Pipeline_PadTopWidth
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config11_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config11_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config22_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config22_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config22_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config28_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config28_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config28_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config16_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config16_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s_p_ZZN4nnet25conv_2dRg6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s_p_ZZN4nnet25conv_2dRg6_core
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s_p_ZZN4nnet25conv_2dRg6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_flow_control_loop_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_flow_control_loop_pipe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config34_Pipeline_CopyMain.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config34_Pipeline_CopyMain
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_8s_23_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_8s_23_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config38_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config38_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config38_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config18_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config18_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config5_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config5_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_8ns_23_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_8ns_23_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_fifo_w16_d100000_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_fifo_w16_d100000_A
+INFO: [VRFC 10-311] analyzing module folo_fifo_w16_d100000_A_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_mult_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_mult_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config28_s_sigmoid_table_R7jG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config28_s_sigmoid_table_R7jG
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config8_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config8_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config37_Pipeline_PadTopWidth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config37_Pipeline_PadTopWidth
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_10ns_26_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_10ns_26_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_7s_23_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_7s_23_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config35_Pipeline_PadMain.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config35_Pipeline_PadMain
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_12s_26_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_12s_26_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/AESL_deadlock_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config38_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config38_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bak.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bak
+INFO: [VRFC 10-311] analyzing module folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bak_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_fifo_w64_d100000_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_fifo_w64_d100000_A
+INFO: [VRFC 10-311] analyzing module folo_fifo_w64_d100000_A_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_clone_stream_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_65536_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_clone_stream_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_65536_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config3bck.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config3bck
+INFO: [VRFC 10-311] analyzing module folo_start_for_zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config3bck_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config34_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config34_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config4_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config4_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config8_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config8_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config8_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_1u_config32_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_1u_config32_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config36_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config36_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_6u_config35_Pipeline_PadBottomWidth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_6u_config35_Pipeline_PadBottomWidth
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_10s_26_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_10s_26_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config36_Pipeline_PadMain.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config36_Pipeline_PadMain
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config32_Pipeline_CopyMain.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config32_Pipeline_CopyMain
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_6s_22_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_6s_22_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config5_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config5_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config9_mult_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config9_mult_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config19_mult_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config19_mult_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_fifo_w128_d100000_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_fifo_w128_d100000_A
+INFO: [VRFC 10-311] analyzing module folo_fifo_w128_d100000_A_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config4_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config4_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config4_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_regslice_both.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_regslice_both
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s_p_ZZN4nnet25conv_2dFfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s_p_ZZN4nnet25conv_2dFfa_core
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s_p_ZZN4nnet25conv_2dFfa
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config28_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config28_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config39_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config39_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_4u_config34_Pipeline_PadBottomWidth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_4u_config34_Pipeline_PadBottomWidth
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config33_Pipeline_CopyMain.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config33_Pipeline_CopyMain
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_9ns_25_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_9ns_25_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_13s_26_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_13s_26_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config12_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config12_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config38jQ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config38jQ
+INFO: [VRFC 10-311] analyzing module folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config38jQ_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_11s_26_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_11s_26_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config15_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config15_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_5s_21_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_5s_21_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config39j0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config39j0
+INFO: [VRFC 10-311] analyzing module folo_start_for_zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config39j0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_12ns_26_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_12ns_26_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config39_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config39_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config39_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config25_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config25_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config25_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_11ns_26_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_11ns_26_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_mul_16s_9s_25_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_mul_16s_9s_25_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_fifo_w96_d100000_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_fifo_w96_d100000_A
+INFO: [VRFC 10-311] analyzing module folo_fifo_w96_d100000_A_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/AESL_deadlock_detection_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detect_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/AESL_deadlock_kernel_monitor_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_kernel_monitor_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s_p_ZZN4nnet25conv_2d_lbW.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s_p_ZZN4nnet25conv_2d_lbW_core
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s_p_ZZN4nnet25conv_2d_lbW
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bbk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bbk
+INFO: [VRFC 10-311] analyzing module folo_start_for_zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config3bbk_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config5_s_p_ZZN4nnet25conv_2d_dEe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config5_s_p_ZZN4nnet25conv_2d_dEe_core
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config5_s_p_ZZN4nnet25conv_2d_dEe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_start_for_relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config15_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config15_U0
+INFO: [VRFC 10-311] analyzing module folo_start_for_relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config15_U0_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config16_mult_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config16_mult_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s_p_ZZN4nnet25conv_2dtde.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s_p_ZZN4nnet25conv_2dtde_core
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s_p_ZZN4nnet25conv_2dtde
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_zeropad2d_cl_array_array_ap_fixed_1u_config32_Pipeline_PadBottomWidth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_zeropad2d_cl_array_array_ap_fixed_1u_config32_Pipeline_PadBottomWidth
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config22_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config22_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_folo_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config25_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module folo_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config25_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/svr/svr_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/svr/svr_if.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/folo_subsystem/folo_subsystem_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/svtb/misc_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/pujan/Research/Rheed-FOLO/folo_hls4ml/folo_prj/solution1/sim/verilog/svtb/sv_module_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sv_module_top
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_sv_module_top_sv
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling package xil_defaultlib.svr_pkg
+Compiling package xil_defaultlib.file_agent_pkg
+Compiling package xil_defaultlib.folo_subsystem_pkg
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.folo_flow_control_loop_pipe_sequ...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_regslice_both(DataWidth=16)
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_ap_fixed...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_mul_16s_7ns_23_1_1(NUM_STAG...
+Compiling module xil_defaultlib.folo_mul_16s_8ns_23_1_1(NUM_STAG...
+Compiling module xil_defaultlib.folo_mul_16s_8s_23_1_1(NUM_STAGE...
+Compiling module xil_defaultlib.folo_mul_16s_6s_22_1_1(NUM_STAGE...
+Compiling module xil_defaultlib.folo_mul_16s_7s_23_1_1(NUM_STAGE...
+Compiling module xil_defaultlib.folo_mul_16s_6ns_22_1_1(NUM_STAG...
+Compiling module xil_defaultlib.folo_dense_latency_ap_fixed_16_6...
+Compiling module xil_defaultlib.folo_compute_output_buffer_2d_ar...
+Compiling module xil_defaultlib.folo_flow_control_loop_pipe
+Compiling module xil_defaultlib.folo_conv_2d_cl_array_ap_fixed_1...
+Compiling module xil_defaultlib.folo_relu_array_ap_fixed_4u_arra...
+Compiling module xil_defaultlib.folo_clone_stream_array_ap_fixed...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_ap_fixed...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_mul_16s_5ns_21_1_1(NUM_STAG...
+Compiling module xil_defaultlib.folo_mul_16s_5s_21_1_1(NUM_STAGE...
+Compiling module xil_defaultlib.folo_dense_latency_ap_fixed_16_6...
+Compiling module xil_defaultlib.folo_compute_output_buffer_2d_ar...
+Compiling module xil_defaultlib.folo_conv_2d_cl_array_ap_fixed_4...
+Compiling module xil_defaultlib.folo_add_array_array_ap_fixed_4u...
+Compiling module xil_defaultlib.folo_relu_array_ap_fixed_4u_arra...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_ap_fixed...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_dense_latency_ap_fixed_16_6...
+Compiling module xil_defaultlib.folo_compute_output_buffer_2d_ar...
+Compiling module xil_defaultlib.folo_conv_2d_cl_array_ap_fixed_4...
+Compiling module xil_defaultlib.folo_relu_array_ap_fixed_6u_arra...
+Compiling module xil_defaultlib.folo_clone_stream_array_ap_fixed...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_ap_fixed...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_dense_latency_ap_fixed_16_6...
+Compiling module xil_defaultlib.folo_compute_output_buffer_2d_ar...
+Compiling module xil_defaultlib.folo_conv_2d_cl_array_ap_fixed_6...
+Compiling module xil_defaultlib.folo_add_array_array_ap_fixed_6u...
+Compiling module xil_defaultlib.folo_relu_array_ap_fixed_6u_arra...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_ap_fixed...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_dense_latency_ap_fixed_16_6...
+Compiling module xil_defaultlib.folo_compute_output_buffer_2d_ar...
+Compiling module xil_defaultlib.folo_conv_2d_cl_array_ap_fixed_6...
+Compiling module xil_defaultlib.folo_relu_array_ap_fixed_8u_arra...
+Compiling module xil_defaultlib.folo_clone_stream_array_ap_fixed...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_array_ap...
+Compiling module xil_defaultlib.folo_zeropad2d_cl_array_ap_fixed...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_shift_line_buffer_array_ap_...
+Compiling module xil_defaultlib.folo_dense_latency_ap_fixed_16_6...
+Compiling module xil_defaultlib.folo_compute_output_buffer_2d_ar...
+Compiling module xil_defaultlib.folo_conv_2d_cl_array_ap_fixed_8...
+Compiling module xil_defaultlib.folo_add_array_array_ap_fixed_8u...
+Compiling module xil_defaultlib.folo_relu_array_ap_fixed_8u_arra...
+Compiling module xil_defaultlib.folo_mul_16s_9s_25_1_1(NUM_STAGE...
+Compiling module xil_defaultlib.folo_mul_16s_11s_26_1_1(NUM_STAG...
+Compiling module xil_defaultlib.folo_mul_16s_9ns_25_1_1(NUM_STAG...
+Compiling module xil_defaultlib.folo_mul_16s_10s_26_1_1(NUM_STAG...
+Compiling module xil_defaultlib.folo_mul_16s_8ns_24_1_1(NUM_STAG...
+Compiling module xil_defaultlib.folo_mul_16s_10ns_26_1_1(NUM_STA...
+Compiling module xil_defaultlib.folo_mul_16s_8s_24_1_1(NUM_STAGE...
+Compiling module xil_defaultlib.folo_mul_16s_12ns_26_1_1(NUM_STA...
+Compiling module xil_defaultlib.folo_mul_16s_11ns_26_1_1(NUM_STA...
+Compiling module xil_defaultlib.folo_pointwise_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_relu_array_ap_fixed_8u_arra...
+Compiling module xil_defaultlib.folo_mul_16s_13s_26_1_1(NUM_STAG...
+Compiling module xil_defaultlib.folo_mul_16s_12s_26_1_1(NUM_STAG...
+Compiling module xil_defaultlib.folo_pointwise_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_sigmoid_array_array_ap_fixe...
+Compiling module xil_defaultlib.folo_sigmoid_array_array_ap_fixe...
+Compiling module xil_defaultlib.folo_fifo_w16_d100000_A_ram(DEPT...
+Compiling module xil_defaultlib.folo_fifo_w16_d100000_A_default
+Compiling module xil_defaultlib.folo_fifo_w64_d100000_A_ram(DEPT...
+Compiling module xil_defaultlib.folo_fifo_w64_d100000_A_default
+Compiling module xil_defaultlib.folo_fifo_w96_d100000_A_ram(DEPT...
+Compiling module xil_defaultlib.folo_fifo_w96_d100000_A_default
+Compiling module xil_defaultlib.folo_fifo_w128_d100000_A_ram(DEP...
+Compiling module xil_defaultlib.folo_fifo_w128_d100000_A_default
+Compiling module xil_defaultlib.folo_start_for_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_start_for_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_clone_stream_arra...
+Compiling module xil_defaultlib.folo_start_for_clone_stream_arra...
+Compiling module xil_defaultlib.folo_start_for_zeropad2d_cl_arra...
+Compiling module xil_defaultlib.folo_start_for_zeropad2d_cl_arra...
+Compiling module xil_defaultlib.folo_start_for_add_array_array_a...
+Compiling module xil_defaultlib.folo_start_for_add_array_array_a...
+Compiling module xil_defaultlib.folo_start_for_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_start_for_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_zeropad2d_cl_arra...
+Compiling module xil_defaultlib.folo_start_for_zeropad2d_cl_arra...
+Compiling module xil_defaultlib.folo_start_for_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_start_for_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_clone_stream_arra...
+Compiling module xil_defaultlib.folo_start_for_clone_stream_arra...
+Compiling module xil_defaultlib.folo_start_for_zeropad2d_cl_arra...
+Compiling module xil_defaultlib.folo_start_for_zeropad2d_cl_arra...
+Compiling module xil_defaultlib.folo_start_for_add_array_array_a...
+Compiling module xil_defaultlib.folo_start_for_add_array_array_a...
+Compiling module xil_defaultlib.folo_start_for_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_start_for_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_zeropad2d_cl_arra...
+Compiling module xil_defaultlib.folo_start_for_zeropad2d_cl_arra...
+Compiling module xil_defaultlib.folo_start_for_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_start_for_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_clone_stream_arra...
+Compiling module xil_defaultlib.folo_start_for_clone_stream_arra...
+Compiling module xil_defaultlib.folo_start_for_zeropad2d_cl_arra...
+Compiling module xil_defaultlib.folo_start_for_zeropad2d_cl_arra...
+Compiling module xil_defaultlib.folo_start_for_add_array_array_a...
+Compiling module xil_defaultlib.folo_start_for_add_array_array_a...
+Compiling module xil_defaultlib.folo_start_for_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_start_for_conv_2d_cl_array_...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_pointwise_conv_2d...
+Compiling module xil_defaultlib.folo_start_for_pointwise_conv_2d...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_relu_array_ap_fix...
+Compiling module xil_defaultlib.folo_start_for_pointwise_conv_2d...
+Compiling module xil_defaultlib.folo_start_for_pointwise_conv_2d...
+Compiling module xil_defaultlib.folo_start_for_sigmoid_array_arr...
+Compiling module xil_defaultlib.folo_start_for_sigmoid_array_arr...
+Compiling module xil_defaultlib.folo
+Compiling module xil_defaultlib.misc_interface_default
+Compiling module xil_defaultlib.svr_if(DATA_WIDTH=16)
+Compiling module xil_defaultlib.sv_module_top
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_report_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detector_1
+Compiling module xil_defaultlib.AESL_deadlock_idx0_monitor
+Compiling module xil_defaultlib.AESL_deadlock_kernel_monitor_top...
+Compiling module xil_defaultlib.df_fifo_intf_default
+Compiling module xil_defaultlib.df_process_intf_default
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=5)
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=8)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=3)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=4)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=66)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=65)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=34)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=6)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_folo_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot folo
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Sun Apr 26 03:00:36 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/folo/xsim_script.tcl
+# xsim {folo} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=folo_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -view {{folo_dataflow_ana.wcfg}} -tclbatch {folo.tcl} -protoinst {folo.protoinst}
+INFO: [Wavedata 42-565] Reading protoinst file folo.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo//AESL_inst_folo_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_U0/add_array_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config7_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_U0/add_array_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config14_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_U0/add_array_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config21_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/clone_stream_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_65536_U0/clone_stream_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_65536_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_U0/clone_stream_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_24576_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_U0/clone_stream_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_8192_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config2_s_fu_76/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_90/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_90_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config2_s_fu_76/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config2_s_fu_76_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_4u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config2_s_fu_76/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s_fu_118/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s_fu_118_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0/conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config5_s_fu_156/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config5_s_fu_180/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config5_s_fu_180_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config5_s_fu_156/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config5_s_fu_156_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config5_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_4u_config5_s_fu_156/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_mult_s_fu_280/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_mult_s_fu_280_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0/conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config9_s_fu_156/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s_fu_180/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_4u_config9_s_fu_180_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config9_s_fu_156/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config9_s_fu_156_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_6u_config9_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config9_s_fu_156/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config9_mult_s_fu_280/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config9_mult_s_fu_280_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0/conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config12_s_fu_208/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s_fu_240/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config12_s_fu_240_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config12_s_fu_208/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config12_s_fu_208_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config12_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_6u_config12_s_fu_208/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config12_mult_s_fu_388/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config12_mult_s_fu_388_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0/conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config16_s_fu_208/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s_fu_240/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_6u_config16_s_fu_240_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config16_s_fu_208/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config16_s_fu_208_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_8u_config16_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config16_s_fu_208/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config16_mult_s_fu_388/grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config16_mult_s_fu_388_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0/conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config19_s_fu_260/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s_fu_300/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config19_s_fu_300_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config19_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config19_s_fu_260/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_8u_config19_s_fu_260_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config39_U0/pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config39_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config38_U0/pointwise_conv_2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config38_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config4_U0/relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config4_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config8_U0/relu_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_relu_config8_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config11_U0/relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config11_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config15_U0/relu_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_relu_config15_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config18_U0/relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config18_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config22_U0/relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config22_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config25_U0/relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config25_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config28_U0/sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config28_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_1u_config32_U0/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config32_Pipeline_CopyMain_fu_56/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_1u_config32_Pipeline_CopyMain_fu_56_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_1u_config32_U0/grp_zeropad2d_cl_array_array_ap_fixed_1u_config32_Pipeline_PadBottomWidth_fu_64/grp_zeropad2d_cl_array_array_ap_fixed_1u_config32_Pipeline_PadBottomWidth_fu_64_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_1u_config32_U0/zeropad2d_cl_array_ap_fixed_1u_array_ap_fixed_16_6_5_3_0_1u_config32_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config33_U0/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config33_Pipeline_CopyMain_fu_66/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config33_Pipeline_CopyMain_fu_66_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config33_U0/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config33_Pipeline_PadTopWidth_fu_54/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config33_Pipeline_PadTopWidth_fu_54_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config33_U0/grp_zeropad2d_cl_array_array_ap_fixed_4u_config33_Pipeline_PadBottomWidth_fu_60/grp_zeropad2d_cl_array_array_ap_fixed_4u_config33_Pipeline_PadBottomWidth_fu_60_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config33_U0/zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config33_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config34_U0/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config34_Pipeline_CopyMain_fu_52/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_4u_config34_Pipeline_CopyMain_fu_52_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config34_U0/grp_zeropad2d_cl_array_array_ap_fixed_4u_config34_Pipeline_PadBottomWidth_fu_60/grp_zeropad2d_cl_array_array_ap_fixed_4u_config34_Pipeline_PadBottomWidth_fu_60_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config34_U0/zeropad2d_cl_array_ap_fixed_4u_array_ap_fixed_16_6_5_3_0_4u_config34_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config35_U0/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config35_Pipeline_PadMain_fu_28/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config35_Pipeline_PadMain_fu_28_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config35_U0/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config35_Pipeline_PadTopWidth_fu_22/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config35_Pipeline_PadTopWidth_fu_22_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config35_U0/grp_zeropad2d_cl_array_array_ap_fixed_6u_config35_Pipeline_PadBottomWidth_fu_36/grp_zeropad2d_cl_array_array_ap_fixed_6u_config35_Pipeline_PadBottomWidth_fu_36_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config35_U0/zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config35_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config36_U0/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config36_Pipeline_PadMain_fu_20/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_6u_config36_Pipeline_PadMain_fu_20_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config36_U0/grp_zeropad2d_cl_array_array_ap_fixed_6u_config36_Pipeline_PadBottomWidth_fu_28/grp_zeropad2d_cl_array_array_ap_fixed_6u_config36_Pipeline_PadBottomWidth_fu_28_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config36_U0/zeropad2d_cl_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config36_U0_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config37_U0/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config37_Pipeline_PadMain_fu_28/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config37_Pipeline_PadMain_fu_28_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config37_U0/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config37_Pipeline_PadTopWidth_fu_22/grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config37_Pipeline_PadTopWidth_fu_22_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config37_U0/grp_zeropad2d_cl_array_array_ap_fixed_8u_config37_Pipeline_PadBottomWidth_fu_36/grp_zeropad2d_cl_array_array_ap_fixed_8u_config37_Pipeline_PadBottomWidth_fu_36_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_folo_top/AESL_inst_folo/zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config37_U0/zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config37_U0_activity
+Time resolution is 1 ps
+open_wave_config folo_dataflow_ana.wcfg
+WARNING: Simulation object /apatb_folo_top/AESL_inst_folo/sigmoid_array_array_ap_fixed_16_6_5_3_0_1u_sigmoid_config28_U0/sigmoid_table_ce0 was not found in the design.
+source folo.tcl
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set return_group [add_wave_group return(axis) -into $coutputgroup]
+## add_wave /apatb_folo_top/AESL_inst_folo/layer28_out_TREADY -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_folo_top/AESL_inst_folo/layer28_out_TVALID -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_folo_top/AESL_inst_folo/layer28_out_TDATA -into $return_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set return_group [add_wave_group return(axis) -into $cinputgroup]
+## add_wave /apatb_folo_top/AESL_inst_folo/input_2_TREADY -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_folo_top/AESL_inst_folo/input_2_TVALID -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_folo_top/AESL_inst_folo/input_2_TDATA -into $return_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_folo_top/AESL_inst_folo/ap_start -into $blocksiggroup
+## add_wave /apatb_folo_top/AESL_inst_folo/ap_done -into $blocksiggroup
+## add_wave /apatb_folo_top/AESL_inst_folo/ap_ready -into $blocksiggroup
+## add_wave /apatb_folo_top/AESL_inst_folo/ap_idle -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_folo_top/AESL_inst_folo/ap_rst_n -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_folo_top/AESL_inst_folo/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_folo_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_folo_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_folo_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_folo_top/LENGTH_input_2 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_folo_top/LENGTH_layer28_out -into $tb_portdepth_group -radix hex
+## set tbcoutputgroup [add_wave_group "C Outputs" -into $testbenchgroup]
+## set tb_return_group [add_wave_group return(axis) -into $tbcoutputgroup]
+## add_wave /apatb_folo_top/layer28_out_TREADY -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_folo_top/layer28_out_TVALID -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_folo_top/layer28_out_TDATA -into $tb_return_group -radix hex
+## set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
+## set tb_return_group [add_wave_group return(axis) -into $tbcinputgroup]
+## add_wave /apatb_folo_top/input_2_TREADY -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_folo_top/input_2_TVALID -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_folo_top/input_2_TDATA -into $tb_return_group -radix hex
+## save_wave_config folo.wcfg
+## run all
+UVM_INFO /home/tools/Xilinx/2025/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO /home/tools/Xilinx/2025/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO /home/tools/Xilinx/2025/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18752) @ 0: reporter [UVMTOP] UVM testbench topology:
+-----------------------------------------------------------------------------------------------------------------------
+Name                                                      Type                                    Size  Value          
+-----------------------------------------------------------------------------------------------------------------------
+uvm_test_top                                              folo_test_lib                           -     @349           
+  top_env                                                 folo_env                                -     @360           
+    env_master_svr_input_2                                uvm_env                                 -     @379           
+      m_agt                                               uvm_agent                               -     @582           
+        drv                                               uvm_driver #(REQ,RSP)                   -     @730           
+          rsp_port                                        uvm_analysis_port                       -     @749           
+          seq_item_port                                   uvm_seq_item_pull_port                  -     @739           
+        mon                                               uvm_monitor                             -     @759           
+          item_collect_port                               uvm_analysis_port                       -     @770           
+        sqr                                               uvm_sequencer                           -     @593           
+          rsp_export                                      uvm_analysis_export                     -     @602           
+          seq_item_export                                 uvm_seq_item_pull_imp                   -     @720           
+          arbitration_queue                               array                                   0     -              
+          lock_queue                                      array                                   0     -              
+          num_last_reqs                                   integral                                32    'd1            
+          num_last_rsps                                   integral                                32    'd1            
+    env_slave_svr_layer28_out                             uvm_env                                 -     @392           
+      s_agt                                               uvm_agent                               -     @788           
+        drv                                               uvm_driver #(REQ,RSP)                   -     @936           
+          rsp_port                                        uvm_analysis_port                       -     @955           
+          seq_item_port                                   uvm_seq_item_pull_port                  -     @945           
+        mon                                               uvm_monitor                             -     @965           
+          item_collect_port                               uvm_analysis_port                       -     @976           
+        sqr                                               uvm_sequencer                           -     @799           
+          rsp_export                                      uvm_analysis_export                     -     @808           
+          seq_item_export                                 uvm_seq_item_pull_imp                   -     @926           
+          arbitration_queue                               array                                   0     -              
+          lock_queue                                      array                                   0     -              
+          num_last_reqs                                   integral                                32    'd1            
+          num_last_rsps                                   integral                                32    'd1            
+    folo_virtual_sqr                                      folo_virtual_sequencer                  -     @444           
+      rsp_export                                          uvm_analysis_export                     -     @453           
+      seq_item_export                                     uvm_seq_item_pull_imp                   -     @571           
+      arbitration_queue                                   array                                   0     -              
+      lock_queue                                          array                                   0     -              
+      num_last_reqs                                       integral                                32    'd1            
+      num_last_rsps                                       integral                                32    'd1            
+    refm                                                  folo_reference_model                    -     @402           
+      trans_num_idx                                       integral                                32    'h0            
+    subsys_mon                                            folo_subsystem_monitor                  -     @415           
+      scbd                                                folo_scoreboard                         -     @1003          
+        refm                                              folo_reference_model                    -     @402           
+          trans_num_idx                                   integral                                32    'h0            
+        file_rd_TVOUT_transaction_size                    <unknown>                               -     @1013          
+          TV_FILE                                         string                                  0     ""             
+          fp                                              integral                                32    'hxxxxxxxx     
+          TV_FILE_num                                     integral                                32    'h0            
+          HEX_read                                        integral                                32    'h0            
+          DEC_read                                        integral                                32    'h0            
+          is_binary                                       integral                                32    'h0            
+          TV_FILE_COMPARE                                 string                                  0     ""             
+          fp_compare                                      integral                                32    'hxxxxxxxx     
+        TVOUT_transaction_size_queue                      da(integral)                            0     -              
+        file_wr_port_layer28_out_layer28_out_TDATA        <unknown>                               -     @1014          
+          TV_FILE                                         string                                  0     ""             
+          fp                                              integral                                32    'hxxxxxxxx     
+          file_open                                       integral                                32    'h0            
+          write_file_done                                 integral                                32    'h0            
+          write_section_done                              integral                                32    'h0            
+          TRANSACTION_NUM                                 integral                                32    'h0            
+          transaction_num_idx                             integral                                32    'h0            
+          TRANSACTION_DEPTH                               integral                                32    'h0            
+          TRANSACTION_DEPTH_queue                         da(integral)                            0     -              
+          TRANSACTION_DEPTH_queue_for_depth_check         da(integral)                            0     -              
+          transaction_depth_idx                           integral                                32    'h0            
+          ap_done_num_idx                                 integral                                32    'h0            
+          is_binary                                       integral                                32    'h0            
+        write_file_done_layer28_out_layer28_out_TDATA     integral                                32    'h0            
+        write_section_done_layer28_out_layer28_out_TDATA  integral                                32    'h0            
+      svr_master_input_2_imp                              uvm_analysis_imp_svr_master_input_2     -     @424           
+      svr_slave_layer28_out_imp                           uvm_analysis_imp_svr_slave_layer28_out  -     @434           
+    env_master_svr_input_2                                uvm_env                                 -     @379           
+    env_slave_svr_layer28_out                             uvm_env                                 -     @392           
+    refm                                                  folo_reference_model                    -     @402           
+    folo_virtual_sqr                                      folo_virtual_sequencer                  -     @444           
+    folo_cfg                                              folo_config                             -     @374           
+      port_input_2_cfg                                    svr_config                              -     @375           
+        svr_type                                          svr_inst_type                           32    SVR_MASTER     
+        prt_type                                          svr_protocol_type                       32    AXIS           
+        is_active                                         svr_active_passive_enum                 1     SVR_ACTIVE     
+        reset_level                                       svr_reset_level_enum                    1     RESET_LEVEL_LOW
+        spec_cfg                                          svr_spec_cfg_enum                       32    NORMAL         
+        clatency                                          svr_latency                             -     @376           
+          transfer_latency                                integral                                32    'h0            
+      port_layer28_out_cfg                                svr_config                              -     @377           
+        svr_type                                          svr_inst_type                           32    SVR_SLAVE      
+        prt_type                                          svr_protocol_type                       32    AXIS           
+        is_active                                         svr_active_passive_enum                 1     SVR_ACTIVE     
+        reset_level                                       svr_reset_level_enum                    1     RESET_LEVEL_LOW
+        spec_cfg                                          svr_spec_cfg_enum                       32    NORMAL         
+        clatency                                          svr_latency                             -     @378           
+          transfer_latency                                integral                                32    'h0            
+      check_ena                                           integral                                32    'h0            
+      cover_ena                                           integral                                32    'h0            
+-----------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO /home/tools/Xilinx/2025/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 5 [0.00%] @ "113000"
+// RTL Simulation : 1 / 5 [77.46%] @ "1101958000"
+// RTL Simulation : 2 / 5 [143.74%] @ "2092693000"
+// RTL Simulation : 3 / 5 [162.29%] @ "3083428000"
+// RTL Simulation : 4 / 5 [162.29%] @ "4074163000"
+// RTL Simulation : 5 / 5 [100.00%] @ "4963443000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 4963477500 ps : File "/home/tools/Xilinx/2025/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+run: Time (s): cpu = 00:07:43 ; elapsed = 00:07:59 . Memory (MB): peak = 3009.703 ; gain = 159.953 ; free physical = 439 ; free virtual = 29206
+## quit
+INFO: xsimkernel Simulation Memory Usage: 4654344 KB (Peak: 4654344 KB), Simulation CPU Usage: 195630 ms
+INFO: [Common 17-206] Exiting xsim at Sun Apr 26 03:08:37 2026...

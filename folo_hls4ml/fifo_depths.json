@@ -1,0 +1,122 @@
+{
+    "layer2_out": {
+        "initial": 16384,
+        "optimized": 1
+    },
+    "layer4_out": {
+        "initial": 16384,
+        "optimized": 2
+    },
+    "layer5_out": {
+        "initial": 16384,
+        "optimized": 1
+    },
+    "layer7_out": {
+        "initial": 16384,
+        "optimized": 2
+    },
+    "layer8_out": {
+        "initial": 16384,
+        "optimized": 25
+    },
+    "layer9_out": {
+        "initial": 4096,
+        "optimized": 1
+    },
+    "layer11_out": {
+        "initial": 4096,
+        "optimized": 2
+    },
+    "layer12_out": {
+        "initial": 4096,
+        "optimized": 1
+    },
+    "layer14_out": {
+        "initial": 4096,
+        "optimized": 2
+    },
+    "layer15_out": {
+        "initial": 4096,
+        "optimized": 6
+    },
+    "layer16_out": {
+        "initial": 1024,
+        "optimized": 1
+    },
+    "layer18_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer19_out": {
+        "initial": 1024,
+        "optimized": 1
+    },
+    "layer21_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer22_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer23_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer25_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer26_out": {
+        "initial": 1024,
+        "optimized": 2
+    },
+    "layer29_cpy1": {
+        "initial": 16384,
+        "optimized": 45
+    },
+    "layer29_cpy2": {
+        "initial": 16384,
+        "optimized": 135
+    },
+    "layer30_cpy1": {
+        "initial": 4096,
+        "optimized": 11
+    },
+    "layer30_cpy2": {
+        "initial": 4096,
+        "optimized": 69
+    },
+    "layer31_cpy1": {
+        "initial": 1024,
+        "optimized": 3
+    },
+    "layer31_cpy2": {
+        "initial": 1024,
+        "optimized": 37
+    },
+    "layer32_out": {
+        "initial": 66049,
+        "optimized": 100000
+    },
+    "layer33_out": {
+        "initial": 16900,
+        "optimized": 236
+    },
+    "layer34_out": {
+        "initial": 16641,
+        "optimized": 120
+    },
+    "layer35_out": {
+        "initial": 4356,
+        "optimized": 109
+    },
+    "layer36_out": {
+        "initial": 4225,
+        "optimized": 54
+    },
+    "layer37_out": {
+        "initial": 1156,
+        "optimized": 61
+    }
+}

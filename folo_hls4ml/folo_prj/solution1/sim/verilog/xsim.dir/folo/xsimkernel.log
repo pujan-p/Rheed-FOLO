@@ -1,0 +1,7 @@
+Running: xsim.dir/folo/xsimk -simmode gui -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=folo_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -wdb folo.wdb -simrunnum 0 -socket 58159
+Design successfully loaded
+Design Loading Memory Usage: 300216 KB (Peak: 300348 KB)
+Design Loading CPU Usage: 510 ms
+Simulation completed
+Simulation Memory Usage: 4654344 KB (Peak: 4654344 KB)
+Simulation CPU Usage: 195630 ms

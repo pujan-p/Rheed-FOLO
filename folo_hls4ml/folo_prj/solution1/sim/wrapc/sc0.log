@@ -1,0 +1,7 @@
+   Build using "/home/tools/Xilinx/2025/2025.2/Vitis/lnx64/tools/clang-16/bin/clang++"
+   Compiling apatb_folo.cpp
+   Compiling apatb_folo_util.cpp
+   Compiling folo.cpp_pre.cpp.tb.cpp
+   Compiling folo_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_folo_ir.ll
+   Generating cosim.tv.exe
